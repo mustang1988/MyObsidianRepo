@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "c38edbeeb397cc6f",
+        "id": "1c57fc3ba2e60c0f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "模板/奖杯模板.md",
+            "file": "游戏攻略/英雄传说 闪之轨迹/攻略/序章 托尔兹士官学院.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#英雄传说/闪之轨迹",
+                "query": "tag:#英雄传说/闪之轨迹/奖杯",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "模板/奖杯模板.md",
+                "file": "游戏攻略/英雄传说 闪之轨迹/攻略/序章 托尔兹士官学院.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "模板/奖杯模板.md",
+                "file": "游戏攻略/英雄传说 闪之轨迹/攻略/序章 托尔兹士官学院.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,28 +118,28 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "模板/奖杯模板.md"
+                "file": "游戏攻略/英雄传说 闪之轨迹/攻略/序章 托尔兹士官学院.md"
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 244.5
   },
-  "active": "c38edbeeb397cc6f",
+  "active": "1c57fc3ba2e60c0f",
   "lastOpenFiles": [
-    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/钓鱼笔记.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/笔记.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗笔记.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/书籍.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/食谱.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/任务笔记.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/人物笔记.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路.md"
+    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/加雷利亚要塞-序章.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/玉帘.md",
+    "游戏攻略/英雄传说 闪之轨迹/攻略/序章 托尔兹士官学院.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/旧校舍地下・第1层3.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/旧校舍地下・第1层2.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/旧校舍地下・第1层1.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/玻璃软体兽.md",
+    "游戏攻略/英雄传说 闪之轨迹/攻略/终章 士官学院祭、然后——.md",
+    "游戏攻略/英雄传说 闪之轨迹/攻略/第六章 黑与银 ~钢都动乱~.md",
+    "游戏攻略/英雄传说 闪之轨迹/攻略/第五章 开始行动的意志.md"
   ]
 }
