@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a55cab2519a07323",
+        "id": "c38edbeeb397cc6f",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "模板/奖杯模板.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
         }
       }
     ],
@@ -36,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#英雄传说/闪之轨迹",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,13 +78,14 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "模板/奖杯模板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -89,8 +95,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "模板/奖杯模板.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -100,7 +107,7 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequency",
+                "sortOrder": "alphabeticalReverse",
                 "useHierarchy": true
               }
             }
@@ -110,16 +117,29 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "模板/奖杯模板.md"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "a55cab2519a07323",
-  "lastOpenFiles": []
+  "active": "c38edbeeb397cc6f",
+  "lastOpenFiles": [
+    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/钓鱼笔记.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/笔记.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗笔记.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/书籍.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/食谱.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/任务笔记.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/人物笔记.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路.md"
+  ]
 }
