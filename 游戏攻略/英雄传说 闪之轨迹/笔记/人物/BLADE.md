@@ -1,0 +1,8 @@
+---
+Title: "BLADE"
+Character: "克洛"
+TimeToGet: "[[第二章 美丽的翡翠公都#5 23]]"
+WayToGet: "羁绊事件获得"
+---
+
+#英雄传说/闪之轨迹/笔记/人物
