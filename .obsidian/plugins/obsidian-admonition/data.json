@@ -236,6 +236,50 @@
       "command": false,
       "injectColor": true,
       "noTitle": true
+    },
+    "common-bronze-trophy": {
+      "type": "common-bronze-trophy",
+      "color": "210, 105, 30",
+      "icon": {
+        "name": "trophy",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "injectColor": true,
+      "noTitle": true
+    },
+    "common-silver-trophy": {
+      "type": "common-silver-trophy",
+      "color": "190, 192, 192",
+      "icon": {
+        "name": "trophy",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "injectColor": true,
+      "noTitle": true
+    },
+    "common-gold-trophy": {
+      "type": "common-gold-trophy",
+      "color": "255, 215, 0",
+      "icon": {
+        "name": "trophy",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "injectColor": true,
+      "noTitle": true
+    },
+    "common-platinum-trophy": {
+      "type": "common-platinum-trophy",
+      "color": "255, 255, 255",
+      "icon": {
+        "name": "trophy",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "injectColor": true,
+      "noTitle": true
     }
   },
   "syntaxHighlight": false,

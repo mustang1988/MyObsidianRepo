@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "6975f1559ad1f0c0",
+        "id": "0423411b2f875556",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "游戏攻略/英雄传说 创之轨迹/英雄传说 创之轨迹.md",
+            "file": "游戏攻略/艾尔登法环/奖杯/癫火之王.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏攻略/英雄传说 创之轨迹/英雄传说 创之轨迹.md",
+                "file": "游戏攻略/艾尔登法环/奖杯/癫火之王.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏攻略/英雄传说 创之轨迹/英雄传说 创之轨迹.md",
+                "file": "游戏攻略/艾尔登法环/奖杯/癫火之王.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "游戏攻略/英雄传说 创之轨迹/英雄传说 创之轨迹.md"
+                "file": "游戏攻略/艾尔登法环/奖杯/癫火之王.md"
               }
             }
           },
@@ -138,17 +138,17 @@
     "width": 297.5,
     "collapsed": true
   },
-  "active": "6975f1559ad1f0c0",
+  "active": "0423411b2f875556",
   "lastOpenFiles": [
-    "游戏攻略/英雄传说 创之轨迹/奖杯/VM冠軍.md",
-    "游戏攻略/英雄传说 创之轨迹/奖杯/不屈的解放者.md",
-    "游戏攻略/英雄传说 创之轨迹/奖杯/創始探求者.md",
-    "游戏攻略/英雄传说 创之轨迹/奖杯/THE LEGEND OF HEROES.md",
-    "模板/英雄传说 创之轨迹/奖杯/bronze_ha.md",
-    "模板/英雄传说 创之轨迹/奖杯/gold_ha.md",
-    "模板/英雄传说 创之轨迹/奖杯/platinum_ha.md",
-    "模板/英雄传说 创之轨迹/奖杯/silver_ha.md",
-    "模板/英雄传说 闪之轨迹IV/奖杯/silver_4.md",
-    "模板/英雄传说 闪之轨迹IV/奖杯/platinum_4.md"
+    "游戏攻略/艾尔登法环/艾尔登法环.md",
+    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
+    "游戏攻略/英雄传说 创之轨迹/英雄传说 创之轨迹.md",
+    "游戏攻略/艾尔登法环/奖杯/艾尔登法环.md",
+    "游戏攻略/艾尔登法环/奖杯/艾尔登之王.md",
+    "游戏攻略/艾尔登法环/奖杯/弒神武器.md",
+    "游戏攻略/艾尔登法环/奖杯/星星时代.md",
+    "游戏攻略/艾尔登法环/奖杯/战士荷莱·露.md",
+    "游戏攻略/艾尔登法环/奖杯/“黑剑”玛利喀斯.md",
+    "游戏攻略/艾尔登法环/奖杯/“黑暗弃子”艾丝缇未命名.md"
   ]
 }
