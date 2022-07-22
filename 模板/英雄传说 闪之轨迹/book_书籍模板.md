@@ -1,8 +1,0 @@
----
-Title: "{{title}}"
-Series: ""
-TimeToGet: ""
-WayToGet: ""
----
-
-#英雄传说/闪之轨迹/笔记/书籍
