@@ -1,9 +1,12 @@
 ---
 Icon: "![[白金.png|30]]"
-Title: "THE LEGEND OF HEROES"
-Comment: "獲得所有獎盃"
 Type: "白金"
-Order: 0
 ---
+```ad-ed-sen-1-platinum
+title: (Title:: "THE LEGEND OF HEROES")
+color: 255,255,255
+![[白金.png|100]]
+(Comment:: "獲得所有獎盃")
+```
 
-#英雄传说/闪之轨迹/奖杯 
+#英雄传说/闪之轨迹/奖杯  #奖杯 #白金
