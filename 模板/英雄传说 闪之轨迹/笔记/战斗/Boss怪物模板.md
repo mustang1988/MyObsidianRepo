@@ -1,10 +1,10 @@
 ---
-Positions: ["[[东凯尔迪克街道1]]","[[东凯尔迪克街道2]]"]
-Bonus: ["魔防2"]
+Positions: [""]
+Bonus: [""]
 ---
 #英雄传说/闪之轨迹/笔记/战斗
 ````ad-danger
-title: (Name:: "恐怖蜥龙")
+title: (Name:: "{{title}}")
 icon: skull
 
 出现位置: `$= dv.current().Positions`
