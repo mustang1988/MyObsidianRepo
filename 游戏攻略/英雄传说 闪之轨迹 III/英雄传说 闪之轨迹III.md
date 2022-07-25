@@ -3,6 +3,7 @@ Icon: "![[图片/游戏攻略/英雄传说/英雄传说 闪之轨迹III/icon.png
 No: 8
 ---
 # 英雄传说 闪之轨迹III
+![[图片/游戏攻略/英雄传说/英雄传说 闪之轨迹III/cover.png]]
 
 ```ad-quote
 title: 奖杯
