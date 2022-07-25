@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "d8ca7adfc689818d",
+        "id": "93399cd7c6ac22b2",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "游戏攻略/艾尔登法环/艾尔登法环.md",
+            "file": "游戏攻略/首页.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏攻略/艾尔登法环/艾尔登法环.md",
+                "file": "游戏攻略/首页.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏攻略/艾尔登法环/艾尔登法环.md",
+                "file": "游戏攻略/首页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "游戏攻略/艾尔登法环/艾尔登法环.md"
+                "file": "游戏攻略/首页.md"
               }
             }
           },
@@ -138,17 +138,17 @@
     "width": 297.5,
     "collapsed": true
   },
-  "active": "d8ca7adfc689818d",
+  "active": "93399cd7c6ac22b2",
   "lastOpenFiles": [
+    "游戏攻略/艾尔登法环/艾尔登法环.md",
+    "图片/游戏攻略/艾尔登法环/icon.png",
+    "图片/游戏攻略/艾尔登法环/icon.webp",
+    "游戏攻略/首页.md",
+    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
+    "游戏攻略/英雄传说 创之轨迹/英雄传说 创之轨迹.md",
     "游戏攻略/英雄传说 闪之轨迹 IV/英雄传说 闪之轨迹IV.md",
-    "游戏攻略/英雄传说 闪之轨迹 IV/奖杯/THE LEGEND OF HEROES.md",
-    "游戏攻略/英雄传说 闪之轨迹 IV/奖杯/特別的羈絆・悠娜.md",
-    "游戏攻略/英雄传说 闪之轨迹 IV/奖杯/人物大師.md",
-    "游戏攻略/英雄传说 闪之轨迹 IV/奖杯/傳說級Ⅶ班.md",
     "游戏攻略/英雄传说 闪之轨迹 III/英雄传说 闪之轨迹III.md",
-    "游戏攻略/英雄传说 闪之轨迹 III/奖杯/THE LEGEND OF HEROES.md",
-    "游戏攻略/英雄传说 闪之轨迹 III/奖杯/傳說級教官.md",
-    "游戏攻略/英雄传说 闪之轨迹 III/奖杯/代班攝影師.md",
-    "游戏攻略/英雄传说 闪之轨迹 III/奖杯/名門軍官學院.md"
+    "游戏攻略/英雄传说 闪之轨迹 II/英雄传说 闪之轨迹II.md",
+    "模板/通用/奖杯/CommonBronzeTrophy.md"
   ]
 }
