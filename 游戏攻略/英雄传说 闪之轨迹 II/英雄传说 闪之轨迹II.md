@@ -1,6 +1,11 @@
+# 英雄传说 闪之轨迹II
 
-## 奖杯
-```dataviewjs
+```ad-quote
+title: 奖杯
+icon: trophy
+collapse: close
+
+~~~dataviewjs
 const order = ["白金","金", "银", "铜"]
 dv.table(
 	["","奖杯","说明"],
@@ -10,4 +15,7 @@ dv.table(
 		[trophy.Icon, trophy.file.link, trophy.Comment]
 	)
 );
+~~~
 ```
+
+#英雄传说/闪之轨迹II #角色扮演 #回合制 

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "游戏攻略/英雄传说 闪之轨迹/攻略/第一章 新学期～初次实习～.md",
+            "file": "游戏攻略/艾尔登法环/艾尔登法环.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "d932e5",
+                "query": "tag:#英雄传说/闪之轨迹III",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/攻略/第一章 新学期～初次实习～.md",
+                "file": "游戏攻略/艾尔登法环/艾尔登法环.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/攻略/第一章 新学期～初次实习～.md",
+                "file": "游戏攻略/艾尔登法环/艾尔登法环.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/攻略/第一章 新学期～初次实习～.md"
+                "file": "游戏攻略/艾尔登法环/艾尔登法环.md"
               }
             }
           },
@@ -140,15 +140,15 @@
   },
   "active": "d8ca7adfc689818d",
   "lastOpenFiles": [
-    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/没说出口的事.md",
-    "游戏攻略/英雄传说 闪之轨迹/攻略/第一章 新学期～初次实习～.md",
-    "游戏攻略/英雄传说 闪之轨迹/奖杯/新學期～首次實習～.md",
-    "游戏攻略/英雄传说 闪之轨迹/奖杯/托爾茲軍官學院.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/露纳利亚自然公园·最深处.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/露纳利亚自然公园3.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/露纳利亚自然公园2.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/露纳利亚自然公园1.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/书籍/红月的罗赛·第3卷.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/西凯尔迪克街道2.md"
+    "游戏攻略/英雄传说 闪之轨迹 IV/英雄传说 闪之轨迹IV.md",
+    "游戏攻略/英雄传说 闪之轨迹 IV/奖杯/THE LEGEND OF HEROES.md",
+    "游戏攻略/英雄传说 闪之轨迹 IV/奖杯/特別的羈絆・悠娜.md",
+    "游戏攻略/英雄传说 闪之轨迹 IV/奖杯/人物大師.md",
+    "游戏攻略/英雄传说 闪之轨迹 IV/奖杯/傳說級Ⅶ班.md",
+    "游戏攻略/英雄传说 闪之轨迹 III/英雄传说 闪之轨迹III.md",
+    "游戏攻略/英雄传说 闪之轨迹 III/奖杯/THE LEGEND OF HEROES.md",
+    "游戏攻略/英雄传说 闪之轨迹 III/奖杯/傳說級教官.md",
+    "游戏攻略/英雄传说 闪之轨迹 III/奖杯/代班攝影師.md",
+    "游戏攻略/英雄传说 闪之轨迹 III/奖杯/名門軍官學院.md"
   ]
 }
