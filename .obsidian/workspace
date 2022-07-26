@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "首页.md",
+            "file": "游戏攻略/双人成行/双人成行.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "首页.md",
+                "file": "游戏攻略/双人成行/双人成行.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "首页.md",
+                "file": "游戏攻略/双人成行/双人成行.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "首页.md"
+                "file": "游戏攻略/双人成行/双人成行.md"
               }
             }
           },
@@ -140,15 +140,15 @@
   },
   "active": "8f5a0e762c8eb3a9",
   "lastOpenFiles": [
-    "游戏攻略/只狼 影逝二度/只狼 影逝二度.md",
-    "首页.md",
-    "游戏攻略/战神3/战神3.md",
-    "游戏攻略/艾尔登法环/艾尔登法环.md",
-    "游戏攻略/战神/战神.md",
-    "游戏攻略/女神异闻录5/女神异闻录5.md",
-    "游戏攻略/如龙0 誓约的场所/如龙0 誓约的场所.md",
     "游戏攻略/审判之眼 死神的遗言/审判之眼 死神的遗言.md",
-    "游戏攻略/审判之眼 死神的遗言/奖杯/補給物資.md",
-    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md"
+    "游戏攻略/血源诅咒/血源诅咒.md",
+    "游戏攻略/双人成行/双人成行.md",
+    "游戏攻略/只狼 影逝二度/只狼 影逝二度.md",
+    "游戏攻略/战神/战神.md",
+    "首页.md",
+    "游戏攻略/艾尔登法环/艾尔登法环.md",
+    "游戏攻略/地平线 西之绝境/地平线 西之绝境.md",
+    "图片/游戏攻略/地平线/地平线 西之绝境/icon.png",
+    "图片/游戏攻略/地平线/地平线 西之绝境/cover.png"
   ]
 }
