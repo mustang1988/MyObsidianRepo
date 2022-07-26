@@ -1,0 +1,27 @@
+---
+Icon: "![[图片/游戏攻略/东京幻都 eX+/icon.png|50]]"
+No: 2
+NPWR: "NPWR10914_00"
+---
+# 东京幻都 eX+
+![[图片/游戏攻略/东京幻都 eX+/cover.jpg]]
+
+```ad-quote
+title: 奖杯
+icon: trophy
+collapse: close
+
+~~~dataviewjs
+const order = ["白金","金", "银", "铜"]
+dv.table(
+	["","奖杯","说明"],
+	dv.pages('#东京幻都/奖杯 and -"模板"')
+	.sort(trophy => [order.indexOf(trophy.Type), trophy.file.name], 'asc')
+	.map(trophy => 
+		[trophy.Icon, trophy.file.link, trophy.Comment]
+	)
+);
+~~~
+```
+
+#东京幻都 #迷城的国度系列 

@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "首页.md",
-            "mode": "preview",
+            "mode": "source",
             "backlinks": true,
             "source": false
           }
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#英雄传说/闪之轨迹III",
+                "query": "tag:#TGA年度游戏",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -58,7 +58,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -131,24 +132,23 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 297.5,
-    "collapsed": true
+    "width": 297.5
   },
-  "active": "8f5a0e762c8eb3a9",
+  "active": "7f675b909e073667",
   "lastOpenFiles": [
-    "游戏攻略/空洞骑士/空洞骑士.md",
+    "游戏攻略/东京幻都 eX+/东京幻都 eX+.md",
     "首页.md",
+    "游戏攻略/空洞骑士/空洞骑士.md",
     "游戏攻略/艾尔登法环/艾尔登法环.md",
     "游戏攻略/双人成行/双人成行.md",
     "游戏攻略/血源诅咒/血源诅咒.md",
     "游戏攻略/女神异闻录5/女神异闻录5.md",
     "游戏攻略/地平线 零之曙光/地平线 零之曙光.md",
     "游戏攻略/刺客信条 奥德赛/刺客信条 奥德赛.md",
-    "游戏攻略/审判之眼 死神的遗言/审判之眼 死神的遗言.md",
-    "游戏攻略/只狼 影逝二度/只狼 影逝二度.md"
+    "游戏攻略/审判之眼 死神的遗言/审判之眼 死神的遗言.md"
   ]
 }
