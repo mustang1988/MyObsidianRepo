@@ -1,8 +1,8 @@
 [
   "dataview",
   "table-editor-obsidian",
-  "sliding-panes-obsidian",
   "tag-wrangler",
   "templater-obsidian",
-  "obsidian-admonition"
+  "obsidian-admonition",
+  "obsidian-banners"
 ]
