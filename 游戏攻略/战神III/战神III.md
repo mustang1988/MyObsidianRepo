@@ -1,11 +1,10 @@
 ---
-banner: "![[图片/游戏攻略/战神夜袭/cover.png]]"
-banner_y: 0.33534
-Icon: "![[图片/游戏攻略/战神夜袭/icon.png|50]]"
-No: 1
-NPWR: ""
+banner: "![[图片/游戏攻略/战神/战神3/cover.png]]"
+Icon: "![[图片/游戏攻略/战神/战神3/icon.jpg|50]]"
+No: 3
+NPWR: "NPWR08268_00"
 ---
-# 战神夜袭
+# 战神III
 
 ```ad-quote
 title: 奖杯
@@ -16,7 +15,7 @@ collapse: close
 const order = ["白金","金", "银", "铜"]
 dv.table(
 	["","奖杯","说明"],
-	dv.pages('#战神夜袭/奖杯 and -"模板"')
+	dv.pages('#战神/战神III/奖杯 and -"模板"')
 	.sort(trophy => order.indexOf(trophy.Type), 'asc')
 	.map(trophy => 
 		[trophy.Icon, trophy.file.link, trophy.Comment]
@@ -26,4 +25,4 @@ dv.table(
 
 ```
 
-#战神夜袭 #游戏首页 #回合制 #JRPG
+#战神系列 #战神/战神III #游戏首页 #OnlyOnPlayStation 
