@@ -7,8 +7,13 @@
         "id": "acc5fa9ec668772d",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "首页.md",
+            "mode": "preview",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "首页.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "首页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -110,7 +117,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "首页.md"
+              }
             }
           },
           {
@@ -126,19 +135,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 297.5,
+    "collapsed": true
   },
   "active": "acc5fa9ec668772d",
   "lastOpenFiles": [
-    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/宝箱/039.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/托尔兹军官学院.md",
-    "游戏攻略/英雄传说 闪之轨迹/攻略/第一章 新学期～初次实习～.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/战术壳α.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/战术壳β.md",
-    "游戏攻略/英雄传说 闪之轨迹 IV/奖杯/愛書成癡.md",
-    "游戏攻略/英雄传说 闪之轨迹/攻略/第四章 绯之帝都 ~仲夏祭~.md",
-    "game/TheLegendOfHeroes/SenNoKiseki/locations/旧校舍地下・第4层.md",
-    "游戏攻略/英雄传说 闪之轨迹/攻略/第三章 横跨铁路 ~苍穹的大地~.md"
+    "游戏攻略/龙珠Z 卡卡罗特/龙珠Z 卡卡罗特.md",
+    "首页.md",
+    "游戏攻略/龙珠Z 卡卡罗特/奖杯/七龙珠世界大师.md",
+    "游戏攻略/如龙0 誓约的场所/如龙0 誓约的场所.md",
+    "游戏攻略/如龙1/如龙.md",
+    "游戏攻略/如龙1/奖杯/極 -ＫＩＷＡＭＩ-.md",
+    "游戏攻略/重力异想世界2/重力异想世界2.md",
+    "游戏攻略/血源诅咒/血源诅咒.md",
+    "游戏攻略/战神/战神.md",
+    "游戏攻略/战神3/战神3.md"
   ]
 }
