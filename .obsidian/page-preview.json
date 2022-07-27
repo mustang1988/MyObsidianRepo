@@ -1,6 +1,4 @@
 {
   "editor": false,
-  "file-explorer": false,
-  "tag-wrangler:tag-pane": false,
-  "starred": false
+  "tag-wrangler:tag-pane": false
 }

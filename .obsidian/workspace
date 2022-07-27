@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9692884fe6b26103",
+        "id": "acc5fa9ec668772d",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "游戏攻略/英雄传说 闪之轨迹/攻略/第四章 绯之帝都 ~仲夏祭~.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/攻略/第四章 绯之帝都 ~仲夏祭~.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/攻略/第四章 绯之帝都 ~仲夏祭~.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -117,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/攻略/第四章 绯之帝都 ~仲夏祭~.md"
-              }
+              "state": {}
             }
           },
           {
@@ -137,17 +128,17 @@
     "direction": "horizontal",
     "width": 297.5
   },
-  "active": "9692884fe6b26103",
+  "active": "acc5fa9ec668772d",
   "lastOpenFiles": [
-    "game/TheLegendOfHeroes/SenNoKiseki/locations/旧校舍地下・第4层.md",
-    "游戏攻略/英雄传说 闪之轨迹/攻略/第四章 绯之帝都 ~仲夏祭~.md",
-    "游戏攻略/英雄传说 闪之轨迹/攻略/第三章 横跨铁路 ~苍穹的大地~.md",
     "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
-    "游戏攻略/英雄传说 闪之轨迹/奖杯/爆裂猛攻大師.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/诺尔德高原·南部.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/书籍/红月的罗赛·第6卷.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/书籍/红曜石文库版5.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/食谱/鲜奶粥.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/故乡.md"
+    "游戏攻略/英雄传说 闪之轨迹/笔记/宝箱/039.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/托尔兹军官学院.md",
+    "游戏攻略/英雄传说 闪之轨迹/攻略/第一章 新学期～初次实习～.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/战术壳α.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/战术壳β.md",
+    "游戏攻略/英雄传说 闪之轨迹 IV/奖杯/愛書成癡.md",
+    "游戏攻略/英雄传说 闪之轨迹/攻略/第四章 绯之帝都 ~仲夏祭~.md",
+    "game/TheLegendOfHeroes/SenNoKiseki/locations/旧校舍地下・第4层.md",
+    "游戏攻略/英雄传说 闪之轨迹/攻略/第三章 横跨铁路 ~苍穹的大地~.md"
   ]
 }
