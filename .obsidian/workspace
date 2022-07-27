@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "游戏攻略/东京幻都 eX+/东京幻都 eX+.md",
+            "file": "游戏攻略/英雄传说 闪之轨迹/攻略/第五章 开始行动的意志.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -58,8 +58,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -79,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏攻略/东京幻都 eX+/东京幻都 eX+.md",
+                "file": "游戏攻略/英雄传说 闪之轨迹/攻略/第五章 开始行动的意志.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏攻略/东京幻都 eX+/东京幻都 eX+.md",
+                "file": "游戏攻略/英雄传说 闪之轨迹/攻略/第五章 开始行动的意志.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -119,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "游戏攻略/东京幻都 eX+/东京幻都 eX+.md"
+                "file": "游戏攻略/英雄传说 闪之轨迹/攻略/第五章 开始行动的意志.md"
               }
             }
           },
@@ -136,19 +135,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.5
+    "width": 481.5,
+    "collapsed": true
   },
-  "active": "6285faa14d2dfac7",
+  "active": "acc5fa9ec668772d",
   "lastOpenFiles": [
+    "游戏攻略/英雄传说 闪之轨迹/攻略/第四章 绯之帝都 ~仲夏祭~.md",
+    "游戏攻略/英雄传说 闪之轨迹/攻略/第三章 横跨铁路 ~苍穹的大地~.md",
+    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
+    "游戏攻略/东京幻都 eX+/东京幻都 eX+.md",
     "游戏攻略/如龙0 誓约的场所/奖杯/１９８８年１２月，神室町.md",
     "游戏攻略/如龙0 誓约的场所/如龙0 誓约的场所.md",
     "首页.md",
     "游戏攻略/战神/战神.md",
     "游戏攻略/暗黑血统III/暗黑血统III.md",
-    "游戏攻略/刺客信条 奥德赛/刺客信条 奥德赛.md",
-    "游戏攻略/空洞骑士/空洞骑士.md",
-    "游戏攻略/瑞奇与叮当/瑞奇与叮当.md",
-    "游戏攻略/胡闹厨房2/胡闹厨房2.md",
-    "游戏攻略/仁王/仁王.md"
+    "游戏攻略/刺客信条 奥德赛/刺客信条 奥德赛.md"
   ]
 }
