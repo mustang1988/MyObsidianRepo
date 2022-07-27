@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "首页.md",
-            "mode": "preview",
+            "mode": "source",
             "backlinks": true,
             "source": true
           }
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#暗黑血统/暗黑血统3",
+                "query": "tag:#TGA年度游戏/2018",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -139,15 +139,15 @@
   },
   "active": "acc5fa9ec668772d",
   "lastOpenFiles": [
+    "游戏攻略/战神/战神.md",
+    "首页.md",
     "游戏攻略/暗黑血统III/暗黑血统III.md",
     "游戏攻略/刺客信条 奥德赛/刺客信条 奥德赛.md",
-    "首页.md",
     "游戏攻略/空洞骑士/空洞骑士.md",
     "游戏攻略/瑞奇与叮当/瑞奇与叮当.md",
     "游戏攻略/胡闹厨房2/胡闹厨房2.md",
     "游戏攻略/仁王/仁王.md",
     "游戏攻略/龙珠Z 卡卡罗特/龙珠Z 卡卡罗特.md",
-    "游戏攻略/最终幻想VII/最终幻想VII.md",
-    "游戏攻略/如龙0 誓约的场所/如龙0 誓约的场所.md"
+    "游戏攻略/最终幻想VII/最终幻想VII.md"
   ]
 }
