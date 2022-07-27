@@ -1,0 +1,29 @@
+---
+banner: "![[图片/游戏攻略/最终幻想/最终幻想VII/cover.png]]"
+banner_y: 0.23896
+Icon: "![[图片/游戏攻略/最终幻想/最终幻想VII/icon.png|50]]"
+No: 7
+NPWR: ""
+---
+# 最终幻想VII
+
+```ad-quote
+title: 奖杯
+icon: trophy
+collapse: close
+
+~~~dataviewjs
+const order = ["白金","金", "银", "铜"]
+dv.table(
+	["","奖杯","说明"],
+	dv.pages('#最终幻想/最终幻想VII/奖杯 and -"模板"')
+	.sort(trophy => order.indexOf(trophy.Type), 'asc')
+	.map(trophy => 
+		[trophy.Icon, trophy.file.link, trophy.Comment]
+	)
+);
+~~~
+
+```
+
+#游戏首页 #最终幻想系列 #最终幻想/最终幻想VII 
