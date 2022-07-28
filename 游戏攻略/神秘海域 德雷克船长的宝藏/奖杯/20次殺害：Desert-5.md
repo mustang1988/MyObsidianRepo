@@ -1,6 +1,5 @@
 ---
 Icon: "![[图片/游戏攻略/神秘海域/德雷克船长的宝藏/奖杯/20次殺害：Desert-5.png|30]]"
-Type: "铜"
 ---
 ```ad-common-bronze-trophy
 title: (Title:: "20次殺害：Desert-5")

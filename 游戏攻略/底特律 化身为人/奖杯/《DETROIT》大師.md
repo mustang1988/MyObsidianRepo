@@ -1,6 +1,5 @@
 ---
 Icon: "![[图片/游戏攻略/底特律 化身为人/奖杯/《DETROIT》大師.png|30]]"
-Type: "白金"
 ---
 ```ad-common-platinum-trophy
 title: (Title:: "《DETROIT》大師")

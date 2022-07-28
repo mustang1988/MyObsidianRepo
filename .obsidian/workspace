@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f45bcd9135d7f268",
+        "id": "7960d9c851fa8742",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "游戏攻略/龙之皇冠/龙之皇冠.md",
+            "file": "游戏攻略/刺客信条 奥德赛/刺客信条 奥德赛.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -58,8 +58,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -79,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏攻略/龙之皇冠/龙之皇冠.md",
+                "file": "游戏攻略/刺客信条 奥德赛/刺客信条 奥德赛.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏攻略/龙之皇冠/龙之皇冠.md",
+                "file": "游戏攻略/刺客信条 奥德赛/刺客信条 奥德赛.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -119,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "游戏攻略/龙之皇冠/龙之皇冠.md"
+                "file": "游戏攻略/刺客信条 奥德赛/刺客信条 奥德赛.md"
               }
             }
           },
@@ -138,17 +137,17 @@
     "direction": "horizontal",
     "width": 262.5
   },
-  "active": "f45bcd9135d7f268",
+  "active": "7960d9c851fa8742",
   "lastOpenFiles": [
-    "首页.md",
-    "游戏攻略/艾尔登法环/奖杯/艾尔登之王.md",
-    "游戏攻略/神秘海域 德雷克船长的宝藏/奖杯/20次殺害：Desert-5.md",
-    "模板/test.md",
-    "Templater/testprint.md",
-    "模板/Templater/tryprint.md",
-    "try.md",
-    "模板/TemplaterScripts/print.js.md",
-    "游戏攻略/古墓丽影 暗影/古墓丽影 暗影.md",
-    "游戏攻略/仁王/仁王.md"
+    "游戏攻略/超凡双生/超凡双生.md",
+    "模板/通用/奖杯/CommonSilverTrophy.md",
+    "模板/通用/奖杯/CommonPlatinumTrophy.md",
+    "模板/通用/奖杯/CommonGoldTrophy.md",
+    "模板/通用/奖杯/CommonBronzeTrophy.md",
+    "游戏攻略/暗黑血统III/暗黑血统III.md",
+    "游戏攻略/艾尔登法环/艾尔登法环.md",
+    "游戏攻略/阿玛拉王国 惩罚/阿玛拉王国 惩罚.md",
+    "游戏攻略/龙之皇冠/龙之皇冠.md",
+    "游戏攻略/龙之皇冠/奖杯/魔龍寶冠.md"
   ]
 }

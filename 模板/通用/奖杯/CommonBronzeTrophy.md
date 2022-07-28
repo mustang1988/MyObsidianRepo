@@ -1,6 +1,5 @@
 ---
 Icon: "![[{{title}}.webp|30]]"
-Type: "铜"
 ---
 ```ad-common-bronze-trophy
 title: (Title:: "{{title}}")

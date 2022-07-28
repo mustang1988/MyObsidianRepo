@@ -1,6 +1,5 @@
 ---
 Icon: "![[图片/游戏攻略/神秘海域/德雷克的诡计/奖杯/30次殺害：Tau Sniper.png|30]]"
-Type: "铜"
 ---
 ```ad-common-bronze-trophy
 title: (Title:: "30次殺害：Tau Sniper")

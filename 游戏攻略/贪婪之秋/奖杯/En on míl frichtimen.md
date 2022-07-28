@@ -1,6 +1,5 @@
 ---
 Icon: "![[图片/游戏攻略/贪婪之秋/奖杯/En on míl frichtimen.png|30]]"
-Type: "铜"
 ---
 ```ad-common-bronze-trophy
 title: (Title:: "En on míl frichtimen")

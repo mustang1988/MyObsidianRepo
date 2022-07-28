@@ -1,6 +1,5 @@
 ---
 Icon: "![[图片/游戏攻略/重力异想世界/重力异想世界/奖杯/重力级奈维猎人3rd.png|30]]"
-Type: "银"
 ---
 ```ad-common-silver-trophy
 title: (Title:: "重力级奈维猎人3rd")
