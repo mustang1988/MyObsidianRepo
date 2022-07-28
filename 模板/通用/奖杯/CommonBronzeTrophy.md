@@ -8,4 +8,4 @@ title: (Title:: "{{title}}")
 (Comment:: "")
 ```
 
- #奖杯 #铜
+ #奖杯 #奖杯/铜

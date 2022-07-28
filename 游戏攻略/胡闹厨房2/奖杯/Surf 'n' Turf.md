@@ -9,4 +9,4 @@ title: (Title:: "Surf 'n' Turf")
 (Comment:: "在 Surf 'n' Turf 的所有关卡中获得3星")
 ```
 
-#胡闹厨房/胡闹厨房2/奖杯/DLC/SurfnTurf #奖杯 #金
+#胡闹厨房/胡闹厨房2/奖杯/DLC/SurfnTurf #奖杯 #奖杯/金

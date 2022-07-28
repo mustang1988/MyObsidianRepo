@@ -9,4 +9,4 @@ title: (Title:: "30次殺害：Dragon Sniper")
 (Comment:: "以Dragon Sniper殺死30個敵人")
 ```
 
-#神秘海域/德雷克的诡计/奖杯 #奖杯 #铜
+#神秘海域/德雷克的诡计/奖杯 #奖杯 #奖杯/铜

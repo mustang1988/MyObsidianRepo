@@ -9,4 +9,4 @@ title: (Title:: "Carnival of Chaos")
 (Comment:: "在Carnival of Chaos的所有关卡中获得3星")
 ```
 
-#胡闹厨房/胡闹厨房2/奖杯/DLC/CarnivalofChaos #奖杯 #金
+#胡闹厨房/胡闹厨房2/奖杯/DLC/CarnivalofChaos #奖杯 #奖杯/金

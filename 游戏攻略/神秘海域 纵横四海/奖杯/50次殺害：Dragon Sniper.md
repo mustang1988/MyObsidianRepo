@@ -9,4 +9,4 @@ title: (Title:: "50次殺害：Dragon Sniper")
 (Comment:: "以Dragon Sniper殺死50個敵人")
 ```
 
-#神秘海域/纵横四海/奖杯 #奖杯 #铜
+#神秘海域/纵横四海/奖杯 #奖杯 #奖杯/铜

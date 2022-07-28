@@ -25,4 +25,4 @@ dv.table(
 
 ```
 
-#战神系列 #战神/战神III #游戏首页 #OnlyOnPlayStation 
+#战神系列 #战神/战神III #游戏首页 #PlayStation独占 

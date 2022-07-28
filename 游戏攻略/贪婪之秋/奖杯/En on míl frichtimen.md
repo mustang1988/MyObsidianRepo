@@ -9,4 +9,4 @@ title: (Title:: "En on míl frichtimen")
 (Comment:: "你进入了神庙并与En on míl frichtimen交谈")
 ```
 
-#贪婪之秋/奖杯 #奖杯 #铜
+#贪婪之秋/奖杯 #奖杯 #奖杯/铜

@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "首页.md",
-            "mode": "preview",
+            "file": "游戏攻略/龙之皇冠/龙之皇冠.md",
+            "mode": "source",
             "backlinks": true,
             "source": true
           }
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#金",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -58,7 +58,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -78,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "首页.md",
+                "file": "游戏攻略/龙之皇冠/龙之皇冠.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "首页.md",
+                "file": "游戏攻略/龙之皇冠/龙之皇冠.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "首页.md"
+                "file": "游戏攻略/龙之皇冠/龙之皇冠.md"
               }
             }
           },
@@ -135,19 +136,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 455.5
+    "width": 262.5
   },
   "active": "f45bcd9135d7f268",
   "lastOpenFiles": [
-    "游戏攻略/古墓丽影 暗影/古墓丽影 暗影.md",
-    "游戏攻略/仁王/仁王.md",
-    "游戏攻略/空洞骑士/空洞骑士.md",
-    "游戏攻略/女神异闻录5/女神异闻录5.md",
-    "游戏攻略/瑞奇与叮当/瑞奇与叮当.md",
     "首页.md",
-    "游戏攻略/古墓丽影 崛起/古墓丽影 崛起.md",
-    "游戏攻略/最后生还者/最后生还者.md",
-    "游戏攻略/阿玛拉王国 惩罚/阿玛拉王国 惩罚.md",
-    "游戏攻略/钠克的大冒险 双英与古代兵团/钠克的大冒险 双英与古代兵团.md"
+    "游戏攻略/艾尔登法环/奖杯/艾尔登之王.md",
+    "游戏攻略/神秘海域 德雷克船长的宝藏/奖杯/20次殺害：Desert-5.md",
+    "模板/test.md",
+    "Templater/testprint.md",
+    "模板/Templater/tryprint.md",
+    "try.md",
+    "模板/TemplaterScripts/print.js.md",
+    "游戏攻略/古墓丽影 暗影/古墓丽影 暗影.md",
+    "游戏攻略/仁王/仁王.md"
   ]
 }
