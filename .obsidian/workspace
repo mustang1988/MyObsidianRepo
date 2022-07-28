@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "74e8ce0af0fa884c",
+        "id": "db1b959246167545",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "首页.md",
+            "mode": "preview",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -36,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#开放世界",
+                "query": "tag:#TGA/2019",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "首页.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "首页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -110,7 +117,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "首页.md"
+              }
             }
           },
           {
@@ -126,19 +135,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.5
+    "width": 455.5
   },
-  "active": "74e8ce0af0fa884c",
+  "active": "db1b959246167545",
   "lastOpenFiles": [
+    "游戏攻略/贪婪之秋/贪婪之秋.md",
+    "首页.md",
+    "游戏攻略/最后生还者/最后生还者.md",
+    "游戏攻略/钠克的大冒险 双英与古代兵团/钠克的大冒险 双英与古代兵团.md",
+    "游戏攻略/古墓丽影 暗影/古墓丽影 暗影.md",
+    "游戏攻略/古墓丽影 崛起/古墓丽影 崛起.md",
+    "游戏攻略/钠克的大冒险/钠克的大冒险.md",
+    "游戏攻略/钠克的大冒险.md",
     "游戏攻略/最终幻想VII/最终幻想VII.md",
-    "游戏攻略/战神夜袭/战神夜袭.md",
-    "游戏攻略/英雄传说 闪之轨迹 IV/英雄传说 闪之轨迹IV.md",
-    "游戏攻略/英雄传说 闪之轨迹 III/英雄传说 闪之轨迹III.md",
-    "游戏攻略/英雄传说 闪之轨迹 II/英雄传说 闪之轨迹II.md",
-    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
-    "游戏攻略/英雄传说 创之轨迹/英雄传说 创之轨迹.md",
-    "游戏攻略/女神异闻录5/女神异闻录5.md",
-    "游戏攻略/东京幻都 eX+/东京幻都 eX+.md",
-    "首页.md"
+    "游戏攻略/战神夜袭/战神夜袭.md"
   ]
 }
