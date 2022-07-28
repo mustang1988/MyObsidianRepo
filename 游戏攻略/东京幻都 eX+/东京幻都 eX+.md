@@ -16,6 +16,12 @@ const order = ["白金","金", "银", "铜"]
 dv.table(
 	["","奖杯","说明"],
 	dv.pages('#东京幻都/奖杯 and -"模板"')
+	.map(trophy => {
+		const [tTag] = trophy.file.etags.filter(tag => tag.startsWith('#奖杯') && tag .includes("/"));
+		const [, type] = tTag.split('/')
+		trophy.Type = type;
+		return trophy;
+	})
 	.sort(trophy => [order.indexOf(trophy.Type), trophy.file.name], 'asc')
 	.map(trophy => 
 		[trophy.Icon, trophy.file.link, trophy.Comment]
