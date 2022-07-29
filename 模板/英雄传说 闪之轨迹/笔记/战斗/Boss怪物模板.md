@@ -1,6 +1,7 @@
 ---
 Positions: [""]
 Bonus: [""]
+Boss: true
 ---
 #英雄传说/闪之轨迹/笔记/战斗
 ````ad-danger
