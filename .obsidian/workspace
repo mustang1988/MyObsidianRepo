@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7960d9c851fa8742",
+        "id": "bb77a97824f00844",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "首页.md",
-            "mode": "preview",
-            "backlinks": true,
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "首页.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "首页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -117,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "首页.md"
-              }
+              "state": {}
             }
           },
           {
@@ -137,17 +128,17 @@
     "direction": "horizontal",
     "width": 262.5
   },
-  "active": "7960d9c851fa8742",
+  "active": "bb77a97824f00844",
   "lastOpenFiles": [
-    "游戏攻略/地平线 零之曙光/地平线 零之曙光.md",
+    "游戏攻略/阿玛拉王国 惩罚/阿玛拉王国 惩罚.md",
     "首页.md",
+    "游戏攻略/地平线 零之曙光/地平线 零之曙光.md",
     "游戏攻略/最终幻想VII/最终幻想VII.md",
     "游戏攻略/最后生还者/最后生还者.md",
     "游戏攻略/重力异想世界2/重力异想世界2.md",
     "游戏攻略/重力异想世界/重力异想世界.md",
     "游戏攻略/中土世界 战争之影/中土世界 战争之影.md",
     "游戏攻略/只狼 影逝二度/只狼 影逝二度.md",
-    "游戏攻略/战神夜袭/战神夜袭.md",
-    "游戏攻略/战神III/战神III.md"
+    "游戏攻略/战神夜袭/战神夜袭.md"
   ]
 }

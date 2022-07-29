@@ -3,7 +3,7 @@ banner: "![[图片/游戏攻略/最终幻想/最终幻想VII/cover.png]]"
 banner_y: 0.23896
 Icon: "![[图片/游戏攻略/最终幻想/最终幻想VII/icon.png|50]]"
 No: 7
-NPWR: ""
+NPWR: "NPWR18853_00"
 Developers: ["# Square Enix"]
 Publishers: ["# Square Enix"]
 Producers: [] 

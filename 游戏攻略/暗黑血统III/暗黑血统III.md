@@ -3,7 +3,7 @@ banner: "![[图片/游戏攻略/暗黑血统/暗黑血统III/cover.png]]"
 banner_y: 0.11446
 Icon: "![[图片/游戏攻略/暗黑血统/暗黑血统III/icon.png|50]]"
 No: 3
-NPWR: ""
+NPWR: "NPWR16566_00"
 Developers: ["Gunfire Games"]
 Publishers: ["THQ Nordic"]
 Producers: []
