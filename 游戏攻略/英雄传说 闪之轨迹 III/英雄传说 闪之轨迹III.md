@@ -3,10 +3,10 @@ banner: "![[图片/游戏攻略/英雄传说/英雄传说 闪之轨迹III/cover.
 Icon: "![[图片/游戏攻略/英雄传说/英雄传说 闪之轨迹III/icon.png|50]]"
 No: 8
 NPWR: "NPWR13854_00"
-Developers: []
-Publishers: []
+Developers: ["Falcom"]
+Publishers: ["Falcom", "云豹娱乐", "SIE"]
 Producers: [] 
-Release: ""
+Release: "2017/09/28"
 ---
 # 英雄传说 闪之轨迹III
 

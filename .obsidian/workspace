@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "游戏攻略/如龙0 誓约的场所/如龙0 誓约的场所.md",
-            "mode": "source",
+            "file": "首页.md",
+            "mode": "preview",
             "backlinks": true,
             "source": true
           }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏攻略/如龙0 誓约的场所/如龙0 誓约的场所.md",
+                "file": "首页.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏攻略/如龙0 誓约的场所/如龙0 誓约的场所.md",
+                "file": "首页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "游戏攻略/如龙0 誓约的场所/如龙0 誓约的场所.md"
+                "file": "首页.md"
               }
             }
           },
@@ -139,15 +139,15 @@
   },
   "active": "7960d9c851fa8742",
   "lastOpenFiles": [
-    "游戏攻略/仁王/仁王.md",
-    "游戏攻略/女神异闻录5/女神异闻录5.md",
-    "游戏攻略/钠克的大冒险 双英与古代兵团/钠克的大冒险 双英与古代兵团.md",
-    "游戏攻略/龙珠Z 卡卡罗特/龙珠Z 卡卡罗特.md",
-    "游戏攻略/龙之皇冠/龙之皇冠.md",
-    "游戏攻略/雷曼 传奇/雷曼 传奇.md",
-    "游戏攻略/空洞骑士/空洞骑士.md",
-    "游戏攻略/胡闹厨房2/胡闹厨房2.md",
-    "游戏攻略/古墓丽影 崛起/古墓丽影 崛起.md",
-    "游戏攻略/古墓丽影 暗影/古墓丽影 暗影.md"
+    "游戏攻略/地平线 零之曙光/地平线 零之曙光.md",
+    "首页.md",
+    "游戏攻略/最终幻想VII/最终幻想VII.md",
+    "游戏攻略/最后生还者/最后生还者.md",
+    "游戏攻略/重力异想世界2/重力异想世界2.md",
+    "游戏攻略/重力异想世界/重力异想世界.md",
+    "游戏攻略/中土世界 战争之影/中土世界 战争之影.md",
+    "游戏攻略/只狼 影逝二度/只狼 影逝二度.md",
+    "游戏攻略/战神夜袭/战神夜袭.md",
+    "游戏攻略/战神III/战神III.md"
   ]
 }
