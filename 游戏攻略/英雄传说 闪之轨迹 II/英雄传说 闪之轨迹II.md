@@ -4,6 +4,10 @@ banner_y: 0.72088
 Icon: "![[图片/游戏攻略/英雄传说/英雄传说 闪之轨迹II/icon.png|50]]"
 No: 7
 NPWR: "NPWR06494_00"
+Developers: []
+Publishers: []
+Producers: [] 
+Release: ""
 ---
 # 英雄传说 闪之轨迹II
 

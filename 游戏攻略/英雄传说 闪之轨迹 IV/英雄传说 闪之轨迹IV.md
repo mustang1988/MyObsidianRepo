@@ -3,6 +3,10 @@ banner: "![[图片/游戏攻略/英雄传说/英雄传说 闪之轨迹IV/cover.p
 Icon: "![[图片/游戏攻略/英雄传说/英雄传说 闪之轨迹IV/icon.png|50]]"
 No: 9
 NPWR: "NPWR15646_00"
+Developers: []
+Publishers: []
+Producers: [] 
+Release: ""
 ---
 # 英雄传说 闪之轨迹IV
 

@@ -7,8 +7,13 @@
         "id": "7960d9c851fa8742",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "游戏攻略/如龙0 誓约的场所/如龙0 誓约的场所.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -36,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#金",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "游戏攻略/如龙0 誓约的场所/如龙0 誓约的场所.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "游戏攻略/如龙0 誓约的场所/如龙0 誓约的场所.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -110,7 +117,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "游戏攻略/如龙0 誓约的场所/如龙0 誓约的场所.md"
+              }
             }
           },
           {
@@ -126,20 +135,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5,
-    "collapsed": true
+    "width": 262.5
   },
   "active": "7960d9c851fa8742",
   "lastOpenFiles": [
-    "游戏攻略/英雄传说 闪之轨迹/攻略/终章 士官学院祭、然后——.md",
-    "游戏攻略/英雄传说 闪之轨迹/奖杯/軍官學院祭，然後──.md",
-    "游戏攻略/英雄传说 闪之轨迹/奖杯/戰鬥大師.md",
-    "游戏攻略/英雄传说 闪之轨迹/攻略/第六章 黑与银 ~钢都动乱~.md",
-    "游戏攻略/英雄传说 闪之轨迹/奖杯/和蓋烏斯的羈絆.md",
-    "游戏攻略/英雄传说 闪之轨迹/奖杯/和艾略特的羈絆.md",
-    "游戏攻略/英雄传说 闪之轨迹/奖杯/愛書成癡.md",
-    "游戏攻略/英雄传说 闪之轨迹/奖杯/黑與銀～鋼都動亂～.md",
-    "game/TheLegendOfHeroes/SenNoKiseki/locations/札克森铁矿山·第3坑道.md",
-    "game/TheLegendOfHeroes/SenNoKiseki/quests/史匹那小径通缉魔兽.md"
+    "游戏攻略/仁王/仁王.md",
+    "游戏攻略/女神异闻录5/女神异闻录5.md",
+    "游戏攻略/钠克的大冒险 双英与古代兵团/钠克的大冒险 双英与古代兵团.md",
+    "游戏攻略/龙珠Z 卡卡罗特/龙珠Z 卡卡罗特.md",
+    "游戏攻略/龙之皇冠/龙之皇冠.md",
+    "游戏攻略/雷曼 传奇/雷曼 传奇.md",
+    "游戏攻略/空洞骑士/空洞骑士.md",
+    "游戏攻略/胡闹厨房2/胡闹厨房2.md",
+    "游戏攻略/古墓丽影 崛起/古墓丽影 崛起.md",
+    "游戏攻略/古墓丽影 暗影/古墓丽影 暗影.md"
   ]
 }

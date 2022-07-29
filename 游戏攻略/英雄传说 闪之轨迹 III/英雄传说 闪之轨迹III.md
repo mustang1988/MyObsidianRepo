@@ -3,6 +3,10 @@ banner: "![[图片/游戏攻略/英雄传说/英雄传说 闪之轨迹III/cover.
 Icon: "![[图片/游戏攻略/英雄传说/英雄传说 闪之轨迹III/icon.png|50]]"
 No: 8
 NPWR: "NPWR13854_00"
+Developers: []
+Publishers: []
+Producers: [] 
+Release: ""
 ---
 # 英雄传说 闪之轨迹III
 

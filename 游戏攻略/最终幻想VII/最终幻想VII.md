@@ -4,6 +4,10 @@ banner_y: 0.23896
 Icon: "![[图片/游戏攻略/最终幻想/最终幻想VII/icon.png|50]]"
 No: 7
 NPWR: ""
+Developers: []
+Publishers: []
+Producers: [] 
+Release: ""
 ---
 # 最终幻想VII
 

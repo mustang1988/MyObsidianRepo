@@ -4,6 +4,10 @@ banner_y: 0.22691
 Icon: "![[图片/游戏攻略/龙珠Z/卡卡罗特/icon.png|50]]"
 No: 1
 NPWR: "NPWR17396_00"
+Developers: ["CyberConnect2"]
+Publishers: ["Bandai Namco Entertainment"]
+Producers: [] 
+Release: "2020/01/16"
 ---
 # 龙珠Z 卡卡罗特
 

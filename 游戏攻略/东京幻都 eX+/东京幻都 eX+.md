@@ -3,6 +3,10 @@ banner: "![[图片/游戏攻略/东京幻都 eX+/cover.jpg]]"
 Icon: "![[图片/游戏攻略/东京幻都 eX+/icon.png|50]]"
 No: 2
 NPWR: "NPWR10914_00"
+Developers: ["Falcom"]
+Publishers: ["Falcom"]
+Producers: [] 
+Release: "2017/03/30"
 ---
 # 东京幻都 eX+
 

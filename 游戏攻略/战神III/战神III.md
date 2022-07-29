@@ -3,6 +3,10 @@ banner: "![[图片/游戏攻略/战神/战神3/cover.png]]"
 Icon: "![[图片/游戏攻略/战神/战神3/icon.jpg|50]]"
 No: 3
 NPWR: "NPWR08268_00"
+Developers: []
+Publishers: []
+Producers: [] 
+Release: ""
 ---
 # 战神III
 

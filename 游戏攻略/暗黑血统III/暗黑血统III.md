@@ -4,6 +4,10 @@ banner_y: 0.11446
 Icon: "![[图片/游戏攻略/暗黑血统/暗黑血统III/icon.png|50]]"
 No: 3
 NPWR: ""
+Developers: ["Gunfire Games"]
+Publishers: ["THQ Nordic"]
+Producers: []
+Release: "2018/11/27"
 ---
 # 暗黑血统III
 
