@@ -4,24 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "58d5c7d3365cef4c",
+        "id": "2f21150f50cde9e2",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "游戏攻略/英雄传说 闪之轨迹/攻略/第三章 横跨铁路 ~苍穹的大地~.md",
-            "mode": "source",
+            "file": "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
+            "mode": "preview",
             "backlinks": true,
             "source": false
           }
-        }
-      },
-      {
-        "id": "bd8550f2b008ff0d",
-        "type": "leaf",
-        "state": {
-          "type": "graph",
-          "state": {}
         }
       }
     ],
@@ -70,7 +62,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 352
+    "width": 352,
+    "collapsed": true
   },
   "right": {
     "id": "50e9e28e7a37c5b8",
@@ -86,6 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,6 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -123,7 +118,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md"
+              }
             }
           },
           {
@@ -142,17 +139,17 @@
     "width": 262.5,
     "collapsed": true
   },
-  "active": "bd8550f2b008ff0d",
+  "active": "2f21150f50cde9e2",
   "lastOpenFiles": [
-    "游戏攻略/英雄传说 闪之轨迹/攻略/第三章 横跨铁路 ~苍穹的大地~.md",
-    "游戏攻略/英雄传说 闪之轨迹/奖杯/橫跨鐵路～蒼穹的大地～.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/采石场·内部.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/基诺夏·赛纳克.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/落魄猎兵.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/G-基迪恩.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/赛斯菲.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/迪格雷姆.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/吸血草.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/高原·采石场.md"
+    "游戏攻略/英雄传说 闪之轨迹/笔记/宝箱/049.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/宝箱/050.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/宝箱/051.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/宝箱/052.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/公都地下水路3.md",
+    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/宝箱/046.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/宝箱/047.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/宝箱/048.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/公都地下水路2.md"
   ]
 }
