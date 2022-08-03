@@ -2,8 +2,9 @@
 Positions: [""]
 Bonus: [""]
 Boss: true
+Tips:
+  - 
 ---
-#英雄传说/闪之轨迹/笔记/战斗
 ````ad-danger
 title: (Name:: "{{title}}")
 icon: skull
@@ -16,7 +17,12 @@ icon: skull
 title: 攻略
 icon: title
 
+~~~dataviewjs
+dv.list(dv.current().Tips)
+~~~
 
 ```
 
 ````
+
+#英雄传说/闪之轨迹/笔记/战斗
