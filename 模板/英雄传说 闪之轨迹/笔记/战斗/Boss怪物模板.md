@@ -1,6 +1,8 @@
 ---
-Positions: [""]
-Bonus: [""]
+Positions:
+  - ""
+Bonus:
+  - ""
 Boss: true
 Tips:
   - 

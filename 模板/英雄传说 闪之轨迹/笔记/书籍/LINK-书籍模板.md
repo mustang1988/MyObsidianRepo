@@ -1,7 +1,7 @@
 ---
-Title: {{title}}
+Title: "{{title}}"
 Series: "红月的罗赛"
-TimeToGet: 
+TimeToGet: ""
 WayToGet: ""
 ---
 ```ad-note
