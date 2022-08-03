@@ -1,11 +1,18 @@
 ---
-Icon: "![[图片/游戏攻略/英雄传说 闪之轨迹II/奖杯/白金.png|30]]"
+Title: "{{title}}"
+Comment: ""
+Tip: ""
+Icon: "![[图片/游戏攻略/英雄传说/英雄传说 闪之轨迹II/奖杯/白金.png|30]]"
 Type: "白金"
 ---
 ```ad-ed-sen-2-platinum
-title: (Title:: "{{title}}")
-![[图片/游戏攻略/英雄传说 闪之轨迹II/奖杯/白金.png|100]]
-(Comment:: "")
+title: {{title}}
+
+![[图片/游戏攻略/英雄传说/英雄传说 闪之轨迹II/奖杯/白金.png|100]]
+
+`$=dv.current().Comment;`
+
+获取章节: `$=dv.current().Tip;`
 ```
 
 #英雄传说/闪之轨迹II/奖杯  #奖杯 #奖杯/白金
