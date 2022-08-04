@@ -8,6 +8,7 @@ Developers: ["Gunfire Games"]
 Publishers: ["THQ Nordic"]
 Producers: []
 Release: "2018/11/27"
+Abstract: ""
 ---
 # 暗黑血统III
 

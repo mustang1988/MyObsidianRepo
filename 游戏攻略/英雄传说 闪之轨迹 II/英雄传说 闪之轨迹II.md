@@ -8,6 +8,7 @@ Developers: ["Falcom"]
 Publishers: ["Falcom", "云豹娱乐", "SIE"]
 Producers: [] 
 Release: "2018/04/26"
+Abstract: ""
 ---
 # 英雄传说 闪之轨迹II
 

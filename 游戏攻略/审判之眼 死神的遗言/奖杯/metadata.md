@@ -68,7 +68,7 @@
       trophyHidden: true,
       trophyType: 'bronze',
       trophyName: '祕密報告書３「隱藏的才華」',
-      trophyDetail: '潛入公關俱樂部時，接待客人表現十分優秀',
+      trophyDetail: '潛入公關俱樂部時, 接待客人表現十分優秀',
       trophyIconUrl: 'https://image.api.playstation.com/trophy/np/NPWR12924_00_00EF0F4495896838CA4130CF102D2D20FA584CE6BA/6C05075162B6E3ED12BF407CB02540686BEAC729.PNG',
       trophyGroupId: 'default'
     },
@@ -131,7 +131,7 @@
       trophyHidden: false,
       trophyType: 'silver',
       trophyName: '全體工作人員向您致謝',
-      trophyDetail: '完成主線故事，感謝您的遊玩',
+      trophyDetail: '完成主線故事, 感謝您的遊玩',
       trophyIconUrl: 'https://image.api.playstation.com/trophy/np/NPWR12924_00_00EF0F4495896838CA4130CF102D2D20FA584CE6BA/9391B88A6C36B2F11741379019D05796F7397780.PNG',
       trophyGroupId: 'default'
     },
@@ -383,7 +383,7 @@
       trophyHidden: true,
       trophyType: 'bronze',
       trophyName: '骰神',
-      trophyDetail: '完成ＶＲ雙六：ＤｉＱ的所有賽程／所有規則。',
+      trophyDetail: '完成ＶＲ雙六：ＤｉＱ的所有賽程／所有規則.',
       trophyIconUrl: 'https://image.api.playstation.com/trophy/np/NPWR12924_00_00EF0F4495896838CA4130CF102D2D20FA584CE6BA/53E5D5A4C141A4557DE884B26D7313A188CF4BD0.PNG',
       trophyGroupId: 'default'
     },
@@ -419,7 +419,7 @@
       trophyHidden: false,
       trophyType: 'gold',
       trophyName: '完全稱霸ＫＡＭＧＯ',
-      trophyDetail: 'ＫＡＭＧＯ完成度達到１００％，厲害！',
+      trophyDetail: 'ＫＡＭＧＯ完成度達到１００％, 厲害！',
       trophyIconUrl: 'https://image.api.playstation.com/trophy/np/NPWR12924_00_00EF0F4495896838CA4130CF102D2D20FA584CE6BA/04E3D098CA09131FFBB4639DC5E23767A698F0A3.PNG',
       trophyGroupId: 'default'
     }

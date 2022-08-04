@@ -8,6 +8,7 @@ Developers: ["CyberConnect2"]
 Publishers: ["Bandai Namco Entertainment"]
 Producers: [] 
 Release: "2020/01/16"
+Abstract: ""
 ---
 # 龙珠Z 卡卡罗特
 

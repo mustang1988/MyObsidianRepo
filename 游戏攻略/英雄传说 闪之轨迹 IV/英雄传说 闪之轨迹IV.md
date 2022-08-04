@@ -7,6 +7,7 @@ Developers: ["Falcom"]
 Publishers: ["Falcom", "云豹娱乐", "SIE"]
 Producers: [] 
 Release: "2018/09/27"
+Abstract: ""
 ---
 # 英雄传说 闪之轨迹IV
 

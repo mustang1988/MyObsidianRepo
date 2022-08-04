@@ -7,6 +7,7 @@ Developers: ["Falcom"]
 Publishers: ["Falcom", "云豹娱乐", "SIE"]
 Producers: [] 
 Release: "2017/09/28"
+Abstract: ""
 ---
 # 英雄传说 闪之轨迹III
 

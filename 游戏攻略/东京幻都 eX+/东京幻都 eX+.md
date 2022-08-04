@@ -7,6 +7,7 @@ Developers: ["Falcom"]
 Publishers: ["Falcom"]
 Producers: [] 
 Release: "2017/03/30"
+Abstract: ""
 ---
 # 东京幻都 eX+
 

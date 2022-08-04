@@ -8,6 +8,7 @@ Developers: ["Square Enix"]
 Publishers: ["Square Enix"]
 Producers: [] 
 Release: "2020/04/10"
+Abstract: ""
 ---
 # 最终幻想VII
 

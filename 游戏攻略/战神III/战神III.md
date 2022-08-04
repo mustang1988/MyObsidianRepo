@@ -7,6 +7,7 @@ Developers: ["Santa Monica Studio"]
 Publishers: ["SIE"]
 Producers: ["Steve Caterson"] 
 Release: "2010/03/16"
+Abstract: ""
 ---
 # 战神III
 
