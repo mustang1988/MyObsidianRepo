@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "2f21150f50cde9e2",
+        "id": "3d3e622f029ac66d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
-            "mode": "preview",
+            "file": "首页.md",
+            "mode": "source",
             "backlinks": true,
             "source": false
           }
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#如龙/如龙1",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
+                "file": "首页.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
+                "file": "首页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md"
+                "file": "首页.md"
               }
             }
           },
@@ -138,17 +138,17 @@
     "width": 262.5,
     "collapsed": true
   },
-  "active": "2f21150f50cde9e2",
+  "active": "3d3e622f029ac66d",
   "lastOpenFiles": [
-    "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/无限.md",
+    "游戏攻略/如龙7 光与暗的去向/如龙7 光与暗的去向.md",
+    "游戏攻略/如龙1/如龙.md",
     "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/无限.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/纹章.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/灵猫.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/虚无.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/骑士.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/雷神.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/红莲.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/巨石.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/神盾.md"
+    "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/红莲.md"
   ]
 }
