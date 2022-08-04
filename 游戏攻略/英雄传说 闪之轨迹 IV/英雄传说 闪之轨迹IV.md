@@ -7,7 +7,7 @@ Developers: ["Falcom"]
 Publishers: ["Falcom", "云豹娱乐", "SIE"]
 Producers: [] 
 Release: "2018/09/27"
-Abstract: ""
+Abstract: "《巨硕黄昏》使得『诅咒』在埃雷波尼亚帝国中扩散开. 与卡尔瓦德共和国之间的大战即将爆发, 此时新旧《VII班》将如何采取行动呢? 而遭到失控的鬼之力吞没, 甚至失去了自我的《灰色骑士》黎恩又将面临什么样的命运?"
 ---
 # 英雄传说 闪之轨迹IV
 
