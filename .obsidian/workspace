@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "28fa3e573a69349b",
+        "id": "2b33e447f96450b3",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -138,17 +138,17 @@
     "width": 262.5,
     "collapsed": true
   },
-  "active": "28fa3e573a69349b",
+  "active": "2b33e447f96450b3",
   "lastOpenFiles": [
-    "模板/通用/Callout/主线任务块.md",
-    "模板/通用/Callout/支线任务块.md",
+    "模板/通用/游戏首页模板.md",
+    "游戏攻略/阿玛拉王国 惩罚/阿玛拉王国 惩罚.md",
     "模板/通用/奖杯/CommonBronzeTrophy.md",
-    "模板/通用/奖杯/CommonGoldTrophy.md",
-    "模板/通用/奖杯/CommonPlatinumTrophy.md",
     "模板/通用/奖杯/CommonSilverTrophy.md",
-    "模板/英雄传说 闪之轨迹/奖杯/bronze_1.md",
-    "游戏攻略/如龙7 光与暗的去向/如龙7 光与暗的去向.md",
+    "模板/通用/奖杯/CommonPlatinumTrophy.md",
+    "模板/通用/奖杯/CommonGoldTrophy.md",
+    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
     "首页.md",
-    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md"
+    "模板/通用/Callout/主线任务块.md",
+    "模板/通用/Callout/支线任务块.md"
   ]
 }

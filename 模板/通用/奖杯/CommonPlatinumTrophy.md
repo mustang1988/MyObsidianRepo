@@ -4,12 +4,16 @@ Comment: ""
 Tip: ""
 Icon: "![[{{title}}.webp|30]]"
 ---
-```ad-common-platinum-trophy
+```ad-info
 title: {{title}}
+icon: trophy
+color: 255,255,255
 
 ![[{{title}}.webp|100]]
 
 `$=dv.current().Comment;`
+
+`$=dv.current().Tip;`
 
 ```
 
