@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1c9c5d07956e299d",
+        "id": "f1cc3b7aa41e1dbd",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "模板/英雄传说 闪之轨迹/笔记/食谱模板.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "模板/英雄传说 闪之轨迹/笔记/食谱模板.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "模板/英雄传说 闪之轨迹/笔记/食谱模板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -117,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "模板/英雄传说 闪之轨迹/笔记/食谱模板.md"
-              }
+              "state": {}
             }
           },
           {
@@ -138,17 +129,17 @@
     "width": 262.5,
     "collapsed": true
   },
-  "active": "1c9c5d07956e299d",
+  "active": "f1cc3b7aa41e1dbd",
   "lastOpenFiles": [
+    "游戏攻略/如龙7 光与暗的去向/支线任务.md",
+    "游戏攻略/如龙7 光与暗的去向/如龙7 光与暗的去向.md",
+    "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/街友入门.md",
+    "模板/如龙/如龙7 光与暗的去向/支线任务模板.md",
+    "模板/英雄传说 闪之轨迹/笔记/食谱模板.md",
     "模板/英雄传说 闪之轨迹/笔记/人物信息模板.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/人物/RF公司千金.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/人物/BLADE.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/人物/重视家人.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/照料马匹.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/在变强之前.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/园艺社的活动.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/与青梅竹马和解.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/优秀的学生会长.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/意外的一面.md"
+    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/照料马匹.md"
   ]
 }
