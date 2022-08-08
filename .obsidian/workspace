@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "711957c4ee2588f7",
+        "id": "3b691f7c0c1f106a",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
+            "mode": "preview",
+            "backlinks": true,
+            "source": false
+          }
         }
       }
     ],
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -110,7 +117,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md"
+              }
             }
           },
           {
@@ -129,8 +138,9 @@
     "width": 262.5,
     "collapsed": true
   },
-  "active": "711957c4ee2588f7",
+  "active": "3b691f7c0c1f106a",
   "lastOpenFiles": [
+    "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/投入大海原！.md",
     "游戏攻略/如龙7 光与暗的去向/如龙7 光与暗的去向.md",
     "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/baby don’t cry.md",
     "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/与垃圾共存的男人.md",
@@ -139,7 +149,6 @@
     "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/柿子摇晃时.md",
     "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/老电影乐园.md",
     "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/禁忌的游戏.md",
-    "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/街友入门.md",
-    "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/江湖宝贝.md"
+    "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/街友入门.md"
   ]
 }
