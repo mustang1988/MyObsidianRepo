@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "96c1590115c4bae3",
+        "id": "cabb6f78898546f7",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "游戏攻略/血源诅咒/血源诅咒.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
         }
       }
     ],
@@ -36,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#如龙/如龙1",
+                "query": "tag:#PS会免",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "游戏攻略/血源诅咒/血源诅咒.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "游戏攻略/血源诅咒/血源诅咒.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -110,7 +117,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "游戏攻略/血源诅咒/血源诅咒.md"
+              }
             }
           },
           {
@@ -122,24 +131,23 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 262.5,
-    "collapsed": true
+    "width": 262.5
   },
-  "active": "96c1590115c4bae3",
+  "active": "d36f5b0392c4ea4e",
   "lastOpenFiles": [
-    "游戏攻略/如龙7 光与暗的去向/如龙7 光与暗的去向.md",
-    "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/寻找搭档.md",
-    "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/异人町的容身之所.md",
-    "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/想守护的事物.md",
-    "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/一同爬出最底层.md",
-    "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/打工英雄.com.md",
-    "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/垃圾社会的丧家犬.md",
-    "模板/如龙/如龙7 光与暗的去向/支线任务模板.md",
-    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
-    "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/投入大海原！.md"
+    "游戏攻略/超凡双生/超凡双生.md",
+    "游戏攻略/重力异想世界2/重力异想世界2.md",
+    "游戏攻略/底特律 化身为人/底特律 化身为人.md",
+    "游戏攻略/暗黑血统III/暗黑血统III.md",
+    "游戏攻略/仁王/仁王.md",
+    "游戏攻略/古墓丽影 崛起/古墓丽影 崛起.md",
+    "游戏攻略/中土世界 战争之影/中土世界 战争之影.md",
+    "游戏攻略/空洞骑士/空洞骑士.md",
+    "游戏攻略/古墓丽影 暗影/古墓丽影 暗影.md",
+    "游戏攻略/贪婪之秋/贪婪之秋.md"
   ]
 }
