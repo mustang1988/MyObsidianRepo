@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "cabb6f78898546f7",
+        "id": "6d72a559f870f8c7",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "游戏攻略/血源诅咒/血源诅咒.md",
-            "mode": "source",
+            "file": "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
+            "mode": "preview",
             "backlinks": true,
             "source": false
           }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏攻略/血源诅咒/血源诅咒.md",
+                "file": "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏攻略/血源诅咒/血源诅咒.md",
+                "file": "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "游戏攻略/血源诅咒/血源诅咒.md"
+                "file": "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md"
               }
             }
           },
@@ -137,8 +137,10 @@
     "direction": "horizontal",
     "width": 262.5
   },
-  "active": "d36f5b0392c4ea4e",
+  "active": "6d72a559f870f8c7",
   "lastOpenFiles": [
+    "游戏攻略/英雄传说 闪之轨迹/笔记/宝箱/001.md",
+    "游戏攻略/血源诅咒/血源诅咒.md",
     "游戏攻略/超凡双生/超凡双生.md",
     "游戏攻略/重力异想世界2/重力异想世界2.md",
     "游戏攻略/底特律 化身为人/底特律 化身为人.md",
@@ -146,8 +148,6 @@
     "游戏攻略/仁王/仁王.md",
     "游戏攻略/古墓丽影 崛起/古墓丽影 崛起.md",
     "游戏攻略/中土世界 战争之影/中土世界 战争之影.md",
-    "游戏攻略/空洞骑士/空洞骑士.md",
-    "游戏攻略/古墓丽影 暗影/古墓丽影 暗影.md",
-    "游戏攻略/贪婪之秋/贪婪之秋.md"
+    "游戏攻略/空洞骑士/空洞骑士.md"
   ]
 }
