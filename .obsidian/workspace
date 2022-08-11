@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "6d72a559f870f8c7",
+        "id": "6870dc28781354d9",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
-            "mode": "preview",
+            "file": "首页.md",
+            "mode": "source",
             "backlinks": true,
             "source": false
           }
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#PS会免",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
+                "file": "首页.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
+                "file": "首页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md"
+                "file": "首页.md"
               }
             }
           },
@@ -135,19 +135,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 791.5,
+    "collapsed": true
   },
-  "active": "6d72a559f870f8c7",
+  "active": "6870dc28781354d9",
   "lastOpenFiles": [
+    "首页.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/书籍/帝国的传说·传承上.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/书籍/帝国时报·第3号.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/书籍/帝国美术史.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/书籍/帝国的传说·传承中.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/宝箱/001.md",
-    "游戏攻略/血源诅咒/血源诅咒.md",
-    "游戏攻略/超凡双生/超凡双生.md",
-    "游戏攻略/重力异想世界2/重力异想世界2.md",
-    "游戏攻略/底特律 化身为人/底特律 化身为人.md",
-    "游戏攻略/暗黑血统III/暗黑血统III.md",
-    "游戏攻略/仁王/仁王.md",
-    "游戏攻略/古墓丽影 崛起/古墓丽影 崛起.md",
-    "游戏攻略/中土世界 战争之影/中土世界 战争之影.md",
-    "游戏攻略/空洞骑士/空洞骑士.md"
+    "游戏攻略/如龙7 光与暗的去向/支线任务.md",
+    "游戏攻略/如龙7 光与暗的去向/如龙7 光与暗的去向.md",
+    "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/垃圾社会的丧家犬.md",
+    "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/一同爬出最底层.md"
   ]
 }
