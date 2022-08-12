@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6870dc28781354d9",
+        "id": "ca1c3a6a3dff2ad2",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "首页.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "首页.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "首页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -117,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "首页.md"
-              }
+              "state": {}
             }
           },
           {
@@ -138,17 +129,17 @@
     "width": 791.5,
     "collapsed": true
   },
-  "active": "6870dc28781354d9",
+  "active": "ca1c3a6a3dff2ad2",
   "lastOpenFiles": [
+    "游戏攻略/如龙7 光与暗的去向/如龙7 光与暗的去向.md",
+    "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/与泡泡共存亡.md",
+    "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/罪与罚.md",
+    "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/谈恋爱横滨第一难.md",
+    "游戏攻略/如龙7 光与暗的去向/支线任务.md",
+    "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/打工英雄.com.md",
     "首页.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/书籍/帝国的传说·传承上.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/书籍/帝国时报·第3号.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/书籍/帝国美术史.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/书籍/帝国的传说·传承中.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/宝箱/001.md",
-    "游戏攻略/如龙7 光与暗的去向/支线任务.md",
-    "游戏攻略/如龙7 光与暗的去向/如龙7 光与暗的去向.md",
-    "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/垃圾社会的丧家犬.md",
-    "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/一同爬出最底层.md"
+    "游戏攻略/英雄传说 闪之轨迹/笔记/书籍/帝国美术史.md"
   ]
 }
