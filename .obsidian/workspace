@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "80bbb06ce4dd5886",
+        "id": "14894a6c8f7968ea",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -44,21 +44,12 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "3fe3372146f94bd7",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 336,
-    "collapsed": true
+    "width": 336
   },
   "right": {
     "id": "50e9e28e7a37c5b8",
@@ -107,14 +98,6 @@
             }
           },
           {
-            "id": "1fb7f783e8f9c615",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {}
-            }
-          },
-          {
             "id": "8aced768a23e7db1",
             "type": "leaf",
             "state": {
@@ -123,14 +106,14 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
     "width": 505.5,
     "collapsed": true
   },
-  "active": "7f675b909e073667",
+  "active": "14894a6c8f7968ea",
   "lastOpenFiles": [
     "游戏攻略/地平线 零之曙光/地平线 零之曙光.md",
     "游戏攻略/艾尔登法环/艾尔登法环.md",
