@@ -9,7 +9,7 @@ Steps:
   - "选择: 帮忙, 跟妻子面对面聊聊"
   - "之后前往伊势佐木大道北侧的口袋咖啡厅触发剧情借水"
   - "再回去横滨大滨大街触发剧情, 最后选择: 喝牛奶"
-Finishi: false
+Finishi: true
 ---
 ````ad-question
 title: baby don’t cry
