@@ -3,9 +3,12 @@ banner: "![[图片/游戏攻略/战神/战神3/cover.png]]"
 Icon: "![[图片/游戏攻略/战神/战神3/icon.jpg|50]]"
 No: 3
 NPWR: "NPWR08268_00"
-Developers: ["Santa Monica Studio"]
-Publishers: ["SIE"]
-Producers: ["Steve Caterson"] 
+Developers: 
+  - "Santa Monica Studio"
+Publishers: 
+  - "SIE"
+Producers: 
+  - "Steve Caterson" 
 Release: "2010/03/16"
 Abstract: "故事以暴力血腥的希腊神话世界为舞台, 玩家将化身为勇不可挡的前斯巴达战士克雷多斯, 从地狱的深渊攀至奥林匹斯山的山顶, 誓要向背叛者展开复仇, 以血洗血. 手持致命的锁链双剑, 克雷多斯将迎战神话中最险恶的怪物, 同时解开复杂的机关, 彻底摧毁奥林匹斯."
 ---

@@ -4,9 +4,11 @@ banner_y: 0.11446
 Icon: "![[图片/游戏攻略/暗黑血统/暗黑血统III/icon.png|50]]"
 No: 3
 NPWR: "NPWR16566_00"
-Developers: ["Gunfire Games"]
-Publishers: ["THQ Nordic"]
-Producers: []
+Developers: 
+  - "Gunfire Games"
+Publishers: 
+  - "THQ Nordic"
+Producers: 
 Release: "2018/11/27"
 Abstract: "砍杀动作冒险游戏《暗黑血统 III》的玩家将扮演“怒神”, 重返灾变的人间界, 展开猎杀“七宗罪”的任务."
 ---

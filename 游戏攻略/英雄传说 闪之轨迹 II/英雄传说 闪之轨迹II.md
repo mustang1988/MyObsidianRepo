@@ -4,9 +4,13 @@ banner_y: 0.72088
 Icon: "![[图片/游戏攻略/英雄传说/英雄传说 闪之轨迹II/icon.png|50]]"
 No: 7
 NPWR: "NPWR06494_00"
-Developers: ["Falcom"]
-Publishers: ["Falcom", "云豹娱乐", "SIE"]
-Producers: [] 
+Developers: 
+  - "Falcom"
+Publishers: 
+  - "Falcom"
+  - "云豹娱乐"
+  - "SIE"
+Producers:  
 Release: "2018/04/26"
 Abstract: "内战爆发! 命运转动的第２章. 《贵族联盟》藉由《铁血宰相》的暗杀事件, 趁机掌控了帝都, 侵略包括《军官学校》在内的各处要地. 最终与正规军爆发内战. 另一方面, 败给《苍之骑神》而脱离战线的黎恩, 在山岳地带醒来..."
 ---

@@ -4,9 +4,11 @@ banner_y: 0.22691
 Icon: "![[图片/游戏攻略/龙珠Z/卡卡罗特/icon.png|50]]"
 No: 1
 NPWR: "NPWR17396_00"
-Developers: ["CyberConnect2"]
-Publishers: ["Bandai Namco Entertainment"]
-Producers: [] 
+Developers: 
+  - "CyberConnect2"
+Publishers: 
+  - "Bandai Namco Entertainment"
+Producers:  
 Release: "2020/01/16"
 Abstract: "体验到悟空及其他Z战士的故事!除了史诗级的对战外, 在七龙珠Z世界里亦可以与悟空, 悟饭及贝吉达等等角色进行打斗, 钓鱼, 用餐及训练. 请尽情探索新区域, 体验故事中的冒险活动并加深与七龙珠Z其他英雄人物之间的羁绊吧."
 ---
