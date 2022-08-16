@@ -1,7 +1,7 @@
 ---
 No: "07"
 Title: "baby don’t cry"
-Chapter: "第四章"
+Chapter: 4
 Time: "白天"
 Position: "横滨大滨大街"
 Steps:
