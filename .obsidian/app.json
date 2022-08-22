@@ -7,5 +7,6 @@
   "spellcheck": true,
   "attachmentFolderPath": "图片",
   "livePreview": true,
-  "lineWrap": true
+  "lineWrap": true,
+  "newLinkFormat": "absolute"
 }

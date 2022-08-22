@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2d8a9333bd986bc3",
+        "id": "0d28613df85e1208",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "游戏攻略/最终幻想VII/最终幻想VII.md",
+            "mode": "preview",
+            "backlinks": true,
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "游戏攻略/最终幻想VII/最终幻想VII.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "游戏攻略/最终幻想VII/最终幻想VII.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -113,17 +120,17 @@
     "width": 505.5,
     "collapsed": true
   },
-  "active": "d36f5b0392c4ea4e",
+  "active": "0d28613df85e1208",
   "lastOpenFiles": [
-    "游戏攻略/英雄传说 闪之轨迹/奖杯/爆釣王.md",
-    "游戏攻略/英雄传说 闪之轨迹/奖杯/地獄之榮冠.md",
-    "游戏攻略/英雄传说 闪之轨迹/奖杯/人物大師.md",
-    "游戏攻略/英雄传说 闪之轨迹/奖杯/核心迴路收藏家.md",
-    "游戏攻略/英雄传说 闪之轨迹/奖杯/戰鬥大師.md",
-    "游戏攻略/英雄传说 闪之轨迹/奖杯/炎之料理人.md",
-    "游戏攻略/英雄传说 闪之轨迹/奖杯/委託大師.md",
-    "游戏攻略/英雄传说 闪之轨迹/奖杯/獅子心英雄章.md",
-    "游戏攻略/英雄传说 闪之轨迹/奖杯/寶藏獵人.md",
-    "游戏攻略/英雄传说 闪之轨迹/奖杯/THE LEGEND OF HEROES.md"
+    "游戏攻略/最后生还者/最后生还者.md",
+    "游戏攻略/最后生还者/奖杯/排除萬難，死裡逃生.md",
+    "游戏攻略/重力异想世界2/重力异想世界2.md",
+    "游戏攻略/重力异想世界/重力异想世界.md",
+    "游戏攻略/重力异想世界/奖杯/再见了，孩子们.md",
+    "游戏攻略/中土世界 战争之影/中土世界 战争之影.md",
+    "游戏攻略/中土世界 战争之影/奖杯/无法，结束.md",
+    "游戏攻略/中土世界 战争之影/奖杯/这，就是我的传奇.md",
+    "游戏攻略/中土世界 战争之影/奖杯/血债，血偿.md",
+    "游戏攻略/中土世界 战争之影/奖杯/说朋友，然后进入.md"
   ]
 }
