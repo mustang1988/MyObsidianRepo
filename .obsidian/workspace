@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6a4e202fb2b85907",
+        "id": "2d8a9333bd986bc3",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "首页.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -41,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#刺客信条/奥德赛/奖杯/DLC/第一把袖剑的传承1",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -70,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "首页.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +81,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "首页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -113,24 +106,24 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 505.5,
     "collapsed": true
   },
-  "active": "6a4e202fb2b85907",
+  "active": "d36f5b0392c4ea4e",
   "lastOpenFiles": [
-    "游戏攻略/最终幻想VII/最终幻想VII.md",
-    "游戏攻略/最后生还者/最后生还者.md",
-    "游戏攻略/重力异想世界2/重力异想世界2.md",
-    "游戏攻略/重力异想世界/重力异想世界.md",
-    "游戏攻略/中土世界 战争之影/中土世界 战争之影.md",
-    "游戏攻略/只狼 影逝二度/只狼 影逝二度.md",
-    "游戏攻略/战神III/战神III.md",
-    "游戏攻略/战神夜袭/战神夜袭.md",
-    "游戏攻略/战神/战神.md",
-    "游戏攻略/英雄传说 闪之轨迹 IV/英雄传说 闪之轨迹IV.md"
+    "游戏攻略/英雄传说 闪之轨迹/奖杯/爆釣王.md",
+    "游戏攻略/英雄传说 闪之轨迹/奖杯/地獄之榮冠.md",
+    "游戏攻略/英雄传说 闪之轨迹/奖杯/人物大師.md",
+    "游戏攻略/英雄传说 闪之轨迹/奖杯/核心迴路收藏家.md",
+    "游戏攻略/英雄传说 闪之轨迹/奖杯/戰鬥大師.md",
+    "游戏攻略/英雄传说 闪之轨迹/奖杯/炎之料理人.md",
+    "游戏攻略/英雄传说 闪之轨迹/奖杯/委託大師.md",
+    "游戏攻略/英雄传说 闪之轨迹/奖杯/獅子心英雄章.md",
+    "游戏攻略/英雄传说 闪之轨迹/奖杯/寶藏獵人.md",
+    "游戏攻略/英雄传说 闪之轨迹/奖杯/THE LEGEND OF HEROES.md"
   ]
 }
