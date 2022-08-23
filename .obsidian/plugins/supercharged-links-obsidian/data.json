@@ -58,66 +58,6 @@
       "selectAppend": false,
       "selectPrepend": true,
       "selectBackground": false
-    },
-    {
-      "type": "tag",
-      "name": "Icon",
-      "value": "英雄传说/闪之轨迹/攻略",
-      "matchCaseSensitive": false,
-      "match": "exact",
-      "uid": "709e-ca03",
-      "selectText": true,
-      "selectAppend": false,
-      "selectPrepend": true,
-      "selectBackground": false
-    },
-    {
-      "type": "tag",
-      "name": "Icon",
-      "value": "英雄传说/闪之轨迹/笔记/钓鱼",
-      "matchCaseSensitive": false,
-      "match": "exact",
-      "uid": "0f9d-8dc4",
-      "selectText": true,
-      "selectAppend": false,
-      "selectPrepend": true,
-      "selectBackground": false
-    },
-    {
-      "type": "tag",
-      "name": "Icon",
-      "value": "英雄传说/闪之轨迹/笔记/迷宫",
-      "matchCaseSensitive": false,
-      "match": "exact",
-      "uid": "3a56-79e5",
-      "selectText": true,
-      "selectAppend": false,
-      "selectPrepend": true,
-      "selectBackground": false
-    },
-    {
-      "type": "tag",
-      "name": "Icon",
-      "value": "英雄传说/闪之轨迹/笔记/人物",
-      "matchCaseSensitive": false,
-      "match": "exact",
-      "uid": "de0c-3ba3",
-      "selectText": true,
-      "selectAppend": false,
-      "selectPrepend": true,
-      "selectBackground": false
-    },
-    {
-      "type": "tag",
-      "name": "Icon",
-      "value": "英雄传说/闪之轨迹/笔记/任务",
-      "matchCaseSensitive": false,
-      "match": "exact",
-      "uid": "a620-891c",
-      "selectText": true,
-      "selectAppend": false,
-      "selectPrepend": true,
-      "selectBackground": false
     }
   ]
 }

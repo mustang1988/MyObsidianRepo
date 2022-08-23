@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "6e6a0942a6fbf2a1",
+        "id": "e7523dd05d215002",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -36,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "超级女仆",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -45,8 +45,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -114,17 +113,17 @@
     "width": 505.5,
     "collapsed": true
   },
-  "active": "6e6a0942a6fbf2a1",
+  "active": "e7523dd05d215002",
   "lastOpenFiles": [
     "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
+    "未命名.md",
+    "游戏攻略/英雄传说 闪之轨迹/奖杯/THE LEGEND OF HEROES.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/战术壳γ.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/人物/超级女仆.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/幻/贤者.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/幻/魔盒.md",
     "游戏攻略/胡闹厨房2/胡闹厨房2.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/宝箱/001.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/任务/领取鲜花.md",
-    "游戏攻略/英雄传说 闪之轨迹/攻略/第二章 美丽的翡翠公都.md",
-    "游戏攻略/英雄传说 闪之轨迹/攻略/序章 托尔兹士官学院.md"
+    "游戏攻略/英雄传说 闪之轨迹/笔记/任务/领取鲜花.md"
   ]
 }
