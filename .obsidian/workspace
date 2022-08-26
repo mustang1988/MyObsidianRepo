@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e7523dd05d215002",
+        "id": "1d39d46cedf766f6",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "首页.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "首页.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "首页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -113,17 +120,17 @@
     "width": 505.5,
     "collapsed": true
   },
-  "active": "e7523dd05d215002",
+  "active": "1d39d46cedf766f6",
   "lastOpenFiles": [
-    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
-    "未命名.md",
-    "游戏攻略/英雄传说 闪之轨迹/奖杯/THE LEGEND OF HEROES.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/战术壳γ.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/超级女仆.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/幻/贤者.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/幻/魔盒.md",
-    "游戏攻略/胡闹厨房2/胡闹厨房2.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/宝箱/001.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/任务/领取鲜花.md"
+    "游戏攻略/如龙7 光与暗的去向/如龙7 光与暗的去向.md",
+    "游戏攻略/如龙7 光与暗的去向/奖杯/超越常人的存在.md",
+    "游戏攻略/如龙7 光与暗的去向/奖杯/超级转职家.md",
+    "游戏攻略/如龙7 光与暗的去向/奖杯/爱好广泛.md",
+    "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/一同爬出最底层.md",
+    "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/与泡泡共存亡.md",
+    "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/罪与罚.md",
+    "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/谈恋爱横滨第一难.md",
+    "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/异人町的容身之所.md",
+    "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/垃圾社会的丧家犬.md"
   ]
 }

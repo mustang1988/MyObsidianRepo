@@ -8,5 +8,7 @@
   "attachmentFolderPath": "图片",
   "livePreview": true,
   "lineWrap": true,
-  "newLinkFormat": "absolute"
+  "newLinkFormat": "absolute",
+  "useTab": false,
+  "tabSize": 2
 }

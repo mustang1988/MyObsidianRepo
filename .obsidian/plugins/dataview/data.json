@@ -16,5 +16,5 @@
   "inlineQueriesInCodeblocks": true,
   "enableDataviewJs": true,
   "enableInlineDataviewJs": true,
-  "prettyRenderInlineFields": true
+  "prettyRenderInlineFields": false
 }
