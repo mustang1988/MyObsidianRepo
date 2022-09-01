@@ -23,7 +23,7 @@
       "match": "exact",
       "uid": "99c4-bd5b",
       "selectText": true,
-      "selectAppend": false,
+      "selectAppend": true,
       "selectPrepend": true,
       "selectBackground": false
     },
@@ -35,7 +35,7 @@
       "match": "exact",
       "uid": "2aed-8137",
       "selectText": true,
-      "selectAppend": false,
+      "selectAppend": true,
       "selectPrepend": true,
       "selectBackground": false
     },
@@ -47,7 +47,7 @@
       "match": "exact",
       "uid": "faa6-ab86",
       "selectText": true,
-      "selectAppend": false,
+      "selectAppend": true,
       "selectPrepend": true,
       "selectBackground": false
     },
@@ -59,7 +59,7 @@
       "match": "exact",
       "uid": "9649-f478",
       "selectText": true,
-      "selectAppend": false,
+      "selectAppend": true,
       "selectPrepend": true,
       "selectBackground": false
     },
@@ -71,8 +71,8 @@
       "match": "exact",
       "uid": "2978-f7eb",
       "selectText": true,
-      "selectAppend": false,
-      "selectPrepend": false,
+      "selectAppend": true,
+      "selectPrepend": true,
       "selectBackground": false
     },
     {
@@ -83,8 +83,8 @@
       "match": "exact",
       "uid": "e011-391c",
       "selectText": true,
-      "selectAppend": false,
-      "selectPrepend": false,
+      "selectAppend": true,
+      "selectPrepend": true,
       "selectBackground": false
     },
     {
@@ -95,8 +95,8 @@
       "match": "exact",
       "uid": "b4ae-dd7f",
       "selectText": true,
-      "selectAppend": false,
-      "selectPrepend": false,
+      "selectAppend": true,
+      "selectPrepend": true,
       "selectBackground": false
     },
     {
@@ -107,8 +107,8 @@
       "match": "exact",
       "uid": "29f5-df32",
       "selectText": true,
-      "selectAppend": false,
-      "selectPrepend": false,
+      "selectAppend": true,
+      "selectPrepend": true,
       "selectBackground": false
     },
     {
@@ -119,8 +119,8 @@
       "match": "exact",
       "uid": "9a26-516b",
       "selectText": true,
-      "selectAppend": false,
-      "selectPrepend": false,
+      "selectAppend": true,
+      "selectPrepend": true,
       "selectBackground": false
     },
     {
@@ -131,8 +131,8 @@
       "match": "exact",
       "uid": "88a4-f551",
       "selectText": true,
-      "selectAppend": false,
-      "selectPrepend": false,
+      "selectAppend": true,
+      "selectPrepend": true,
       "selectBackground": false
     },
     {
@@ -143,8 +143,8 @@
       "match": "exact",
       "uid": "ee9e-c330",
       "selectText": true,
-      "selectAppend": false,
-      "selectPrepend": false,
+      "selectAppend": true,
+      "selectPrepend": true,
       "selectBackground": false
     },
     {
