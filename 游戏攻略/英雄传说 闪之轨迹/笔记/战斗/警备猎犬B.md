@@ -1,10 +1,11 @@
 ---
+Name: "警备猎犬B"
 Positions: ["[[公都地下水路3]]"]
 Bonus: ["HP2"]
 Boss: true
 ---
 ````ad-danger
-title: (Name:: "警备猎犬B")
+title: 警备猎犬B
 icon: skull
 
 出现位置: `$= dv.current().Positions`

@@ -1,10 +1,11 @@
 ---
+Name: "G-基迪恩"
 Positions: ["[[采石场·内部]]"]
 Bonus: [""]
 Boss: true
 ---
 ````ad-danger
-title: (Name:: "G-基迪恩")
+title: G-基迪恩
 icon: skull
 
 出现位置: `$= dv.current().Positions`
