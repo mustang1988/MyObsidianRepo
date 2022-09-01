@@ -1,6 +1,7 @@
 ---
 Positions: ["[[公都地下水路3]]"]
 Bonus: ["HP2"]
+Boss: true
 ---
 ````ad-danger
 title: (Name:: "警备猎犬B")

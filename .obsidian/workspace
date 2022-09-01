@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/白金虫.md",
+            "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/古尔诺加.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/白金虫.md",
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/古尔诺加.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/白金虫.md",
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/古尔诺加.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -122,6 +122,7 @@
   },
   "active": "3a6f27b19ed64f15",
   "lastOpenFiles": [
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/白金虫.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/肮脏老鼠.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/奥洛克斯峡谷道1.md",
     "游戏攻略/如龙7 光与暗的去向/笔记/打工任务/捏捏服务.md",
@@ -130,7 +131,6 @@
     "游戏攻略/如龙7 光与暗的去向/笔记/打工任务/讨伐.md",
     "游戏攻略/如龙7 光与暗的去向/笔记/打工任务/经营公司.md",
     "游戏攻略/如龙7 光与暗的去向/笔记/打工任务/寻人.md",
-    "游戏攻略/如龙7 光与暗的去向/笔记/打工任务/拍摄河童.md",
-    "未命名.md"
+    "游戏攻略/如龙7 光与暗的去向/笔记/打工任务/拍摄河童.md"
   ]
 }
