@@ -1,6 +1,7 @@
 {
   "targetAttributes": [
-    "Icon"
+    "Icon",
+    "Element"
   ],
   "targetTags": true,
   "getFromInlineField": true,
@@ -57,6 +58,90 @@
       "selectText": true,
       "selectAppend": false,
       "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "Element",
+      "value": "火",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "b4ae-dd7f",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": false,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "Element",
+      "value": "地",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "2978-f7eb",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": false,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "Element",
+      "value": "水",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "e011-391c",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": false,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "Element",
+      "value": "风",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "29f5-df32",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": false,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "Element",
+      "value": "时",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "9a26-516b",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": false,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "Element",
+      "value": "空",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "88a4-f551",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": false,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "Element",
+      "value": "幻",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "ee9e-c330",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": false,
       "selectBackground": false
     }
   ]
