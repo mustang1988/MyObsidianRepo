@@ -1,7 +1,10 @@
 {
   "targetAttributes": [
     "Icon",
-    "Element"
+    "Element",
+    "Series",
+    "Type",
+    "Boss"
   ],
   "targetTags": true,
   "getFromInlineField": true,
@@ -63,18 +66,6 @@
     {
       "type": "attribute",
       "name": "Element",
-      "value": "火",
-      "matchCaseSensitive": false,
-      "match": "exact",
-      "uid": "b4ae-dd7f",
-      "selectText": true,
-      "selectAppend": false,
-      "selectPrepend": false,
-      "selectBackground": false
-    },
-    {
-      "type": "attribute",
-      "name": "Element",
       "value": "地",
       "matchCaseSensitive": false,
       "match": "exact",
@@ -91,6 +82,18 @@
       "matchCaseSensitive": false,
       "match": "exact",
       "uid": "e011-391c",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": false,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "Element",
+      "value": "火",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "b4ae-dd7f",
       "selectText": true,
       "selectAppend": false,
       "selectPrepend": false,
@@ -142,6 +145,102 @@
       "selectText": true,
       "selectAppend": false,
       "selectPrepend": false,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "Series",
+      "value": "其他",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "d9d6-306e",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "Series",
+      "value": "帝国时报",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "d646-297f",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "Series",
+      "value": "红曜石文库版",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "cac2-15f7",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "Series",
+      "value": "红月的罗赛",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "6e52-b415",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "Type",
+      "value": "主线任务",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "c1c9-1630",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": false,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "Type",
+      "value": "支线任务",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "761d-a2d1",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": false,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "Boss",
+      "value": "true",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "491d-84ce",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": false,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "Icon",
+      "value": "英雄传说/闪之轨迹/笔记/食谱",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "490c-12f8",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
       "selectBackground": false
     }
   ]
