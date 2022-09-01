@@ -203,8 +203,8 @@
       "match": "exact",
       "uid": "c1c9-1630",
       "selectText": true,
-      "selectAppend": false,
-      "selectPrepend": false,
+      "selectAppend": true,
+      "selectPrepend": true,
       "selectBackground": false
     },
     {
@@ -215,8 +215,8 @@
       "match": "exact",
       "uid": "761d-a2d1",
       "selectText": true,
-      "selectAppend": false,
-      "selectPrepend": false,
+      "selectAppend": true,
+      "selectPrepend": true,
       "selectBackground": false
     },
     {
@@ -227,8 +227,8 @@
       "match": "exact",
       "uid": "491d-84ce",
       "selectText": true,
-      "selectAppend": false,
-      "selectPrepend": false,
+      "selectAppend": true,
+      "selectPrepend": true,
       "selectBackground": false
     },
     {
@@ -238,6 +238,54 @@
       "matchCaseSensitive": false,
       "match": "exact",
       "uid": "490c-12f8",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "Icon",
+      "value": "英雄传说/闪之轨迹/笔记/人物",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "a99d-aa1d",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "tag",
+      "name": "Icon",
+      "value": "英雄传说/闪之轨迹/笔记/钓鱼",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "2763-33d1",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "tag",
+      "name": "Icon",
+      "value": "英雄传说/闪之轨迹/笔记/迷宫",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "dabd-406d",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "Boss",
+      "value": "false",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "061c-b293",
       "selectText": true,
       "selectAppend": true,
       "selectPrepend": true,
