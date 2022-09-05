@@ -4,7 +4,7 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": false,
+  "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
@@ -29,66 +29,24 @@
       }
     },
     {
-      "query": "tag:#英雄传说/闪之轨迹/笔记/任务/主线",
+      "query": "tag:#英雄传说/闪之轨迹/笔记",
       "color": {
         "a": 1,
-        "rgb": 51283
+        "rgb": 5431378
       }
     },
     {
-      "query": "tag:#英雄传说/闪之轨迹/笔记/任务/支线",
+      "query": "tag:#英雄传说/闪之轨迹/攻略 ",
       "color": {
         "a": 1,
-        "rgb": 6610199
+        "rgb": 15152771
       }
     },
     {
-      "query": "tag:#英雄传说/闪之轨迹/笔记/书籍/帝国时报",
+      "query": "",
       "color": {
         "a": 1,
-        "rgb": 11056833
-      }
-    },
-    {
-      "query": "tag:#英雄传说/闪之轨迹/笔记/书籍/红曜石文库版",
-      "color": {
-        "a": 1,
-        "rgb": 5680366
-      }
-    },
-    {
-      "query": "tag:#英雄传说/闪之轨迹/笔记/书籍/红月的罗赛",
-      "color": {
-        "a": 1,
-        "rgb": 15208996
-      }
-    },
-    {
-      "query": "tag:#英雄传说/闪之轨迹/笔记/迷宫",
-      "color": {
-        "a": 1,
-        "rgb": 7239807
-      }
-    },
-    {
-      "query": "tag:#英雄传说/闪之轨迹/笔记/人物",
-      "color": {
-        "a": 1,
-        "rgb": 11517126
-      }
-    },
-    {
-      "query": "tag:#英雄传说/闪之轨迹/攻略",
-      "color": {
-        "a": 1,
-        "rgb": 12437714
-      }
-    },
-    {
-      "query": "tag:#英雄传说/闪之轨迹/笔记/钓鱼",
-      "color": {
-        "a": 1,
-        "rgb": 5350372
+        "rgb": 5419488
       }
     }
   ],
@@ -102,6 +60,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.3369022296972031,
+  "scale": 0.24030409374580625,
   "close": true
 }
