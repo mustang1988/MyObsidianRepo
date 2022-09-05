@@ -1,14 +1,14 @@
 ---
 Positions:
-  - ""
+  - "[[游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/帝都地下道·最深处]]"
 Bonus:
   - ""
 Boss: true
 Tips:
-  - 
+  - "几回合就会自动结束战斗，记得调查情报"
 ---
 ````ad-danger
-title: {{title}}
+title: 《C》
 icon: skull
 
 出现位置: `$= dv.current().Positions`

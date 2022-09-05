@@ -10,5 +10,11 @@
   "lineWrap": true,
   "newLinkFormat": "absolute",
   "useTab": false,
-  "tabSize": 2
+  "tabSize": 2,
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "1",
+    "downscalePercent": 100
+  }
 }
