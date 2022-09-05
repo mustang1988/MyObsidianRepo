@@ -8,7 +8,7 @@ Steps:
   - "时尚lv10且羁绊升满，求生者酒吧内与纱荣子对话"
   - "选择: **一起喝**，之后选项"
   - "![](https://www.psnine.com/Upload/face/shoubing/2.gif)精神![](https://www.psnine.com/Upload/face/shoubing/4.gif)朝气![](https://www.psnine.com/Upload/face/shoubing/1.gif)精神，剧情后完成任务"
-Finishi: false
+Finishi: true
 ---
 ````ad-question
 title: Dream
