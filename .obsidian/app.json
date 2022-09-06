@@ -6,7 +6,7 @@
   "showLineNumber": true,
   "spellcheck": true,
   "attachmentFolderPath": "图片",
-  "livePreview": true,
+  "livePreview": false,
   "lineWrap": true,
   "newLinkFormat": "absolute",
   "useTab": false,
