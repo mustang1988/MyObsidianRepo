@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d180889dbe891e39",
+        "id": "161b6dd977912376",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "未命名.md",
-            "mode": "preview",
-            "backlinks": true,
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -70,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +81,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -103,26 +96,41 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "b3943a7abe02bf61",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "38eae18647b0de91",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 505.5,
+    "width": 211.5,
     "collapsed": true
   },
-  "active": "d36f5b0392c4ea4e",
+  "active": "161b6dd977912376",
   "lastOpenFiles": [
-    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/为了少爷.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/瑟雷斯坦.md",
-    "游戏攻略/英雄传说 闪之轨迹/攻略/第六章 黑与银 ~钢都动乱~.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/任务/管家的秘密.md",
+    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
+    "首页.md",
     "未命名.md",
-    "游戏攻略/英雄传说 闪之轨迹/攻略/终章 士官学院祭、然后——.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/《C》.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/《C》.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/疯狂之“力”.md",
-    "游戏攻略/英雄传说 闪之轨迹/攻略/第四章 绯之帝都 ~仲夏祭~.md"
+    "游戏攻略/英雄传说 闪之轨迹/攻略/第一章 新学期～初次实习～.md",
+    "游戏攻略/英雄传说 闪之轨迹/攻略/第二章 美丽的翡翠公都.md",
+    "游戏攻略/英雄传说 闪之轨迹/攻略/第三章 横跨铁路 ~苍穹的大地~.md",
+    "游戏攻略/英雄传说 闪之轨迹/攻略/第四章 绯之帝都 ~仲夏祭~.md",
+    "游戏攻略/英雄传说 闪之轨迹/攻略/第五章 开始行动的意志.md",
+    "游戏攻略/英雄传说 闪之轨迹/攻略/第六章 黑与银 ~钢都动乱~.md",
+    "游戏攻略/英雄传说 闪之轨迹/攻略/终章 士官学院祭、然后——.md"
   ]
 }
