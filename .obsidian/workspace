@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "2b774c5bb8b8ecdd",
+        "id": "d180889dbe891e39",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "未命名.md",
-            "mode": "source",
+            "mode": "preview",
             "backlinks": true,
             "source": true
           }
@@ -41,11 +41,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "寻找梦幻鱼",
+                "query": "及时",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               }
             }
@@ -54,7 +54,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336
+    "width": 464
   },
   "right": {
     "id": "50e9e28e7a37c5b8",
@@ -112,17 +112,17 @@
     "width": 505.5,
     "collapsed": true
   },
-  "active": "2b774c5bb8b8ecdd",
+  "active": "d36f5b0392c4ea4e",
   "lastOpenFiles": [
-    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/亚尔赛德子爵.md",
-    "未命名.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/任务/寻找梦幻鱼.md",
-    "游戏攻略/英雄传说 闪之轨迹/攻略/第五章 开始行动的意志.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/任务/铁骑队的护身符.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/幻/小丑.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/为了少爷.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/瑟雷斯坦.md",
     "游戏攻略/英雄传说 闪之轨迹/攻略/第六章 黑与银 ~钢都动乱~.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/地/钢铁.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/空/天使.md"
+    "游戏攻略/英雄传说 闪之轨迹/笔记/任务/管家的秘密.md",
+    "未命名.md",
+    "游戏攻略/英雄传说 闪之轨迹/攻略/终章 士官学院祭、然后——.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/《C》.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/《C》.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/疯狂之“力”.md",
+    "游戏攻略/英雄传说 闪之轨迹/攻略/第四章 绯之帝都 ~仲夏祭~.md"
   ]
 }
