@@ -4,11 +4,42 @@
     "type": "split",
     "children": [
       {
-        "id": "48e34108a2c2716d",
+        "id": "74684a108be7680b",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
+            "mode": "preview",
+            "backlinks": true,
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "5189c97bf6cefc30",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/幻/小丑.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "950b4df5235d3a14",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "游戏攻略/英雄传说 闪之轨迹/攻略/第六章 黑与银 ~钢都动乱~.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -45,7 +76,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -65,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/幻/小丑.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/幻/小丑.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -105,17 +139,17 @@
     "width": 505.5,
     "collapsed": true
   },
-  "active": "48e34108a2c2716d",
+  "active": "5189c97bf6cefc30",
   "lastOpenFiles": [
-    "未命名.md",
-    "游戏攻略/英雄传说 闪之轨迹/攻略/终章 士官学院祭、然后——.md",
-    "游戏攻略/英雄传说 闪之轨迹/奖杯/寶藏獵人.md",
-    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
     "游戏攻略/英雄传说 闪之轨迹/攻略/第六章 黑与银 ~钢都动乱~.md",
-    "游戏攻略/英雄传说 闪之轨迹/攻略/第五章 开始行动的意志.md",
-    "游戏攻略/英雄传说 闪之轨迹/攻略/第四章 绯之帝都 ~仲夏祭~.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/宝箱/109.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/宝箱/108.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/宝箱/107.md"
+    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/地/钢铁.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/空/天使.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/宝箱/169.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/幻/小丑.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/地/神盾.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/宝箱/147.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/幻/魔盒.md",
+    "游戏攻略/英雄传说 闪之轨迹/攻略/第五章 开始行动的意志.md"
   ]
 }
