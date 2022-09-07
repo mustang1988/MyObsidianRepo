@@ -2,7 +2,9 @@
 Icon: "![[图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/奖杯/白金.png|30]]"
 Title: "THE LEGEND OF HEROES"
 Comment: "獲得所有獎盃"
-Tip: 
+Chapter: 
+Tips: ""
+Earned: true
 ---
 ```ad-ed-sen-1-platinum
 title: THE LEGEND OF HEROES
@@ -11,7 +13,7 @@ color: 255,255,255
 
 `$=dv.current().Comment;`
 
-`$=dv.current().Tip;`
+获取章节: `$=dv.current().Chapter;`
 
 ```
 
