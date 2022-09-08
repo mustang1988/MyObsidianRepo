@@ -8,4 +8,4 @@ title: (Title:: "THE LEGEND OF HEROES")
 (Comment:: "獲得所有獎盃.")
 ```
 
-#英雄传说/闪之轨迹II/奖杯  #奖杯 #奖杯/白金
+#英雄传说/闪之轨迹II/奖杯 #奖杯 #奖杯/白金

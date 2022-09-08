@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0649180eaeb9a616",
+        "id": "9f48795f321d3305",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "模板/英雄传说 闪之轨迹II/奖杯/bronze_2.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
         }
       }
     ],
@@ -36,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "近郊",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -45,8 +50,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -66,6 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "模板/英雄传说 闪之轨迹II/奖杯/bronze_2.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,6 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "模板/英雄传说 闪之轨迹II/奖杯/bronze_2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -114,24 +120,25 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 211.5,
+    "width": 282.5,
     "collapsed": true
   },
-  "active": "0649180eaeb9a616",
+  "active": "9f48795f321d3305",
   "lastOpenFiles": [
-    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/托利斯塔近郊.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/任务/艾贝尔街道的通缉魔兽2.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/艾贝尔街道2.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/鲨鳄.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/任务/艾贝尔街道的通缉魔兽.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/方阵兵J9.md",
-    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/东凯尔迪克街道1.md",
-    "未命名.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/卢雷军用工厂.md"
+    "模板/英雄传说 闪之轨迹/笔记/食谱模板.md",
+    "模板/英雄传说 闪之轨迹/笔记/人物信息模板.md",
+    "模板/英雄传说 闪之轨迹/笔记/迷宫模板.md",
+    "模板/英雄传说 闪之轨迹/笔记/钓鱼模板.md",
+    "模板/英雄传说 闪之轨迹/笔记/任务/主线任务模板.md",
+    "模板/英雄传说 闪之轨迹/笔记/任务/支线任务模板.md",
+    "模板/英雄传说 闪之轨迹/笔记/核心回路/核心回路-地.md",
+    "模板/英雄传说 闪之轨迹/笔记/宝箱/怪物宝箱模板.md",
+    "模板/英雄传说 闪之轨迹/笔记/宝箱/宝箱模板.md",
+    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md"
   ]
 }
