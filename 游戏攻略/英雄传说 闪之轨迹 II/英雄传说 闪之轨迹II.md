@@ -43,4 +43,26 @@ dv.table(
 ~~~
 ```
 
+```ad-quote
+title: 攻略
+icon: list
+collapse: close
+
+~~~dataviewjs
+dv.list([]);
+~~~
+
+```
+
+````ad-quote
+title: 笔记
+icon: pen
+collapse: close
+
+~~~dataviewjs
+dv.list([]);
+~~~
+
+````
+
 #英雄传说/闪之轨迹II #角色扮演 #回合制 #系列/英雄传说 #游戏首页 #日式RPG

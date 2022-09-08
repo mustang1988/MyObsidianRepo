@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9f48795f321d3305",
+        "id": "fc57da53a10a81d1",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "模板/英雄传说 闪之轨迹II/奖杯/bronze_2.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -70,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "模板/英雄传说 闪之轨迹II/奖杯/bronze_2.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +81,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "模板/英雄传说 闪之轨迹II/奖杯/bronze_2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -128,17 +121,17 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "9f48795f321d3305",
+  "active": "fc57da53a10a81d1",
   "lastOpenFiles": [
+    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
+    "游戏攻略/英雄传说 闪之轨迹/攻略/图例.md",
+    "游戏攻略/英雄传说 闪之轨迹/攻略/序章 托尔兹士官学院.md",
+    "游戏攻略/英雄传说 闪之轨迹/攻略/终章 士官学院祭、然后——.md",
+    "游戏攻略/英雄传说 闪之轨迹 II/英雄传说 闪之轨迹II.md",
+    "首页.md",
+    "模板/英雄传说 闪之轨迹II/奖杯/bronze_2.md",
     "模板/英雄传说 闪之轨迹/笔记/食谱模板.md",
     "模板/英雄传说 闪之轨迹/笔记/人物信息模板.md",
-    "模板/英雄传说 闪之轨迹/笔记/迷宫模板.md",
-    "模板/英雄传说 闪之轨迹/笔记/钓鱼模板.md",
-    "模板/英雄传说 闪之轨迹/笔记/任务/主线任务模板.md",
-    "模板/英雄传说 闪之轨迹/笔记/任务/支线任务模板.md",
-    "模板/英雄传说 闪之轨迹/笔记/核心回路/核心回路-地.md",
-    "模板/英雄传说 闪之轨迹/笔记/宝箱/怪物宝箱模板.md",
-    "模板/英雄传说 闪之轨迹/笔记/宝箱/宝箱模板.md",
-    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md"
+    "模板/英雄传说 闪之轨迹/笔记/迷宫模板.md"
   ]
 }
