@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fc57da53a10a81d1",
+        "id": "95d7b28b28ebe9ec",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "游戏攻略/英雄传说 闪之轨迹/笔记/钓鱼/鳌虾.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/钓鱼/鳌虾.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/钓鱼/鳌虾.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -121,17 +128,17 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "fc57da53a10a81d1",
+  "active": "95d7b28b28ebe9ec",
   "lastOpenFiles": [
     "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
-    "游戏攻略/英雄传说 闪之轨迹/攻略/图例.md",
-    "游戏攻略/英雄传说 闪之轨迹/攻略/序章 托尔兹士官学院.md",
-    "游戏攻略/英雄传说 闪之轨迹/攻略/终章 士官学院祭、然后——.md",
-    "游戏攻略/英雄传说 闪之轨迹 II/英雄传说 闪之轨迹II.md",
+    "图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/核心回路/白羊.webp",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/宝箱/001.md",
     "首页.md",
-    "模板/英雄传说 闪之轨迹II/奖杯/bronze_2.md",
-    "模板/英雄传说 闪之轨迹/笔记/食谱模板.md",
-    "模板/英雄传说 闪之轨迹/笔记/人物信息模板.md",
-    "模板/英雄传说 闪之轨迹/笔记/迷宫模板.md"
+    "图片/游戏攻略/英雄传说/通用/图标/水SR.webp",
+    "图片/游戏攻略/英雄传说/通用/图标/水R.webp",
+    "图片/游戏攻略/英雄传说/通用/图标/水晶片.webp",
+    "图片/游戏攻略/英雄传说/通用/图标/饰品.webp",
+    "图片/游戏攻略/英雄传说/通用/图标/食材.webp",
+    "图片/游戏攻略/英雄传说/通用/图标/回路_地.webp"
   ]
 }

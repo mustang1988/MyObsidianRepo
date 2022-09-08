@@ -1,0 +1,130 @@
+{
+  "mapMarkers": [
+    {
+      "id": "未命名",
+      "lastAccessed": 1662629689370,
+      "markers": [
+        {
+          "id": "ID_cb285b1b9a6b",
+          "type": "宝箱",
+          "loc": [
+            -0.4873046875,
+            0.902267345291573
+          ],
+          "link": "002",
+          "layer": "%5B%5B%E5%9B%BE%E7%89%87%2F%E6%B8%B8%E6%88%8F%E6%94%BB%E7%95%A5%2F%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B4%2F%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B4%20%E9%97%AA%E4%B9%8B%E8%BD%A8%E8%BF%B9%2F%E7%AC%94%E8%AE%B0%2F%E8%BF%B7%E5%AE%AB%2F%E8%AF%BA%E5%B8%9D%E4%BA%9A%E8%A1%97%E9%81%93.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "always"
+        },
+        {
+          "id": "ID_2aca19c92a78",
+          "type": "宝箱",
+          "loc": [
+            -0.3291015625,
+            1.3027807769447781
+          ],
+          "link": "001",
+          "layer": "%5B%5B%E5%9B%BE%E7%89%87%2F%E6%B8%B8%E6%88%8F%E6%94%BB%E7%95%A5%2F%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B4%2F%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B4%20%E9%97%AA%E4%B9%8B%E8%BD%A8%E8%BF%B9%2F%E7%AC%94%E8%AE%B0%2F%E8%BF%B7%E5%AE%AB%2F%E8%AF%BA%E5%B8%9D%E4%BA%9A%E8%A1%97%E9%81%93.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "always"
+        },
+        {
+          "id": "ID_bbfb0bdbc8b9",
+          "type": "怪物宝箱",
+          "loc": [
+            -0.5947265625,
+            1.5333202156524768
+          ],
+          "link": "199",
+          "layer": "%5B%5B%E5%9B%BE%E7%89%87%2F%E6%B8%B8%E6%88%8F%E6%94%BB%E7%95%A5%2F%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B4%2F%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B4%20%E9%97%AA%E4%B9%8B%E8%BD%A8%E8%BF%B9%2F%E7%AC%94%E8%AE%B0%2F%E8%BF%B7%E5%AE%AB%2F%E8%AF%BA%E5%B8%9D%E4%BA%9A%E8%A1%97%E9%81%93.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "always"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": []
+    }
+  ],
+  "defaultMarker": {
+    "type": "default",
+    "iconName": "map-marker-alt",
+    "color": "#dddddd",
+    "transform": {
+      "size": 6,
+      "x": 0,
+      "y": -2
+    },
+    "isImage": false
+  },
+  "markerIcons": [
+    {
+      "type": "宝箱",
+      "iconName": "box",
+      "color": "#dddddd",
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "怪物宝箱",
+      "iconName": "box",
+      "color": "#ff0000",
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    }
+  ],
+  "color": "#dddddd",
+  "lat": 0,
+  "long": 0,
+  "notePreview": true,
+  "layerMarkers": true,
+  "previousVersion": "5.0.3",
+  "version": {
+    "major": 5,
+    "minor": 0,
+    "patch": 3
+  },
+  "warnedAboutMapMarker": false,
+  "copyOnClick": false,
+  "displayMarkerTooltips": "always",
+  "displayOverlayTooltips": true,
+  "configDirectory": null,
+  "mapViewEnabled": true,
+  "mapViewParameters": {},
+  "enableDraw": true,
+  "defaultUnitType": "imperial",
+  "defaultTile": "https://stamen-tiles.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png",
+  "defaultTileDark": "https://stamen-tiles.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png",
+  "defaultAttribution": "Map tiles by <a href=\"http://stamen.com\">Stamen Design</a>, under <a href=\"http://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>. Data by <a href=\"http://openstreetmap.org\">OpenStreetMap</a>, under <a href=\"http://www.openstreetmap.org/copyright\">ODbL</a>."
+}
