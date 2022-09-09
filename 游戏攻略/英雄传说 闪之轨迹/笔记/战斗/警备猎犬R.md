@@ -1,7 +1,11 @@
 ---
 Name: "警备猎犬R"
-Positions: ["[[公都地下水路3]]"]
-Bonus: ["命中2"]
+Positions: 
+  - "[[公都地下水路3]]"
+Bonus: 
+- Name: "命中2"
+  Icon: "![[图片/游戏攻略/英雄传说/通用/图标/回路_空.webp|12]]"
+  Num: 1
 Boss: true
 ---
 ````ad-danger

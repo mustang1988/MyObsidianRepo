@@ -1,7 +1,11 @@
 ---
 Name: "警备猎犬B"
-Positions: ["[[公都地下水路3]]"]
-Bonus: ["HP2"]
+Positions: 
+  - "[[公都地下水路3]]"
+Bonus: 
+- Name: "HP2"
+  Icon: "![[图片/游戏攻略/英雄传说/通用/图标/回路_水.webp|12]]"
+  Num: 1
 Boss: true
 ---
 ````ad-danger

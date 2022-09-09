@@ -2,7 +2,6 @@
 Positions:
   - ""
 Bonus:
-  - ""
 Boss: true
 Tips:
   - 

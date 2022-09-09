@@ -1,15 +1,19 @@
 ---
 Aliases: 
-  - "三位一体攻击者R2"
+  - "三位一体攻击者HG"
 Positions:
   - "[[游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/札克森铁矿山·第3坑道|札克森铁矿山·第3坑道]]"
 Bonus:
-  - "U物质"
-  - "中回复药"
+- Name: "U物质"
+  Icon: "![[图片/游戏攻略/英雄传说/通用/图标/U物质.png|12]]"
+  Num: 1
+- Name: "EP填充剂II"
+  Icon: "![[图片/游戏攻略/英雄传说/通用/图标/消耗品.webp|12]]"
+  Num: 1
 Boss: false
 ---
 ```ad-quote
-title: 三位一体攻击者R2
+title: 三位一体攻击者HG
 color: 177,82,121
 icon: monster-skull
 
