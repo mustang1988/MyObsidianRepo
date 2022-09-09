@@ -10,7 +10,12 @@ icon: skull
 
 出现位置: `$= dv.current().Positions`
 
-掉落物: `$= dv.current().Bonus`
+~~~dataviewjs
+const loops = dv.current().Bonus 
+              ? dv.current().Bonus.map(b => (Array.isArray(b.Icon) ? b.Icon.join('') : b.Icon) + b.Name + (b.Num > 1 ? 'x'+b.Num: '')).join(' ,') 
+              : '无'
+dv.paragraph('掉落物: '+ loops);
+~~~
 
 ```ad-tip
 title: 攻略

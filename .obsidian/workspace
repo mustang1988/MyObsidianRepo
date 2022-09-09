@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "30cda7e3d6c6ec81",
+        "id": "2ba9085471a1a98d",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/炽天使之门.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/炽天使之门.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/炽天使之门.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -121,17 +128,17 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "30cda7e3d6c6ec81",
+  "active": "2ba9085471a1a98d",
   "lastOpenFiles": [
-    "模板/英雄传说/通用/YAML/YAML-回路/YAML-幻SR.md",
-    "模板/英雄传说/通用/YAML/YAML-回路/YAML-空SR.md",
-    "模板/英雄传说/通用/YAML/YAML-回路/YAML-时SR.md",
-    "模板/英雄传说/通用/YAML/YAML-回路/YAML-风SR.md",
-    "模板/英雄传说/通用/YAML/YAML-回路/YAML-火SR.md",
-    "模板/英雄传说/通用/YAML/YAML-回路/YAML-水SR.md",
-    "模板/英雄传说/通用/YAML/YAML-回路/YAML-幻R.md",
-    "模板/英雄传说/通用/YAML/YAML-回路/YAML-空R.md",
-    "模板/英雄传说/通用/YAML/YAML-回路/YAML-时R.md",
-    "模板/英雄传说/通用/YAML/YAML-回路/YAML-风R.md"
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/赤鬼蜻蜓.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/草地跳跃者.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/苍之骑神.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/玻璃软体兽.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/波姆.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/冰晶软体兽.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/卑劣软黏兽.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/宝石老鼠.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/白翼猫.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/白金虫.md"
   ]
 }

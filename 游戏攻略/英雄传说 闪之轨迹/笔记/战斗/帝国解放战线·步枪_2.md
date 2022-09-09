@@ -1,8 +1,7 @@
 ---
 Positions:
   - "[[游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/札克森铁矿山·中介区域|札克森铁矿山·中介区域]]"
-Bonus:
-  - ""
+Bonus: 
 Boss: true
 Tips:
   - "杂兵吃很多状态，不用太在意，有范围技顺便清除"
@@ -15,7 +14,12 @@ icon: skull
 
 出现位置: `$= dv.current().Positions`
 
-掉落物: `$= dv.current().Bonus`
+~~~dataviewjs
+const loops = dv.current().Bonus 
+              ? dv.current().Bonus.map(b => (Array.isArray(b.Icon) ? b.Icon.join('') : b.Icon) + b.Name + (b.Num > 1 ? 'x'+b.Num: '')).join(' ,') 
+              : '无'
+dv.paragraph('掉落物: '+ loops);
+~~~
 
 ```ad-tip
 title: 攻略
