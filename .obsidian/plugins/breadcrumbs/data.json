@@ -12,7 +12,7 @@
   "dataviewNoteField": "up",
   "dateNoteAddMonth": "",
   "dateNoteAddYear": "",
-  "debugMode": "DEBUG",
+  "debugMode": "WARN",
   "dendronNoteDelimiter": ".",
   "dendronNoteField": "up",
   "dvWaitTime": 5000,

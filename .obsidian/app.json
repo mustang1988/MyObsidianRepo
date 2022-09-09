@@ -17,5 +17,6 @@
     "margin": "1",
     "downscalePercent": 100
   },
-  "showFrontmatter": false
+  "showFrontmatter": false,
+  "useMarkdownLinks": false
 }
