@@ -1,7 +1,8 @@
 ---
 Name: "G-基迪恩"
-Positions: ["[[采石场·内部]]"]
-Bonus: [""]
+Positions: 
+  - "[[采石场·内部]]"
+Bonus: 
 Boss: true
 ---
 ````ad-danger
