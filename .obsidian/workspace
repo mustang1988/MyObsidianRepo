@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2e0f4407e0c82723",
+        "id": "84571523499fddbc",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "模板/英雄传说/通用/YAML/YAML-回路/YAML-地.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "模板/英雄传说/通用/YAML/YAML-回路/YAML-地.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "模板/英雄传说/通用/YAML/YAML-回路/YAML-地.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -121,17 +128,17 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "2e0f4407e0c82723",
+  "active": "84571523499fddbc",
   "lastOpenFiles": [
-    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
-    "未命名.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/钓鱼/银伞鱼.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/钓鱼/岩穴鱼.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/钓鱼/亚诺鲁鲫鱼.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/钓鱼/山椒鱼.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/钓鱼/刃鱼.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/钓鱼/鳗鱼.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/钓鱼/鲤鱼.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/钓鱼/巨血蟹.md"
+    "模板/英雄传说/通用/YAML/YAML-回路/YAML-地R.md",
+    "模板/英雄传说/通用/YAML/YAML-回路/YAML-地SR.md",
+    "模板/英雄传说/通用/YAML/YAML-回路/YAML-地.md",
+    "模板/英雄传说/通用/YAML/YAML-晶片/YAML-全晶片.md",
+    "模板/英雄传说/通用/YAML/YAML-晶片/YAML-幻晶片.md",
+    "模板/英雄传说/通用/YAML/YAML-晶片/YAML-空晶片.md",
+    "模板/英雄传说/通用/YAML/YAML-晶片/YAML-时晶片.md",
+    "模板/英雄传说/通用/YAML/YAML-晶片/YAML-风晶片.md",
+    "模板/英雄传说/通用/YAML/YAML-晶片/YAML-火晶片.md",
+    "模板/英雄传说/通用/YAML/YAML-晶片/YAML-水晶片.md"
   ]
 }
