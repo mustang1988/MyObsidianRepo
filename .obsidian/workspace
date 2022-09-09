@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "84571523499fddbc",
+        "id": "30cda7e3d6c6ec81",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "模板/英雄传说/通用/YAML/YAML-回路/YAML-地.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -70,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "模板/英雄传说/通用/YAML/YAML-回路/YAML-地.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +81,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "模板/英雄传说/通用/YAML/YAML-回路/YAML-地.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -128,17 +121,17 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "84571523499fddbc",
+  "active": "30cda7e3d6c6ec81",
   "lastOpenFiles": [
-    "模板/英雄传说/通用/YAML/YAML-回路/YAML-地R.md",
-    "模板/英雄传说/通用/YAML/YAML-回路/YAML-地SR.md",
-    "模板/英雄传说/通用/YAML/YAML-回路/YAML-地.md",
-    "模板/英雄传说/通用/YAML/YAML-晶片/YAML-全晶片.md",
-    "模板/英雄传说/通用/YAML/YAML-晶片/YAML-幻晶片.md",
-    "模板/英雄传说/通用/YAML/YAML-晶片/YAML-空晶片.md",
-    "模板/英雄传说/通用/YAML/YAML-晶片/YAML-时晶片.md",
-    "模板/英雄传说/通用/YAML/YAML-晶片/YAML-风晶片.md",
-    "模板/英雄传说/通用/YAML/YAML-晶片/YAML-火晶片.md",
-    "模板/英雄传说/通用/YAML/YAML-晶片/YAML-水晶片.md"
+    "模板/英雄传说/通用/YAML/YAML-回路/YAML-幻SR.md",
+    "模板/英雄传说/通用/YAML/YAML-回路/YAML-空SR.md",
+    "模板/英雄传说/通用/YAML/YAML-回路/YAML-时SR.md",
+    "模板/英雄传说/通用/YAML/YAML-回路/YAML-风SR.md",
+    "模板/英雄传说/通用/YAML/YAML-回路/YAML-火SR.md",
+    "模板/英雄传说/通用/YAML/YAML-回路/YAML-水SR.md",
+    "模板/英雄传说/通用/YAML/YAML-回路/YAML-幻R.md",
+    "模板/英雄传说/通用/YAML/YAML-回路/YAML-空R.md",
+    "模板/英雄传说/通用/YAML/YAML-回路/YAML-时R.md",
+    "模板/英雄传说/通用/YAML/YAML-回路/YAML-风R.md"
   ]
 }
