@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "2b0c7068215d3c6d",
+        "id": "09078529a76c88f6",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
+            "file": "游戏攻略/英雄传说 闪之轨迹/笔记/人物/侧室之子.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "托娃",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/人物/侧室之子.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/人物/侧室之子.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -112,17 +112,17 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "2b0c7068215d3c6d",
+  "active": "09078529a76c88f6",
   "lastOpenFiles": [
-    "游戏攻略/英雄传说 闪之轨迹/奖杯/寶藏獵人.md",
-    "游戏攻略/英雄传说 闪之轨迹/奖杯/爆釣王.md",
-    "游戏攻略/英雄传说 闪之轨迹/奖杯/地獄之榮冠.md",
-    "游戏攻略/英雄传说 闪之轨迹/奖杯/緋紅帝都～仲夏節～.md",
-    "游戏攻略/英雄传说 闪之轨迹/奖杯/愛書成癡.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/参加随行团.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/伯爵家千金.md",
+    "游戏攻略/英雄传说 闪之轨迹/攻略/终章 士官学院祭、然后——.md",
+    "游戏攻略/英雄传说 闪之轨迹/攻略/第二章 美丽的翡翠公都.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/滨海城市.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/摆摊对决的结果.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/在变强之前.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/爱吃甜食.md",
     "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
-    "游戏攻略/英雄传说 闪之轨迹/奖杯/八頭擊滅.md",
-    "模板/英雄传说/通用/Quartz/地.md",
-    "模板/英雄传说/通用/未命名.md",
-    "模板/英雄传说/通用/InLine/InLine-回路/InLine-地.md"
+    "未命名.md"
   ]
 }
