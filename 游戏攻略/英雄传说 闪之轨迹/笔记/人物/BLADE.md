@@ -3,7 +3,7 @@ Title: "BLADE"
 No: 0
 Character: "克洛"
 TimeToGet: "[[第二章 美丽的翡翠公都#^ch-2-5-23-event-01|第二章5/23]]"
-WayToGet: "羁绊事件"
+WayToGet: "克洛羁绊事件"
 ---
 ```ad-note
 title: BLADE
