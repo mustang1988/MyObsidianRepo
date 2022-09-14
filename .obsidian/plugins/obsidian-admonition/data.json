@@ -419,6 +419,18 @@
       "injectColor": true,
       "noTitle": true,
       "copy": true
+    },
+    "recipe": {
+      "type": "recipe",
+      "color": "#7d7d7d",
+      "icon": {
+        "name": "receipt",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "injectColor": true,
+      "noTitle": true,
+      "copy": true
     }
   },
   "syntaxHighlight": false,
