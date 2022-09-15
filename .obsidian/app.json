@@ -14,9 +14,10 @@
   "pdfExportSettings": {
     "pageSize": "A4",
     "landscape": false,
-    "margin": "2",
+    "margin": "1",
     "downscalePercent": 100
   },
   "showFrontmatter": false,
-  "useMarkdownLinks": false
+  "useMarkdownLinks": false,
+  "autoConvertHtml": false
 }
