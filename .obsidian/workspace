@@ -7,8 +7,20 @@
         "id": "732b7f651896f574",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "image",
+          "state": {
+            "file": "图片/游戏攻略/英雄传说/通用/图标/回路/地R.webp"
+          }
+        }
+      },
+      {
+        "id": "7978404f4e232f73",
+        "type": "leaf",
+        "state": {
+          "type": "image",
+          "state": {
+            "file": "图片/游戏攻略/英雄传说/通用/图标/回路/地R.webp"
+          }
         }
       }
     ],
@@ -65,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "图片/游戏攻略/英雄传说/通用/图标/回路/地R.webp",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "图片/游戏攻略/英雄传说/通用/图标/回路/地R.webp",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -105,8 +119,10 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "732b7f651896f574",
+  "active": "d36f5b0392c4ea4e",
   "lastOpenFiles": [
+    "图片/游戏攻略/英雄传说/通用/属性/地Slot.webp",
+    "图片/游戏攻略/英雄传说/通用/图标/回路/地R.webp",
     "游戏攻略/英雄传说 闪之轨迹/笔记/食谱/风味药草茶.md",
     "游戏攻略/英雄传说 闪之轨迹/攻略/图例.md",
     "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
@@ -114,8 +130,6 @@
     "游戏攻略/英雄传说 闪之轨迹/攻略/序章 托尔兹士官学院.md",
     "游戏攻略/如龙7 光与暗的去向/如龙7 光与暗的去向.md",
     "游戏攻略/如龙7 光与暗的去向/奖杯/钻研者.md",
-    "游戏攻略/如龙7 光与暗的去向/奖杯/你就是江湖宝贝大师！.md",
-    "游戏攻略/如龙7 光与暗的去向/奖杯/迈向传说.md",
-    "游戏攻略/如龙7 光与暗的去向/奖杯/继承传说之人.md"
+    "游戏攻略/如龙7 光与暗的去向/奖杯/你就是江湖宝贝大师！.md"
   ]
 }
