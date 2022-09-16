@@ -43,11 +43,14 @@ const _BuildItemHTML = (item, { width, display_num, fields } ) => {
  * @params {Boolean} inline 多个物品是否输出到一行, 默认值: false
  * @params {String} seperator 多个物品输出到一行时使用的分隔符, 默认值: " , "
  */
-const Renderitems = async (items, options) => options.inline
-   ? dv.paragraph(items.map(item => _BuildItemHTML(item, options))
+const Renderitems = async (items, options) => {
+   const title = options.title ? `${options.title}: ` : '';
+   return options.inline
+   ? dv.paragraph(title + items.map(item => _BuildItemHTML(item, options))
       .filter(item => item !== '')
       .join(options.separator))
    : items.forEach(item => dv.paragraph(_BuildItemHTML(item, options)));
+}
 
 /**
  * 渲染单个物品
@@ -65,9 +68,9 @@ const RenderItem = async (item, options) => dv.paragraph(_BuildItemHTML(item, op
  * @params {Boolean} inline 多个物品是否输出到一行, 默认值: false
  * @params {String} seperator 多个物品输出到一行时使用的分隔符, 默认值: " , "
  */
-const { items, options: { width=15, display_num=1, inline=false, separator=' , ', fields: { name="Name", icon="Icon", num="Num" } } } = input;
-const options = { width, display_num, inline, separator, fields: { name, icon, num } };
-console.log(options);
+const { items, options } = input;
+const DefaultOptions = { title: '', width:15, display_num:1, inline:false, separator:' , ', fields: { name:"Name", icon:"Icon", num:"Num" } };
+console.log(Object.assign(DefaultOptions, options));
 Array.isArray(items)
-   ? await Renderitems(items, options)
-   : await RenderItem(items, options);
+   ? await Renderitems(items, Object.assign(DefaultOptions, options))
+   : await RenderItem(items, Object.assign(DefaultOptions, options));
