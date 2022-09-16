@@ -19,5 +19,8 @@
   },
   "showFrontmatter": false,
   "useMarkdownLinks": false,
-  "autoConvertHtml": false
+  "autoConvertHtml": false,
+  "spellcheckLanguages": [
+    "en-US"
+  ]
 }
