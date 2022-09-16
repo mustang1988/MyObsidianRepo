@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e9bcfb02417532e9",
+        "id": "f8bfd5877ab65f64",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "未命名.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "未命名.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -105,11 +112,11 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "d36f5b0392c4ea4e",
+  "active": "f8bfd5877ab65f64",
   "lastOpenFiles": [
-    "游戏攻略/英雄传说 闪之轨迹/笔记/食谱/炸鱼.md",
     "未命名.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/食谱/番茄焗烤.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/食谱/炸鱼.md",
     "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
     "首页.md",
     "游戏攻略/伊苏VIII 丹娜的陨涕日/伊苏 丹娜的陨涕日.md",
