@@ -1,25 +1,35 @@
+const _GetFieldValue = (item, field) => item[field];
 
 // 获取图标图片的完整路径
-const _GetImagePath = (item, fields) => item[fields['icon']] 
-                                          ? `${this.app.vault.adapter.basePath}/${item[fields['icon']].path}`
-                                          : '';
+const _GetImagePath = (item, fields) => {
+   const image = _GetFieldValue(item, fields.icon)||null;
+   return image
+      ? `${this.app.vault.adapter.basePath}/${image.path}`
+      : '';
+}
 
 // 获取显示在名称后的数量
-const _GetNum = (item, display_num, fields) => item[fields['num']] && parseInt(item[fields['num']]) > display_num
-                                                ? ' x ' + parseInt(item[fields['num']])
-                                                : '';
+const _GetNum = (item, display_num, fields) => {
+   const num = _GetFieldValue(item, fields.num)||0;
+   return parseInt(num) > display_num
+      ? ' x ' + parseInt(num)
+      : '';
+}
 
 // 根据参数构造需要渲染的HTML元素
-const _BuildItemHTML = (item, { width, display_num, fields} ) => {
+const _BuildItemHTML = (item, { width, display_num, fields } ) => {
    // 图标, 名称, 数量均有效
-   if(_GetImagePath(item, fields) && item[fields['name']] && _GetNum(item, display_num, fields)) {
-      return `<img width="${width}" src="${_GetImagePath(item, fields)}"/>${item[fields['name']]||''}${_GetNum(item, display_num, fields)}`;
-   } else if(_GetImagePath(item, fields) && item[fields['name']]) {
+   const image = _GetImagePath(item, fields);
+   const name = _GetFieldValue(item, fields.name)||'';
+   const num = _GetNum(item, display_num, fields);
+   if(image && name && num) {
+      return `<img width="${width}" src="${image}"/>${name}${num}`;
+   } else if(image && name) {
       // 数量无效, 不显示数量
-      return `<img width="${width}" src="${_GetImagePath(item, fields)}"/>${item[fields['name']]}`;
+      return `<img width="${width}" src="${image}"/>${name}`;
       // 图标无效, 不显示图标
-   } else if(item[fields['name']] && _GetNum(item, display_num, fields)) {
-      return `${item[fields['name']]}${_GetNum(item, display_num, fields)}`;
+   } else if(name && num) {
+      return `${name}${num}`;
    } else {
       return '';
    }
@@ -55,23 +65,9 @@ const RenderItem = async (item, options) => dv.paragraph(_BuildItemHTML(item, op
  * @params {Boolean} inline 多个物品是否输出到一行, 默认值: false
  * @params {String} seperator 多个物品输出到一行时使用的分隔符, 默认值: " , "
  */
-const { 
-   items,
-   options
-} = input;
-const DefaultOptions = {
-   width: 15,
-   display_num: 1,
-   inline: false,
-   separator: ' , ',
-   fields: {
-      name: 'Name',
-      icon: 'Icon',
-      num: 'Num',
-   }
-};
-const MergedOptions = Object.assign(DefaultOptions, options);
-console.log(MergedOptions);
+const { items, options: { width=15, display_num=1, inline=false, separator=' , ', fields: { name="Name", icon="Icon", num="Num" } } } = input;
+const options = { width, display_num, inline, separator, fields: { name, icon, num } };
+console.log(options);
 Array.isArray(items)
-   ? await Renderitems(items, MergedOptions)
-   : await RenderItem(items, MergedOptions);
+   ? await Renderitems(items, options)
+   : await RenderItem(items, options);
