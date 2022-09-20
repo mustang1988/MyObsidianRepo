@@ -462,7 +462,7 @@ const BuildHTML = (info, options) => {
   if (icon) {
     return `<img width="${GetDisplaySize(icon, size)}" src="${
       this.app.vault.adapter.basePath
-    }/${icon.file.path}" />${link}`;
+    }/${icon.file.path}" /> ${link}`;
   } else {
     DEBUG && console.error({ info, options });
     return "";
@@ -471,14 +471,14 @@ const BuildHTML = (info, options) => {
 
 const RenderCharacterInfo = (info, options) => {
   const infoObject = dv.page(info.path || info.file.path);
-  dv.paragraph(BuildHTML(infoObject, options));
+  dv.span(BuildHTML(infoObject, options));
 };
 
 const RenderCharacterInfos = (infos, options) => {
   infos = infos.map((i) => dv.page(i.path || i.file.path));
   const { inline, seperator } = options;
   inline
-    ? dv.paragraph(infos.map((i) => BuildHTML(i, options)).join(seperator))
+    ? dv.span(infos.map((i) => BuildHTML(i, options)).join(seperator))
     : dv.list(infos.map((i) => BuildHTML(i, options)));
 };
 

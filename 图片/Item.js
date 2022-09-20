@@ -282,7 +282,7 @@ const GetDisplaySize = (icon, size) => {
 const GetNum = (item, options) => {
   const { Num = 0 } = item;
   const { limit } = options;
-  return Num > limit ? ` x ${Num}` : "";
+  return Num > limit ? `x ${Num}` : "";
 };
 
 const BuildHTML = (item, options) => {
@@ -292,7 +292,7 @@ const BuildHTML = (item, options) => {
   return icon
     ? `<img src="${this.app.vault.adapter.basePath}/${
         icon.file.path
-      }" width="${GetDisplaySize(icon, size)}"/>${ItemName}${GetNum(
+      }" width="${GetDisplaySize(icon, size)}"/> ${ItemName} ${GetNum(
         item,
         options
       )}`
@@ -303,7 +303,7 @@ const RenderItem = (item, options) => {
   const { raw } = options;
   return raw
     ? BuildHTML(item, options)
-    : dv.paragraph(BuildHTML(item, options));
+    : dv.span(BuildHTML(item, options));
 };
 
 const RenderItems = (items, options) => {
@@ -311,7 +311,7 @@ const RenderItems = (items, options) => {
   return inline
     ? raw
       ? items.map((i) => BuildHTML(i, options)).join(seperator)
-      : dv.paragraph(items.map((i) => BuildHTML(i, options)).join(seperator))
+      : dv.span(items.map((i) => BuildHTML(i, options)).join(seperator))
     : raw
     ? items.map((i) => BuildHTML(i, options))
     : dv.list(items.map((i) => BuildHTML(i, options)));

@@ -238,21 +238,21 @@ const BuildHTML = (quartz, options) => {
   if (icon) {
     return `<img width="${GetDisplaySize(icon, size)}" src="${
       this.app.vault.adapter.basePath
-    }/${icon.file.path}" />${link}`;
+    }/${icon.file.path}" /> ${link}`;
   }
   return "";
 };
 
 const RenderQuartz = (quartz, options) => {
   const quartzObject = dv.page(quartz.path || quartz.file.path);
-  dv.paragraph(BuildHTML(quartzObject, options));
+  dv.span(BuildHTML(quartzObject, options));
 };
 
 const RenderQuartzs = (quartzs, options) => {
   quartzs = quartzs.map((q) => dv.page(q.path || q.file.path));
   const { mode, seperator } = options;
   mode === "inline"
-    ? dv.paragraph(quartzs.map((q) => BuildHTML(q, options)).join(seperator))
+    ? dv.span(quartzs.map((q) => BuildHTML(q, options)).join(seperator))
     : mode === "list"
     ? dv.list(quartzs.map((q) => BuildHTML(q, options)))
     : dv.table(
@@ -263,5 +263,5 @@ const RenderQuartzs = (quartzs, options) => {
 
 const { quartz, options } = input;
 Array.isArray(quartz)
-  ? RenderTrophies(quartz, MergeOptions(options))
+  ? RenderQuartzs(quartz, MergeOptions(options))
   : RenderQuartz(quartz, MergeOptions(options));

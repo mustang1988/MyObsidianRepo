@@ -190,7 +190,7 @@ const BuildHTML = (fish, options) => {
   if (icon) {
     return `<img width="${GetDisplaySize(icon, size)}" src="${
       this.app.vault.adapter.basePath
-    }/${icon.file.path}" />${link}`;
+    }/${icon.file.path}" /> ${link}`;
   } else {
     DEBUG && console.error(fish);
     return "";
@@ -199,14 +199,14 @@ const BuildHTML = (fish, options) => {
 
 const RenderFish = (fish, options) => {
   const fishObject = dv.page(fish.path || fish.file.path);
-  dv.paragraph(BuildHTML(fishObject, options));
+  dv.span(BuildHTML(fishObject, options));
 };
 
 const RenderFishes = (fishes, options) => {
   fishes = fishes.map((f) => dv.page(f.path || f.file.path));
   const { inline, seperator } = options;
   inline
-    ? dv.paragraph(fishes.map((f) => BuildHTML(f, options)).join(seperator))
+    ? dv.span(fishes.map((f) => BuildHTML(f, options)).join(seperator))
     : dv.list(fishes.map((f) => BuildHTML(f, options)));
 };
 
