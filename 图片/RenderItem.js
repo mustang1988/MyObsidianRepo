@@ -22,14 +22,11 @@ const _BuildItemHTML = (item, { width, display_num, fields } ) => {
    const image = _GetImagePath(item, fields);
    const name = _GetFieldValue(item, fields.name)||'';
    const num = _GetNum(item, display_num, fields);
-   if(image && name && num) {
+   if(image && num) {
       return `<img width="${width}" src="${image}"/>${name}${num}`;
-   } else if(image && name) {
+   } else if(image) {
       // 数量无效, 不显示数量
       return `<img width="${width}" src="${image}"/>${name}`;
-      // 图标无效, 不显示图标
-   } else if(name && num) {
-      return `${name}${num}`;
    } else {
       return '';
    }
