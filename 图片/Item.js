@@ -129,17 +129,142 @@ const ItemIcons = {
     width: 32,
     height: 32,
   },
+  SmallFish: {
+    file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/物品/小鱼.webp"),
+    width: 32,
+    height: 32,
+  },
+  MediumFish: {
+    file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/物品/中鱼.webp"),
+    width: 32,
+    height: 32,
+  },
+  BigFish: {
+    file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/物品/大鱼.webp"),
+    width: 32,
+    height: 32,
+  },
+  EarthQuartz: {
+    file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路/地.webp"),
+    width: 24,
+    height: 24,
+  },
+  EarthQuartzR: {
+    file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路/地R.webp"),
+    width: 32,
+    height: 32,
+  },
+  EarthQuartzSR: {
+    file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路/地SR.webp"),
+    width: 32,
+    height: 32,
+  },
+  WaterQuartz: {
+    file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路/水.webp"),
+    width: 32,
+    height: 32,
+  },
+  WaterQuartzR: {
+    file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路/水R.webp"),
+    width: 32,
+    height: 32,
+  },
+  WaterQuartzSR: {
+    file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路/水SR.webp"),
+    width: 32,
+    height: 32,
+  },
+  FireQuartz: {
+    file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路/火.webp"),
+    width: 32,
+    height: 32,
+  },
+  FireQuartzR: {
+    file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路/火R.webp"),
+    width: 32,
+    height: 32,
+  },
+  FireQuartzSR: {
+    file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路/火SR.webp"),
+    width: 32,
+    height: 32,
+  },
+  WindQuartz: {
+    file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路/风.webp"),
+    width: 32,
+    height: 32,
+  },
+  WindQuartzR: {
+    file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路/风R.webp"),
+    width: 32,
+    height: 32,
+  },
+  WindQuartzSR: {
+    file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路/风SR.webp"),
+    width: 32,
+    height: 32,
+  },
+  TimeQuartz: {
+    file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路/时.webp"),
+    width: 32,
+    height: 32,
+  },
+  TimeQuartzR: {
+    file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路/时R.webp"),
+    width: 32,
+    height: 32,
+  },
+  TimeQuartzSR: {
+    file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路/时SR.webp"),
+    width: 32,
+    height: 32,
+  },
+  SpaceQuartz: {
+    file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路/空.webp"),
+    width: 32,
+    height: 32,
+  },
+  SpaceQuartzR: {
+    file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路/空R.webp"),
+    width: 32,
+    height: 32,
+  },
+  SpaceQuartzSR: {
+    file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路/空SR.webp"),
+    width: 32,
+    height: 32,
+  },
+  MirageQuartz: {
+    file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路/幻.webp"),
+    width: 32,
+    height: 32,
+  },
+  MirageQuartzR: {
+    file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路/幻R.webp"),
+    width: 32,
+    height: 32,
+  },
+  MirageQuartzSR: {
+    file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路/幻SR.webp"),
+    width: 32,
+    height: 32,
+  },
+  LostQuartz: {
+    file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路/失落.webp"),
+    width: 32,
+    height: 32,
+  },
 };
 
 const DefaultOptions = {
   size: 20,
   limit: 1,
   inline: true,
-  seperator: " , "
+  seperator: " , ",
+  raw: false,
 };
 
 const GetIconByType = (Type) => {
-  console.debug("GetIconByType => ", Type);
   return Object.keys(ItemIcons).includes(Type) ? ItemIcons[Type] : null;
 };
 
@@ -149,7 +274,6 @@ const MergeOptions = (options) => {
 
 const GetDisplaySize = (icon, size) => {
   const { width, height } = icon;
-  console.log((width * size) / height, {width, size, height})
   return Math.round((width * size) / height);
 };
 
@@ -174,14 +298,21 @@ const BuildHTML = (item, options) => {
 };
 
 const RenderItem = (item, options) => {
-  dv.paragraph(BuildHTML(item, options));
+  const { raw } = options;
+  return raw
+    ? BuildHTML(item, options)
+    : dv.paragraph(BuildHTML(item, options));
 };
 
 const RenderItems = (items, options) => {
-  const { inline, seperator } = options;
-  inline
-    ? dv.paragraph(items.map((i) => BuildHTML(i, options)).join(seperator))
-    : items.forEach((i) => RenderItem(i, options));
+  const { inline, seperator, raw } = options;
+  return inline
+    ? raw
+      ? items.map((i) => BuildHTML(i, options)).join(seperator)
+      : dv.paragraph(items.map((i) => BuildHTML(i, options)).join(seperator))
+    : raw
+    ? items.map((i) => BuildHTML(i, options))
+    : dv.list(items.map((i) => BuildHTML(i, options)));
 };
 
 const { items, options } = input;

@@ -443,6 +443,18 @@
       "injectColor": true,
       "noTitle": true,
       "copy": true
+    },
+    "fish": {
+      "type": "fish",
+      "color": "#7d7d7d",
+      "icon": {
+        "name": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAABKlJREFUSEu11WtMk1cYB/D/2/ftlb4tlNILLVBLO1SGwEBw2bQijGKEhTZLzRTNPjiWxeFtwFwmDm+YZWo20G3AdJtxmZvjoruwkGXBeckYMNS6oeANKdWCVjpsrfS21LhkeClgsvP1POf8znPOec4h8D834sH511bX6QiSnC8Xi/Fn7wUkp6f0eoe9R8qW651PspZxwI99feyB3v4egSBimjpGgktXLHj3vZ3YvmWdtbunv+7asLNm77oV9qlA44Cl67caIsL5jUO266hc8yosA1bUfHEQe/ZsxrnzA+g0X7rT1XlqW8Ouzdsmi4wDspaV6LgU40vDywZpx/FWaoVpMZRx8bCPjELE58LtD6C9uxMsHvuo1XK1pMRUZJ4IeugMIJS+/WxO7sYsvZ7j/NuGIoMRLC4XojAeTvddRqomFjSHg9M9Z0eFPMHyWQkJzaGQh4FgNEm/aFyzukGTmoZEpZwaGrZiSW4OfvnjDDRKBZ6JjwEFHwgQGBmxlItE6vcfhzwaACCMT/wqM7fgJVNhAaVSREIuFaPjTA9EXA+io1VQyxWgmQBF3EHfxfPlT2kyH4k8FgAQHybXNmcbFk+flZYEm8NB9Z78Hrs/KEfPRRccbuCFjAzECJkAPOgym1dnJM+tfjCTUAAAXjRfojyampOnkqk1VHdbA1oOf4gjLSdgcTAxLUYOk24eImkWRlw3vZ3dnaaFcwub/otMANwLFfNl039KmpedPOq8Ba2KpiRiIQ7/3IXX1q4C10egeNEC0GFcXLjcd7v4rQr1sUOHbgHwBgdPBgjGxfJkmsaUrPxkH8NH2frPY/CGHaWVG+F2uSGiGCgtKgRJeLCt5qPdm1a9uXaqQBAJ50QqmxOf1+tmzM5CGJcBl8cJoYgGRfmQn5mGeTM1KK3Y6K7eWqUAcK/iQ2ZQ/I5p1VnzlYiTR37fdH9fmXxZ3MEZmdnGqFgN2EI+SBYJlVoKIQiULzWgrGJDENAD+DUksOvT9ZpoZXTfZ3sb0HHSHGMftFvuIywGLa/JzDMWCxQqMNgUIkU05JE8lBjzsW/fJ+7K0vIiAA0hgbItr+SlZ6S1jDldONx8vPHb/d8tAXAXAAXAL3lad2JWVsEc95gbQgEJpUKK1w152FFV4T5Q+3kR4Hs8sK+xTmcdstQPXh/SsgPANG0C2o6dO9RUW2tSzTXoOBxe2+1RB6LitBAKONDrNBi+6fHPSU0ntpettHa3t+cDOPXIDAQCgSh1fvqBCJlkYYRUAtuADZYBBxJmJmHAam+7PuzkMklkehgMqLVqMHw2LMqeAVqcGrD0XghUrixuRSBQEPoWkcgXRol3ymKile4xsJx3mAQtUZACsQQkgxnw+n3gR0YRIgEb13p/Q45+Nux2wttUV2+/YR3cAKD+32ILdYvkYKAEfiwDSTLA4TCjJHFcnkwVlvLcAoRHhRMcErhypgthHCZav9k/dNsxcgIBGKdaycF4drDYADKFZLOXSmI1ejpeS7E8ft/Ytav+/kvnbt11O38A8AaAsScBxr9hXHpdfGJiVf9fZofX5ToNBD4GMO4NmswWTfRZfQ2gA8COqX84E009hf5/ANzGlSggNIDLAAAAAElFTkSuQmCC",
+        "type": "image"
+      },
+      "command": false,
+      "injectColor": true,
+      "noTitle": true,
+      "copy": true
     }
   },
   "syntaxHighlight": false,
