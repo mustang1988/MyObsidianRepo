@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cb5b40a56d6c4c98",
+        "id": "ce484fe6b091a20d",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "游戏攻略/英雄传说 闪之轨迹/攻略/图例.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -41,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "托娃",
+                "query": "汤玛斯",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -70,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/攻略/图例.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +81,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/攻略/图例.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -112,17 +105,17 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "cb5b40a56d6c4c98",
+  "active": "d36f5b0392c4ea4e",
   "lastOpenFiles": [
-    "未命名 1.md",
     "游戏攻略/英雄传说 闪之轨迹/攻略/图例.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/钓鱼/鳌虾.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/地/钢铁.md",
-    "未命名.md",
-    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/钓鱼/银伞鱼.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/钓鱼/岩穴鱼.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/钓鱼/亚诺鲁鲫鱼.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/钓鱼/山椒鱼.md"
+    "游戏攻略/英雄传说 闪之轨迹/攻略/第一章 新学期～初次实习～.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/书籍/爱不释手烹饪器具.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/食谱/番茄焗烤.md",
+    "未命名 1.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/《C》.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/图书馆管理员.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/奇妙的主仆.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/为了少爷.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/斯巴达式教官.md"
   ]
 }

@@ -1,5 +1,5 @@
 const QuartzIcons = {
-  ColdStell: {
+  ColdSteel: {
     白羊: {
       file: dv.fileLink(
         "图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/核心回路/白羊.webp"
@@ -197,16 +197,16 @@ const QuartzIcons = {
       height: 76,
     },
   },
-  ColdStellII: {},
-  ColdStellIII: {},
-  ColdStellIV: {},
+  ColdSteelII: {},
+  ColdSteelIII: {},
+  ColdSteelIV: {},
   Reverie: {},
 };
 
 const DefaultOptions = {
   size: 20,
-  category: "ColdStell",
-  inline: false,
+  category: "ColdSteel",
+  mode: "list", // list, table, inline
   seperator: " , ",
 };
 
@@ -250,10 +250,15 @@ const RenderQuartz = (quartz, options) => {
 
 const RenderQuartzs = (quartzs, options) => {
   quartzs = quartzs.map((q) => dv.page(q.path || q.file.path));
-  const { inline, seperator } = options;
-  inline
+  const { mode, seperator } = options;
+  mode === "inline"
     ? dv.paragraph(quartzs.map((q) => BuildHTML(q, options)).join(seperator))
-    : dv.list(quartzs.map((q) => BuildHTML(q, options)));
+    : mode === "list"
+    ? dv.list(quartzs.map((q) => BuildHTML(q, options)))
+    : dv.table(
+        [],
+        quartzs.map((q) => [BuildHTML(q, options)])
+      );
 };
 
 const { quartz, options } = input;

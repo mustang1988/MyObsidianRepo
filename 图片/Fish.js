@@ -1,7 +1,7 @@
-const DEBUG = true;
+const DEBUG = false;
 
 const FishIcons = {
-  ColdStell: {
+  ColdSteel: {
     鳌虾: {
       file: dv.fileLink(
         "图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/钓鱼笔记/鳌虾.webp"
@@ -9,7 +9,7 @@ const FishIcons = {
       width: 82,
       height: 72,
     },
-    冰霜螯虾: {
+    冰霜鳌虾: {
       file: dv.fileLink(
         "图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/钓鱼笔记/冰霜螯虾.webp"
       ),
@@ -143,15 +143,15 @@ const FishIcons = {
       height: 78,
     },
   },
-  ColdStellII: {},
-  ColdStellIII: {},
-  ColdStellIV: {},
+  ColdSteelII: {},
+  ColdSteelIII: {},
+  ColdSteelIV: {},
   Reverie: {},
 };
 
 const DefaultOptions = {
   size: 20,
-  category: "ColdStell",
+  category: "ColdSteel",
   inline: false,
   seperator: " , ",
 };
@@ -161,12 +161,17 @@ const MergeOptions = (options) => {
 };
 
 const GetIcon = (name, category) => {
+  DEBUG && console.log("GetIcon, args => ", { name, category });
   const checkCategory = Object.keys(FishIcons).includes(category);
+  DEBUG && console.log("GetIcon, checkCategory => ", checkCategory);
   if (checkCategory) {
-    return Object.keys(FishIcons[category]).includes(name)
+    const icon = Object.keys(FishIcons[category]).includes(name)
       ? FishIcons[category][name]
       : null;
+    DEBUG && console.log("GetIcon, checkCategory true, return => ", icon);
+    return icon;
   }
+  DEBUG && console.log("GetIcon, checkCategory false, return => ", null);
   return null;
 };
 
@@ -177,16 +182,19 @@ const GetDisplaySize = (icon, size) => {
 
 const BuildHTML = (fish, options) => {
   const {
-    file: { name, link, path },
+    Name,
+    file: { link, path },
   } = fish;
   const { size, category } = options;
-  const icon = GetIcon(name, category);
+  const icon = GetIcon(Name, category);
   if (icon) {
     return `<img width="${GetDisplaySize(icon, size)}" src="${
       this.app.vault.adapter.basePath
     }/${icon.file.path}" />${link}`;
+  } else {
+    DEBUG && console.error(fish);
+    return "";
   }
-  return "";
 };
 
 const RenderFish = (fish, options) => {
