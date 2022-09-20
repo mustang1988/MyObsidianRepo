@@ -263,5 +263,5 @@ const RenderQuartzs = (quartzs, options) => {
 
 const { quartz, options } = input;
 Array.isArray(quartz)
-  ? RenderQuartzs(quartz, MergeOptions(options))
+  ? RenderTrophies(quartz, MergeOptions(options))
   : RenderQuartz(quartz, MergeOptions(options));

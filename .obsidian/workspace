@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "04ac214fab5507c4",
+        "id": "aa35ce62405160b0",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "模板/英雄传说/通用/自定义脚本调试用文件.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "模板/英雄传说/通用/自定义脚本调试用文件.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "模板/英雄传说/通用/自定义脚本调试用文件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -105,8 +112,9 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "04ac214fab5507c4",
+  "active": "aa35ce62405160b0",
   "lastOpenFiles": [
+    "首页.md",
     "模板/英雄传说/通用/自定义脚本调试用文件.md",
     "模板/英雄传说/通用/示例.md",
     "游戏攻略/英雄传说 闪之轨迹/攻略/图例.md",
@@ -115,7 +123,6 @@
     "游戏攻略/英雄传说 闪之轨迹/笔记/食谱/番茄焗烤.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/人物/《C》.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/人物/图书馆管理员.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/奇妙的主仆.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/为了少爷.md"
+    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/奇妙的主仆.md"
   ]
 }
