@@ -1,3 +1,5 @@
+const DEBUG = true;
+
 const ItemIcons = {
   UMaterial: {
     file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/物品/U物质.png"),
@@ -151,13 +153,13 @@ const ItemIcons = {
   },
   EarthQuartzR: {
     file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路/地R.webp"),
-    width: 32,
-    height: 32,
+    width: 24,
+    height: 24,
   },
   EarthQuartzSR: {
     file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路/地SR.webp"),
-    width: 32,
-    height: 32,
+    width: 24,
+    height: 24,
   },
   WaterQuartz: {
     file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路/水.webp"),
@@ -284,7 +286,7 @@ const GetNum = (item, options) => {
 };
 
 const BuildHTML = (item, options) => {
-  const { Type, Name: ItemName, Num: num } = item;
+  const { Type, Name: ItemName } = item;
   const { size } = options;
   const icon = GetIconByType(Type);
   return icon
@@ -316,6 +318,7 @@ const RenderItems = (items, options) => {
 };
 
 const { items, options } = input;
+DEBUG && console.log("Input => ", { items, options });
 Array.isArray(items)
   ? RenderItems(items, MergeOptions(options))
   : RenderItem(items, MergeOptions(options));
