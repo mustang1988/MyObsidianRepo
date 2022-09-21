@@ -230,7 +230,7 @@ const GetDisplaySize = (icon, size) => {
   return Math.round((width * size) / height);
 };
 
-const BuildHTML = (quartz, options) => {
+const ToHTML = (quartz, options) => {
   const {
     file: { name, link, path },
   } = quartz;
@@ -248,16 +248,16 @@ const RenderQuartz = (quartz, options) => {
   const { raw } = options;
   const quartzObject = dv.page(quartz.path || quartz.file.path);
   return raw
-    ? BuildHTML(quartzObject, options)
-    : dv.span(BuildHTML(quartzObject, options));
+    ? ToHTML(quartzObject, options)
+    : dv.span(ToHTML(quartzObject, options));
 };
 
 const RenderQuartzs = (quartzs, options) => {
   quartzs = quartzs.map((q) => dv.page(q.path || q.file.path));
   const { inline, raw, seperator } = options;
   const HTML = inline
-    ? quartzs.map((q) => BuildHTML(q, options)).join(seperator)
-    : quartzs.map((q) => BuildHTML(q, options));
+    ? quartzs.map((q) => ToHTML(q, options)).join(seperator)
+    : quartzs.map((q) => ToHTML(q, options));
   return raw ? HTML : inline ? dv.span(HTML) : dv.list(HTML);
 };
 
