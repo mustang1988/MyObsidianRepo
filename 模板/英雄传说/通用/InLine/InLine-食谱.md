@@ -1,0 +1,1 @@
+`$=await dv.view('Recipe', { recipe: dv.page('') });`

@@ -1,0 +1,1 @@
+`$=await dv.view('Fish', { fish: dv.page('') });`
