@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f5d0c9b5f3fc5b33",
+        "id": "f15d690e53ad9087",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "游戏攻略/英雄传说 闪之轨迹/攻略/第五章 开始行动的意志.md",
-            "mode": "preview",
-            "backlinks": true,
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -70,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/攻略/第五章 开始行动的意志.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +81,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/攻略/第五章 开始行动的意志.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -112,17 +105,17 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "f5d0c9b5f3fc5b33",
+  "active": "f15d690e53ad9087",
   "lastOpenFiles": [
+    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
+    "游戏攻略/英雄传说 闪之轨迹/攻略/终章 士官学院祭、然后——.md",
+    "游戏攻略/英雄传说 闪之轨迹/攻略/第六章 黑与银 ~钢都动乱~.md",
+    "游戏攻略/英雄传说 闪之轨迹/攻略/第五章 开始行动的意志.md",
     "游戏攻略/英雄传说 闪之轨迹/攻略/第四章 绯之帝都 ~仲夏祭~.md",
     "游戏攻略/英雄传说 闪之轨迹/攻略/第三章 横跨铁路 ~苍穹的大地~.md",
     "游戏攻略/英雄传说 闪之轨迹/攻略/第二章 美丽的翡翠公都.md",
     "游戏攻略/英雄传说 闪之轨迹/攻略/第一章 新学期～初次实习～.md",
     "模板/英雄传说/通用/自定义脚本调试用文件.md",
-    "游戏攻略/英雄传说 闪之轨迹/攻略/序章 托尔兹士官学院.md",
-    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
-    "游戏攻略/英雄传说 闪之轨迹/奖杯/新學期～首次實習～.md",
-    "游戏攻略/英雄传说 闪之轨迹/攻略/图例.md",
-    "游戏攻略/英雄传说 闪之轨迹/攻略/终章 士官学院祭、然后——.md"
+    "游戏攻略/英雄传说 闪之轨迹/攻略/序章 托尔兹士官学院.md"
   ]
 }
