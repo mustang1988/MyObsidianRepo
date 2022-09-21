@@ -1,4 +1,4 @@
 
 - Name: ""
-  Icon: "![[图片/游戏攻略/英雄传说/通用/图标/物品/地晶片.webp|12]]"
+  Type: "EarthSepith"
   Num: 1

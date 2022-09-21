@@ -1,4 +1,4 @@
 
-- Name: "U物质"
-  Icon: "![[图片/游戏攻略/英雄传说/通用/图标/物品/U物质.png|15]]"
+- Name: ""
+  Type: "UMaterial"
   Num: 1

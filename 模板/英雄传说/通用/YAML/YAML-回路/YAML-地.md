@@ -1,4 +1,4 @@
 
 - Name: ""
-  Icon: "![[图片/游戏攻略/英雄传说/通用/图标/回路/回路_地.webp|15]]"
+  Type: "EarthQuartz"
   Num: 1

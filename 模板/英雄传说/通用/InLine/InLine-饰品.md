@@ -1,1 +1,1 @@
-![[图片/游戏攻略/英雄传说/通用/图标/物品/饰品.webp|15]]
+`$=await dv.view('Item', { items: { Name: "", Type: "Accessory" } });`

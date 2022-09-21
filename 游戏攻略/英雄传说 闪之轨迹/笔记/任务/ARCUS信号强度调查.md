@@ -2,7 +2,7 @@
 Title: "ARCUS信号强度调查"
 Bonus:
 - Name: "远古石碑"
-  Icon: "![[图片/游戏攻略/英雄传说/通用/图标/回路/地.webp|15]]"
+  Type: "EarthQuartz"
   Num: 1
 Steps:
   - "到《RF商店》找约翰主任领取，要到五个地方使用道具栏中的导力测定器"
@@ -29,9 +29,7 @@ icon: question
 
 额外AP: `$= dv.current().ExtraAP;`
 
-~~~dataviewjs
-dv.paragraph('任务奖励: '+ dv.current().Bonus.map(b => typeof b == 'string' ? b : (Array.isArray(b.Icon) ? b.Icon.join('') : b.Icon) + b.Name + (b.Num > 1 ? 'x'+b.Num: '')).join(' ,'));
-~~~
+任务奖励: `$=await dv.view('Item', { items: dv.current().Bonus } );`
 
 ```ad-note
 title: 步骤

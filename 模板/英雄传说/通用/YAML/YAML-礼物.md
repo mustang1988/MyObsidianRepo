@@ -1,4 +1,4 @@
 
 - Name: ""
-  Type: "Boots"
+  Type: "Gift"
   Num: 1

@@ -1,4 +1,4 @@
 
 - Name: ""
-  Icon: "![[图片/游戏攻略/英雄传说/通用/图标/回路/火R.webp|15]]"
+  Type: "FireQuartzR"
   Num: 1
