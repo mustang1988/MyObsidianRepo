@@ -1,4 +1,4 @@
-const DEBUG = true;
+const DEBUG = false;
 
 const ItemIcons = {
   UMaterial: {
@@ -317,7 +317,7 @@ const RenderItems = (items, options) => {
 
 const { items, options } = input;
 DEBUG && console.log("Input => ", { items, options });
-Array.isArray(items)
+return Array.isArray(items)
   ? RenderItems(items, MergeOptions(options))
   : items
   ? RenderItem(items, MergeOptions(options))

@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "75c2482a8d858249",
+        "id": "f737f173e83db84c",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/炽天使之门.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -70,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/炽天使之门.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +81,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/炽天使之门.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -112,17 +105,17 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "75c2482a8d858249",
+  "active": "f737f173e83db84c",
   "lastOpenFiles": [
+    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
+    "模板/英雄传说/通用/自定义脚本调试用文件.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/艾略特.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/炽天使之门.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/赤鬼蜻蜓.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/草地跳跃者.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/苍之骑神.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/玻璃软体兽.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/波姆.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/冰晶软体兽.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/卑劣软黏兽.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/宝石老鼠.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/白翼猫.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/白金虫.md"
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/冰晶软体兽.md"
   ]
 }

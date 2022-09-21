@@ -19600,6 +19600,9 @@ class DataviewInlineApi {
                 // This may directly render, in which case it will likely return undefined or null.
                 let result = await Promise.resolve(func(this, input));
                 if (result)
+                    if(input.options && input.options.raw) {
+                      return result;
+                    }
                     await renderValue(result, this.container, this.currentFilePath, this.component, this.settings, true);
             }
             catch (ex) {
