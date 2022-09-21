@@ -1,4 +1,4 @@
-const DEBUG = false;
+const DEBUG = true;
 
 const ITEM_ICONS = {
   UMaterial: {
@@ -286,10 +286,11 @@ const GetNum = (item, options) => {
 };
 
 const ToHTML = (item, options) => {
+  DEBUG && console.debug("ToHTML, args: ", { item, options });
   const { Type, Name: ItemName } = item;
   const { size } = options;
   const icon = GetIconByType(Type);
-  return icon
+  const result = icon
     ? `<img src="${this.app.vault.adapter.basePath}/${
         icon.file.path
       }" width="${GetDisplaySize(icon, size)}"/> ${ItemName} ${GetNum(
@@ -297,25 +298,44 @@ const ToHTML = (item, options) => {
         options
       )}`
     : "";
+  DEBUG && console.debug("ToHTML, return: ", result);
+  return result;
 };
 
 const RenderItem = (item, options) => {
+  DEBUG && console.debug("\tRenderItem, args: ", { item, options });
   const { raw } = options;
-  return raw ? ToHTML(item, options) : dv.span(ToHTML(item, options));
+  // 提交的item是核心回路连接
+  if (item.constructor.name == "Link" && item.path.includes("核心回路")) {
+    const result = dv.view("MasterQuartz", {
+      quartz: dv.page(item.path),
+      options,
+    });
+    DEBUG && console.debug("\tRenderItem, return: ", result);
+    return result;
+  }
+  const result = raw ? ToHTML(item, options) : dv.span(ToHTML(item, options));
+  DEBUG && console.debug("\tRenderItem, return: ", result);
+  return result;
 };
 
 const RenderItems = (items, options) => {
+  DEBUG && console.debug("\tRenderItems, args: ", { items, options });
   const { inline, seperator, raw } = options;
   const HTML = inline
-    ? items.map((i) => ToHTML(i, options)).join(seperator)
-    : items.map((i) => ToHTML(i, options));
-  return raw ? HTML : inline ? dv.span(HTML) : dv.list(HTML);
+    ? items.map((i) => RenderItem(i, options)).join(seperator)
+    : items.map((i) => RenderItem(i, options));
+  const result = raw ? HTML : inline ? dv.span(HTML) : dv.list(HTML);
+  DEBUG && console.debug("\tRenderItems, return: ", result);
+  return result;
 };
 
 const { items, options } = input;
-DEBUG && console.log("Input => ", { items, options });
-return Array.isArray(items)
+DEBUG && console.log("Item, input => ", { items, options });
+const result = Array.isArray(items)
   ? RenderItems(items, MergeOptions(options))
   : items
   ? RenderItem(items, MergeOptions(options))
   : dv.span("无");
+DEBUG && console.log("Item, return => ", result);
+return result;
