@@ -1,0 +1,1 @@
+`$=await dv.view('EDTrophy', { trophy: dv.page('') });`

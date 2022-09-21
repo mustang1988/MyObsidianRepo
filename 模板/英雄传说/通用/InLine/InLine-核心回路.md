@@ -1,0 +1,1 @@
+`$=await dv.view('MasterQuartz', { quartz: dv.page('') });`

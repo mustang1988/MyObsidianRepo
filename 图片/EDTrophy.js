@@ -172,7 +172,7 @@ const GetIcon = (name, category) => {
 const GetTrophyType = (trophyObject) => {
   DEBUG && console.log("GetTrophyType, args: ", trophyObject);
   const tags = trophyObject.file.etags;
-  const [tag] = tags.filter((t) => t.includes("奖杯"));
+  const [tag] = tags.filter((t) => t.includes("奖杯/"));
   const splitedTag = tag.split("/");
   const typeString = splitedTag[splitedTag.length - 1];
   switch (typeString) {
@@ -193,11 +193,13 @@ const GetDisplaySize = (icon, size) => {
 };
 
 const ToHTML = (trophyObject, options) => {
+  DEBUG && console.debug("ToHTML, args: ", { trophyObject, options });
   const {
     file: { link },
   } = trophyObject;
   const { size, category } = options;
   const icon = GetIcon(GetTrophyType(trophyObject), category);
+  DEBUG && console.debug("ToHTML, icon: ", icon);
   if (icon) {
     return `<img width="${GetDisplaySize(icon, size)}" src="${
       this.app.vault.adapter.basePath
@@ -209,9 +211,12 @@ const ToHTML = (trophyObject, options) => {
 };
 
 const RenderTrophy = (trophy, options) => {
+  DEBUG && console.debug("RenderTrophy, args: ", { trophy, options });
   const { raw } = options;
   const trophyObject = dv.page(trophy.path || trophy.file.path);
-  return raw ? ToHTML(trophyObject, options) : dv.paragraph();
+  const result = raw ? ToHTML(trophyObject, options) : dv.span(ToHTML(trophyObject, options));
+  DEBUG && console.debug("RenderTrophy, return: ", result);
+  return result;
 };
 
 const RenderTrophies = (tropjy, options) => {
@@ -224,6 +229,7 @@ const RenderTrophies = (tropjy, options) => {
 };
 
 const { trophy, options } = input;
+DEBUG && console.debug("EDTrophy, args: ", input);
 return Array.isArray(trophy)
   ? RenderTrophies(trophy, MergeOptions(options))
   : RenderTrophy(trophy, MergeOptions(options));

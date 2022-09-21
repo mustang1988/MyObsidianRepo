@@ -19602,8 +19602,9 @@ class DataviewInlineApi {
                 if (result)
                     if(input.options && input.options.raw) {
                       return result;
+                    } else {
+                      await renderValue(result, this.container, this.currentFilePath, this.component, this.settings, true);
                     }
-                    await renderValue(result, this.container, this.currentFilePath, this.component, this.settings, true);
             }
             catch (ex) {
                 renderErrorPre(this.container, `Dataview: Failed to execute view '${simpleViewFile.path}'.\n\n${ex}`);

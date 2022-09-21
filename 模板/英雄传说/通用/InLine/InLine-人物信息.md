@@ -1,0 +1,1 @@
+`$=await dv.view('Character', { info: dv.page('') });`
