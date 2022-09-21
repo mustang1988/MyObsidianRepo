@@ -301,9 +301,7 @@ const BuildHTML = (item, options) => {
 
 const RenderItem = (item, options) => {
   const { raw } = options;
-  return raw
-    ? BuildHTML(item, options)
-    : dv.span(BuildHTML(item, options));
+  return raw ? BuildHTML(item, options) : dv.span(BuildHTML(item, options));
 };
 
 const RenderItems = (items, options) => {
@@ -321,4 +319,6 @@ const { items, options } = input;
 DEBUG && console.log("Input => ", { items, options });
 Array.isArray(items)
   ? RenderItems(items, MergeOptions(options))
-  : RenderItem(items, MergeOptions(options));
+  : items
+  ? RenderItem(items, MergeOptions(options))
+  : dv.span("无");

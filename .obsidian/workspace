@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "04bb8b6d9290607c",
+        "id": "75c2482a8d858249",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/炽天使之门.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
         }
       }
     ],
@@ -36,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "汤玛斯",
+                "query": "艾贝尔街道的通缉魔兽",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -65,6 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/炽天使之门.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/炽天使之门.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -105,17 +112,17 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "04bb8b6d9290607c",
+  "active": "75c2482a8d858249",
   "lastOpenFiles": [
-    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/艾贝尔街道1.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/地/钢铁.md",
-    "模板/英雄传说/英雄传说 闪之轨迹/笔记/食谱模板.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/钓鱼/鳌虾.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/食谱/番茄焗烤.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/食谱/炸鱼.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/食谱/香浓巧达汤.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/食谱/鲜榨果汁.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/食谱/鲜奶粥.md"
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/赤鬼蜻蜓.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/草地跳跃者.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/苍之骑神.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/玻璃软体兽.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/波姆.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/冰晶软体兽.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/卑劣软黏兽.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/宝石老鼠.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/白翼猫.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/白金虫.md"
   ]
 }
