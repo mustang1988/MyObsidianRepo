@@ -104,8 +104,8 @@ const CHARACTER_ICONS = {
       file: dv.fileLink(
         "图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/人物信息/弗列妲.webp"
       ),
-      width: 176,
-      height: 148,
+      width: 156,
+      height: 130,
     },
     盖乌斯: {
       file: dv.fileLink(
@@ -125,8 +125,8 @@ const CHARACTER_ICONS = {
       file: dv.fileLink(
         "图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/人物信息/亨利主任.webp"
       ),
-      width: 176,
-      height: 148,
+      width: 128,
+      height: 106,
     },
     贾斯柏: {
       file: dv.fileLink(
@@ -160,15 +160,15 @@ const CHARACTER_ICONS = {
       file: dv.fileLink(
         "图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/人物信息/克洛.webp"
       ),
-      width: 176,
-      height: 148,
+      width: 156,
+      height: 130,
     },
     肯尼斯: {
       file: dv.fileLink(
         "图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/人物信息/肯尼斯.webp"
       ),
-      width: 176,
-      height: 148,
+      width: 181,
+      height: 152,
     },
     兰伯特: {
       file: dv.fileLink(
@@ -209,15 +209,15 @@ const CHARACTER_ICONS = {
       file: dv.fileLink(
         "图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/人物信息/罗金斯.webp"
       ),
-      width: 176,
-      height: 148,
+      width: 152,
+      height: 128,
     },
     萝德: {
       file: dv.fileLink(
         "图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/人物信息/萝德.webp"
       ),
-      width: 176,
-      height: 148,
+      width: 123,
+      height: 104,
     },
     萝西努: {
       file: dv.fileLink(
@@ -230,8 +230,8 @@ const CHARACTER_ICONS = {
       file: dv.fileLink(
         "图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/人物信息/马卡洛夫.webp"
       ),
-      width: 176,
-      height: 148,
+      width: 152,
+      height: 128,
     },
     马奇亚斯: {
       file: dv.fileLink(
@@ -251,8 +251,8 @@ const CHARACTER_ICONS = {
       file: dv.fileLink(
         "图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/人物信息/玛丽教官.webp"
       ),
-      width: 176,
-      height: 148,
+      width: 151,
+      height: 127,
     },
     孟亨: {
       file: dv.fileLink(
@@ -286,8 +286,8 @@ const CHARACTER_ICONS = {
       file: dv.fileLink(
         "图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/人物信息/奈特哈尔.webp"
       ),
-      width: 176,
-      height: 148,
+      width: 151,
+      height: 127,
     },
     尼可拉斯: {
       file: dv.fileLink(
@@ -314,8 +314,8 @@ const CHARACTER_ICONS = {
       file: dv.fileLink(
         "图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/人物信息/乔治.webp"
       ),
-      width: 176,
-      height: 148,
+      width: 151,
+      height: 127,
     },
     瑟雷斯坦管家: {
       file: dv.fileLink(
@@ -328,22 +328,22 @@ const CHARACTER_ICONS = {
       file: dv.fileLink(
         "图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/人物信息/莎拉.webp"
       ),
-      width: 176,
-      height: 148,
+      width: 156,
+      height: 130,
     },
     莎莉法: {
       file: dv.fileLink(
         "图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/人物信息/莎莉法.webp"
       ),
-      width: 176,
-      height: 148,
+      width: 128,
+      height: 106,
     },
     史提芬: {
       file: dv.fileLink(
         "图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/人物信息/史提芬.webp"
       ),
-      width: 176,
-      height: 148,
+      width: 181,
+      height: 152,
     },
     泰蕾莎: {
       file: dv.fileLink(
@@ -356,8 +356,8 @@ const CHARACTER_ICONS = {
       file: dv.fileLink(
         "图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/人物信息/汤玛斯.webp"
       ),
-      width: 176,
-      height: 148,
+      width: 151,
+      height: 128,
     },
     桃乐丝: {
       file: dv.fileLink(
@@ -391,8 +391,8 @@ const CHARACTER_ICONS = {
       file: dv.fileLink(
         "图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/人物信息/雪伦.webp"
       ),
-      width: 176,
-      height: 148,
+      width: 156,
+      height: 130,
     },
     亚莉莎: {
       file: dv.fileLink(
