@@ -1,6 +1,6 @@
 const DEBUG = false;
 
-const ItemIcons = {
+const ITEM_ICONS = {
   UMaterial: {
     file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/物品/U物质.png"),
     width: 46,
@@ -258,7 +258,7 @@ const ItemIcons = {
   },
 };
 
-const DefaultOptions = {
+const DEFAULT_OPTIONS = {
   size: 20,
   limit: 1,
   inline: true,
@@ -266,12 +266,12 @@ const DefaultOptions = {
   raw: false,
 };
 
-const GetIconByType = (Type) => {
-  return Object.keys(ItemIcons).includes(Type) ? ItemIcons[Type] : null;
+const GetIconByType = (type) => {
+  return Object.keys(ITEM_ICONS).includes(type) ? ITEM_ICONS[type] : null;
 };
 
 const MergeOptions = (options) => {
-  return Object.assign(DefaultOptions, options);
+  return Object.assign(DEFAULT_OPTIONS, options);
 };
 
 const GetDisplaySize = (icon, size) => {
@@ -285,7 +285,7 @@ const GetNum = (item, options) => {
   return Num > limit ? `x ${Num}` : "";
 };
 
-const BuildHTML = (item, options) => {
+const ToHTML = (item, options) => {
   const { Type, Name: ItemName } = item;
   const { size } = options;
   const icon = GetIconByType(Type);
@@ -301,18 +301,15 @@ const BuildHTML = (item, options) => {
 
 const RenderItem = (item, options) => {
   const { raw } = options;
-  return raw ? BuildHTML(item, options) : dv.span(BuildHTML(item, options));
+  return raw ? ToHTML(item, options) : dv.span(ToHTML(item, options));
 };
 
 const RenderItems = (items, options) => {
   const { inline, seperator, raw } = options;
-  return inline
-    ? raw
-      ? items.map((i) => BuildHTML(i, options)).join(seperator)
-      : dv.span(items.map((i) => BuildHTML(i, options)).join(seperator))
-    : raw
-    ? items.map((i) => BuildHTML(i, options))
-    : dv.list(items.map((i) => BuildHTML(i, options)));
+  const HTML = inline
+    ? items.map((i) => ToHTML(i, options)).join(seperator)
+    : items.map((i) => ToHTML(i, options));
+  return raw ? HTML : inline ? dv.span(HTML) : dv.list(HTML);
 };
 
 const { items, options } = input;

@@ -1,6 +1,6 @@
 const DEBUG = false;
 
-const CharacterIcons = {
+const CHARACTER_ICONS = {
   ColdSteel: {
     艾德尔: {
       file: dv.fileLink(
@@ -422,24 +422,25 @@ const CharacterIcons = {
   Reverie: {},
 };
 
-const DefaultOptions = {
+const DEFAULT_OPTIONS = {
   size: 20,
   category: "ColdSteel",
   inline: false,
   seperator: " , ",
+  raw: false,
 };
 
 const MergeOptions = (options) => {
-  return Object.assign(DefaultOptions, options);
+  return Object.assign(DEFAULT_OPTIONS, options);
 };
 
 const GetIcon = (name, category) => {
-  const checkCategory = Object.keys(CharacterIcons).includes(category);
+  const checkCategory = Object.keys(CHARACTER_ICONS).includes(category);
   DEBUG && console.log("GetIcon => ", { checkCategory });
   if (checkCategory) {
-    DEBUG && console.log("GetIcon => ", CharacterIcons[category][name], name);
-    return Object.keys(CharacterIcons[category]).includes(name)
-      ? CharacterIcons[category][name]
+    DEBUG && console.log("GetIcon => ", CHARACTER_ICONS[category][name], name);
+    return Object.keys(CHARACTER_ICONS[category]).includes(name)
+      ? CHARACTER_ICONS[category][name]
       : null;
   }
   return null;
@@ -450,7 +451,7 @@ const GetDisplaySize = (icon, size) => {
   return Math.round((width * size) / height);
 };
 
-const BuildHTML = (info, options) => {
+const ToHTML = (info, options) => {
   DEBUG && console.log("BuildHTML => ", { info, options });
   const {
     Character,
@@ -470,20 +471,23 @@ const BuildHTML = (info, options) => {
 };
 
 const RenderCharacterInfo = (info, options) => {
+  const { raw } = options;
   const infoObject = dv.page(info.path || info.file.path);
-  dv.span(BuildHTML(infoObject, options));
+  raw ? ToHTML(infoObject, options) : dv.span(ToHTML(infoObject, options));
 };
 
 const RenderCharacterInfos = (infos, options) => {
+  const { raw } = options;
   infos = infos.map((i) => dv.page(i.path || i.file.path));
   const { inline, seperator } = options;
-  inline
-    ? dv.span(infos.map((i) => BuildHTML(i, options)).join(seperator))
-    : dv.list(infos.map((i) => BuildHTML(i, options)));
+  const HTML = inline
+    ? infos.map((i) => ToHTML(i, options)).join(seperator)
+    : infos.map((i) => ToHTML(i, options));
+  return raw ? HTML : inline ? dv.span(HTML) : dv.list(HTML);
 };
 
 const { info, options } = input;
-DEBUG && console.log(Object.keys(CharacterIcons["ColdSteel"]).length);
-Array.isArray(info)
+DEBUG && console.log(Object.keys(CHARACTER_ICONS["ColdSteel"]).length);
+return Array.isArray(info)
   ? RenderCharacterInfos(info, MergeOptions(options))
   : RenderCharacterInfo(info, MergeOptions(options));

@@ -1,6 +1,6 @@
 const DEBUG = false;
 
-const TrophyIcons = {
+const ED_TROPHY_ICONS = {
   ColdSteel: {
     Platinum: {
       file: dv.fileLink(
@@ -124,39 +124,46 @@ const TrophyIcons = {
       height: 240,
     },
     Gold: {
-      file: dv.fileLink("图片/游戏攻略/英雄传说/英雄传说 创之轨迹/奖杯/金.webp"),
+      file: dv.fileLink(
+        "图片/游戏攻略/英雄传说/英雄传说 创之轨迹/奖杯/金.webp"
+      ),
       width: 240,
       height: 240,
     },
     Silver: {
-      file: dv.fileLink("图片/游戏攻略/英雄传说/英雄传说 创之轨迹/奖杯/银.webp"),
+      file: dv.fileLink(
+        "图片/游戏攻略/英雄传说/英雄传说 创之轨迹/奖杯/银.webp"
+      ),
       width: 240,
       height: 240,
     },
     Bronze: {
-      file: dv.fileLink("图片/游戏攻略/英雄传说/英雄传说 创之轨迹/奖杯/铜.webp"),
+      file: dv.fileLink(
+        "图片/游戏攻略/英雄传说/英雄传说 创之轨迹/奖杯/铜.webp"
+      ),
       width: 240,
       height: 240,
     },
   },
 };
 
-const DefaultOptions = {
+const DEFAULT_OPTIONS = {
   size: 20,
   category: "ColdSteel",
-  mode: "inline",
+  inline: true,
   seperator: " , ",
+  raw: false,
 };
 
 const MergeOptions = (options) => {
-  return Object.assign(DefaultOptions, options);
+  return Object.assign(DEFAULT_OPTIONS, options);
 };
 
 const GetIcon = (name, category) => {
-  const checkCategory = Object.keys(TrophyIcons).includes(category);
+  const checkCategory = Object.keys(ED_TROPHY_ICONS).includes(category);
   if (checkCategory) {
-    return Object.keys(TrophyIcons[category]).includes(name)
-      ? TrophyIcons[category][name]
+    return Object.keys(ED_TROPHY_ICONS[category]).includes(name)
+      ? ED_TROPHY_ICONS[category][name]
       : null;
   }
   return null;
@@ -185,7 +192,7 @@ const GetDisplaySize = (icon, size) => {
   return Math.round((width * size) / height);
 };
 
-const BuildHTML = (trophyObject, options) => {
+const ToHTML = (trophyObject, options) => {
   const {
     file: { link },
   } = trophyObject;
@@ -202,24 +209,21 @@ const BuildHTML = (trophyObject, options) => {
 };
 
 const RenderTrophy = (trophy, options) => {
+  const { raw } = options;
   const trophyObject = dv.page(trophy.path || trophy.file.path);
-  dv.paragraph(BuildHTML(trophyObject, options));
+  return raw ? ToHTML(trophyObject, options) : dv.paragraph();
 };
 
 const RenderTrophies = (tropjy, options) => {
   tropjy = tropjy.map((t) => dv.page(t.path || t.file.path));
-  const { mode, seperator } = options;
-  mode === "inline"
-    ? dv.paragraph(tropjy.map((t) => BuildHTML(t, options)).join(seperator))
-    : mode === "list"
-    ? dv.list(tropjy.map((t) => BuildHTML(t, options)))
-    : dv.table(
-        [],
-        tropjy.map((t) => [BuildHTML(t, options)])
-      );
+  const { inline, raw, seperator } = options;
+  const HTML = inline
+    ? tropjy.map((t) => ToHTML(t, options)).join(seperator)
+    : tropjy.map((t) => ToHTML(t, options));
+  return raw ? HTML : inline ? dv.span(HTML) : dv.list(HTML);
 };
 
 const { trophy, options } = input;
-Array.isArray(trophy)
+return Array.isArray(trophy)
   ? RenderTrophies(trophy, MergeOptions(options))
   : RenderTrophy(trophy, MergeOptions(options));

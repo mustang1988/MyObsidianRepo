@@ -1,6 +1,6 @@
 const DEBUG = false;
 
-const FishIcons = {
+const FISH_ICONS = {
   ColdSteel: {
     鳌虾: {
       file: dv.fileLink(
@@ -149,24 +149,25 @@ const FishIcons = {
   Reverie: {},
 };
 
-const DefaultOptions = {
+const DEFAULT_OPTIONS = {
   size: 20,
   category: "ColdSteel",
   inline: false,
   seperator: " , ",
+  raw: false,
 };
 
 const MergeOptions = (options) => {
-  return Object.assign(DefaultOptions, options);
+  return Object.assign(DEFAULT_OPTIONS, options);
 };
 
 const GetIcon = (name, category) => {
   DEBUG && console.log("GetIcon, args => ", { name, category });
-  const checkCategory = Object.keys(FishIcons).includes(category);
+  const checkCategory = Object.keys(FISH_ICONS).includes(category);
   DEBUG && console.log("GetIcon, checkCategory => ", checkCategory);
   if (checkCategory) {
-    const icon = Object.keys(FishIcons[category]).includes(name)
-      ? FishIcons[category][name]
+    const icon = Object.keys(FISH_ICONS[category]).includes(name)
+      ? FISH_ICONS[category][name]
       : null;
     DEBUG && console.log("GetIcon, checkCategory true, return => ", icon);
     return icon;
@@ -180,7 +181,7 @@ const GetDisplaySize = (icon, size) => {
   return Math.round((width * size) / height);
 };
 
-const BuildHTML = (fish, options) => {
+const ToHTML = (fish, options) => {
   const {
     Name,
     file: { link, path },
@@ -198,20 +199,25 @@ const BuildHTML = (fish, options) => {
 };
 
 const RenderFish = (fish, options) => {
+  const { raw } = options;
   const fishObject = dv.page(fish.path || fish.file.path);
-  dv.span(BuildHTML(fishObject, options));
+  return raw
+    ? ToHTML(fishObject, options)
+    : dv.span(ToHTML(fishObject, options));
 };
 
 const RenderFishes = (fishes, options) => {
+  const { raw } = options;
   fishes = fishes.map((f) => dv.page(f.path || f.file.path));
   const { inline, seperator } = options;
-  inline
-    ? dv.span(fishes.map((f) => BuildHTML(f, options)).join(seperator))
-    : dv.list(fishes.map((f) => BuildHTML(f, options)));
+  const HTML = inline
+    ? fishes.map((f) => ToHTML(f, options)).join(seperator)
+    : fishes.map((f) => ToHTML(f, options));
+  return raw ? HTML : inline ? dv.span(HTML) : dv.list(HTML);
 };
 
 const { fish, options } = input;
 DEBUG && console.log("Fish.js, Input => ", input);
-Array.isArray(fish)
+return Array.isArray(fish)
   ? RenderFishes(fish, MergeOptions(options))
   : RenderFish(fish, MergeOptions(options));

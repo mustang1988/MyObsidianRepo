@@ -1,4 +1,4 @@
-const QuartzIcons = {
+const MASTER_QUARTZ_ICONS = {
   ColdSteel: {
     白羊: {
       file: dv.fileLink(
@@ -203,22 +203,23 @@ const QuartzIcons = {
   Reverie: {},
 };
 
-const DefaultOptions = {
+const DEFAULT_OPTIONS = {
   size: 20,
   category: "ColdSteel",
-  mode: "list", // list, table, inline
+  inline: true,
   seperator: " , ",
+  raw: false,
 };
 
 const MergeOptions = (options) => {
-  return Object.assign(DefaultOptions, options);
+  return Object.assign(DEFAULT_OPTIONS, options);
 };
 
 const GetIcon = (name, category) => {
-  const checkCategory = Object.keys(QuartzIcons).includes(category);
+  const checkCategory = Object.keys(MASTER_QUARTZ_ICONS).includes(category);
   if (checkCategory) {
-    return Object.keys(QuartzIcons[category]).includes(name)
-      ? QuartzIcons[category][name]
+    return Object.keys(MASTER_QUARTZ_ICONS[category]).includes(name)
+      ? MASTER_QUARTZ_ICONS[category][name]
       : null;
   }
   return null;
@@ -244,24 +245,23 @@ const BuildHTML = (quartz, options) => {
 };
 
 const RenderQuartz = (quartz, options) => {
+  const { raw } = options;
   const quartzObject = dv.page(quartz.path || quartz.file.path);
-  dv.span(BuildHTML(quartzObject, options));
+  return raw
+    ? BuildHTML(quartzObject, options)
+    : dv.span(BuildHTML(quartzObject, options));
 };
 
 const RenderQuartzs = (quartzs, options) => {
   quartzs = quartzs.map((q) => dv.page(q.path || q.file.path));
-  const { mode, seperator } = options;
-  mode === "inline"
-    ? dv.span(quartzs.map((q) => BuildHTML(q, options)).join(seperator))
-    : mode === "list"
-    ? dv.list(quartzs.map((q) => BuildHTML(q, options)))
-    : dv.table(
-        [],
-        quartzs.map((q) => [BuildHTML(q, options)])
-      );
+  const { inline, raw, seperator } = options;
+  const HTML = inline
+    ? quartzs.map((q) => BuildHTML(q, options)).join(seperator)
+    : quartzs.map((q) => BuildHTML(q, options));
+  return raw ? HTML : inline ? dv.span(HTML) : dv.list(HTML);
 };
 
 const { quartz, options } = input;
-Array.isArray(quartz)
+return Array.isArray(quartz)
   ? RenderQuartzs(quartz, MergeOptions(options))
   : RenderQuartz(quartz, MergeOptions(options));
