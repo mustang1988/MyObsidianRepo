@@ -7,8 +7,13 @@
         "id": "93fd32a17e503b61",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "模板/英雄传说/通用/示例.md",
+            "mode": "preview",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -65,6 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "模板/英雄传说/通用/示例.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "模板/英雄传说/通用/示例.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -105,17 +112,17 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "d36f5b0392c4ea4e",
+  "active": "93fd32a17e503b61",
   "lastOpenFiles": [
-    "模板/英雄传说/英雄传说 闪之轨迹/笔记/核心回路/核心回路-地.md",
+    "模板/英雄传说/通用/自定义脚本调试用文件.md",
+    "模板/英雄传说/通用/示例.md",
     "未命名.md",
+    "模板/英雄传说/英雄传说 闪之轨迹/笔记/核心回路/核心回路-地.md",
     "---.md",
     "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
     "模板/通用/Callout/支线任务块.md",
     "模板/通用/游戏首页模板.md",
     "模板/通用/Callout/主线任务块.md",
-    "模板/通用/奖杯/CommonBronzeTrophy.md",
-    "模板/如龙/如龙7 光与暗的去向/大海原证照学校试题模板.md",
-    "模板/如龙/如龙7 光与暗的去向/支线任务模板.md"
+    "模板/通用/奖杯/CommonBronzeTrophy.md"
   ]
 }

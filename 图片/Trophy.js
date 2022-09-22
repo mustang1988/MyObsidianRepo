@@ -1,4 +1,4 @@
-const DEBUG = true;
+const DEBUG = false;
 const TROPHY_ICONS = {
   Platinum: {
     file: dv.fileLink("图片/白金奖杯.png"),
