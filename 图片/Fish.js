@@ -702,7 +702,190 @@ const FISH_ICONS = {
       height: 137,
     },
   },
-  Reverie: {},
+  Reverie: {
+    眼镜蛇头鱼: {
+      file: dv.fileLink(
+        "图片/游戏攻略/英雄传说/英雄传说 创之轨迹/笔记/钓鱼笔记/眼镜蛇头鱼.webp"
+      ),
+      width: 180,
+      height: 73,
+    },
+    钴蓝蟹: {
+      file: dv.fileLink(
+        "图片/游戏攻略/英雄传说/英雄传说 创之轨迹/笔记/钓鱼笔记/钴蓝蟹.webp"
+      ),
+      width: 180,
+      height: 93,
+    },
+    埃雷肯拟态鲨: {
+      file: dv.fileLink(
+        "图片/游戏攻略/英雄传说/英雄传说 创之轨迹/笔记/钓鱼笔记/埃雷肯拟态鲨.webp"
+      ),
+      width: 180,
+      height: 94,
+    },
+    金鲑: {
+      file: dv.fileLink(
+        "图片/游戏攻略/英雄传说/英雄传说 创之轨迹/笔记/钓鱼笔记/金鲑.webp"
+      ),
+      width: 180,
+      height: 97,
+    },
+    锦鲤: {
+      file: dv.fileLink(
+        "图片/游戏攻略/英雄传说/英雄传说 创之轨迹/笔记/钓鱼笔记/锦鲤.webp"
+      ),
+      width: 180,
+      height: 97,
+    },
+    珍珠草鱼: {
+      file: dv.fileLink(
+        "图片/游戏攻略/英雄传说/英雄传说 创之轨迹/笔记/钓鱼笔记/珍珠草鱼.webp"
+      ),
+      width: 180,
+      height: 97,
+    },
+    北方龙鱼: {
+      file: dv.fileLink(
+        "图片/游戏攻略/英雄传说/英雄传说 创之轨迹/笔记/钓鱼笔记/北方龙鱼.webp"
+      ),
+      width: 180,
+      height: 98,
+    },
+    大理石乌鳢: {
+      file: dv.fileLink(
+        "图片/游戏攻略/英雄传说/英雄传说 创之轨迹/笔记/钓鱼笔记/大理石乌鳢.webp"
+      ),
+      width: 180,
+      height: 100,
+    },
+    虎龙鱼: {
+      file: dv.fileLink(
+        "图片/游戏攻略/英雄传说/英雄传说 创之轨迹/笔记/钓鱼笔记/虎龙鱼.webp"
+      ),
+      width: 180,
+      height: 102,
+    },
+    蓝宝石鱼: {
+      file: dv.fileLink(
+        "图片/游戏攻略/英雄传说/英雄传说 创之轨迹/笔记/钓鱼笔记/蓝宝石鱼.webp"
+      ),
+      width: 180,
+      height: 102,
+    },
+    暴食鲨: {
+      file: dv.fileLink(
+        "图片/游戏攻略/英雄传说/英雄传说 创之轨迹/笔记/钓鱼笔记/暴食鲨.webp"
+      ),
+      width: 180,
+      height: 104,
+    },
+    水银鲤: {
+      file: dv.fileLink(
+        "图片/游戏攻略/英雄传说/英雄传说 创之轨迹/笔记/钓鱼笔记/水银鲤.webp"
+      ),
+      width: 180,
+      height: 107,
+    },
+    钝头鲀: {
+      file: dv.fileLink(
+        "图片/游戏攻略/英雄传说/英雄传说 创之轨迹/笔记/钓鱼笔记/钝头鲀.webp"
+      ),
+      width: 180,
+      height: 108,
+    },
+    寄生鲶: {
+      file: dv.fileLink(
+        "图片/游戏攻略/英雄传说/英雄传说 创之轨迹/笔记/钓鱼笔记/寄生鲶.webp"
+      ),
+      width: 180,
+      height: 108,
+    },
+    虹鳟鱼: {
+      file: dv.fileLink(
+        "图片/游戏攻略/英雄传说/英雄传说 创之轨迹/笔记/钓鱼笔记/虹鳟鱼.webp"
+      ),
+      width: 180,
+      height: 111,
+    },
+    森林鳃鱼: {
+      file: dv.fileLink(
+        "图片/游戏攻略/英雄传说/英雄传说 创之轨迹/笔记/钓鱼笔记/森林鳃鱼.webp"
+      ),
+      width: 180,
+      height: 111,
+    },
+    红鲈: {
+      file: dv.fileLink(
+        "图片/游戏攻略/英雄传说/英雄传说 创之轨迹/笔记/钓鱼笔记/红鲈.webp"
+      ),
+      width: 180,
+      height: 113,
+    },
+    天空鳃鱼: {
+      file: dv.fileLink(
+        "图片/游戏攻略/英雄传说/英雄传说 创之轨迹/笔记/钓鱼笔记/天空鳃鱼.webp"
+      ),
+      width: 180,
+      height: 115,
+    },
+    岩穴鱼: {
+      file: dv.fileLink(
+        "图片/游戏攻略/英雄传说/英雄传说 创之轨迹/笔记/钓鱼笔记/岩穴鱼.webp"
+      ),
+      width: 180,
+      height: 119,
+    },
+    刺鲀: {
+      file: dv.fileLink(
+        "图片/游戏攻略/英雄传说/英雄传说 创之轨迹/笔记/钓鱼笔记/刺鲀.webp"
+      ),
+      width: 180,
+      height: 121,
+    },
+    鲤鱼: {
+      file: dv.fileLink(
+        "图片/游戏攻略/英雄传说/英雄传说 创之轨迹/笔记/钓鱼笔记/鲤鱼.webp"
+      ),
+      width: 180,
+      height: 121,
+    },
+    雪花蟹: {
+      file: dv.fileLink(
+        "图片/游戏攻略/英雄传说/英雄传说 创之轨迹/笔记/钓鱼笔记/雪花蟹.webp"
+      ),
+      width: 180,
+      height: 121,
+    },
+    银伞鱼: {
+      file: dv.fileLink(
+        "图片/游戏攻略/英雄传说/英雄传说 创之轨迹/笔记/钓鱼笔记/银伞鱼.webp"
+      ),
+      width: 180,
+      height: 127,
+    },
+    蓝带神仙鱼: {
+      file: dv.fileLink(
+        "图片/游戏攻略/英雄传说/英雄传说 创之轨迹/笔记/钓鱼笔记/蓝带神仙鱼.webp"
+      ),
+      width: 180,
+      height: 129,
+    },
+    粉红神仙鱼: {
+      file: dv.fileLink(
+        "图片/游戏攻略/英雄传说/英雄传说 创之轨迹/笔记/钓鱼笔记/粉红神仙鱼.webp"
+      ),
+      width: 180,
+      height: 137,
+    },
+    宝石蟹: {
+      file: dv.fileLink(
+        "图片/游戏攻略/英雄传说/英雄传说 创之轨迹/笔记/钓鱼笔记/宝石蟹.webp"
+      ),
+      width: 180,
+      height: 141,
+    },
+  },
 };
 
 const DEFAULT_OPTIONS = {
