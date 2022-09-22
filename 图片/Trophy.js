@@ -1,5 +1,4 @@
-// Constraint Value Define
-const DEBUG = false;
+const DEBUG = true;
 const TROPHY_ICONS = {
   Platinum: {
     file: dv.fileLink("图片/白金奖杯.png"),
@@ -7,17 +6,17 @@ const TROPHY_ICONS = {
     height: 64,
   },
   Gold: {
-    file: dv.fileLink("图片/黄金奖杯.png"),
+    file: dv.fileLink("图片/白金奖杯.png"),
     width: 60,
     height: 64,
   },
   Silver: {
-    file: dv.fileLink("图片/白银奖杯.png"),
+    file: dv.fileLink("图片/白金奖杯.png"),
     width: 60,
     height: 64,
   },
   Bronze: {
-    file: dv.fileLink("图片/青铜奖杯.png"),
+    file: dv.fileLink("图片/白金奖杯.png"),
     width: 60,
     height: 64,
   },
@@ -29,7 +28,6 @@ const DEFAULT_OPTIONS = {
   raw: false,
 };
 const DEFAULT_INNER_ICON_SIZE = 240;
-// End Constraint Value Define
 
 const MergeOptions = (options) => {
   return Object.assign(DEFAULT_OPTIONS, options);
@@ -55,16 +53,15 @@ const GetTrophyType = (trophyObject) => {
     case "铜":
       return "Bronze";
   }
-  return null;
 };
 
-const GetInnerIcon = (trophyObject) => {
-  const { Icon = null } = trophyObject;
+const GetInnerIcon = (trophy) => {
+  const { Icon = null } = trophy;
   if (Icon) {
     return {
       file: dv.fileLink(Icon.path),
       width: DEFAULT_INNER_ICON_SIZE,
-      height: DEFAULT_INNER_ICON_SIZE,
+      height: 240,
     };
   }
   return null;
@@ -82,7 +79,7 @@ const ToHTML = (trophyObject, options) => {
   } = trophyObject;
   const { size } = options;
   const icon =
-    GetIcon(GetTrophyType(trophyObject));
+    GetInnerIcon(trophyObject) || GetIcon(GetTrophyType(trophyObject));
   DEBUG && console.debug("ToHTML, icon: ", icon);
   if (icon) {
     return `<img width="${GetDisplaySize(icon, size)}" src="${
@@ -114,8 +111,10 @@ const RenderTrophies = (trophies, options) => {
   return raw ? HTML : inline ? dv.span(HTML) : dv.list(HTML);
 };
 
-const { trophy, options } = input;
-DEBUG && console.debug("EDTrophy, args: ", input);
-return Array.isArray(trophy)
+const { trophy = null, trophies = null, options } = input;
+DEBUG && console.debug("Trophy, args: ", input);
+return trophy
+  ? RenderTrophy(trophy, MergeOptions(options))
+  : trophies && trophies.length > 0
   ? RenderTrophies(trophy, MergeOptions(options))
-  : RenderTrophy(trophy, MergeOptions(options));
+  : "";
