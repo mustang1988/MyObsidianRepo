@@ -1,5 +1,5 @@
 const RECIPE_ICON = {
-  file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/物品_普通料理.webp"),
+  file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/物品_料理_普通.webp"),
   width: 48,
   height: 48,
 };
