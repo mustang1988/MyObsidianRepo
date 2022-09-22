@@ -4,11 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "30eabb9d3f801fd5",
+        "id": "8d413c4be65c31a5",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "模板/通用/Callout/支线任务块.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "ac6b9e7c98d01c16",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "模板/通用/游戏首页模板.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -65,6 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "模板/通用/游戏首页模板.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "模板/通用/游戏首页模板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -105,17 +125,17 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "30eabb9d3f801fd5",
+  "active": "ac6b9e7c98d01c16",
   "lastOpenFiles": [
+    "模板/通用/Callout/主线任务块.md",
+    "模板/通用/Callout/支线任务块.md",
+    "模板/通用/奖杯/CommonBronzeTrophy.md",
+    "模板/如龙/如龙7 光与暗的去向/大海原证照学校试题模板.md",
+    "模板/如龙/如龙7 光与暗的去向/支线任务模板.md",
+    "模板/艾尔登法环/武器模板.md",
     "游戏攻略/英雄传说 闪之轨迹/攻略/序章 托尔兹士官学院.md",
     "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
     "游戏攻略/如龙7 光与暗的去向/如龙7 光与暗的去向.md",
-    "游戏攻略/如龙7 光与暗的去向/奖杯/人才济济.md",
-    "游戏攻略/如龙7 光与暗的去向/奖杯/转职小队.md",
-    "游戏攻略/如龙7 光与暗的去向/奖杯/传说之龙.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/奥洛克斯峡谷道1.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/人面鸟_2.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/艾贝尔街道2.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/艾贝尔街道1.md"
+    "游戏攻略/如龙7 光与暗的去向/奖杯/人才济济.md"
   ]
 }
