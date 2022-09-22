@@ -416,7 +416,9 @@ const CHARACTER_ICONS = {
       height: 148,
     },
   },
-  ColdSteelII: {},
+  ColdSteelII: {
+    // TODO
+  },
   ColdSteelIII: {
     汤玛斯: {
       file: dv.fileLink(
@@ -874,8 +876,12 @@ const CHARACTER_ICONS = {
       height: 155,
     },
   },
-  ColdSteelIV: {},
-  Reverie: {},
+  ColdSteelIV: {
+    // TODO
+  },
+  Reverie: {
+    // TODO
+  },
 };
 
 const DEFAULT_OPTIONS = {

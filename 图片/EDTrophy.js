@@ -219,12 +219,12 @@ const RenderTrophy = (trophy, options) => {
   return result;
 };
 
-const RenderTrophies = (tropjy, options) => {
-  tropjy = tropjy.map((t) => dv.page(t.path || t.file.path));
+const RenderTrophies = (trophies, options) => {
+  trophies = trophies.map((t) => dv.page(t.path || t.file.path));
   const { inline, raw, seperator } = options;
   const HTML = inline
-    ? tropjy.map((t) => ToHTML(t, options)).join(seperator)
-    : tropjy.map((t) => ToHTML(t, options));
+    ? trophies.map((t) => ToHTML(t, options)).join(seperator)
+    : trophies.map((t) => ToHTML(t, options));
   return raw ? HTML : inline ? dv.span(HTML) : dv.list(HTML);
 };
 

@@ -833,7 +833,9 @@ const MASTER_QUARTZ_ICONS = {
       height: 120,
     },
   },
-  Reverie: {},
+  Reverie: {
+    // TODO
+  },
 };
 
 const DEFAULT_OPTIONS = {
