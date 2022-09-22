@@ -4,29 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8d413c4be65c31a5",
+        "id": "cf51e4b8792d332e",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "模板/通用/Callout/支线任务块.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "ac6b9e7c98d01c16",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "模板/通用/游戏首页模板.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -83,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "模板/通用/游戏首页模板.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +81,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "模板/通用/游戏首页模板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,17 +105,17 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "ac6b9e7c98d01c16",
+  "active": "cf51e4b8792d332e",
   "lastOpenFiles": [
-    "模板/通用/Callout/主线任务块.md",
+    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
     "模板/通用/Callout/支线任务块.md",
+    "模板/通用/游戏首页模板.md",
+    "模板/通用/Callout/主线任务块.md",
     "模板/通用/奖杯/CommonBronzeTrophy.md",
     "模板/如龙/如龙7 光与暗的去向/大海原证照学校试题模板.md",
     "模板/如龙/如龙7 光与暗的去向/支线任务模板.md",
     "模板/艾尔登法环/武器模板.md",
     "游戏攻略/英雄传说 闪之轨迹/攻略/序章 托尔兹士官学院.md",
-    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
-    "游戏攻略/如龙7 光与暗的去向/如龙7 光与暗的去向.md",
-    "游戏攻略/如龙7 光与暗的去向/奖杯/人才济济.md"
+    "游戏攻略/如龙7 光与暗的去向/如龙7 光与暗的去向.md"
   ]
 }
