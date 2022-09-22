@@ -59,34 +59,6 @@
       "overlays": [],
       "shapes": [],
       "files": []
-    },
-    {
-      "id": "艾贝尔街道1",
-      "lastAccessed": 1663587471311,
-      "markers": [
-        {
-          "id": "ID_f91848b959ba",
-          "type": "宝箱",
-          "loc": [
-            -0.3828125,
-            0.6394999979670168
-          ],
-          "link": "117",
-          "layer": "!%5B%5B%E5%9B%BE%E7%89%87%2F%E6%B8%B8%E6%88%8F%E6%94%BB%E7%95%A5%2F%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B4%2F%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B4%20%E9%97%AA%E4%B9%8B%E8%BD%A8%E8%BF%B9%2F%E7%AC%94%E8%AE%B0%2F%E8%BF%B7%E5%AE%AB%2F%E8%89%BE%E8%B4%9D%E5%B0%94%E8%A1%97%E9%81%931.jpg%5D%5D",
-          "mutable": true,
-          "command": false,
-          "percent": null,
-          "description": null,
-          "minZoom": null,
-          "maxZoom": null,
-          "tooltip": "always"
-        }
-      ],
-      "overlays": [],
-      "shapes": [],
-      "files": [
-        "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/艾贝尔街道1.md"
-      ]
     }
   ],
   "defaultMarker": {
