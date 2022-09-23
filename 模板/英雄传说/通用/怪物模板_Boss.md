@@ -40,12 +40,6 @@ Droped:
     - 0
   # 掉落物品
   Items:
-    - Name: ""
-      Type: "FoodIngredient"
-      Num: 1
-    - Name: ""
-      Type: "Potion"
-      Num: 1
 # 攻击失衡率
 Unbalance:
   - 1
@@ -109,9 +103,13 @@ await dv.view('MonsterPropertyTable', { props: dv.current().Properties })
 await dv.view('MagicRateTable', { rate: dv.current().MagicRates });
 ```
 
-掉落
+掉落耀晶片
 ```dataviewjs
 await dv.view('DropSepithTable', { sepiths: dv.current().Droped.Sepiths })
+```
+
+掉落物品
+```dataviewjs
 await dv.view('DropItemTable', { items: dv.current().Droped.Items })
 ```
 

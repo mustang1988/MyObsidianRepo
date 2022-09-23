@@ -103,9 +103,13 @@ await dv.view('MonsterPropertyTable', { props: dv.current().Properties })
 await dv.view('MagicRateTable', { rate: dv.current().MagicRates });
 ```
 
-掉落
+掉落耀晶片
 ```dataviewjs
 await dv.view('DropSepithTable', { sepiths: dv.current().Droped.Sepiths })
+```
+
+掉落物品
+```dataviewjs
 await dv.view('DropItemTable', { items: dv.current().Droped.Items })
 ```
 
