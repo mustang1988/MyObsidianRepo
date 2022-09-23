@@ -13,6 +13,13 @@ const ChunkMagicRate = (data) => {
   return result;
 };
 
+const FixOrder = (data) => {
+  const [e, wa, f, wi, t, s, m] = data;
+  const result = [e, t, wa, s, f, m, wi];
+  console.error({ data, result });
+  return result;
+};
+
 const RenderMagicRateTable = async (rate, options = {}) => {
   options.raw = true;
   options.fix_order = true;
@@ -21,11 +28,13 @@ const RenderMagicRateTable = async (rate, options = {}) => {
     rate: rate,
     options: options,
   });
+  const orderFixedRate = FixOrder(rate);
   const results = [];
   for (let i = 0; i < rateIcons.length; i++) {
     results.push(rateIcons[i]);
-    results.push(rate[i]);
+    results.push(orderFixedRate[i]);
   }
+  //
   dv.table([], ChunkMagicRate(results));
 };
 
