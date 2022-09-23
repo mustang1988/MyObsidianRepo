@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f6bda69c4327894a",
+        "id": "66b3ebfd0f3b1498",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "未命名.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -65,6 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "未命名.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -105,17 +112,17 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "f6bda69c4327894a",
+  "active": "66b3ebfd0f3b1498",
   "lastOpenFiles": [
+    "模板/英雄传说/通用/怪物模板_Boss.md",
+    "模板/英雄传说/通用/怪物模板_普通.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/《C》_2.md",
+    "未命名.md",
+    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/波姆.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/冰晶软体兽.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/卑劣软黏兽.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/宝石老鼠.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/白翼猫.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/白金虫.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/傲古极欧.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/肮脏老鼠.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/暗影灵体.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/暗夜野犬.md"
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/白翼猫.md"
   ]
 }
