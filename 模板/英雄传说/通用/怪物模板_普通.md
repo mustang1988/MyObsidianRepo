@@ -2,7 +2,7 @@
 # 名称
 Name: "{{title}}"
 # 图标
-Icon: ""
+Icon: "![[图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/战斗笔记/{{title}}.webp]]"
 # 出现位置
 Locations: 
   - ""
@@ -18,13 +18,13 @@ Properties:
   SPD: 0
 # 魔法有效率: [地, 水, 火, 风, 时, 空, 幻]
 MagicRates:
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
+  - 100
+  - 100
+  - 100
+  - 100
+  - 100
+  - 100
+  - 100
 # 掉落
 Droped:
   # 掉落耀晶片: [地, 水, 火, 风, 时, 空, 幻]
@@ -49,9 +49,9 @@ Droped:
 # 攻击失衡率
 Unbalance:
   - 1
-  - 2
-  - 3
-  - 4
+  - 1
+  - 1
+  - 1
 # 异常状态抗性
 DebuffRates:
   # 中毒
@@ -93,7 +93,7 @@ collapse: open
 
 ```dataviewjs
 // 图标
-dv.paragraph(dv.fileLink(dv.current().Icon.path, true, "50"));
+dv.paragraph(dv.fileLink(dv.current().Icon.path, true, "200"));
 ```
 
 出现位置:
