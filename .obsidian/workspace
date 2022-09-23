@@ -7,8 +7,13 @@
         "id": "e5c5258b2b0bb401",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/白翼猫.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -65,6 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/白翼猫.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/白翼猫.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }

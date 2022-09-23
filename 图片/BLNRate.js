@@ -1,5 +1,5 @@
 /**
- * 渲染攻击失衡率
+ * 渲染失衡引发率率
  */
 const DEBUG = false;
 const START_ICON = {
