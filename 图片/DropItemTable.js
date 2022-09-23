@@ -11,7 +11,7 @@ const RenderDropItemTable = async (items, options) => {
   });
   dv.table(
     [],
-    renderItems.map((i) => [i])
+    Array.isArray(renderItems) ? renderItems.map((i) => [i]) : [["无"]]
   );
 };
 

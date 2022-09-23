@@ -39,6 +39,7 @@ const LoadStatusIcons = () => {
         ),
         width: 48,
         height: 48,
+        name: map.get(key),
       });
     });
   }
@@ -71,10 +72,10 @@ const ToHTML = (name, value, options) => {
     ? image_only
       ? `<img width="${GetDisplaySize(icon, size)}" src="${GetIconPath(
           icon
-        )}" />`
+        )}" /> ${icon.name}`
       : `<img width="${GetDisplaySize(icon, size)}" src="${GetIconPath(
           icon
-        )}" /> ${value}`
+        )}" /> ${icon.name} ${value}`
     : "";
 };
 

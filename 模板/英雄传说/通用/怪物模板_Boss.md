@@ -3,6 +3,9 @@
 Name: "{{title}}"
 # 图标
 Icon: "![[图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/战斗笔记/{{title}}.webp]]"
+# 描述
+Description:
+  - ""
 # 出现位置
 Locations: 
   - ""
@@ -48,37 +51,21 @@ Unbalance:
   - 1
 # 状态变化有效率抗性
 DebuffRates:
-  # 中毒
-  Poison: 0
-  # 炎伤
-  Burn: 0
-  # 即死
-  Death: 0
-  # 封技
-  Seal: 0
-  # 冻结
-  Freeze: 0
-  # 噩梦
-  Nightmare: 0
-  # 封魔
-  Mute: 0
-  # 石化
-  Petrify: 0
-  # AT延迟
-  Delay: 0
-  # 黑暗
-  Blind: 0
-  # 气绝
-  Faint: 0
-  # 消失
-  Vanish: 0
-  # 睡眠
-  Sleep: 0
-  # 混乱
-  Confuse: 0
-  # 能力降低
-  SDown: 0
-# 是否为Boss
+  Poison: 100
+  Burn: 100
+  Death: 100
+  Seal: 100
+  Freeze: 100
+  Nightmare: 100
+  Mute: 100
+  Petrify: 100
+  Delay: 100
+  Blind: 100
+  Faint: 100
+  Vanish: 100
+  Sleep: 100
+  Confuse: 100
+  SDown: 100
 Boss: true
 ---
 ````ad-battle-boss
@@ -86,12 +73,15 @@ title: {{title}}
 collapse: open
 
 ```dataviewjs
-// 图标
-dv.paragraph(dv.fileLink(dv.current().Icon.path, true, "200"));
+dv.table(
+  [],
+  [
+    [ dv.fileLink(dv.current().Icon.path, true, "200"), dv.current().Description, dv.current().Locations ],
+  ]
+);
 ```
 
-出现位置:
-`$=dv.list(dv.current().Locations)`
+
 
 属性
 ```dataviewjs

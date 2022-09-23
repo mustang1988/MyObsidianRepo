@@ -3,6 +3,11 @@
 Name: "《C》"
 # 图标
 Icon: "![[图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/战斗笔记/《C》.webp]]"
+Description:
+  - "率领帝国解放战线,"
+  - "充满谜团的假面男子."
+  - "巧妙的操弄双刃剑,"
+  - "使出各式各样的招式."
 # 出现位置
 Locations: 
   - "[[游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/帝都地下道·最深处]]"
@@ -86,12 +91,14 @@ title: 《C》
 collapse: open
 
 ```dataviewjs
-// 图标
-dv.paragraph(dv.fileLink(dv.current().Icon.path, true, "200"));
+dv.table(
+  [],
+  [
+    [ dv.fileLink(dv.current().Icon.path, true, "200"), dv.current().Description, dv.current().Locations ],
+  ]
+);
 ```
 
-出现位置:
-`$=dv.list(dv.current().Locations)`
 
 属性
 ```dataviewjs
