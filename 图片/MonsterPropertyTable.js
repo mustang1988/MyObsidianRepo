@@ -37,15 +37,18 @@ const ChunkMonsterProperty = (data) => {
   return result;
 };
 
-const RenderMonsterPropertyTable = (props) => {
-  console.log("props => ", props);
+const RenderMonsterPropertyTable = (props, options) => {
   const data = [];
-  for (const k of FIXED_MONSTER_PROPERTY_ORDER) {
+  const { fixed } = options;
+  const order = fixed
+    ? FIXED_MONSTER_PROPERTY_ORDER
+    : DEFAULT_MONSTER_PROPERTY_ORDER;
+  for (const k of order) {
     data.push(k);
     data.push(props[k] !== undefined ? props[k] : "");
   }
   dv.table([], ChunkMonsterProperty(data));
 };
 
-const { props } = input;
-return RenderMonsterPropertyTable(props);
+const { props, options = { fixed: true } } = input;
+return RenderMonsterPropertyTable(props, options);

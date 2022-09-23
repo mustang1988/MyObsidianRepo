@@ -24,7 +24,7 @@ const ChunkSepiths = (sepiths) => {
   return result;
 };
 
-const RenderDropSepiths = async (sepiths) => {
+const RenderDropSepiths = async (sepiths, options) => {
   sepiths = sepiths.map((s, index) => {
     return {
       Name: "",
@@ -34,10 +34,13 @@ const RenderDropSepiths = async (sepiths) => {
   });
   const results = await dv.view("Item", {
     items: sepiths,
-    options: { raw: true, inline: false, limit: -1 },
+    options: options,
   });
   dv.table([], ChunkSepiths(results));
 };
 
-const { sepiths = [0, 0, 0, 0, 0, 0, 0], options } = input;
-return RenderDropSepiths(sepiths);
+const {
+  sepiths = [0, 0, 0, 0, 0, 0, 0],
+  options = { raw: true, inline: false, limit: -1 },
+} = input;
+return RenderDropSepiths(sepiths, options);
