@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "66b3ebfd0f3b1498",
+        "id": "17e982fa6d1bf12d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "未命名.md",
+            "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/草地跳跃者.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "艾贝尔街道的通缉魔兽",
+                "query": "明镜",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名.md",
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/草地跳跃者.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名.md",
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/草地跳跃者.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -112,17 +112,17 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "66b3ebfd0f3b1498",
+  "active": "17e982fa6d1bf12d",
   "lastOpenFiles": [
-    "模板/英雄传说/通用/怪物模板_Boss.md",
-    "模板/英雄传说/通用/怪物模板_普通.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/《C》_2.md",
-    "未命名.md",
-    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/明镜_2.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/明镜.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/龙人.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/苍之骑神.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/波姆.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/冰晶软体兽.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/卑劣软黏兽.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/宝石老鼠.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/白翼猫.md"
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/米诺斯恶魔.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/米诺斯恶魔_2.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/溶解海蛞蝓.md"
   ]
 }
