@@ -45,7 +45,7 @@ Droped:
     - 0
   # 取得道具
   Items:
-# 失衡引发率率
+# 失衡引发机率率
 Unbalance:
   - 1
   - 0
@@ -120,7 +120,7 @@ await dv.view('DropSepithTable', { sepiths: dv.current().Droped.Sepiths })
 await dv.view('DropItemTable', { items: dv.current().Droped.Items })
 ```
 
-失衡引发率
+失衡引发机率
 ```dataviewjs
 await dv.view('BLNRateTable', { rate: dv.current().Unbalance })
 ```

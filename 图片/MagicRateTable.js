@@ -16,7 +16,6 @@ const ChunkMagicRate = (data) => {
 const FixOrder = (data) => {
   const [e, wa, f, wi, t, s, m] = data;
   const result = [e, t, wa, s, f, m, wi];
-  console.error({ data, result });
   return result;
 };
 

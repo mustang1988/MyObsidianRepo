@@ -264,6 +264,7 @@ const DEFAULT_OPTIONS = {
   inline: true,
   seperator: " , ",
   raw: false,
+  image_only: false,
 };
 
 const GetIconByType = (type) => {
@@ -288,16 +289,21 @@ const GetNum = (item, options) => {
 const ToHTML = (item, options) => {
   DEBUG && console.debug("ToHTML, args: ", { item, options });
   const { Type, Name: ItemName } = item;
-  const { size } = options;
+  const { size, image_only } = options;
   const icon = GetIconByType(Type);
-  const result = icon
-    ? `<img src="${this.app.vault.adapter.basePath}/${
+  let result = '';
+  if(icon){
+    if(image_only){
+      result = `<img src="${this.app.vault.adapter.basePath}/${icon.file.path}" width="${GetDisplaySize(icon, size)}"/>`
+    } else {
+      result = `<img src="${this.app.vault.adapter.basePath}/${
         icon.file.path
       }" width="${GetDisplaySize(icon, size)}"/> ${ItemName} ${GetNum(
         item,
         options
       )}`
-    : "";
+    }
+  }
   DEBUG && console.debug("ToHTML, return: ", result);
   return result;
 };
