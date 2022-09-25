@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "204591ca08bab87f",
+        "id": "60e7bb27095f9d84",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/安洁莉卡.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -41,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "旧校舍‧地下二层",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -70,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/安洁莉卡.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +81,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/安洁莉卡.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -112,17 +105,17 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "d36f5b0392c4ea4e",
+  "active": "60e7bb27095f9d84",
   "lastOpenFiles": [
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/无头守卫.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/莎拉教官_2.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/莎拉教官.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/菲_2.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/菲.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/艾玛.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/劳拉_2.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/劳拉.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/亚莉莎.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/盖乌斯.md"
+    "游戏攻略/如龙7 光与暗的去向/如龙7 光与暗的去向.md",
+    "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/男人的战争.md",
+    "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/地狱.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/智天使之门.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/古人偶.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/方石像.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/街灯蜘蛛.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/旧校舍‧地下二层.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/旧校舍‧地下一层.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/米诺斯恶魔.md"
   ]
 }
