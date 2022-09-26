@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "9acd51520ee1a93a",
+        "id": "bfcab66dee15c441",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/罗亚·埃雷波尼乌斯.md",
+            "file": "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/地/钢铁.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "巨大影之领域",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -50,8 +50,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -71,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/罗亚·埃雷波尼乌斯.md",
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/地/钢铁.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/罗亚·埃雷波尼乌斯.md",
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/地/钢铁.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -113,8 +112,9 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "9acd51520ee1a93a",
+  "active": "bfcab66dee15c441",
   "lastOpenFiles": [
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/罗亚·埃雷波尼乌斯.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/力量碎片.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/杜尔格涅萨.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/迪萨德审判.md",
@@ -123,7 +123,6 @@
     "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/闪电多头龙.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/极寒神威.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/炼狱兔.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/漆黑门犬.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/史尔特尔.md"
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/漆黑门犬.md"
   ]
 }

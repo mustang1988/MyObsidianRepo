@@ -161,6 +161,11 @@ const ITEM_ICONS = {
     width: 24,
     height: 24,
   },
+  EarthQuartzMaster: {
+    file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路_地_核心.webp"),
+    width: 32,
+    height: 32,
+  },
   WaterQuartz: {
     file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路_水.webp"),
     width: 32,
@@ -173,6 +178,11 @@ const ITEM_ICONS = {
   },
   WaterQuartzSR: {
     file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路_水SR.webp"),
+    width: 32,
+    height: 32,
+  },
+  WaterQuartzMaster: {
+    file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路_水_核心.webp"),
     width: 32,
     height: 32,
   },
@@ -191,6 +201,11 @@ const ITEM_ICONS = {
     width: 32,
     height: 32,
   },
+  FireQuartzMaster: {
+    file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路_火_核心.webp"),
+    width: 32,
+    height: 32,
+  },
   WindQuartz: {
     file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路_风.webp"),
     width: 32,
@@ -203,6 +218,11 @@ const ITEM_ICONS = {
   },
   WindQuartzSR: {
     file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路_风SR.webp"),
+    width: 32,
+    height: 32,
+  },
+  WindQuartzMaster: {
+    file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路_风_核心.webp"),
     width: 32,
     height: 32,
   },
@@ -221,6 +241,11 @@ const ITEM_ICONS = {
     width: 32,
     height: 32,
   },
+  TimeQuartzMaster: {
+    file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路_时_核心.webp"),
+    width: 32,
+    height: 32,
+  },
   SpaceQuartz: {
     file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路_空.webp"),
     width: 32,
@@ -236,6 +261,11 @@ const ITEM_ICONS = {
     width: 32,
     height: 32,
   },
+  SpaceQuartzMaster: {
+    file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路_空_核心.webp"),
+    width: 32,
+    height: 32,
+  },
   MirageQuartz: {
     file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路_幻.webp"),
     width: 32,
@@ -248,6 +278,11 @@ const ITEM_ICONS = {
   },
   MirageQuartzSR: {
     file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路_幻SR.webp"),
+    width: 32,
+    height: 32,
+  },
+  MirageQuartzMaster: {
+    file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/回路_幻_核心.webp"),
     width: 32,
     height: 32,
   },
