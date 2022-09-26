@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "22c6fcfdd30237dc",
+        "id": "2bf346007e4d5167",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/鳄头鱼.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -36,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#英雄传说/闪之轨迹/笔记/战斗 地下通道",
+                "query": "tag:#英雄传说/闪之轨迹/笔记/战斗 帝都",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -45,7 +50,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -65,6 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/鳄头鱼.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/鳄头鱼.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -105,17 +113,17 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "22c6fcfdd30237dc",
+  "active": "2bf346007e4d5167",
   "lastOpenFiles": [
-    "模板/英雄传说/通用/怪物模板_Boss.md",
-    "模板/英雄传说/通用/怪物模板_普通.md",
-    "未命名.md",
-    "未命名 1.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/月轮鼹鼠.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/金属甲壳虫.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/型态兵器G.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/炸弹蜘蛛.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/幼小裸海蝶.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/岩浆软体兽.md"
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/马奇亚斯.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/黎恩.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/巨型软体兽.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/食尸鬼团.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/巨球蝙蝠.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/漆黑软体兽.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/肮脏老鼠.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/G-基迪恩.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/吸血草.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/赛斯菲.md"
   ]
 }
