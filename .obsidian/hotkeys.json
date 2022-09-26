@@ -6,5 +6,21 @@
       ],
       "key": "T"
     }
+  ],
+  "templater-obsidian:模板/英雄传说/通用/怪物模板_普通.md": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "M"
+    }
+  ],
+  "templater-obsidian:模板/英雄传说/通用/怪物模板_Boss.md": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "B"
+    }
   ]
 }

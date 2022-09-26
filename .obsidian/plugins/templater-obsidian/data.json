@@ -20,6 +20,10 @@
     }
   ],
   "syntax_highlighting": true,
-  "enabled_templates_hotkeys": [],
-  "startup_templates": []
+  "enabled_templates_hotkeys": [
+    "模板/英雄传说/通用/怪物模板_普通.md",
+    "模板/英雄传说/通用/怪物模板_Boss.md"
+  ],
+  "startup_templates": [],
+  "enable_ribbon_icon": true
 }

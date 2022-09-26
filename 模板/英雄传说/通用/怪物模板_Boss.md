@@ -1,5 +1,5 @@
 ---
-Name: "{{title}}"
+Name: "<% tp.file.title %>"
 Icon: "![[图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/战斗笔记/{{title}}.webp]]"
 Description:
   - ""
@@ -57,7 +57,7 @@ DebuffRates:
 Boss: true
 ---
 ````ad-battle-boss
-title: {{title}}
+title: <% tp.file.title %>
 collapse: open
 
 ```dataviewjs
