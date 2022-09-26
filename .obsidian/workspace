@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "42e1d51642d0b787",
+        "id": "b9863163b754d434",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/安斯尔特.md",
+            "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/艾尔维利亚.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "旧校舍地下·第五层",
+                "query": "旧校舍地下·第六层",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -71,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/安斯尔特.md",
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/艾尔维利亚.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/安斯尔特.md",
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/艾尔维利亚.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -113,17 +113,17 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "42e1d51642d0b787",
+  "active": "b9863163b754d434",
   "lastOpenFiles": [
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/斯塔拉姆达.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/幽怨之魂.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/紫泥.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/安斯尔特.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/欺瞒冰霜兽.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/硬化巨龟.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/膨大聚合体.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/旧校舍地下·第五层1.md",
     "首页.md",
-    "未命名.md",
-    "图片/青铜奖杯.png",
-    "图片/黄金奖杯.png",
-    "图片/白银奖杯.png",
-    "图片/白金奖杯.png"
+    "未命名.md"
   ]
 }
