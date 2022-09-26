@@ -1,6 +1,6 @@
 ---
 Name: "<% tp.file.title %>"
-Icon: "![[图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/战斗笔记/{{title}}.webp]]"
+Icon: "![[图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/战斗笔记/<% tp.file.title %>.webp]]"
 Description:
   - ""
 Locations: 
