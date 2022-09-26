@@ -1,29 +1,103 @@
 ---
 Name: "警备猎犬B"
-Positions: 
+Icon: "![[图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/战斗笔记/警备猎犬B.webp]]"
+Description:
+  - "领邦军训练出的军用魔兽."
+  - "使出训练有素的合作攻击,"
+  - "绝不会让猎物逃走."
+Locations: 
   - "[[公都地下水路3]]"
-Bonus: 
-- Name: "HP2"
-  Type: "WaterQuartz"
-  Num: 1
+Properties:
+  LV: 21
+  HP: 23580
+  EXP: 720
+  STR: 618
+  DEF: 605
+  ATS: 0
+  ADF: 530
+  SPD: 78
+MagicRates:
+  - 80
+  - 80
+  - 80
+  - 80
+  - 100
+  - 100
+  - 100
+Droped:
+  Sepiths:
+    - 24
+    - 10
+    - 10
+    - 24
+    - 0
+    - 0
+    - 30
+    - 50
+  Items:
+    - Name: "HP2"
+      Type: "WaterQuartz"
+      Num: 1
+Unbalance:
+  - 1
+  - 3
+  - 1
+  - 1
+DebuffRates:
+  Poison: 50
+  Burn: 100
+  Death: 0
+  Seal: 100
+  Freeze: 100
+  Nightmare: 100
+  Mute: 100
+  Petrify: 0
+  Delay: 50
+  Blind: 100
+  Faint: 100
+  Vanish: 0
+  Sleep: 100
+  Confuse: 100
+  SDown: 50
 Boss: true
 ---
-````ad-danger
+````ad-battle-boss
 title: 警备猎犬B
-icon: skull
+collapse: open
 
-出现位置: `$= dv.current().Positions`
+```dataviewjs
+await dv.view('MonsterInfoTable', { monster: dv.current() })
+```
 
-掉落物: `$=await dv.view('Item', { items: dv.current().Bonus });`
+属性
+```dataviewjs
+await dv.view('MonsterPropertyTable', { props: dv.current().Properties })
+```
 
-```ad-tip
-title: 攻略
-icon: title
+魔法属性有效率
+```dataviewjs
+await dv.view('MagicRateTable', { rate: dv.current().MagicRates });
+```
 
-此战马奇亚斯和尤西斯的Link强制连在一起用艾玛的技能调查信息后, 爆S技火速解决一个, 剩下的慢慢磨
+获得耀晶石
+```dataviewjs
+await dv.view('DropSepithTable', { sepiths: dv.current().Droped.Sepiths })
+```
 
-有马奇亚斯和艾玛在, 恢复不是问题.小心BOSS的气绝攻击就可以了
+取得道具
+```dataviewjs
+await dv.view('DropItemTable', { items: dv.current().Droped.Items })
+```
+
+失衡引发机率
+```dataviewjs
+await dv.view('BLNRateTable', { rate: dv.current().Unbalance })
+```
+
+状态变化有效率
+```dataviewjs
+await dv.view('DebuffRateTable', { status: dv.current().DebuffRates })
 ```
 ````
 
-#英雄传说/闪之轨迹/笔记/战斗
+#英雄传说/闪之轨迹/笔记/战斗 
