@@ -7,8 +7,13 @@
         "id": "b22bf05b1370c5e2",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/人面鸟.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -36,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#英雄传说/闪之轨迹/笔记/战斗 自然公园",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -45,7 +50,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -65,6 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/人面鸟.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/人面鸟.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -105,17 +113,17 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "b22bf05b1370c5e2",
+  "active": "6285faa14d2dfac7",
   "lastOpenFiles": [
-    "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/地/钢铁.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/地/神盾.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/地/巨石.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/地/金牛.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/罗亚·埃雷波尼乌斯.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/力量碎片.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/杜尔格涅萨.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/迪萨德审判.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/傲古极欧.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/钢铁魔像.md"
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/恐怖蜥龙.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/苦番茄人.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/刃尾松鼠.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/啃咬狼.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/大王蜻蜓.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/巨喙乌鸦.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/死亡蜗牛.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/田地破坏者.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/西凯尔迪克街道1.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/核心回路/地/钢铁.md"
   ]
 }
