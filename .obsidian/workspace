@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c724ca80a18b3d7c",
+        "id": "112685ae47c85f04",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/无头守卫.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -36,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "旧校舍地下·第三层",
+                "query": "旧校舍地下・第四层",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -66,6 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/无头守卫.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,6 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/无头守卫.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -106,17 +113,17 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "c724ca80a18b3d7c",
+  "active": "112685ae47c85f04",
   "lastOpenFiles": [
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/疯狂野草.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/无头守卫.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/炽天使之门.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/深渊三头犬.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/火焰之尊.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/旧校舍地下・第四层1.md",
+    "未命名.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/深渊恶魔.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/伸缩蜗兽.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/狂怒方尖碑.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/地狱兔.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/旧校舍地下·第三层2.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/旧校舍地下·第三层1.md",
-    "游戏攻略/如龙7 光与暗的去向/如龙7 光与暗的去向.md",
-    "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/男人的战争.md",
-    "游戏攻略/如龙7 光与暗的去向/笔记/支线任务/地狱.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/智天使之门.md"
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/狂怒方尖碑.md"
   ]
 }
