@@ -1,5 +1,5 @@
 /**
- * 渲染失衡引发率率
+ * 渲染失衡引发率单元
  */
 const DEBUG = false;
 const START_ICON = {

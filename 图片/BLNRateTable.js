@@ -1,3 +1,6 @@
+/**
+ * 渲染失衡引发率表格
+ */
 const RATE_TABLE_HEADER = ["斩", "突", "射", "钢"];
 
 const RenderRateTable = async (rate, options) => {
