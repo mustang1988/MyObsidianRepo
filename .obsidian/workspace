@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "0fee2af32c80e10e",
+        "id": "d6da2d53cda78679",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/跳舞猫头鹰.md",
+            "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/金属蝙蝠.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#英雄传说/闪之轨迹/笔记/战斗 札克森山",
+                "query": "tag:#英雄传说/闪之轨迹/笔记/战斗 札克森铁矿山",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -71,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/跳舞猫头鹰.md",
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/金属蝙蝠.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/跳舞猫头鹰.md",
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/金属蝙蝠.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -113,17 +113,17 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "0fee2af32c80e10e",
+  "active": "d6da2d53cda78679",
   "lastOpenFiles": [
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/龟虫.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/大鹏鸟.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/死亡镰刀手.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/幼小裸海蝶.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/炸弹蜘蛛.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/跳舞猫头鹰.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/多头蛇.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/湛蓝福音.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/岩蛇.md",
-    "未命名.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/鳄头鱼.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/龙人.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/水母菇.md",
-    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
-    "首页.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/赤鬼蜻蜓.md"
+    "未命名.md"
   ]
 }
