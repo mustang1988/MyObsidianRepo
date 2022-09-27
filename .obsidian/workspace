@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/型态兵器G.md",
+            "file": "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#英雄传说/闪之轨迹/笔记/战斗 地下通道",
+                "query": "玉帘",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -50,8 +50,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -71,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/型态兵器G.md",
+                "file": "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/型态兵器G.md",
+                "file": "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -113,17 +112,17 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "6285faa14d2dfac7",
+  "active": "d6da2d53cda78679",
   "lastOpenFiles": [
+    "未命名.md",
+    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
+    "首页.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/玉帘.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/玉帘_2.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/月轮鼹鼠.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/金属甲壳虫.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/型态兵器G.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/《C》_2.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/G・玉帘.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/NT-I.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/V-伏尔坎.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/帝国解放战线·步枪_2.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/帝国解放战线·步枪.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/帝国解放战线·剑_2.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/帝国解放战线·剑.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/B・玉帘.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/警备猎犬G_2.md"
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/G・玉帘.md"
   ]
 }
