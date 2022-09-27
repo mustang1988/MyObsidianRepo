@@ -22,5 +22,13 @@
       ],
       "key": "B"
     }
+  ],
+  "templater-obsidian:模板/英雄传说/英雄传说 闪之轨迹/笔记/迷宫模板.md": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "X"
+    }
   ]
 }
