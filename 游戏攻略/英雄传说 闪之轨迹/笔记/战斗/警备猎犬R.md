@@ -26,23 +26,23 @@ MagicRates:
   - 100
 Droped:
   Sepiths:
-    - 6
-    - 20
-    - 20
-    - 6
-    - 30
-    - 30
-    - 0
-    - 50
+    Earth: 6
+    Water: 20
+    Fire: 20
+    Wind: 6
+    Time: 30
+    Space: 30
+    Mirage: 0
+    Mass: 50
   Items:
     - Name: "命中2"
       Type: "SpaceQuartz"
       Num: 1
 Unbalance:
-  - 1
-  - 1
-  - 1
-  - 1
+  Slash: 1
+  Thrust: 1
+  Pierce: 1
+  Strike: 1
 DebuffRates:
   Poison: 50
   Burn: 100

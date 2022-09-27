@@ -26,20 +26,20 @@ MagicRates:
   - 100
 Droped:
   Sepiths:
-    - 40
-    - 38
-    - 34
-    - 36
-    - 38
-    - 40
-    - 42
-    - 100
+    Earth: 40
+    Water: 38
+    Fire: 34
+    Wind: 36
+    Time: 38
+    Space: 40
+    Mirage: 42
+    Mass: 100
   Items:
 Unbalance:
-  - 1
-  - 2
-  - 1
-  - 2
+  Slash: 1
+  Thrust: 2
+  Pierce: 1
+  Strike: 2
 DebuffRates:
   Poison: 0
   Burn: 100

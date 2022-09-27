@@ -25,14 +25,14 @@ MagicRates:
   - 100
 Droped:
   Sepiths:
-    - 32
-    - 32
-    - 32
-    - 32
-    - 32
-    - 32
-    - 32
-    - 90
+    Earth: 32
+    Water: 32
+    Fire: 32
+    Wind: 32
+    Time: 32
+    Space: 32
+    Mirage: 32
+    Mass: 90
   Items:
     - Name: "圣灵药·改"
       Type: "Potion"
@@ -41,10 +41,10 @@ Droped:
       Type: "Potion"
       Num: 1
 Unbalance:
-  - 1
-  - 1
-  - 1
-  - 0
+  Slash: 1
+  Thrust: 1
+  Pierce: 1
+  Strike: 0
 DebuffRates:
   Poison: 0
   Burn: 100

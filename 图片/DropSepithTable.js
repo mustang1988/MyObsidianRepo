@@ -1,13 +1,4 @@
-const SEPITHS_TYPES = [
-  "Earth",
-  "Water",
-  "Fire",
-  "Wind",
-  "Time",
-  "Space",
-  "Mirage",
-  "Mass",
-];
+const DEBUG = true;
 const SEPITH_CHUNK_SIZE = 4;
 const ChunkSepiths = (sepiths) => {
   const result = [];
@@ -22,21 +13,23 @@ const ChunkSepiths = (sepiths) => {
   return result;
 };
 const RenderDropSepiths = async (sepiths, options) => {
-  sepiths = sepiths.map((s, index) => {
-    return {
+  DEBUG && console.log(sepiths);
+  const args = [];
+  for (const key of Object.keys(sepiths)) {
+    args.push({
       Name: "",
-      Type: `${SEPITHS_TYPES[index]}Sepith`,
-      Num: s,
-    };
-  });
+      Type: `${key}Sepith`,
+      Num: sepiths[key],
+    });
+  }
   const results = await dv.view("Item", {
-    items: sepiths,
+    items: args,
     options: options,
   });
   const data = [];
   for (let i = 0; i < results.length; i++) {
     data.push(results[i]);
-    data.push(sepiths[i].Num);
+    data.push(args[i].Num);
   }
   dv.table([], ChunkSepiths(data));
 };

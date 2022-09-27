@@ -26,23 +26,23 @@ MagicRates:
   - 100
 Droped:
   Sepiths:
-    - 24
-    - 10
-    - 10
-    - 24
-    - 0
-    - 0
-    - 30
-    - 50
+    Earth: 24
+    Water: 10
+    Fire: 10
+    Wind: 24
+    Time: 0
+    Space: 0
+    Mirage: 30
+    Mass: 50
   Items:
     - Name: "HP2"
       Type: "WaterQuartz"
       Num: 1
 Unbalance:
-  - 1
-  - 3
-  - 1
-  - 1
+  Slash: 1
+  Thrust: 3
+  Pierce: 1
+  Strike: 1
 DebuffRates:
   Poison: 50
   Burn: 100

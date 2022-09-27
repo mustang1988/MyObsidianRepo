@@ -26,14 +26,14 @@ MagicRates:
   - 100
 Droped:
   Sepiths:
-    - 34
-    - 34
-    - 34
-    - 34
-    - 34
-    - 34
-    - 34
-    - 90
+    Earth: 34
+    Water: 34
+    Fire: 34
+    Wind: 34
+    Time: 34
+    Space: 34
+    Mirage: 34
+    Mass: 90
   Items:
     - Name: "EP填充剂III"
       Type: "Potion"
@@ -42,10 +42,10 @@ Droped:
       Type: "Potion"
       Num: 1
 Unbalance:
-  - 0
-  - 1
-  - 1
-  - 0
+  Slash: 0
+  Thrust: 1
+  Pierce: 1
+  Strike: 0
 DebuffRates:
   Poison: 0
   Burn: 100

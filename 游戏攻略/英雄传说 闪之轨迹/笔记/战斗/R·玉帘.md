@@ -26,14 +26,14 @@ MagicRates:
   - 100
 Droped:
   Sepiths:
-    - 32
-    - 32
-    - 32
-    - 32
-    - 32
-    - 32
-    - 32
-    - 80
+    Earth: 32
+    Water: 32
+    Fire: 32
+    Wind: 32
+    Time: 32
+    Space: 32
+    Mirage: 32
+    Mass: 80
   Items:
     - Name: ""
       Type: "UMaterial"
@@ -42,10 +42,10 @@ Droped:
       Type: "Potion"
       Num: 1
 Unbalance:
-  - 0
-  - 1
-  - 1
-  - 1
+  Slash: 0
+  Thrust: 1
+  Pierce: 1
+  Strike: 1
 DebuffRates:
   Poison: 0
   Burn: 100

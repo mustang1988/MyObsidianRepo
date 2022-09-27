@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9b7114714ee24176",
+        "id": "f6a49097e2872f40",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/艾尔维利亚.md",
+            "mode": "preview",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -65,6 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/艾尔维利亚.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/艾尔维利亚.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -105,8 +112,9 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "9b7114714ee24176",
+  "active": "f6a49097e2872f40",
   "lastOpenFiles": [
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/艾尔维利亚.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/玻璃软体兽.md",
     "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
     "游戏攻略/英雄传说 创之轨迹/英雄传说 创之轨迹.md",
@@ -115,7 +123,6 @@
     "游戏攻略/英雄传说 闪之轨迹/笔记/食谱/混合冰淇淋.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/食谱/烘焙咖啡.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/食谱/风味药草茶.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/食谱/番茄三明治.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/食谱/番茄焗烤.md"
+    "游戏攻略/英雄传说 闪之轨迹/笔记/食谱/番茄三明治.md"
   ]
 }
