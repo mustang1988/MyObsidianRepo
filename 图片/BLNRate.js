@@ -16,23 +16,19 @@ const DEFAULT_OPTIONS = {
   size: 20,
   raw: false,
 };
-
 const MergeOptions = (options) => {
   return Object.assign(DEFAULT_OPTIONS, options);
 };
-
 const GetDisplaySize = (icon, size) => {
   const { width, height } = icon;
   return Math.round((width * size) / height);
 };
-
 const GetIconPath = (icon) => {
   const {
     file: { path },
   } = icon;
   return `${this.app.vault.adapter.basePath}/${path}`;
 };
-
 const ToHTML = (rate, options) => {
   const { size } = options;
   let HTML = "";
@@ -49,7 +45,6 @@ const ToHTML = (rate, options) => {
   }
   return HTML;
 };
-
 const RenderRate = (rate, options) => {
   const { raw } = options;
   rate = rate > 5 ? 5 : rate;
@@ -57,6 +52,5 @@ const RenderRate = (rate, options) => {
   const HTML = ToHTML(rate, options);
   return raw ? HTML : dv.span(HTML);
 };
-
 const { rate = 0, options } = input;
 return RenderRate(rate, MergeOptions(options));

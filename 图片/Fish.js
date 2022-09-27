@@ -1,5 +1,4 @@
 const DEBUG = false;
-
 const FISH_ICONS = {
   ColdSteel: {
     鳌虾: {
@@ -887,7 +886,6 @@ const FISH_ICONS = {
     },
   },
 };
-
 const DEFAULT_OPTIONS = {
   size: 20,
   category: "ColdSteel",
@@ -895,11 +893,9 @@ const DEFAULT_OPTIONS = {
   seperator: " , ",
   raw: false,
 };
-
 const MergeOptions = (options) => {
   return Object.assign(DEFAULT_OPTIONS, options);
 };
-
 const GetIcon = (name, category) => {
   DEBUG && console.log("GetIcon, args => ", { name, category });
   const checkCategory = Object.keys(FISH_ICONS).includes(category);
@@ -914,12 +910,10 @@ const GetIcon = (name, category) => {
   DEBUG && console.log("GetIcon, checkCategory false, return => ", null);
   return null;
 };
-
 const GetDisplaySize = (icon, size) => {
   const { width, height } = icon;
   return Math.round((width * size) / height);
 };
-
 const ToHTML = (fish, options) => {
   const {
     Name,
@@ -936,7 +930,6 @@ const ToHTML = (fish, options) => {
     return "";
   }
 };
-
 const RenderFish = (fish, options) => {
   const { raw } = options;
   const fishObject = dv.page(fish.path || fish.file.path);
@@ -944,7 +937,6 @@ const RenderFish = (fish, options) => {
     ? ToHTML(fishObject, options)
     : dv.span(ToHTML(fishObject, options));
 };
-
 const RenderFishes = (fishes, options) => {
   const { raw } = options;
   fishes = fishes.map((f) => dv.page(f.path || f.file.path));
@@ -954,7 +946,6 @@ const RenderFishes = (fishes, options) => {
     : fishes.map((f) => ToHTML(f, options));
   return raw ? HTML : inline ? dv.span(HTML) : dv.list(HTML);
 };
-
 const { fish, options } = input;
 DEBUG && console.log("Fish.js, Input => ", input);
 return Array.isArray(fish)

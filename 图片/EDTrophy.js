@@ -1,5 +1,4 @@
 const DEBUG = false;
-
 const ED_TROPHY_ICONS = {
   ColdSteel: {
     Platinum: {
@@ -146,7 +145,6 @@ const ED_TROPHY_ICONS = {
     },
   },
 };
-
 const DEFAULT_OPTIONS = {
   size: 20,
   category: "ColdSteel",
@@ -154,11 +152,9 @@ const DEFAULT_OPTIONS = {
   seperator: " , ",
   raw: false,
 };
-
 const MergeOptions = (options) => {
   return Object.assign(DEFAULT_OPTIONS, options);
 };
-
 const GetIcon = (name, category) => {
   const checkCategory = Object.keys(ED_TROPHY_ICONS).includes(category);
   if (checkCategory) {
@@ -168,7 +164,6 @@ const GetIcon = (name, category) => {
   }
   return null;
 };
-
 const GetTrophyType = (trophyObject) => {
   DEBUG && console.log("GetTrophyType, args: ", trophyObject);
   const tags = trophyObject.file.etags;
@@ -186,12 +181,10 @@ const GetTrophyType = (trophyObject) => {
       return "Bronze";
   }
 };
-
 const GetDisplaySize = (icon, size) => {
   const { width, height } = icon;
   return Math.round((width * size) / height);
 };
-
 const ToHTML = (trophyObject, options) => {
   DEBUG && console.debug("ToHTML, args: ", { trophyObject, options });
   const {
@@ -209,7 +202,6 @@ const ToHTML = (trophyObject, options) => {
     return "";
   }
 };
-
 const RenderTrophy = (trophy, options) => {
   DEBUG && console.debug("RenderTrophy, args: ", { trophy, options });
   const { raw } = options;
@@ -218,7 +210,6 @@ const RenderTrophy = (trophy, options) => {
   DEBUG && console.debug("RenderTrophy, return: ", result);
   return result;
 };
-
 const RenderTrophies = (trophies, options) => {
   trophies = trophies.map((t) => dv.page(t.path || t.file.path));
   const { inline, raw, seperator } = options;
@@ -227,7 +218,6 @@ const RenderTrophies = (trophies, options) => {
     : trophies.map((t) => ToHTML(t, options));
   return raw ? HTML : inline ? dv.span(HTML) : dv.list(HTML);
 };
-
 const { trophy, options } = input;
 DEBUG && console.debug("EDTrophy, args: ", input);
 return Array.isArray(trophy)

@@ -837,7 +837,6 @@ const MASTER_QUARTZ_ICONS = {
     // TODO
   },
 };
-
 const DEFAULT_OPTIONS = {
   size: 20,
   category: "ColdSteel",
@@ -845,11 +844,9 @@ const DEFAULT_OPTIONS = {
   seperator: " , ",
   raw: false,
 };
-
 const MergeOptions = (options) => {
   return Object.assign(DEFAULT_OPTIONS, options);
 };
-
 const GetIcon = (name, category) => {
   const checkCategory = Object.keys(MASTER_QUARTZ_ICONS).includes(category);
   if (checkCategory) {
@@ -859,12 +856,10 @@ const GetIcon = (name, category) => {
   }
   return null;
 };
-
 const GetDisplaySize = (icon, size) => {
   const { width, height } = icon;
   return Math.round((width * size) / height);
 };
-
 const ToHTML = (quartz, options) => {
   const {
     file: { name, link, path },
@@ -878,7 +873,6 @@ const ToHTML = (quartz, options) => {
   }
   return "";
 };
-
 const RenderQuartz = (quartz, options) => {
   const { raw } = options;
   const quartzObject = dv.page(quartz.path || quartz.file.path);
@@ -886,7 +880,6 @@ const RenderQuartz = (quartz, options) => {
     ? ToHTML(quartzObject, options)
     : dv.span(ToHTML(quartzObject, options));
 };
-
 const RenderQuartzs = (quartzs, options) => {
   quartzs = quartzs.map((q) => dv.page(q.path || q.file.path));
   const { inline, raw, seperator } = options;
@@ -895,7 +888,6 @@ const RenderQuartzs = (quartzs, options) => {
     : quartzs.map((q) => ToHTML(q, options));
   return raw ? HTML : inline ? dv.span(HTML) : dv.list(HTML);
 };
-
 const { quartz, options } = input;
 return Array.isArray(quartz)
   ? RenderQuartzs(quartz, MergeOptions(options))

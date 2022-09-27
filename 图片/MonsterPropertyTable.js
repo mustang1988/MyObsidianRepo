@@ -8,7 +8,6 @@ const DEFAULT_MONSTER_PROPERTY_ORDER = [
   "ADF",
   "SPD",
 ];
-
 const FIXED_MONSTER_PROPERTY_ORDER = [
   "LV",
   "STR",
@@ -21,9 +20,7 @@ const FIXED_MONSTER_PROPERTY_ORDER = [
   "",
   "SPD",
 ];
-
 const MONSTER_PROPERTY_CHUNK_SIZE = 2;
-
 const ChunkMonsterProperty = (data) => {
   const result = [];
   let index = 0;
@@ -36,7 +33,6 @@ const ChunkMonsterProperty = (data) => {
   }
   return result;
 };
-
 const RenderMonsterPropertyTable = (props, options) => {
   const data = [];
   const { fixed } = options;
@@ -49,6 +45,5 @@ const RenderMonsterPropertyTable = (props, options) => {
   }
   dv.table([], ChunkMonsterProperty(data));
 };
-
 const { props, options = { fixed: true } } = input;
 return RenderMonsterPropertyTable(props, options);

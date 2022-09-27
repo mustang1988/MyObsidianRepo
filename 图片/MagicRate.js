@@ -35,36 +35,30 @@ const MAGIC_ELEMENT_ICONS = {
     height: 48,
   },
 };
-
 const DEFAULT_OPTIONS = {
   size: 20,
   raw: false,
   image_only: false,
   fix_order: false,
 };
-
 const MergeOptions = (options) => {
   return Object.assign(DEFAULT_OPTIONS, options);
 };
-
 const GetIcon = (index) => {
   return index < Object.keys(MAGIC_ELEMENT_ICONS).length
     ? Object.values(MAGIC_ELEMENT_ICONS)[index]
     : null;
 };
-
 const GetDisplaySize = (icon, size) => {
   const { width, height } = icon;
   return Math.round((width * size) / height);
 };
-
 const GetIconPath = (icon) => {
   const {
     file: { path },
   } = icon;
   return `${this.app.vault.adapter.basePath}/${path}`;
 };
-
 const ToHTML = (rate, options) => {
   const { size, image_only, fix_order } = options;
   const result = rate.map((r, index) => {
@@ -85,12 +79,10 @@ const ToHTML = (rate, options) => {
   }
   return result;
 };
-
 const RenderMagicRate = (rate, options) => {
   const { raw } = options;
   const HTML = ToHTML(rate, options);
   return raw ? HTML : dv.list(HTML);
 };
-
 const { rate, options } = input;
 return RenderMagicRate(rate, MergeOptions(options));

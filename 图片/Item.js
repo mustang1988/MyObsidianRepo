@@ -1,5 +1,4 @@
 const DEBUG = false;
-
 const ITEM_ICONS = {
   UMaterial: {
     file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/物品_U物质.png"),
@@ -292,7 +291,6 @@ const ITEM_ICONS = {
     height: 32,
   },
 };
-
 const DEFAULT_OPTIONS = {
   size: 20,
   limit: 1,
@@ -301,26 +299,21 @@ const DEFAULT_OPTIONS = {
   raw: false,
   image_only: false,
 };
-
 const GetIconByType = (type) => {
   return Object.keys(ITEM_ICONS).includes(type) ? ITEM_ICONS[type] : null;
 };
-
 const MergeOptions = (options) => {
   return Object.assign(DEFAULT_OPTIONS, options);
 };
-
 const GetDisplaySize = (icon, size) => {
   const { width, height } = icon;
   return Math.round((width * size) / height);
 };
-
 const GetNum = (item, options) => {
   const { Num = 0 } = item;
   const { limit } = options;
   return Num > limit ? `x ${Num}` : "";
 };
-
 const ToHTML = (item, options) => {
   DEBUG && console.debug("\t\tHTML组装, 参数: ", { item, options });
   const { Type, Name: ItemName } = item;
@@ -342,7 +335,6 @@ const ToHTML = (item, options) => {
   DEBUG && console.debug("\t\tHTML组装, 返回结果: ", result);
   return result;
 };
-
 const RenderItem = (item, options) => {
   DEBUG && console.debug("\t单物品渲染, 参数: ", { item, options });
   const { raw } = options;
@@ -359,7 +351,6 @@ const RenderItem = (item, options) => {
   DEBUG && console.debug("\t单物品渲染, 返回结果: ", result);
   return result;
 };
-
 const RenderItems = (items, options) => {
   DEBUG && console.debug("\t多物品渲染, 参数: ", { items, options });
   const { inline, seperator, raw } = options;
@@ -370,7 +361,6 @@ const RenderItems = (items, options) => {
   DEBUG && console.debug("\t多物品渲染, 返回结果: ", result);
   return result;
 };
-
 const { items, options } = input;
 DEBUG && console.log("物品渲染脚本, 输入参数: ", { items, options });
 const result = Array.isArray(items)

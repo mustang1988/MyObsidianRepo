@@ -8,9 +8,7 @@ const SEPITHS_TYPES = [
   "Mirage",
   "Mass",
 ];
-
 const SEPITH_CHUNK_SIZE = 4;
-
 const ChunkSepiths = (sepiths) => {
   const result = [];
   let index = 0;
@@ -23,7 +21,6 @@ const ChunkSepiths = (sepiths) => {
   }
   return result;
 };
-
 const RenderDropSepiths = async (sepiths, options) => {
   sepiths = sepiths.map((s, index) => {
     return {
@@ -36,16 +33,13 @@ const RenderDropSepiths = async (sepiths, options) => {
     items: sepiths,
     options: options,
   });
-
   const data = [];
   for (let i = 0; i < results.length; i++) {
     data.push(results[i]);
     data.push(sepiths[i].Num);
   }
-
   dv.table([], ChunkSepiths(data));
 };
-
 const {
   sepiths = [0, 0, 0, 0, 0, 0, 0],
   options = { raw: true, inline: false, limit: -1, image_only: true },

@@ -1,5 +1,4 @@
 const MAGIC_RATE_CHUNK_SIZE = 2;
-
 const ChunkMagicRate = (data) => {
   const result = [];
   let index = 0;
@@ -12,13 +11,11 @@ const ChunkMagicRate = (data) => {
   }
   return result;
 };
-
 const FixOrder = (data) => {
   const [e, wa, f, wi, t, s, m] = data;
   const result = [e, t, wa, s, f, m, wi];
   return result;
 };
-
 const RenderMagicRateTable = async (rate, options = {}) => {
   options.raw = true;
   options.fix_order = true;
@@ -36,6 +33,5 @@ const RenderMagicRateTable = async (rate, options = {}) => {
   //
   dv.table([], ChunkMagicRate(results));
 };
-
 const { rate, options } = input;
 return RenderMagicRateTable(rate, options);

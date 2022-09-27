@@ -1,5 +1,4 @@
 const DEBUG = false;
-
 const DEFAULT_OPTIONS = {
   size: 20,
   category: "ColdSteel",
@@ -7,23 +6,19 @@ const DEFAULT_OPTIONS = {
   seperator: " , ",
   raw: false,
 };
-
 const MergeOptions = (options) => {
   return Object.assign(DEFAULT_OPTIONS, options);
 };
-
 const GetIcon = async (name, category) => {
   return await dv.view("CharacterIcon", {
     name,
     options: { category, raw: true },
   });
 };
-
 const GetDisplaySize = (icon, size) => {
   const { width, height } = icon;
   return Math.round((width * size) / height);
 };
-
 const ToHTML = async (info, options) => {
   DEBUG && console.log("BuildHTML => ", { info, options });
   const {
@@ -42,7 +37,6 @@ const ToHTML = async (info, options) => {
     return "";
   }
 };
-
 const RenderCharacterInfo = async (info, options) => {
   const { raw } = options;
   const infoObject = dv.page(info.path || info.file.path);
@@ -50,7 +44,6 @@ const RenderCharacterInfo = async (info, options) => {
     ? await ToHTML(infoObject, options)
     : dv.span(ToHTML(infoObject, options));
 };
-
 const RenderCharacterInfos = async (infos, options) => {
   const { raw } = options;
   infos = infos.map((i) => dv.page(i.path || i.file.path));
@@ -65,7 +58,6 @@ const RenderCharacterInfos = async (infos, options) => {
   }
   return raw ? HTML : inline ? dv.span(HTML) : dv.list(HTML);
 };
-
 const { info, options } = input;
 DEBUG && console.log("渲染人物信息, 参数: ", { info, options });
 return Array.isArray(info)

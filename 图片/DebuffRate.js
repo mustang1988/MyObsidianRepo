@@ -1,5 +1,4 @@
 const DEBUG = false;
-
 const STATUS_ICONS_NAMES = {
   Poison: "中毒",
   Burn: "炎伤",
@@ -22,13 +21,10 @@ const DEFAULT_OPTIONS = {
   raw: false,
   image_only: false,
 };
-
 let ICON_MAP = null;
-
 const MergeOptions = (options) => {
   return Object.assign(DEFAULT_OPTIONS, options);
 };
-
 const LoadStatusIcons = () => {
   if (ICON_MAP == null) {
     ICON_MAP = new Map(Object.entries(STATUS_ICONS_NAMES));
@@ -46,24 +42,20 @@ const LoadStatusIcons = () => {
   DEBUG && console.debug("LoadStatusIcons, return:", ICON_MAP);
   return ICON_MAP;
 };
-
 const GetIcon = (name) => {
   const icons = LoadStatusIcons();
   return icons.has(name) ? icons.get(name) : null;
 };
-
 const GetDisplaySize = (icon, size) => {
   const { width, height } = icon;
   return Math.round((width * size) / height);
 };
-
 const GetIconPath = (icon) => {
   const {
     file: { path },
   } = icon;
   return `${this.app.vault.adapter.basePath}/${path}`;
 };
-
 const ToHTML = (name, value, options) => {
   const { size, image_only } = options;
   const icon = GetIcon(name);
@@ -78,13 +70,11 @@ const ToHTML = (name, value, options) => {
         )}" /> ${icon.name} ${value}`
     : "";
 };
-
 const RenderStatusEffect = (status, options) => {
   const { raw } = options;
   const [name, value] = Object.entries(status)[0];
   const HTML = ToHTML(name, value, options);
   return raw ? HTML : dv.span(HTML);
 };
-
 const { status, options } = input;
 return RenderStatusEffect(status, MergeOptions(options));

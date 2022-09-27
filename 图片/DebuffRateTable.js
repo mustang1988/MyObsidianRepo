@@ -1,7 +1,5 @@
 const DEFAULT_OPTIONS = {};
-
 const CHUNK_SIZE = 3;
-
 const ToChunk = (effects) => {
   const result = [];
   let index = 0;
@@ -14,7 +12,6 @@ const ToChunk = (effects) => {
   }
   return result;
 };
-
 const RenderStatusEffectTable = async (status, options) => {
   const effectsIcons = await Promise.all(
     Object.entries(status).map((entry) => {
@@ -31,6 +28,5 @@ const RenderStatusEffectTable = async (status, options) => {
   }
   dv.table([], ToChunk(results));
 };
-
 const { status, options = { raw: true, image_only: true } } = input;
 return RenderStatusEffectTable(status, options);

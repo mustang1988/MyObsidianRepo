@@ -1,5 +1,4 @@
 const DEBUG = false;
-
 const CHARACTER_ICONS = {
   ColdSteel: {
     艾德尔: {
@@ -883,16 +882,13 @@ const CHARACTER_ICONS = {
     // TODO
   },
 };
-
 const DEFAULT_OPTIONS = {
   category: "ColdSteel",
   raw: true,
 };
-
 const MergeOptions = (options) => {
   return Object.assign(DEFAULT_OPTIONS, options);
 };
-
 const GetCharacterIcon = (name, options) => {
   const { category } = options;
   if (Object.keys(CHARACTER_ICONS).includes(category)) {
@@ -907,7 +903,6 @@ const GetCharacterIcon = (name, options) => {
   DEBUG && console.error("options参数指定的category无效.");
   return null;
 };
-
 const { name, options } = input;
 DEBUG && console.log("获取人物头像, 参数: ", { name, options });
 return GetCharacterIcon(name, MergeOptions(options));

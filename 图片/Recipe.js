@@ -3,21 +3,17 @@ const RECIPE_ICON = {
   width: 48,
   height: 48,
 };
-
 const DEFAULT_OPTIONS = {
   raw: false,
   size: 20,
 };
-
 const MergeOptions = (options) => {
   return Object.assign(DEFAULT_OPTIONS, options);
 };
-
 const GetDisplaySize = (size) => {
   const { width, height } = RECIPE_ICON;
   return Math.round((width * size) / height);
 };
-
 const ToHTML = (recipe, options) => {
   const {
     file: { link },
@@ -27,11 +23,9 @@ const ToHTML = (recipe, options) => {
     this.app.vault.adapter.basePath
   }/${RECIPE_ICON.file.path}" /> ${link}`;
 };
-
 const RenderRecipe = (recipe, options) => {
   const { raw } = options;
   return raw ? ToHTML(recipe, options) : dv.span(ToHTML(recipe, options));
 };
-
 const { recipe, options } = input;
 return RenderRecipe(recipe, MergeOptions(options));

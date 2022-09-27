@@ -28,15 +28,12 @@ const DEFAULT_OPTIONS = {
   raw: false,
 };
 const DEFAULT_INNER_ICON_SIZE = 240;
-
 const MergeOptions = (options) => {
   return Object.assign(DEFAULT_OPTIONS, options);
 };
-
 const GetIcon = (name) => {
   return Object.keys(TROPHY_ICONS).includes(name) ? TROPHY_ICONS[name] : null;
 };
-
 const GetTrophyType = (trophyObject) => {
   DEBUG && console.log("GetTrophyType, args: ", trophyObject);
   const tags = trophyObject.file.etags;
@@ -54,7 +51,6 @@ const GetTrophyType = (trophyObject) => {
       return "Bronze";
   }
 };
-
 const GetInnerIcon = (trophy) => {
   const { Icon = null } = trophy;
   if (Icon) {
@@ -66,12 +62,10 @@ const GetInnerIcon = (trophy) => {
   }
   return null;
 };
-
 const GetDisplaySize = (icon, size) => {
   const { width, height } = icon;
   return Math.round((width * size) / height);
 };
-
 const ToHTML = (trophyObject, options) => {
   DEBUG && console.debug("ToHTML, args: ", { trophyObject, options });
   const {
@@ -90,7 +84,6 @@ const ToHTML = (trophyObject, options) => {
     return "";
   }
 };
-
 const RenderTrophy = (trophy, options) => {
   DEBUG && console.debug("RenderTrophy, args: ", { trophy, options });
   const { raw } = options;
@@ -101,7 +94,6 @@ const RenderTrophy = (trophy, options) => {
   DEBUG && console.debug("RenderTrophy, return: ", result);
   return result;
 };
-
 const RenderTrophies = (trophies, options) => {
   trophies = trophies.map((t) => dv.page(t.path || t.file.path));
   const { inline, raw, seperator } = options;
@@ -110,7 +102,6 @@ const RenderTrophies = (trophies, options) => {
     : trophies.map((t) => ToHTML(t, options));
   return raw ? HTML : inline ? dv.span(HTML) : dv.list(HTML);
 };
-
 const { trophy = null, trophies = null, options } = input;
 DEBUG && console.debug("Trophy, args: ", input);
 return trophy
