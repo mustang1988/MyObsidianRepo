@@ -102,6 +102,38 @@
       "tags": [],
       "minZoom": null,
       "maxZoom": null
+    },
+    {
+      "type": "钓鱼点",
+      "iconName": "map-marker-alt",
+      "color": "#dddddd",
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": true,
+      "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAABKlJREFUSEu11WtMk1cYB/D/2/ftlb4tlNILLVBLO1SGwEBw2bQijGKEhTZLzRTNPjiWxeFtwFwmDm+YZWo20G3AdJtxmZvjoruwkGXBeckYMNS6oeANKdWCVjpsrfS21LhkeClgsvP1POf8znPOec4h8D834sH511bX6QiSnC8Xi/Fn7wUkp6f0eoe9R8qW651PspZxwI99feyB3v4egSBimjpGgktXLHj3vZ3YvmWdtbunv+7asLNm77oV9qlA44Cl67caIsL5jUO266hc8yosA1bUfHEQe/ZsxrnzA+g0X7rT1XlqW8Ouzdsmi4wDspaV6LgU40vDywZpx/FWaoVpMZRx8bCPjELE58LtD6C9uxMsHvuo1XK1pMRUZJ4IeugMIJS+/WxO7sYsvZ7j/NuGIoMRLC4XojAeTvddRqomFjSHg9M9Z0eFPMHyWQkJzaGQh4FgNEm/aFyzukGTmoZEpZwaGrZiSW4OfvnjDDRKBZ6JjwEFHwgQGBmxlItE6vcfhzwaACCMT/wqM7fgJVNhAaVSREIuFaPjTA9EXA+io1VQyxWgmQBF3EHfxfPlT2kyH4k8FgAQHybXNmcbFk+flZYEm8NB9Z78Hrs/KEfPRRccbuCFjAzECJkAPOgym1dnJM+tfjCTUAAAXjRfojyampOnkqk1VHdbA1oOf4gjLSdgcTAxLUYOk24eImkWRlw3vZ3dnaaFcwub/otMANwLFfNl039KmpedPOq8Ba2KpiRiIQ7/3IXX1q4C10egeNEC0GFcXLjcd7v4rQr1sUOHbgHwBgdPBgjGxfJkmsaUrPxkH8NH2frPY/CGHaWVG+F2uSGiGCgtKgRJeLCt5qPdm1a9uXaqQBAJ50QqmxOf1+tmzM5CGJcBl8cJoYgGRfmQn5mGeTM1KK3Y6K7eWqUAcK/iQ2ZQ/I5p1VnzlYiTR37fdH9fmXxZ3MEZmdnGqFgN2EI+SBYJlVoKIQiULzWgrGJDENAD+DUksOvT9ZpoZXTfZ3sb0HHSHGMftFvuIywGLa/JzDMWCxQqMNgUIkU05JE8lBjzsW/fJ+7K0vIiAA0hgbItr+SlZ6S1jDldONx8vPHb/d8tAXAXAAXAL3lad2JWVsEc95gbQgEJpUKK1w152FFV4T5Q+3kR4Hs8sK+xTmcdstQPXh/SsgPANG0C2o6dO9RUW2tSzTXoOBxe2+1RB6LitBAKONDrNBi+6fHPSU0ntpettHa3t+cDOPXIDAQCgSh1fvqBCJlkYYRUAtuADZYBBxJmJmHAam+7PuzkMklkehgMqLVqMHw2LMqeAVqcGrD0XghUrixuRSBQEPoWkcgXRol3ymKile4xsJx3mAQtUZACsQQkgxnw+n3gR0YRIgEb13p/Q45+Nux2wttUV2+/YR3cAKD+32ILdYvkYKAEfiwDSTLA4TCjJHFcnkwVlvLcAoRHhRMcErhypgthHCZav9k/dNsxcgIBGKdaycF4drDYADKFZLOXSmI1ejpeS7E8ft/Ytav+/kvnbt11O38A8AaAsScBxr9hXHpdfGJiVf9fZofX5ToNBD4GMO4NmswWTfRZfQ2gA8COqX84E009hf5/ANzGlSggNIDLAAAAAElFTkSuQmCC",
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Boss",
+      "iconName": "map-marker-alt",
+      "color": "#dddddd",
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": true,
+      "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAABLdJREFUSEuVlWtsU2UYx//P253T7sJYB4OOlZWxFjaFABmwMKeG4ET84ic1CMhFCCohftCgGKMfiIkz8YMKYoCIQy7KVw13EQW5jqAYYKPbgLXrtsLYYJTS2/uY8/aytdu8vE3ac06f8/ye+0P4l9Po8+VoUhZqQpgGi5pisagetfeUldGjf1JBI/3Z0tExMRIz1QJcQ4TFzBiTlCUCs4QfxLsBvhgO8ckZLrt3OF3DAq7c8tUKwkcAniKQrl7MlGSA449DDPpVstz0uGPCqUzIEMCVVl+p0HBRkBjDzEQ0IJK8MhQnDzODiFiy7NGzLFXlEwrbB0PSAG632xyzjOoBOJdgfIAB/fF748QB8W+ZoLFxz3hoCj0odLlcoVQ4B9Ouejo2CIh6pZziUfkvHnAiXAaEJW+sdEz4ZCiAmZq83S0ETE4pT4BUCjKCaShVfijlyn51DaBtin280whbWuqu3/RVskkcJ4JNWZ70QnkyfLEpxQYgHdIlJC9wOYqvpgGaPL6lAmILEeUPhAcQCdMzIQNWJyBJD4jvyyivn+oo3pUGcHd0rmOmekGUGw6F0NLchHt9vTCbzZhVNVv9Dj6hcBiXGi8gFAphdIEVzqlToZstYOaHTHhvSontyzRA863OV4WJNhMw6q8//8C3279GX28vdLMZLy9egmcXPZ8GOHLoAH7YuweGMQVWK1asXovpM2eBQf0Eud5pL25IA1y54anWde3HYCBQtGPrZly+dCmRRMa8J2qx5o110DRNPYtGo9j21Rac+f1kqsqmz5iJNW+uR05e3u1IJPJC5ST7mTSAMXMKWFx7cL+/9IvPPkVbiztlcU3tkwoghIjXvpTYvnULTp86mZIpK3firXfeRV5+fnueiR+z2WyB9By43WbKyW9mGXOcOHYU+/ftQSQcViFasmw55j9Th3NnTiuF1fNq8Muxo9j7XYPKgabpePGVJUqGhKk9qotpFUVF/WmA1s47c1jGfhKEcX13e9FyvQnBYBC5ubmYPbcaXk876j/epAAb3v8AE0sdaDx/DoFAAJbsbLimVKCg0IoYc08sgpcqJtmOZ1SRfx3A9YKQK4bp5N0NO3H08CFV9HULn8PSFatSOUo2mYx3WsDoZufEjCq61uqZrln0AwTYjfFgRFv1Q6IPdn2zAxfOn1P3c+ZWY9nK1wYADEjVBwwmtEWCkUWV5fbraR6oHvd2v82EhUQ0n4CsJMDoY7/fr/pZ03WlyGq1JsZDqtFiDBxmiu13FsdLdAjAeNDs8ZRoWfoCYloLoEYkRuow6yBucXxM3AF4mxT43Gmz+Qc3zIgb7UanfyczVhiry5hGWUIgKqUaz7pJwIh3OCahmYQRlu/Fo8DKsrKyIetz5JXp7d4pBC2/fPselRfkIE/T4O0PIiqBSaOzFeA3z108XTqGpeQGp338yrRWHylESaHWDv+q3kfhjY3d98rrHGNVrtv6HioPnNYctW8O3rjDVbb8rnHZlg8nlxTt+F8AQ7jhbHNtiHnagtKC1QBVnfX1BkiIWLVtdD4Tnfj5Zs8+Cdx6fV7FkeT8z4SMGKKkoLGXW7q6xprYknPQ65UIAotcdhGSgQcVJSV3R1KcfP9vO08XN1N6d/MAAAAASUVORK5CYII=",
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
     }
   ],
   "color": "#dddddd",
