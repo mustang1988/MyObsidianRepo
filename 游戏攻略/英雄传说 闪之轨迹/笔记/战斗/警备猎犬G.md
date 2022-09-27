@@ -16,13 +16,13 @@ Properties:
   ADF: 813
   SPD: 97
 MagicRates:
-  - 175
-  - 100
-  - 135
-  - 100
-  - 100
-  - 100
-  - 100
+  Earth: 175
+  Water: 100
+  Fire: 135
+  Wind: 100
+  Time: 100
+  Space: 100
+  Mirage: 100
 Droped:
   Sepiths:
     Earth: 4

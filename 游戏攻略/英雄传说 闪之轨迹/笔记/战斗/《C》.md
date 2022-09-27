@@ -1,17 +1,13 @@
 ---
-# 名称
 Name: "《C》"
-# 图标
 Icon: "![[图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/战斗笔记/《C》.webp]]"
 Description:
   - "率领帝国解放战线,"
   - "充满谜团的假面男子."
   - "巧妙的操弄双刃剑,"
   - "使出各式各样的招式."
-# 出现位置
 Locations: 
   - "[[游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/帝都地下道·最深处]]"
-# 基础属性
 Properties:
   LV: 60
   HP: 11397
@@ -21,18 +17,15 @@ Properties:
   ATS: 670
   ADF: 838
   SPD: 117
-# 魔法属性有效率: [地, 水, 火, 风, 时, 空, 幻]
 MagicRates:
-  - 100
-  - 100
-  - 100
-  - 100
-  - 100
-  - 100
-  - 100
-# 掉落
+  Earth: 100
+  Water: 100
+  Fire: 100
+  Wind: 100
+  Time: 100
+  Space: 100
+  Mirage: 100
 Droped:
-  # 获得耀晶石: [地, 水, 火, 风, 时, 空, 幻]
   Sepiths:
     Earth: 0
     Water: 0
@@ -42,47 +35,28 @@ Droped:
     Space: 0
     Mirage: 0
     Mass: 0
-  # 取得道具
   Items:
-# 失衡引发机率率
 Unbalance:
   Slash: 1
   Thrust: 0
   Pierce: 0
   Strike: 1
-# 状态变化有效率抗性
 DebuffRates:
-  # 中毒
   Poison: 50
-  # 炎伤
   Burn: 50
-  # 即死
   Death: 0
-  # 封技
   Seal: 0
-  # 冻结
   Freeze: 50
-  # 噩梦
   Nightmare: 50
-  # 封魔
   Mute: 0
-  # 石化
   Petrify: 0
-  # AT延迟
   Delay: 0
-  # 黑暗
   Blind: 0
-  # 气绝
   Faint: 50
-  # 消失
   Vanish: 0
-  # 睡眠
   Sleep: 0
-  # 混乱
   Confuse: 50
-  # 能力降低
   SDown: 50
-# 是否为Boss
 Boss: true
 ---
 ````ad-battle

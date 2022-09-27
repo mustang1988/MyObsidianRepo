@@ -21,10 +21,10 @@ const RenderMagicRateTable = async (rate, options = {}) => {
   options.fix_order = true;
   options.image_only = true;
   const rateIcons = await dv.view("MagicRate", {
-    rate: rate,
+    rate: Object.values(rate),
     options: options,
   });
-  const orderFixedRate = FixOrder(rate);
+  const orderFixedRate = FixOrder(Object.values(rate));
   const results = [];
   for (let i = 0; i < rateIcons.length; i++) {
     results.push(rateIcons[i]);

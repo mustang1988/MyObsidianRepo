@@ -15,13 +15,13 @@ Properties:
   ADF: 0
   SPD: 0
 MagicRates:
-  - 100
-  - 100
-  - 100
-  - 100
-  - 100
-  - 100
-  - 100
+  Earth: 100
+  Water: 100
+  Fire: 100
+  Wind: 100
+  Time: 100
+  Space: 100
+  Mirage: 100
 Droped:
   Sepiths:
     Earth: 0
@@ -34,10 +34,10 @@ Droped:
     Mass: 0
   Items:
 Unbalance:
-  Slash: 
-  Thrust: 
-  Pierce: 
-  Strike: 
+  Slash: 1
+  Thrust: 1
+  Pierce: 1
+  Strike: 1
 DebuffRates:
   Poison: 100
   Burn: 100
