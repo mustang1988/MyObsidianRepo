@@ -1,19 +1,21 @@
 ---
 Name: "S-斯卡蕾特"
-Icon: "![[图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/战斗笔记/{{title}}.webp]]"
+Icon: "![[图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/战斗笔记/S-斯卡蕾特.webp]]"
 Description:
-  - ""
+  - "递归解放战线的美女干部."
+  - "自由自在的操纵《法剑》,"
+  - "玩弄敌人、进行血祭."
 Locations: 
   - "[[游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/加雷利亚要塞・中央货物大厅|加雷利亚要塞・中央货物大厅]]"
 Properties:
-  LV: 0
-  HP: 0
-  EXP: 0
-  STR: 0
-  DEF: 0
-  ATS: 0
-  ADF: 0
-  SPD: 0
+  LV: 52
+  HP: 110040
+  EXP: 1680
+  STR: 1185
+  DEF: 1177
+  ATS: 563
+  ADF: 668
+  SPD: 98
 MagicRates:
   - 100
   - 100
@@ -24,14 +26,14 @@ MagicRates:
   - 100
 Droped:
   Sepiths:
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
+    - 50
+    - 50
+    - 50
+    - 50
+    - 40
+    - 40
+    - 40
+    - 130
   Items:
     - Name: ""
       Type: "UMaterial"
@@ -43,23 +45,23 @@ Unbalance:
   - 1
   - 1
   - 1
-  - 1
+  - 0
 DebuffRates:
   Poison: 100
   Burn: 100
-  Death: 100
+  Death: 0
   Seal: 100
   Freeze: 100
   Nightmare: 100
   Mute: 100
-  Petrify: 100
-  Delay: 100
+  Petrify: 0
+  Delay: 20
   Blind: 100
   Faint: 100
-  Vanish: 100
+  Vanish: 0
   Sleep: 100
-  Confuse: 100
-  SDown: 100
+  Confuse: 0
+  SDown: 50
 Boss: true
 ---
 ````ad-battle-boss

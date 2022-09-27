@@ -1,19 +1,21 @@
 ---
 Name: "R·玉帘"
-Icon: "![[图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/战斗笔记/{{title}}.webp]]"
+Icon: "![[图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/战斗笔记/R·玉帘.webp]]"
 Description:
-  - ""
+  - "鲜红的大型傀儡兵器."
+  - "改良为护卫干部用,"
+  - "具备更加高性能、高火力的机器."
 Locations: 
   - "[[游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/加雷利亚要塞・中央货物大厅|加雷利亚要塞・中央货物大厅]]"
 Properties:
-  LV: 0
-  HP: 0
-  EXP: 0
-  STR: 0
-  DEF: 0
-  ATS: 0
-  ADF: 0
-  SPD: 0
+  LV: 51
+  HP: 58295
+  EXP: 1024
+  STR: 1473
+  DEF: 1794
+  ATS: 530
+  ADF: 766
+  SPD: 86
 MagicRates:
   - 100
   - 100
@@ -24,14 +26,14 @@ MagicRates:
   - 100
 Droped:
   Sepiths:
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
+    - 32
+    - 32
+    - 32
+    - 32
+    - 32
+    - 32
+    - 32
+    - 80
   Items:
     - Name: ""
       Type: "UMaterial"
@@ -40,25 +42,25 @@ Droped:
       Type: "Potion"
       Num: 1
 Unbalance:
-  - 1
+  - 0
   - 1
   - 1
   - 1
 DebuffRates:
-  Poison: 100
+  Poison: 0
   Burn: 100
-  Death: 100
-  Seal: 100
+  Death: 0
+  Seal: 20
   Freeze: 100
-  Nightmare: 100
-  Mute: 100
-  Petrify: 100
+  Nightmare: 0
+  Mute: 50
+  Petrify: 0
   Delay: 100
   Blind: 100
-  Faint: 100
-  Vanish: 100
-  Sleep: 100
-  Confuse: 100
+  Faint: 20
+  Vanish: 0
+  Sleep: 0
+  Confuse: 50
   SDown: 100
 Boss: true
 ---
