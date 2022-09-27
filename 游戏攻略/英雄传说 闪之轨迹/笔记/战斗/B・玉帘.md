@@ -1,19 +1,20 @@
 ---
 Name: "B・玉帘"
-Icon: "![[图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/战斗笔记/{{title}}.webp]]"
+Icon: "![[图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/战斗笔记/B・玉帘.webp]]"
 Description:
-  - ""
+  - "帝国解放战线放出的防御据点用大型傀儡兵器."
+  - "改良过的蓝色机体拥有凄厉的火力."
 Locations: 
   - "[[游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/札克森铁矿山·搬运区域|札克森铁矿山·搬运区域]]"
 Properties:
-  LV: 0
-  HP: 0
-  EXP: 0
-  STR: 0
-  DEF: 0
-  ATS: 0
-  ADF: 0
-  SPD: 0
+  LV: 58
+  HP: 59605
+  EXP: 1280
+  STR: 1506
+  DEF: 1847
+  ATS: 543
+  ADF: 1108
+  SPD: 88
 MagicRates:
   - 100
   - 100
@@ -24,14 +25,14 @@ MagicRates:
   - 100
 Droped:
   Sepiths:
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
+    - 32
+    - 32
+    - 32
+    - 32
+    - 32
+    - 32
+    - 32
+    - 90
   Items:
     - Name: "圣灵药·改"
       Type: "Potion"
@@ -43,22 +44,22 @@ Unbalance:
   - 1
   - 1
   - 1
-  - 1
+  - 0
 DebuffRates:
-  Poison: 100
+  Poison: 0
   Burn: 100
-  Death: 100
-  Seal: 100
+  Death: 0
+  Seal: 20
   Freeze: 100
-  Nightmare: 100
-  Mute: 100
-  Petrify: 100
+  Nightmare: 0
+  Mute: 50
+  Petrify: 0
   Delay: 100
   Blind: 100
-  Faint: 100
-  Vanish: 100
-  Sleep: 100
-  Confuse: 100
+  Faint: 20
+  Vanish: 0
+  Sleep: 0
+  Confuse: 50
   SDown: 100
 Boss: true
 ---

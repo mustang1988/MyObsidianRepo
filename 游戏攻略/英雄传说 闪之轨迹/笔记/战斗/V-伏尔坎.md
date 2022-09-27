@@ -1,19 +1,21 @@
 ---
 Name: "V-伏尔坎"
-Icon: "![[图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/战斗笔记/{{title}}.webp]]"
+Icon: "![[图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/战斗笔记/V-伏尔坎.webp]]"
 Description:
-  - ""
+  - "帝国解放战线的大块头干部."
+  - "任由憎恨的火焰燃烧,"
+  - "以巨大的格林炮进行凄厉的歼灭攻击."
 Locations: 
   - "[[游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/札克森铁矿山·中介区域|札克森铁矿山·中介区域]]"
 Properties:
-  LV: 0
-  HP: 0
-  EXP: 0
-  STR: 0
-  DEF: 0
-  ATS: 0
-  ADF: 0
-  SPD: 0
+  LV: 60
+  HP: 169723
+  EXP: 2800
+  STR: 1718
+  DEF: 1310
+  ATS: 865
+  ADF: 1078
+  SPD: 107
 MagicRates:
   - 100
   - 100
@@ -24,35 +26,35 @@ MagicRates:
   - 100
 Droped:
   Sepiths:
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
+    - 55
+    - 55
+    - 55
+    - 55
+    - 45
+    - 45
+    - 45
+    - 140
   Items:
 Unbalance:
   - 1
-  - 1
-  - 1
-  - 1
+  - 0
+  - 0
+  - 2
 DebuffRates:
   Poison: 100
-  Burn: 100
-  Death: 100
-  Seal: 100
-  Freeze: 100
-  Nightmare: 100
+  Burn: 50
+  Death: 0
+  Seal: 0
+  Freeze: 50
+  Nightmare: 0
   Mute: 100
-  Petrify: 100
-  Delay: 100
+  Petrify: 0
+  Delay: 10
   Blind: 100
-  Faint: 100
-  Vanish: 100
-  Sleep: 100
-  Confuse: 100
+  Faint: 0
+  Vanish: 0
+  Sleep: 50
+  Confuse: 0
   SDown: 100
 Boss: true
 ---

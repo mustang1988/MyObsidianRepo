@@ -1,16 +1,17 @@
 ---
 Name: "NT-I"
-Icon: "![[图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/战斗笔记/{{title}}.webp]]"
+Icon: "![[图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/战斗笔记/NT-I.webp]]"
 Description:
-  - ""
+  - "《C》设置的自动水雷."
+  - "会引发把周围卷入的爆炸."
 Locations: 
   - "[[游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/札克森铁矿山·中介区域|札克森铁矿山·中介区域]]"
 Properties:
-  LV: 0
-  HP: 0
+  LV: 60
+  HP: 1310
   EXP: 0
-  STR: 0
-  DEF: 0
+  STR: 1310
+  DEF: 262
   ATS: 0
   ADF: 0
   SPD: 0
@@ -34,26 +35,26 @@ Droped:
     - 0
   Items:
 Unbalance:
-  - 1
-  - 1
-  - 1
-  - 1
+  - 0
+  - 0
+  - 0
+  - 0
 DebuffRates:
-  Poison: 100
-  Burn: 100
-  Death: 100
-  Seal: 100
-  Freeze: 100
-  Nightmare: 100
-  Mute: 100
-  Petrify: 100
-  Delay: 100
-  Blind: 100
-  Faint: 100
-  Vanish: 100
-  Sleep: 100
-  Confuse: 100
-  SDown: 100
+  Poison: 0
+  Burn: 0
+  Death: 0
+  Seal: 0
+  Freeze: 0
+  Nightmare: 0
+  Mute: 0
+  Petrify: 0
+  Delay: 0
+  Blind: 0
+  Faint: 0
+  Vanish: 0
+  Sleep: 0
+  Confuse: 0
+  SDown: 0
 Boss: true
 ---
 ````ad-battle-boss

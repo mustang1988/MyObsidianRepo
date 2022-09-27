@@ -1,19 +1,21 @@
 ---
 Name: "G・玉帘"
-Icon: "![[图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/战斗笔记/{{title}}.webp]]"
+Icon: "![[图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/战斗笔记/G・玉帘.webp]]"
 Description:
-  - ""
+  - "金色的大型傀儡兵器."
+  - "以强力的气旋镭射大范围攻击的冲击波,"
+  - "负责守卫《C》."
 Locations: 
   - "[[游戏攻略/英雄传说 闪之轨迹/笔记/迷宫/札克森铁矿山·中介区域|札克森铁矿山·中介区域]]"
 Properties:
-  LV: 0
-  HP: 0
-  EXP: 0
-  STR: 0
-  DEF: 0
-  ATS: 0
-  ADF: 0
-  SPD: 0
+  LV: 59
+  HP: 60915
+  EXP: 1440
+  STR: 1572
+  DEF: 1899
+  ATS: 589
+  ADF: 1146
+  SPD: 90
 MagicRates:
   - 100
   - 100
@@ -24,35 +26,41 @@ MagicRates:
   - 100
 Droped:
   Sepiths:
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
+    - 34
+    - 34
+    - 34
+    - 34
+    - 34
+    - 34
+    - 34
+    - 90
   Items:
+    - Name: "EP填充剂III"
+      Type: "Potion"
+      Num: 1
+    - Name: "圣灵药·改"
+      Type: "Potion"
+      Num: 1
 Unbalance:
+  - 0
   - 1
   - 1
-  - 1
-  - 1
+  - 0
 DebuffRates:
-  Poison: 100
+  Poison: 0
   Burn: 100
-  Death: 100
-  Seal: 100
+  Death: 0
+  Seal: 20
   Freeze: 100
-  Nightmare: 100
-  Mute: 100
-  Petrify: 100
+  Nightmare: 0
+  Mute: 50
+  Petrify: 0
   Delay: 100
   Blind: 100
-  Faint: 100
-  Vanish: 100
-  Sleep: 100
-  Confuse: 100
+  Faint: 20
+  Vanish: 0
+  Sleep: 0
+  Confuse: 50
   SDown: 100
 Boss: true
 ---
