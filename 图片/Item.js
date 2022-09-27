@@ -322,7 +322,7 @@ const GetNum = (item, options) => {
 };
 
 const ToHTML = (item, options) => {
-  DEBUG && console.debug("ToHTML, args: ", { item, options });
+  DEBUG && console.debug("\t\tHTML组装, 参数: ", { item, options });
   const { Type, Name: ItemName } = item;
   const { size, image_only } = options;
   const icon = GetIconByType(Type);
@@ -339,12 +339,12 @@ const ToHTML = (item, options) => {
       )}`
     }
   }
-  DEBUG && console.debug("ToHTML, return: ", result);
+  DEBUG && console.debug("\t\tHTML组装, 返回结果: ", result);
   return result;
 };
 
 const RenderItem = (item, options) => {
-  DEBUG && console.debug("\tRenderItem, args: ", { item, options });
+  DEBUG && console.debug("\t单物品渲染, 参数: ", { item, options });
   const { raw } = options;
   // 提交的item是核心回路连接
   if (item.constructor.name == "Link" && item.path.includes("核心回路")) {
@@ -352,31 +352,31 @@ const RenderItem = (item, options) => {
       quartz: dv.page(item.path),
       options,
     });
-    DEBUG && console.debug("\tRenderItem, return: ", result);
+    DEBUG && console.debug("\t单物品渲染(核心回路), 返回结果: ", result);
     return result;
   }
   const result = raw ? ToHTML(item, options) : dv.span(ToHTML(item, options));
-  DEBUG && console.debug("\tRenderItem, return: ", result);
+  DEBUG && console.debug("\t单物品渲染, 返回结果: ", result);
   return result;
 };
 
 const RenderItems = (items, options) => {
-  DEBUG && console.debug("\tRenderItems, args: ", { items, options });
+  DEBUG && console.debug("\t多物品渲染, 参数: ", { items, options });
   const { inline, seperator, raw } = options;
   const HTML = inline
-    ? items.map((i) => RenderItem(i, options)).join(seperator)
-    : items.map((i) => RenderItem(i, options));
+    ? items.map((i) => ToHTML(i, options)).join(seperator)
+    : items.map((i) => ToHTML(i, options));
   const result = raw ? HTML : inline ? dv.span(HTML) : dv.list(HTML);
-  DEBUG && console.debug("\tRenderItems, return: ", result);
+  DEBUG && console.debug("\t多物品渲染, 返回结果: ", result);
   return result;
 };
 
 const { items, options } = input;
-DEBUG && console.log("Item, input => ", { items, options });
+DEBUG && console.log("物品渲染脚本, 输入参数: ", { items, options });
 const result = Array.isArray(items)
   ? RenderItems(items, MergeOptions(options))
   : items
   ? RenderItem(items, MergeOptions(options))
   : dv.span("无");
-DEBUG && console.log("Item, return => ", result);
+DEBUG && console.log("物品渲染脚本, 返回结果: ", result);
 return result;
