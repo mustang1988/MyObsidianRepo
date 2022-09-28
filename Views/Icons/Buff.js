@@ -180,14 +180,13 @@ const BUFF_ICONS = {
     name: "CP回复",
   },
 };
-const GetBuffIcon = (name) => {
-  DEBUG && console.log("BuffIcon.js, GetDebuffIcon() args: ", name);
+const GetIcon = (name) => {
   const keys = Object.keys(BUFF_ICONS);
   const names = Object.values(BUFF_ICONS).map((i) => i.name);
   let result = null;
   if (!keys.includes(name) && !names.includes(name)) {
     DEBUG &&
-      console.error("BuffIcon.js, GetBuffIcon() 未找到对应buff图标: ", {
+      console.error("Buff.js, GetIcon() 未找到对应buff图标: ", {
         name,
       });
   } else if (keys.includes(name)) {
@@ -200,8 +199,10 @@ const GetBuffIcon = (name) => {
       }
     }
   }
-  DEBUG && console.log("BuffIcon.js, GetBuffIcon() return: ", result);
   return result;
+};
+const GetBuffIcon = (name) => {
+  return Array.isArray(name) ? name.map((n) => GetIcon(n)) : GetIcon(name);
 };
 const { name } = input;
 DEBUG && console.log("BuffIcon.js, input: ", input);

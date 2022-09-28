@@ -1,7 +1,7 @@
 /**
  * 获取图标渲染用HTML
  * @params {Object} input 输入参数
- * @params {Object} input.icon 图标对象
+ * @params {Object|Array} input.icon 图标对象
  * @params {Link} input.icon.file 图标文件连接
  * @params {Number} input.icon.width 图标文件原始宽度, 单位: 像素
  * @params {Number} input.icon.height 图标文件原始高度, 单位: 像素
@@ -22,13 +22,17 @@ const GetPath = (icon) => {
   const { path } = icon;
   return `${this.app.vault.adapter.basePath}/${path}`;
 };
-const GetIconHTML = (icon, options) => {
+const BuildHTML = (icon, options) => {
   const { file, width, height } = icon;
   const { size } = options;
-  console.log(icon);
   return `<img width="${GetSize(width, height, size)}" src="${GetPath(
     file
   )}"/>`;
+};
+const GetIconHTML = (icon, options) => {
+  return Array.isArray(icon)
+    ? icon.map((i) => BuildHTML(i, options))
+    : BuildHTML(icon, options);
 };
 const { icon, options } = input;
 return GetIconHTML(icon, MergeOptions(options));

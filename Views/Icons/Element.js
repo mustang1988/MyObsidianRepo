@@ -73,15 +73,13 @@ const ELEMENT_ICONS = {
     name: "阳",
   },
 };
-
-const GetElementIcon = (name) => {
-  DEBUG && console.log("ElementIcon.js, GetElementIcon() args: ", name);
+const GetIcon = (name) => {
   const keys = Object.keys(ELEMENT_ICONS);
   const names = Object.values(ELEMENT_ICONS).map((i) => i.name);
   let result = null;
   if (!keys.includes(name) && !names.includes(name)) {
     DEBUG &&
-      console.error("ElementIcon.js, GetElementIcon() 未找到对应元素图标: ", {
+      console.error("Element.js, GetIcon() 未找到对应元素图标: ", {
         name,
       });
   } else if (keys.includes(name)) {
@@ -94,9 +92,11 @@ const GetElementIcon = (name) => {
       }
     }
   }
-  DEBUG && console.log("ElementIcon.js, GetElementIcon() return: ", result);
   return result;
 };
+const GetElementIcon = (name) => {
+  return Array.isArray(name) ? name.map((n) => GetIcon(n)) : GetIcon(name);
+};
 const { name } = input;
-DEBUG && console.log("ElementIcon.js, input: ", input);
+DEBUG && console.log("Element.js, input: ", input);
 return GetElementIcon(name);

@@ -254,14 +254,13 @@ const DEBUFF_ICONS = {
     name: "SPD---",
   },
 };
-const GetDebuffIcon = (name) => {
-  DEBUG && console.log("DebuffIcon.js, GetDebuffIcon() args: ", name);
+const GetIcon = (name) => {
   const keys = Object.keys(DEBUFF_ICONS);
   const names = Object.values(DEBUFF_ICONS).map((i) => i.name);
   let result = null;
   if (!keys.includes(name) && !names.includes(name)) {
     DEBUG &&
-      console.error("DebuffIcon.js, GetDebuffIcon() 未找到对应debuff图标: ", {
+      console.error("Debuff.js, GetIcon() 未找到对应debuff图标: ", {
         name,
       });
   } else if (keys.includes(name)) {
@@ -274,9 +273,11 @@ const GetDebuffIcon = (name) => {
       }
     }
   }
-  DEBUG && console.log("DebuffIcon.js, GetDebuffIcon() return: ", result);
   return result;
 };
+const GetDebuffIcon = (name) => {
+  return Array.isArray(name) ? name.map((n) => GetIcon(n)) : GetIcon(name);
+};
 const { name } = input;
-DEBUG && console.log("DebuffIcon.js, input: ", input);
+DEBUG && console.log("Debuff.js, input: ", input);
 return GetDebuffIcon(name);
