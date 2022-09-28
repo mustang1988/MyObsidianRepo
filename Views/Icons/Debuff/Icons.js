@@ -1,7 +1,7 @@
 /**
  * DEBUFF 图标
  */
-const DEBUG = true;
+const DEBUG = false;
 const DEBUFF_ICONS = {
   Poison: {
     file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/状态_DEBUFF_中毒.webp"),
@@ -254,7 +254,7 @@ const DEBUFF_ICONS = {
     name: "SPD---",
   },
 };
-const GetDebuffIcon = async(name) => {
+const GetDebuffIcon = (name) => {
   DEBUG && console.log("DebuffIcon.js, GetDebuffIcon() args: ", name);
   const keys = Object.keys(DEBUFF_ICONS);
   const names = Object.values(DEBUFF_ICONS).map((i) => i.name);

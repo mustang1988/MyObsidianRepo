@@ -19670,7 +19670,11 @@ class DataviewInlineApi {
  */
 function evalInContext(script, context) {
     return function () {
-        return eval(script);
+        try {
+          return eval(script);
+        } catch(e){
+          console.error('DataViewJS 报错: ' , { script, error: e});
+        }
     }.call(context);
 }
 /**
