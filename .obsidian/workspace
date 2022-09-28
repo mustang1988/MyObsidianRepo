@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "aa955f2a29398109",
+        "id": "fe0be8b589b749a7",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "模板/英雄传说/通用/示例.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -65,6 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "模板/英雄传说/通用/示例.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "模板/英雄传说/通用/示例.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -105,10 +112,10 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "aa955f2a29398109",
+  "active": "fe0be8b589b749a7",
   "lastOpenFiles": [
-    "示例.md",
     "模板/英雄传说/通用/示例.md",
+    "示例.md",
     "模板/英雄传说/通用/怪物模板_普通.md",
     "模板/英雄传说/通用/怪物模板_Boss.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/宝箱/001.md",
