@@ -30,5 +30,13 @@
       ],
       "key": "X"
     }
+  ],
+  "templater-obsidian:模板/英雄传说/通用/人物信息模板.md": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "C"
+    }
   ]
 }
