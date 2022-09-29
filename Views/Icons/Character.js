@@ -1,4 +1,4 @@
-const DEBUG = true;
+const DEBUG = false;
 const CHARACTER_ICONS = {
   ColdSteel: {
     艾德尔: {

@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "78fcaeb172e833f3",
+        "id": "3fda39b72d3f1c98",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "游戏攻略/英雄传说 闪之轨迹/笔记/人物/雪伦.md",
+            "file": "游戏攻略/英雄传说 闪之轨迹/笔记/人物笔记.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "雪伦",
+                "query": "第四章 绯之帝都",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/人物/雪伦.md",
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/人物笔记.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/人物/雪伦.md",
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/人物笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -112,17 +112,17 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "78fcaeb172e833f3",
+  "active": "3fda39b72d3f1c98",
   "lastOpenFiles": [
-    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/雪伦.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/奇妙的主仆.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/Blade大师.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/超级女仆.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/情同姐妹.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/萝德.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/学习做菜.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/莎莉法.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/管家瑟雷斯坦.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/为了少爷.md"
+    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/艾略特.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/人物笔记.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/艾伦.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/艾德尔.md",
+    "游戏攻略/英雄传说 闪之轨迹/攻略/第二章 美丽的翡翠公都.md",
+    "游戏攻略/英雄传说 闪之轨迹/攻略/第三章 横跨铁路 ~苍穹的大地~.md",
+    "游戏攻略/英雄传说 闪之轨迹/攻略/第四章 绯之帝都 ~仲夏祭~.md",
+    "游戏攻略/英雄传说 闪之轨迹/攻略/第五章 开始行动的意志.md",
+    "游戏攻略/英雄传说 闪之轨迹/攻略/第一章 新学期～初次实习～.md",
+    "游戏攻略/英雄传说 闪之轨迹/攻略/图例.md"
   ]
 }
