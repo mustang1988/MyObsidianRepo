@@ -132,6 +132,12 @@ const ITEM_ICONS = {
     height: 48,
     name: "饰品",
   },
+  Book: {
+    file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/物品_书籍.webp"),
+    width: 48,
+    height: 48,
+    name: "书籍",
+  },
   CosmeticArmour: {
     file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/物品_装饰_服装.webp"),
     width: 48,
