@@ -23,11 +23,11 @@ const GetPath = (icon) => {
   return `${this.app.vault.adapter.basePath}/${path}`;
 };
 const BuildHTML = (icon, options) => {
-  const { file, width, height } = icon;
+  const { file, width, height, name } = icon;
   const { size } = options;
   return `<img width="${GetSize(width, height, size)}" src="${GetPath(
     file
-  )}"/>`;
+  )}" alt="${name}"/>`;
 };
 const GetIconHTML = (icon, options) => {
   return Array.isArray(icon)
