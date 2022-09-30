@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d37323fcca178942",
+        "id": "e8ad602dabe17dca",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "游戏攻略/英雄传说 闪之轨迹/笔记/导力魔法.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -70,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/导力魔法.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +81,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/导力魔法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -112,11 +105,11 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "d37323fcca178942",
+  "active": "e8ad602dabe17dca",
   "lastOpenFiles": [
-    "图片/游戏攻略/英雄传说/通用/图标/Icon.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/导力魔法.md",
     "Debug.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/导力魔法.md",
+    "图片/游戏攻略/英雄传说/通用/图标/Icon.md",
     "示例.md",
     "图片/游戏攻略/英雄传说/通用/图标/回路_地.webp",
     "图片/游戏攻略/英雄传说/通用/图标/物品_装备_饰品.webp",
