@@ -1,47 +1,13 @@
 const DEBUG = true;
-const GetIcon = (name, category, options) => {
-  switch (category.toLowerCase()) {
-    case "atbonus":
-      DEBUG && console.error("获取AT奖励图标:", { category, name });
-      return dv.view("Icons/ATBonus", {
-        name: name,
-        options: { raw: true },
-      });
-    case "buff":
-      DEBUG && console.log("获取Buff图标:", { category, name });
-      return dv.view("Icons/Buff", {
-        name: name,
-        options: { raw: true },
-      });
-    case "debuff":
-      DEBUG && console.log("获取Debuff图标:", { category, name });
-      return dv.view("Icons/Debuff", {
-        name: name,
-        options: { raw: true },
-      });
-    case "item":
-      DEBUG && console.log("获取物品图标:", { category, name });
-      return dv.view("Icons/Item", {
-        name: name,
-        options: { raw: true },
-      });
-    case "other":
-      DEBUG && console.log("获取其他图标:", { category, name });
-      return dv.view("Icons/Other", {
-        name: name,
-        options: { raw: true },
-      });
-    case "element":
-      DEBUG && console.log("获取元素图标:", { category, name });
-      return dv.view("Icons/Element", {
-        name: name,
-        options: { raw: true },
-      });
-    default:
-      DEBUG && console.error("无效的参数:", { category, name });
-      return null;
+const GetIcon = (key) => {
+  let object = dv.page("图片/游戏攻略/英雄传说/通用/图标/Icon");
+  const keys = key.split(".");
+  const keyLength = keys.length;
+  let index = 0;
+  while (object != null && index < keyLength) {
+    object = object[keys[index++]];
   }
+  return object;
 };
-const { name, category, options } = input;
-DEBUG && console.log("Icon.js, Input: ", { name, category });
-return GetIcon(name, category, options);
+const { key } = input;
+return GetIcon(key);

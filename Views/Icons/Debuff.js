@@ -159,7 +159,7 @@ const DEBUFF_ICONS = {
   },
   DEFDownL: {
     file: dv.fileLink(
-      "图片/游戏攻略/英雄传说/通用/图标/状态_DEBUFF_DEF--.webp"
+      "图片/游戏攻略/英雄传说/通用/图标/状态_DEBUFF_DEF---.webp"
     ),
     width: 41,
     height: 41,
