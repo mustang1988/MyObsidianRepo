@@ -23,12 +23,11 @@ const GetArt = (art) => {
   }
   return null;
 };
-let { art } = input;
-console.log("eee => ", art);
+let { art, options = {} } = input;
 art = GetArt(art);
-console.log("ddd => ", art);
 if (art) {
   const { Name, Element, Type, Range, Effacts, Comment } = art;
+  const { collapse = false } = options;
   return dv
     .view("Icons/Icon", {
       key: `Element.${Element}`,
@@ -41,7 +40,11 @@ if (art) {
           console.log(iconHTML);
           return `\`\`\`ad-art
 title: ${Name}
-collapse: open
+collapse: ${
+            collapse || collapse === null || collapse === undefined
+              ? "open"
+              : "close"
+          }
 ${iconHTML} ${Type} : ${Range} ${Effacts.join("/")}
 
 ${Comment}
