@@ -7,8 +7,13 @@
         "id": "a090d02f0e033d5e",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Debug.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -65,6 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Debug.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Debug.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -107,15 +114,15 @@
   },
   "active": "a090d02f0e033d5e",
   "lastOpenFiles": [
+    "游戏攻略/英雄传说 闪之轨迹/笔记/TreasureChests.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/宝箱笔记.md",
+    "图片/游戏攻略/英雄传说/英雄传说 闪之轨迹/笔记/TreasureChests.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/人物笔记.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/艾略特.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/人物/艾德尔.md",
     "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/钓鱼笔记.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫笔记.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/烹饪笔记.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/任务笔记.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/书籍笔记.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗笔记.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/艾略特.md"
+    "游戏攻略/英雄传说 闪之轨迹/笔记/烹饪笔记.md"
   ]
 }

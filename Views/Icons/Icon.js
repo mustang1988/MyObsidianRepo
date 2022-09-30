@@ -1,10 +1,4 @@
 const DEBUG = true;
-/**
- *
- * @param {string} name
- * @param {string} category
- * @returns
- */
 const GetIcon = (name, category, options) => {
   switch (category.toLowerCase()) {
     case "atbonus":
