@@ -6,13 +6,19 @@ const GetArt = (art) => {
     art["Element"] &&
     art["Type"] &&
     art["Range"] &&
-    art["Effacts"] &&
+    art["Effects"] !== undefined &&
     art["Comment"]
   ) {
+    DEBUG && console.log("[Admonition/ArtAdmonition.js][GetArt()][art]: ", art);
     return art;
   }
   const anchor = art.subpath;
   if (!anchor) {
+    DEBUG &&
+      console.error(
+        "[Admonition/ArtAdmonition.js][GetArt()][anchor]: anchor NOT found: ",
+        art
+      );
     return null;
   }
   const arts = dv.page(art.path).Arts;
@@ -24,10 +30,14 @@ const GetArt = (art) => {
   return null;
 };
 let { art, options = {} } = input;
+DEBUG &&
+  console.log("[Admonition/ArtAdmonition.js][Inputs]: ", { art, options });
 art = GetArt(art);
+DEBUG &&
+  console.log("[Admonition/ArtAdmonition.js][After GetArt()][art]: ", art);
 if (art) {
-  const { Name, Element, Type, Range, Effacts, Comment } = art;
-  const { collapse = false } = options;
+  const { Name, Element, Type, Range, Effects, Comment } = art;
+  const { collapse } = options;
   return dv
     .view("Icons/Icon", {
       key: `Element.${Element}`,
@@ -41,11 +51,11 @@ if (art) {
           return `\`\`\`ad-art
 title: ${Name}
 collapse: ${
-            collapse || collapse === null || collapse === undefined
+            collapse == true || collapse === null || collapse === undefined
               ? "open"
               : "close"
           }
-${iconHTML} ${Type} : ${Range} ${Effacts.join("/")}
+${iconHTML} ${Type} : ${Range} ${Effects ? Effects.join(" ") : ""}
 
 ${Comment}
 \`\`\``;
