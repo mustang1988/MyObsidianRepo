@@ -1,4 +1,4 @@
-const DEBUG = true;
+const DEBUG = false;
 const GetQuartz = (quartz) => {
   if (
     typeof quartz === "object" &&
@@ -22,7 +22,12 @@ const GetQuartz = (quartz) => {
   }
   return null;
 };
-let { quartz } = input;
+let { quartz, options } = input;
+const { collapse } = options;
+const collapseStr =
+  collapse == true || collapse === null || collapse === undefined
+    ? "open"
+    : "close";
 quartz = GetQuartz(quartz);
 console.log(quartz);
 const { Element, Rank, Name, Arts, Effects } = quartz;
@@ -33,7 +38,7 @@ if (Arts != null) {
     Arts.map((art) =>
       dv.view("Admonition/ArtAdmonition", {
         art,
-        options: { raw: true, collapse: false },
+        options: { raw: true },
       })
     )
   ).then((arts) => {
@@ -44,7 +49,7 @@ if (Arts != null) {
       );
     return `\`\`\`\`ad-${adType}
 title: ${Name}
-collapse: close
+collapse: ${collapseStr}
 装备效果: 
 ${Effects ? dv.markdownList(Effects) : "无"}
 
@@ -54,8 +59,8 @@ ${arts.join("\n")}
   });
 } else {
   return `\`\`\`\`ad-${adType}
-title: ${Name}
-collapse: close
+title: ${Name} 
+collapse: ${collapseStr}
 装备效果: 
 ${Effects ? dv.markdownList(Effects) : "无"}
 
