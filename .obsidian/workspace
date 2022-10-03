@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "896f1b53f4bf06ef",
+        "id": "7dacedf57bb27448",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "游戏攻略/英雄传说 闪之轨迹/笔记/书籍.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -49,8 +54,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 464,
-    "collapsed": true
+    "width": 464
   },
   "right": {
     "id": "50e9e28e7a37c5b8",
@@ -66,6 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/书籍.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,6 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/书籍.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -106,17 +112,17 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "896f1b53f4bf06ef",
+  "active": "7dacedf57bb27448",
   "lastOpenFiles": [
+    "游戏攻略/英雄传说 闪之轨迹/笔记/书籍/帝国时报·第4号.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/书籍.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/书籍/帝国时报·第3号.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/书籍/帝国时报·第2号.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/书籍/帝国时报·第1号.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/结晶回路.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/导力魔法.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/宝箱笔记.md",
-    "Debug.md",
-    "首页.md",
-    "图片/游戏攻略/英雄传说/通用/图标/Icon.md",
-    "示例.md",
-    "图片/游戏攻略/英雄传说/通用/图标/回路_地.webp",
-    "图片/游戏攻略/英雄传说/通用/图标/物品_装备_饰品.webp",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/《C》.md"
+    "游戏攻略/英雄传说 闪之轨迹/笔记/钓鱼笔记.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/烹饪笔记.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/钓鱼/冰霜鳌虾.md"
   ]
 }
