@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "游戏攻略/英雄传说 闪之轨迹/笔记/书籍.md",
-            "mode": "source",
+            "file": "首页.md",
+            "mode": "preview",
             "backlinks": true,
             "source": true
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/书籍.md",
+                "file": "首页.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/笔记/书籍.md",
+                "file": "首页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -114,15 +114,15 @@
   },
   "active": "7dacedf57bb27448",
   "lastOpenFiles": [
-    "游戏攻略/英雄传说 闪之轨迹/笔记/书籍/帝国时报·第4号.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/书籍.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/书籍/帝国时报·第5号.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/书籍/帝国时报·第4号.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/书籍/帝国时报·第3号.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/书籍/帝国时报·第2号.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/书籍/帝国时报·第1号.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/结晶回路.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/导力魔法.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/钓鱼笔记.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/烹饪笔记.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/钓鱼/冰霜鳌虾.md"
+    "游戏攻略/英雄传说 闪之轨迹/笔记/烹饪笔记.md"
   ]
 }
