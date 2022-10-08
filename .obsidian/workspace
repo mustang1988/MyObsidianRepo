@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d60d27317959bd36",
+        "id": "3bb54f5d84b26cdf",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Debug.md",
+            "mode": "preview",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -36,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "蓬松浓稠蛋包饭",
+                "query": "新鲜香草",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -65,6 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Debug.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Debug.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -105,17 +112,17 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "d60d27317959bd36",
+  "active": "3bb54f5d84b26cdf",
   "lastOpenFiles": [
-    "游戏攻略/英雄传说 闪之轨迹/笔记/结晶回路.md",
     "游戏攻略/英雄传说 闪之轨迹/数据库/物品.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/食谱/簡單蛋包飯.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/食谱/番茄焗烤.md",
     "Debug.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/导力魔法.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/物品.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/钓鱼笔记.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/钓鱼/鳌虾.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/书籍笔记.md"
+    "游戏攻略/英雄传说 闪之轨迹/笔记/食谱/番茄焗烤.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/结晶回路.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫笔记.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/烹饪笔记.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/食谱/烘焙咖啡.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/食谱/混合冰淇淋.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/食谱/番茄三明治.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/食谱/军式烩饭.md"
   ]
 }

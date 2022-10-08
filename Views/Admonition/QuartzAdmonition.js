@@ -29,7 +29,6 @@ const collapseStr =
     ? "open"
     : "close";
 quartz = GetQuartz(quartz);
-console.log(quartz);
 const { Element, Rank, Name, Arts, Effects } = quartz;
 const adType = `Quartz-${Element}-${Rank}`;
 if (Arts != null) {
