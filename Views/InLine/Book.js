@@ -1,4 +1,8 @@
 const DEBUG = true;
+const DEFAULT_OPTIONS = {
+  size: 20,
+  raw: false,
+};
 
 /**
  * 行内渲染书籍连接
@@ -12,13 +16,13 @@ const DEBUG = true;
  *   直接渲染:
  *     await dv.view('InLine/Book', { book: "[[游戏攻略/英雄传说 闪之轨迹/笔记/书籍笔记#^diguoshibao1|帝国时报1]]", options: { size: 15 } });
  */
-let { book, options } = input;
+let { book, options = {} } = input;
+options = Object.assign(options, DEFAULT_OPTIONS);
 const { size = 20, raw = true } = options;
 DEBUG && console.log("[InLine/Book.js][Input]: ", { book, options });
 if (typeof book === "string" && book.startsWith("[[") && book.endsWith("]]")) {
   book = dv.parse(book);
-}
-else if (typeof book !== "object") {
+} else if (typeof book !== "object") {
   console.error("[InLine/Book.js][无效的连接]: ", input);
   return;
 }
