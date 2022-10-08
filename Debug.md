@@ -1,1 +1,1 @@
-`$=await dv.view('InLine/Book', { book: "[[游戏攻略/英雄传说 闪之轨迹/笔记/书籍笔记#^diguotielushi]]" });`
+`$=await dv.view('InLine/Quartz', { quartz:"[[游戏攻略/英雄传说 闪之轨迹/笔记/结晶回路#^yanshizhici]]"})`

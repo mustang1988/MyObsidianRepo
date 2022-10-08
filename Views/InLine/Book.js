@@ -1,4 +1,4 @@
-const DEBUG = true;
+const DEBUG = false;
 const DEFAULT_OPTIONS = {
   size: 20,
   raw: false,
@@ -17,7 +17,7 @@ const DEFAULT_OPTIONS = {
  *     await dv.view('InLine/Book', { book: "[[游戏攻略/英雄传说 闪之轨迹/笔记/书籍笔记#^diguoshibao1|帝国时报1]]", options: { size: 15 } });
  */
 let { book, options = {} } = input;
-options = Object.assign(options, DEFAULT_OPTIONS);
+options = Object.assign(DEFAULT_OPTIONS, options);
 const { size = 20, raw = true } = options;
 DEBUG && console.log("[InLine/Book.js][Input]: ", { book, options });
 if (typeof book === "string" && book.startsWith("[[") && book.endsWith("]]")) {

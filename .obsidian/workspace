@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c6f69e6d7ba7e84f",
+        "id": "aff51fc3f4857f2b",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Debug.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
         }
       }
     ],
@@ -65,6 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Debug.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Debug.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -105,17 +112,17 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "d36f5b0392c4ea4e",
+  "active": "aff51fc3f4857f2b",
   "lastOpenFiles": [
-    "游戏攻略/英雄传说 闪之轨迹/攻略/第一章 新学期～初次实习～.md",
-    "Debug.md",
-    "首页.md",
-    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/导力魔法.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/钓鱼笔记.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/宝箱笔记.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/TreasureChests.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗笔记.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/书籍笔记.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/任务笔记.md",
-    "游戏攻略/英雄传说 闪之轨迹/攻略/第二章 美丽的翡翠公都.md",
-    "游戏攻略/英雄传说 闪之轨迹/攻略/序章 托尔兹士官学院.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/书籍/红月的罗赛·第1卷.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/书籍/红月的罗赛·第2卷.md"
+    "游戏攻略/英雄传说 闪之轨迹/笔记/人物笔记.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/烹饪笔记.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/迷宫笔记.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/结晶回路.md"
   ]
 }
