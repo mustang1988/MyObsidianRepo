@@ -1,4 +1,4 @@
-const DEBUG = true;
+const DEBUG = false;
 const QUARTZ_ICONS = {
   Earth: {
     N: {

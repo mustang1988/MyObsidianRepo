@@ -1,4 +1,4 @@
-const DEBUG = true;
+const DEBUG = false;
 const { item, options } = input;
 DEBUG && console.log("[Admonition/Food/Unique.js][Input]: ", { item, options });
 const { Name, Effects, Range, Cook = null } = item;

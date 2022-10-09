@@ -1,4 +1,4 @@
-const DEBUG = true;
+const DEBUG = false;
 const SEPITH_CHUNK_SIZE = 4;
 const ChunkSepiths = (sepiths) => {
   const result = [];

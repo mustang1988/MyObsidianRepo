@@ -1,4 +1,4 @@
-const DEBUG = true;
+const DEBUG = false;
 const GetArt = (art) => {
   if (
     typeof art === "object" &&

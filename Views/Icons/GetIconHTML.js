@@ -8,7 +8,7 @@
  * @params {Object} input.options 选项
  * @params {Number} input.options.size 渲染图片尺寸最终高度选项, 单位: 像素, 默认值: 20
  */
-const DEBUG = true;
+const DEBUG = false;
 const DEFAULT_OPTIONS = {
   size: 20,
 };

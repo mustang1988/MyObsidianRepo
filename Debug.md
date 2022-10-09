@@ -1,45 +1,50 @@
----
-Name: "凉风通心粉"
-Time: "[[游戏攻略/英雄传说 闪之轨迹/攻略/第五章 开始行动的意志#^ch-5-8-28-recipe-01|第五章8/28]]"
-How: "酒馆《杏桃》和瑟莉亚对话两次"
-Ingredients:
-  - Name: "[[游戏攻略/英雄传说 闪之轨迹/数据库/物品#^xinxianxiangcao]]"
-    Num: 1
-  - Name: "[[游戏攻略/英雄传说 闪之轨迹/数据库/物品#^qianwanwugu]]"
-    Num: 1
-  - Name: "[[游戏攻略/英雄传说 闪之轨迹/数据库/物品#^cusuiyanyan]]"
-    Num: 1
-  - Name: "[[游戏攻略/英雄传说 闪之轨迹/数据库/物品#^baiyaojingjiu]]"
-    Num: 1
-  - Name: "[[游戏攻略/英雄传说 闪之轨迹/数据库/物品#^moshoubairou]]"
-    Num: 2
-  - Name: "[[游戏攻略/英雄传说 闪之轨迹/数据库/物品#^moshouzhike]]"
-    Num: 2
-Regular:
-  Name: "[[游戏攻略/英雄传说 闪之轨迹/数据库/物品#^liangfengtongxinfen]]"
-  Cook: 
-    - "黎恩"
-    - "亚莉莎"
-    - "艾略特"
-    - "米利亚姆"
-    - "克洛"
-Strange:
-  Name: "[[游戏攻略/英雄传说 闪之轨迹/数据库/物品#^qingdanmian]]"
-  Cook: 
-    - "菲"
-    - "盖乌斯"
-Superb:
-  Name: "[[游戏攻略/英雄传说 闪之轨迹/数据库/物品#^cangtianmianruiyu]]"
-  Cook: 
-    - "劳拉"
-    - "马奇亚斯"
-    - "艾玛"
-    - "克洛"
-Unique:
-  Name: "[[游戏攻略/英雄传说 闪之轨迹/数据库/物品#^tezhixiangcaotongxinfen]]"
-  Cook: 
-    - "尤西斯"
----
 ```dataviewjs
-dv.span(await dv.view('Admonition/Food/Recipe', { recipe: dv.current(), options: { raw: true } }));
+const db = "游戏攻略/英雄传说 闪之轨迹/数据库/食谱";
+let { Recipes } = dv.page(db)
+Recipes = Recipes.sort((r1, r2) => r1.ID-r2.ID);
+const GetItem = (itemLink) => {
+  const {
+    Name: { path, subpath },
+    Cook = null,
+    Num = null,
+    Attack,
+  } = itemLink;
+  const [item = null] = dv.page(path).Items.filter((i) => i.ID === subpath);
+  if (item !== null) {
+    item.path = path;
+    item.Cook = Cook;
+    item.Num = Num;
+    item.Attack = Attack;
+  }
+  return item;
+};
+
+const items = await Promise.all(Recipes.map(recipe => {
+  let { Regular, Peculiar, Superb, Unique } = recipe;
+  const RegularObj = GetItem(Regular);
+  const PeculiarObj = GetItem(Peculiar);
+  const SuperbObj = GetItem(Superb);
+  const UniqueObj = GetItem(Unique);
+  const list = [];
+  list.push(dv.view('InLine/Food/Food', { food: Superb, type:'superb', options: { raw: true, size: 15 } }));
+  list.push(dv.view('InLine/Food/Food', { food: Regular, type:'regular', options: { raw: true, size: 15 } }));
+  if(PeculiarObj.Attack === true) {
+    list.push(dv.view('InLine/Food/Food', { food: Peculiar, type:'attack', options: { raw: true, size: 15 } }));
+  } else {
+    list.push(dv.view('InLine/Food/Food', { food: Peculiar, type:'peculiar', options: { raw: true, size: 15 } }));
+  }
+  list.push(dv.view('InLine/Food/Food', { food: Unique, type:'unique', options: { raw: true, size: 15 } }));
+  return Promise.all(list);
+}));
+
+const data = Recipes.map((recipe, index) => [
+  dv.blockLink(db, `recipe-id-${recipe.ID}`, false, recipe.Name),
+  recipe.Time,
+  recipe.How,
+  items[index]
+]);
+dv.table(
+  ["", "获取章节", "获取方式", "获得物品"],
+  data
+);
 ```
