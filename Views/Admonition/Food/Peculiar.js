@@ -8,7 +8,7 @@ ${dv.markdownList(Cook)}`
     : null;
 return `\`\`\`ad-Food-Peculiar
 title: ${Name}
-collapse: ${collapse ? "open" : "close"}
+collapse: ${collapse === false ? "close" : "open"}
 范围:
 ${Range}
 

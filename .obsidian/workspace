@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "Debug.md",
-            "mode": "preview",
+            "mode": "source",
             "backlinks": true,
             "source": true
           }
@@ -54,7 +54,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 464
+    "width": 464,
+    "collapsed": true
   },
   "right": {
     "id": "50e9e28e7a37c5b8",
