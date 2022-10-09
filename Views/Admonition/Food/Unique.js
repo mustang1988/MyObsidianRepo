@@ -1,4 +1,6 @@
+const DEBUG = true;
 const { item, options } = input;
+DEBUG && console.log("[Admonition/Food/Unique.js][Input]: ", { item, options });
 const { Name, Effects, Range, Cook = null } = item;
 const { collapse = true } = options;
 const cook =
@@ -7,7 +9,7 @@ const cook =
 ${dv.markdownList(Cook)}`
     : null;
 return `\`\`\`ad-Food-Unique
-title: ${Name}
+title: ${dv.blockLink(item.path, item.ID, false, item.Name)}
 collapse: ${collapse === false ? "close" : "open"}
 范围:
 ${Range}

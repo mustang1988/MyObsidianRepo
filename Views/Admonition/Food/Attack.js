@@ -7,7 +7,7 @@ const cook =
 ${dv.markdownList(Cook)}`
     : null;
 return `\`\`\`ad-Food-Attack
-title: ${Name}
+title: ${dv.blockLink(item.path, item.ID, false, item.Name)}
 collapse: ${collapse === false ? "close" : "open"}
 范围:
 ${Range}
