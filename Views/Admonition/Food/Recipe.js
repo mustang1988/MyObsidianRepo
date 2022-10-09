@@ -1,6 +1,6 @@
 const DEBUG = true;
 const DEFAULT_OPTIONS = {
-  collapse: false,
+  collapse: true,
 };
 const GetItem = (itemLink) => {
   DEBUG &&
