@@ -21,10 +21,18 @@ const GetRod = (rod) => {
   }
 };
 
+const BuildFishIcon = (icon) => {
+  console.error(icon);
+  const { File: file, Width: width, Height: height } = icon;
+  return `<img src="${this.app.vault.adapter.basePath}/${
+    file.path
+  }" width="${Math.round((width * 100) / height)}" />`;
+};
+
 let { fish, options } = input;
 options = Object.assign(DEFAULT_OPTIONS, options);
 DEBUG && console.log("[Admonition/Fish/Fish.js][Input]: ", { fish, options });
-let { Name, Description: Desc, Locations, Rank, Bonus, Rods } = fish;
+let { Name, Description: Desc, Locations, Rank, Bonus, Rods, Icon } = fish;
 const { Small, Medium, Large } = Bonus;
 const { raw, collapse } = options;
 return Promise.all(
@@ -50,13 +58,6 @@ return Promise.all(
     const content = `\`\`\`\`ad-Fish-Large
 title: ${Name}
 collapse: ${collapse === false ? "close" : "open"}
-描述: ${Desc}
-
-Rank: ${Rank}
-
-鱼竿:
-${dv.markdownList(rods)}
-
 \`\`\`ad-Fish-Small
 title: ${Name}
 collapse: ${collapse === false ? "close" : "open"}
@@ -88,3 +89,20 @@ ${dv.markdownList(items[2])}
     return raw ? content : dv.span(content);
   });
 });
+
+{
+  /* <table>
+    <tr>
+      <td style="border:none;">${BuildFishIcon(Icon)}</td>
+      <td style="border:none;">${Desc}</td>
+    <tr>
+    <tr>
+      <td style="border:none;">稀有度</td>
+      <td style="border:none;">${Rank}</td>
+    <tr>
+    <tr>
+      <td style="border:none;">钓竿</td>
+      <td style="border:none;">${dv.markdownList(rods)}</td>
+    <tr>
+</table> */
+}
