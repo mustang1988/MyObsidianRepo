@@ -19591,6 +19591,7 @@ class DataviewInlineApi {
     async view(viewName, input) {
         // Look for `${viewName}.js` first, then for `${viewName}/view.js`.
         let simpleViewFile = this.app.metadataCache.getFirstLinkpathDest(viewName + ".js", this.currentFilePath);
+        console.log("[DataView][view()][simpleViewFile]: ", simpleViewFile);
         if (simpleViewFile) {
             let contents = await this.app.vault.read(simpleViewFile);
             if (contents.contains("await"))
@@ -19600,7 +19601,8 @@ class DataviewInlineApi {
                 // This may directly render, in which case it will likely return undefined or null.
                 let result = await Promise.resolve(func(this, input));
                 if (result)
-                    if(input.options && input.options.raw) {
+                    if(input.options && input.options.raw === true) {
+                      console.log("[DataView][view()][return]: ", result);
                       return result;
                     } else {
                       await renderValue(result, this.container, this.currentFilePath, this.component, this.settings, true);
@@ -19624,8 +19626,14 @@ class DataviewInlineApi {
         let viewFunction = new Function("dv", "input", viewContents);
         try {
             let result = await Promise.resolve(viewFunction(this, input));
-            if (result)
+            if (result) {
+              if(input.options && input.options.raw === true) {
+                console.log("[DataView][view()][return]: ", result);
+                return result;
+              } else {
                 await renderValue(result, this.container, this.currentFilePath, this.component, this.settings, true);
+              }
+            }
         }
         catch (ex) {
             renderErrorPre(this.container, `Dataview: Error while executing view '${viewFile.path}'.\n\n${ex}`);

@@ -58,6 +58,14 @@ return Promise.all(
     const content = `\`\`\`\`ad-Fish-Large
 title: ${Name}
 collapse: ${collapse === false ? "close" : "open"}
+
+<table>
+    <tr>
+      <td style="border: none;">${BuildFishIcon(Icon)}</td>
+      <td style="border: none;">${Desc}</td>
+    </tr>
+</table>
+
 \`\`\`ad-Fish-Small
 title: ${Name}
 collapse: ${collapse === false ? "close" : "open"}
