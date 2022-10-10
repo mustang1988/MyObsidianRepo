@@ -416,11 +416,11 @@ Item:
       Width: 18
       Height: 34
     Water:
-      File: "![[图片/游戏攻略/英雄传说/通用/图标/物品_耀晶片_火.webp]]"
+      File: "![[图片/游戏攻略/英雄传说/通用/图标/物品_耀晶片_水.webp]]"
       Width: 18
       Height: 34
     Fire:
-      File: "![[图片/游戏攻略/英雄传说/通用/图标/物品_耀晶片_水.webp]]"
+      File: "![[图片/游戏攻略/英雄传说/通用/图标/物品_耀晶片_火.webp]]"
       Width: 18
       Height: 34
     Wind:

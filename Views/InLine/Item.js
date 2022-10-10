@@ -26,9 +26,18 @@ const GetPath = (file) => {
   return result;
 };
 
-let { name, icon, num = 0, options } = input;
+const GetLink = (link) => {
+  const { path, subpath } = link;
+  const [item = null] = dv.page(path).Items.filter((i) => i.ID === subpath);
+  if (item === null) {
+    return item;
+  }
+  return dv.blockLink(path, subpath, false, item.Name === "" ? " " : item.Name);
+};
+
+let { link, icon, num = 0, options } = input;
 options = Object.assign(DEFAULT_OPTIONS, options);
-DEBUG && console.log("[InLine/Item.js][Input]: ", { name, icon, num, options });
+DEBUG && console.log("[InLine/Item.js][Input]: ", { link, icon, num, options });
 const { limit, raw, size } = options;
 return dv
   .view("Icons/Icon", { key: icon, options: { raw: true } })
@@ -39,7 +48,7 @@ return dv
       const { File: file, Width: width, Height: height } = icon;
       const HTML = `<img width="${GetSize(width, height, size)}" src="${GetPath(
         file
-      )}" /> ${name}${num > limit ? " x " + num : ""}`;
+      )}" /> ${GetLink(link)} ${num > limit ? " x " + num : ""}`;
       return raw ? HTML : dv.span(HTML);
     } else {
       console.error("[InLine/Item.js][无效的图标Key]: ", icon);
