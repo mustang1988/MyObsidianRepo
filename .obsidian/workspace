@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "11ca0af2685894c3",
+        "id": "215ad61e0c1e5e3d",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "游戏攻略/英雄传说 闪之轨迹/数据库/导力魔法.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -70,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/数据库/导力魔法.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +81,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/数据库/导力魔法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -112,8 +105,9 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "11ca0af2685894c3",
+  "active": "215ad61e0c1e5e3d",
   "lastOpenFiles": [
+    "游戏攻略/英雄传说 闪之轨迹/数据库/结晶回路.md",
     "Debug.md",
     "游戏攻略/英雄传说 闪之轨迹/数据库/导力魔法.md",
     "游戏攻略/英雄传说 闪之轨迹/数据库/物品.md",
@@ -122,7 +116,6 @@
     "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/钓鱼/刃鱼.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/钓鱼/鳌虾.md",
-    "示例.md",
-    "首页.md"
+    "示例.md"
   ]
 }
