@@ -3,7 +3,7 @@ const DEFAULT_OPTIONS = {
   size: 20,
   raw: true,
 };
-const ICON_KEY = "Item.Food.Unique";
+const ICON_KEY = "Item.Food.Attack";
 
 const MergeOptions = (options) => {
   return Object.assign(DEFAULT_OPTIONS, options);
@@ -11,11 +11,14 @@ const MergeOptions = (options) => {
 
 const GetFood = (link) => {
   const { path, subpath } = link;
-  const [food = null] = dv.page(path).Items.filter((i) => i.ID === subpath);
-  if (food !== null) {
-    return dv.blockLink(path, subpath, false, food.Name);
+  const [food = null] = dv.page(path).Foods.filter((i) => i.ID === subpath);
+  if (food === null) {
+    return {food:null, link:null};
   }
-  return null;
+  return {
+    food,
+    link:dv.blockLink(path, subpath, false, food.Name)
+  };
 };
 
 const GetSize = (width, height, targetSize) => {
@@ -46,7 +49,10 @@ DEBUG &&
 
 return GetFoodIcon(options).then((icon) => {
   const { source, size } = icon;
-  const foodLink = GetFood(link);
+  const {food: foodData, link: foodLink} = GetFood(link);
+  if(foodData===null){
+    return '';
+  }
   const { raw } = options;
   const html = `<img src="${source}" width="${size}" /> ${foodLink}`;
   return raw ? html : dv.span(html);
