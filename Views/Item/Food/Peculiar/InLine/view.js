@@ -3,7 +3,7 @@ const DEFAULT_OPTIONS = {
   size: 20,
   raw: true,
 };
-const ICON_KEY = "Item.Food.Attack";
+const ICON_KEY = "Item.Food.Peculiar";
 
 const MergeOptions = (options) => {
   return Object.assign(DEFAULT_OPTIONS, options);
@@ -13,11 +13,11 @@ const GetFood = (link) => {
   const { path, subpath } = link;
   const [food = null] = dv.page(path).Foods.filter((i) => i.ID === subpath);
   if (food === null) {
-    return {food:null, link:null};
+    return { food: null, link: null };
   }
   return {
     food,
-    link:dv.blockLink(path, subpath, false, food.Name)
+    link: dv.blockLink(path, subpath, false, food.Name),
   };
 };
 
@@ -41,17 +41,29 @@ const GetFoodIcon = async (options) => {
       };
     });
 };
+const IsAttackFood = (effects) => {
+  for (const eff of effects) {
+    if (eff.startsWith("攻击")) {
+      return true;
+    }
+  }
+  return false;
+};
 
+// ===== Begin =====
 let { link, options } = input;
 options = MergeOptions(options);
 DEBUG &&
   console.log("[Food/InLine/Peculiar/view.js][Input]: ", { link, options });
-
+const { food: foodData, link: foodLink } = GetFood(link);
+if (IsAttackFood(foodData.Effects)) {
+  return dv.view("Item/Food/Attack/InLine", { link, options });
+}
 return GetFoodIcon(options).then((icon) => {
   const { source, size } = icon;
-  const {food: foodData, link: foodLink} = GetFood(link);
-  if(foodData===null){
-    return '';
+
+  if (foodData === null) {
+    return "";
   }
   const { raw } = options;
   const html = `<img src="${source}" width="${size}" /> ${foodLink}`;

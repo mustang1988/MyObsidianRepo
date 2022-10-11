@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "2d3939866924284f",
+        "id": "af1191d6a25cc689",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "游戏攻略/英雄传说 闪之轨迹/数据库/食物.md",
+            "file": "游戏攻略/英雄传说 闪之轨迹/数据库/食谱.md",
             "mode": "source",
             "backlinks": true,
             "source": true
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/数据库/食物.md",
+                "file": "游戏攻略/英雄传说 闪之轨迹/数据库/食谱.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/数据库/食物.md",
+                "file": "游戏攻略/英雄传说 闪之轨迹/数据库/食谱.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -112,17 +112,17 @@
     "width": 282.5,
     "collapsed": true
   },
-  "active": "2d3939866924284f",
+  "active": "af1191d6a25cc689",
   "lastOpenFiles": [
-    "游戏攻略/英雄传说 闪之轨迹/数据库/食物.md",
-    "游戏攻略/英雄传说 闪之轨迹/数据库/物品.md",
-    "游戏攻略/英雄传说 闪之轨迹/数据库/消耗品.md",
-    "游戏攻略/英雄传说 闪之轨迹/数据库/食谱.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/烹饪笔记.md",
-    "游戏攻略/英雄传说 闪之轨迹/数据库/书籍.md",
     "游戏攻略/英雄传说 闪之轨迹/数据库/食材.md",
+    "游戏攻略/英雄传说 闪之轨迹/数据库/食谱.md",
+    "游戏攻略/英雄传说 闪之轨迹/数据库/食物.md",
     "游戏攻略/英雄传说 闪之轨迹/数据库/导力魔法.md",
+    "游戏攻略/英雄传说 闪之轨迹/数据库/钓鱼.md",
     "游戏攻略/英雄传说 闪之轨迹/数据库/结晶回路.md",
-    "Debug.md"
+    "游戏攻略/英雄传说 闪之轨迹/笔记/烹饪笔记.md",
+    "游戏攻略/英雄传说 闪之轨迹/数据库/物品.md",
+    "游戏攻略/英雄传说 闪之轨迹/数据库/书籍.md",
+    "游戏攻略/英雄传说 闪之轨迹/数据库/消耗品.md"
   ]
 }

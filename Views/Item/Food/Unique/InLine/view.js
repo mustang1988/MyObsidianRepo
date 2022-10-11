@@ -3,7 +3,7 @@ const DEFAULT_OPTIONS = {
   size: 20,
   raw: true,
 };
-const ICON_KEY = "Item.Food.Attack";
+const ICON_KEY = "Item.Food.Unique";
 
 const MergeOptions = (options) => {
   return Object.assign(DEFAULT_OPTIONS, options);

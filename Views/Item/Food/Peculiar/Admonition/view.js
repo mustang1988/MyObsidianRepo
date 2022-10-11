@@ -19,7 +19,14 @@ const GetAttackFood = (id, db) => {
     link: dv.blockLink(db, id, false, food.Name),
   };
 };
-
+const IsAttackFood = (effects) => {
+  for (const eff of effects) {
+    if (eff.startsWith("攻击")) {
+      return true;
+    }
+  }
+  return false;
+};
 // ===== Begin =====
 let { food, options } = input;
 options = MergeOptions(options);
@@ -35,6 +42,9 @@ if (food === null) {
   return "";
 }
 const { Effects, Range, Cook = null } = foodData;
+if (IsAttackFood(Effects)) {
+  return dv.view("Item/Food/Attack/Admonition", { food, options });
+}
 const adm = `\`\`\`ad-Food-Peculiar
 title: ${foodLink}
 collapse: ${collapse}
