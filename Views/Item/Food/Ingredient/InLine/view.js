@@ -9,7 +9,7 @@ const GetSize = (width, height, size) => {
   return Math.round((width * size) / height);
 };
 const GetSource = (file) => {
-  return `${this.app.vault.adapter.basePath}/${file.path}`;
+  return `app://local/${this.app.vault.adapter.basePath}/${file.path}`;
 };
 const GetIngredientIcon = async (size) => {
   return dv

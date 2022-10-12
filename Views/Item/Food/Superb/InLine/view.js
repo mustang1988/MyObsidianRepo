@@ -26,7 +26,7 @@ const GetSize = (width, height, targetSize) => {
 };
 
 const GetSource = (file) => {
-  return `${this.app.vault.adapter.basePath}/${file.path}`;
+  return `app://local/${this.app.vault.adapter.basePath}/${file.path}`;
 };
 
 const GetFoodIcon = async (options) => {

@@ -18,7 +18,7 @@ const GetRod = (link) => {
     link: dv.blockLink(path, subpath, false, rod.Name),
   };
 };
-const GetIconSrc = (file) => `${this.app.vault.adapter.basePath}/${file.path}`;
+const GetIconSrc = (file) => `app://local/${this.app.vault.adapter.basePath}/${file.path}`;
 const GetIconWidth = (width, height, target) =>
   Math.round((width * target) / height);
 const GetRodIcon = (size) => {

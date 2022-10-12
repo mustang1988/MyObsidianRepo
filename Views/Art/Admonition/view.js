@@ -5,7 +5,7 @@ const DEFAULT_OPTIONS = {
   db: "游戏攻略/英雄传说 闪之轨迹/数据库/导力魔法",
 };
 const MergeOptions = (options) => Object.assign(DEFAULT_OPTIONS, options);
-const GetIconSrc = (file) => `${this.app.vault.adapter.basePath}/${file.path}`;
+const GetIconSrc = (file) => `app://local/${this.app.vault.adapter.basePath}/${file.path}`;
 const GetIconWidth = (width, height, target) =>
   Math.round((width * target) / height);
 const GetElementIcon = async (element) => {

@@ -20,7 +20,7 @@ const GetArt = (link) => {
     link: dv.blockLink(path, subpath, false, art.Name),
   };
 };
-const GetIconSrc = (file) => `${this.app.vault.adapter.basePath}/${file.path}`;
+const GetIconSrc = (file) => `app://local/${this.app.vault.adapter.basePath}/${file.path}`;
 const GetIconWidth = (width, height, target) =>
   Math.round((width * target) / height);
 const GetElementIcon = async (element, size) => {
