@@ -930,6 +930,18 @@
       "injectColor": true,
       "noTitle": true,
       "copy": true
+    },
+    "U": {
+      "type": "U",
+      "color": "#7d7d7d",
+      "icon": {
+        "name": "data:image/png;base64,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",
+        "type": "image"
+      },
+      "command": false,
+      "injectColor": true,
+      "noTitle": true,
+      "copy": true
     }
   },
   "syntaxHighlight": false,
