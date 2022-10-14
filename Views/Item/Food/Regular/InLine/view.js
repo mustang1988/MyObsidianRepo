@@ -1,6 +1,6 @@
 const DEBUG = false;
 const DEFAULT_OPTIONS = {
-  size: 20,
+  size: 15,
   raw: true,
 };
 const ICON_KEY = "Item.Food.Regular";
