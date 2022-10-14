@@ -41,7 +41,16 @@ options = MergeOptons(options);
 DEBUG && console.debug("[钓鱼笔记-掉落奖励表格渲染][Views/Page/Fish/LootTable/view.js][Input]:\n", { fish, options });
 const { Bonus } = fish;
 const table = BuildRows(fish).then(lootTable => {
-    return `<table style="width: 100%;"><theader><tr><td style="border: none;"></td><td style="border: none;">钓果点数</td><td style="border: none;">取得道具</td></tr></theader><tbody>${lootTable}</tbody></table>`;
+    return `<table style="width: 100%;">
+<theader>
+<tr>
+<td style="border: none;"></td>
+<td style="border: none;">钓果点数</td>
+<td style="border: none;">取得道具</td>
+</tr>
+</theader>
+<tbody>${lootTable}</tbody>
+</table>`;
 });
 const { raw } = options;
 return raw ? table : dv.span(table);

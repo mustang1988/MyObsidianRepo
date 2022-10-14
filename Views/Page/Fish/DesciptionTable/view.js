@@ -32,6 +32,14 @@ let { fish, options } = input;
 options = MergeOptons(options);
 DEBUG && console.debug("[钓鱼笔记-描述信息表格渲染][Views/Page/Fish/DescriptionTable/view.js][Input]:\n", { fish, options });
 const { Icon, Description } = fish;
-const table = `<table style="width: 100%;"><tbody><tr><td style="border: none;">${GetFishIcon(fish)}</td><td style="border: none;">${fish.Description}</td><td style="border: none;">稀有度:</br><span style="font-size: 100;">${fish.Rank}<span></td></tr></tbody></table>`
+const table = `<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: none;">${GetFishIcon(fish)}</td>
+<td style="border: none;">${fish.Description}</td>
+<td style="border: none;">稀有度:</br><span style="font-size: 100;">${fish.Rank}<span></td>
+</tr>
+</tbody>
+</table>`
 const { raw } = options;
 return raw ? table : dv.span(table);
