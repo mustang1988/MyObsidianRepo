@@ -1,14 +1,19 @@
+/**
+ * 
+ */
+// ===== Constraints =====
 const DEBUG = false;
 const DEFAULT_OPTIONS = {
   collapse: "open",
   db: "游戏攻略/英雄传说 闪之轨迹/数据库/书籍",
   raw: true,
 };
+// ===== Functions =====
 const MergeOptions = (options) => Object.assign(DEFAULT_OPTIONS, options);
 const GetBook = (id, db) => {
   const [book = null] = dv.page(db).Books.filter((b) => b.ID === id);
   if (book === null) {
-    return { book, link: null };
+    return { book: null, link: null };
   }
   return {
     book,

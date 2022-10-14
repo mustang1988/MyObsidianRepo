@@ -1,6 +1,3 @@
-/**
- * Buff 图标
- */
 const DEBUG = false;
 const BUFF_ICONS = {
   STRUpS: {

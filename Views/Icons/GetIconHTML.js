@@ -1,13 +1,4 @@
-/**
- * 获取图标渲染用HTML
- * @params {Object} input 输入参数
- * @params {Object|Array} input.icon 图标对象
- * @params {Link} input.icon.file 图标文件连接
- * @params {Number} input.icon.width 图标文件原始宽度, 单位: 像素
- * @params {Number} input.icon.height 图标文件原始高度, 单位: 像素
- * @params {Object} input.options 选项
- * @params {Number} input.options.size 渲染图片尺寸最终高度选项, 单位: 像素, 默认值: 20
- */
+
 const DEBUG = false;
 const DEFAULT_OPTIONS = {
   size: 20,

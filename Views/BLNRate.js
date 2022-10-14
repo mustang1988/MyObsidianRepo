@@ -1,6 +1,3 @@
-/**
- * 渲染失衡引发率单元
- */
 const DEBUG = false;
 const START_ICON = {
   file: dv.fileLink("图片/游戏攻略/英雄传说/通用/图标/其他_星.webp"),

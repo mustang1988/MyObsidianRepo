@@ -1,6 +1,3 @@
-/**
- * DEBUFF 图标
- */
 const DEBUG = false;
 const DEBUFF_ICONS = {
   Poison: {

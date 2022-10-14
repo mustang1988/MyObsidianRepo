@@ -1,8 +1,19 @@
+/**
+ * 以行内格式渲染导力魔法
+ * @params {Object} link 导力魔法在其数据库文档中的块级连接路径
+ * @params {String} link.path 导力魔法数据库文档路径
+ * @params {String} link.subpath 导力魔法在其数据库文档中的block ID
+ * @params {Object} options 可选配置参数
+ * @params {Number} options.size 可选参数, 渲染的连接图标的尺寸, 单位像素, 默认值: 15
+ * @params {Boolean} options.raw 是否返回渲染元素, true: 返回渲染的HTML/Markdown元素, false: 不返回需要渲染的元素, 直接使用Dataview进行渲染.
+ */
+// ===== Constraints =====
 const DEBUG = false;
 const DEFAULT_OPTIONS = {
   size: 15,
   raw: true,
 };
+// ===== Functions =====
 const MergeOptions = (options) => Object.assign(DEFAULT_OPTIONS, options);
 const GetArt = (link) => {
   const { path, subpath } = link;
@@ -21,8 +32,7 @@ const GetArt = (link) => {
   };
 };
 const GetIconSrc = (file) => `app://local/${this.app.vault.adapter.basePath}/${file.path}`;
-const GetIconWidth = (width, height, target) =>
-  Math.round((width * target) / height);
+const GetIconWidth = (width, height, target) => Math.round((width * target) / height);
 const GetElementIcon = async (element, size) => {
   return dv
     .view("Icons/Icon", { key: `Element.${element}`, options: { raw: true } })

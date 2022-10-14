@@ -1,6 +1,3 @@
-/**
- * 
- */
 // ===== Constrains =====
 const DEBUG = true;
 const DEFAULT_OPTIONS = {
