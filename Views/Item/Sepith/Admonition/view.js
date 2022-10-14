@@ -1,5 +1,5 @@
 // ===== Constraint =====
-const DEBUG = true;
+const DEBUG = false;
 const DEFAULT_OPTIONS = {
   raw: true,
   db: "游戏攻略/英雄传说 闪之轨迹/数据库/物品",

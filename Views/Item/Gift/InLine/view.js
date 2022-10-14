@@ -1,2 +1,2 @@
-const DEBUG = true;
+const DEBUG = false;
 let {} = input;
