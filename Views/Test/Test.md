@@ -58,8 +58,7 @@ Tests:
       InLine: "[[游戏攻略/英雄传说 闪之轨迹/数据库/书籍#^diguoshibao1]]"
     Fishing:
       Fish:
-        Admonition:
-        InLine: ""
+        InLine: "[[游戏攻略/英雄传说 闪之轨迹/数据库/钓鱼#^renyu]]"
       Rod:
         Admonition:
         InLine: ""
@@ -113,7 +112,6 @@ Tests:
     Fish:
 ---
 # 自定义view测试
-`$=console.log(dv.current());`
 ## 导力魔法
 ### Admonition渲染
 ```dataviewjs
@@ -161,6 +159,16 @@ dv.span(await dv.view("Item/Book/InLine", { link: dv.current().Tests.Item.Book.I
 #### 鱼
 #### InLine渲染
 ```dataviewjs
+dv.header(5, "==默认参数(size=15,fish_size=\"s\", display_name=true)==");
+dv.span(await dv.view("Item/Fishing/Fish/InLine", { link: dv.current().Tests.Item.Fishing.Fish.InLine, options: { raw: true } }));
+dv.header(5, "==可选参数(fish_size=\"m\")==");
+dv.span(await dv.view("Item/Fishing/Fish/InLine", { link: dv.current().Tests.Item.Fishing.Fish.InLine, options: { raw: true, fish_size: "m" } }));
+dv.header(5, "==可选参数(fish_size=\"l\")==");
+dv.span(await dv.view("Item/Fishing/Fish/InLine", { link: dv.current().Tests.Item.Fishing.Fish.InLine, options: { raw: true, fish_size: "l" } }));
+dv.header(5, "==可选参数(size=30)==");
+dv.span(await dv.view("Item/Fishing/Fish/InLine", { link: dv.current().Tests.Item.Fishing.Fish.InLine, options: { raw: true, size: 30 } }));
+dv.header(5, "==可选参数(display_name=false)==");
+dv.span(await dv.view("Item/Fishing/Fish/InLine", { link: dv.current().Tests.Item.Fishing.Fish.InLine, options: { raw: true, display_name: false } }));
 ```
 
 #### 鱼竿

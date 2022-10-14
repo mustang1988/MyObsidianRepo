@@ -1,5 +1,5 @@
 // ===== Constrains =====
-const DEBUG = false;
+const DEBUG = true;
 const DEFAULT_OPTIONS = {
     size: 15,
     fish_size: "s",// "s", "m", "l"
@@ -16,19 +16,23 @@ const GetFishIcon = async(size, fSize) => {
     switch(fSize.toLowerCase()) {
         case "s":
             key = "Item.Fishing.FishS"
+            break;
         case "m":
             key = "Item.Fishing.FishM";
+            break;
         case "l":
             key = "Item.Fishing.FishL"
+            break;
         default: 
             key = "Item.Fishing.FishS"
+            break;
     }
     return dv.view("Icons/Icon", { key, options: { raw: true } })
     .then(icon => {
         if(icon === null){
             return "";
         }
-        const { File, file, Width: width, Height: height } = icon;
+        const { File: file, Width: width, Height: height } = icon;
         return `<img src="${GetIconSrc(file)}" width="${GetIconWidth(
             width,
             height,
