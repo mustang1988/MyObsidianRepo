@@ -20,8 +20,7 @@ const GetIconWidth = (width, height, target) =>
   Math.round((width * target) / height);
 const GetQuartzIcon = async (element, rate, size) => {
   const key = `Quartz.${element}.${rate}`;
-  return dv.view("Icons/Icon", { key, options: { raw: true } }).then((icon) => {
-    console.error(icon, key);
+  return dv.view("Icons/Icon", { key, options: { raw: true } }).then((icon) => {    
     if (icon === null) {
       return "";
     }
