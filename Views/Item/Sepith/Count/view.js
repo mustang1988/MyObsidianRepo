@@ -12,7 +12,7 @@ const DEFAULT_OPTIONS = {
 };
 
 // ===== Functions =====
-const MergeOptons = () => Object.assign(DEFAULT_OPTIONS, options);
+const MergeOptons = (options) => Object.assign(DEFAULT_OPTIONS, options);
 
 // ===== Begin =====
 let { link, options } = input;
