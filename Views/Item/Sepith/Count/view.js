@@ -6,7 +6,7 @@ const DEBUG = false;
 const DEFAULT_OPTIONS = {
     size: 15,
     count: 0,
-    linit: 0,
+    limit: 0,
     display_name: false,
     raw: true,
 };
