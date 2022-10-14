@@ -1,9 +1,9 @@
 // ===== Constrains =====
-const DEBUG = true;
+const DEBUG = false;
 const DEFAULT_OPTIONS = {
     size: 15,
     fish_size: "s",// "s", "m", "l"
-    display_name: true,
+    display_name: false,
     raw: true,
 };
 

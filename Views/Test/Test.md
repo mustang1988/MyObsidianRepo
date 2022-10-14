@@ -61,20 +61,35 @@ Tests:
         InLine: "[[游戏攻略/英雄传说 闪之轨迹/数据库/钓鱼#^renyu]]"
       Rod:
         Admonition:
-        InLine: ""
+          Name: "小巧射手"
+          ID: "xiaoqiaosheshou"
+        InLine: "[[游戏攻略/英雄传说 闪之轨迹/数据库/鱼竿#^xiaoqiaosheshou]]"
     Food:
       Attack:
         Admonition:
-        InLine: ""
+          Name: "危险肉丸"
+          ID: "weixianrouwan"
+          Range: "圆M(指定地点)"
+          Effects:
+            - "攻击(威力A)"
+            - "50%附加「昏厥」"
+        InLine: "[[游戏攻略/英雄传说 闪之轨迹/数据库/食物#^weixianrouwan]]"
       Ingredient:
         Admonition:
-        InLine: ""
+          Name: "蜂蜜糖浆"
+          ID: "fengmitangjiang"
+        InLine: "[[游戏攻略/英雄传说 闪之轨迹/数据库/食材#^fengmitangjiang]]"
         Count:
-          Link: ""
-          Count: 1
+          Link: "[[游戏攻略/英雄传说 闪之轨迹/数据库/食材#^fengmitangjiang]]"
       Peculiar:
         Admonition:
-        InLine: ""
+          Name: "硬邦邦蛋包饭"
+          ID: "yingbangbangdanbaofan"
+          Range: "单体"
+          Effects:
+            - "HP+400"
+            - "DEF+25%, 持续3回合"
+        InLine: "[[游戏攻略/英雄传说 闪之轨迹/数据库/食物#^yingbangbangdanbaofan]]"
       Regular:
         Admonition:
         InLine: ""
@@ -174,41 +189,95 @@ dv.span(await dv.view("Item/Fishing/Fish/InLine", { link: dv.current().Tests.Ite
 #### 鱼竿
 ##### Admonition渲染
 ```dataviewjs
+dv.header(6, "==默认参数(db=\"游戏攻略/英雄传说 闪之轨迹/数据库/鱼竿\")==");
+dv.span(await dv.view('Item/Fishing/Rod/Admonition', { rod: dv.current().Tests.Item.Fishing.Rod.Admonition, options: { raw: true } }));
 ```
 ##### InLine渲染
 ```dataviewjs
+dv.header(6, "==默认参数(size=15)==");
+dv.span(await dv.view('Item/Fishing/Rod/InLine', { link: dv.current().Tests.Item.Fishing.Rod.InLine, options: { raw: true } }))
+
+dv.header(6, "==可选参数(size=30)==");
+dv.span(await dv.view('Item/Fishing/Rod/InLine', { link: dv.current().Tests.Item.Fishing.Rod.InLine, options: { raw: true, size: 30 } }))
 ```
 
 ### 食物
 #### 攻击食物
 ##### Admonition渲染
 ```dataviewjs
+dv.header(6, "==默认参数(collapse=\"open\", db=\"游戏攻略/英雄传说 闪之轨迹/数据库/食物\")==");
+dv.span(await dv.view("Item/Food/Attack/Admonition", { food: dv.current().Tests.Item.Food.Attack.Admonition, options: { raw: true } }));
+
+dv.header(6, "==可选参数(collapse=\"open\")==");
+dv.span(await dv.view("Item/Food/Attack/Admonition", { food: dv.current().Tests.Item.Food.Attack.Admonition, options: { raw: true, collapse: "open" } }));
+
+dv.header(6, "==可选参数(collapse=\"close\")==");
+dv.span(await dv.view("Item/Food/Attack/Admonition", { food: dv.current().Tests.Item.Food.Attack.Admonition, options: { raw: true, collapse: "close" } }));
+
+dv.header(6, "==可选参数(collapse=\"none\")==");
+dv.span(await dv.view("Item/Food/Attack/Admonition", { food: dv.current().Tests.Item.Food.Attack.Admonition, options: { raw: true, collapse: "none" } }));
 ```
 
 ##### 行内渲染
 ```dataviewjs
+dv.header(6, "==默认参数(size=15)==");
+dv.span(await dv.view("Item/Food/Attack/InLine", { link: dv.current().Tests.Item.Food.Attack.InLine, options: { raw: true } }));
+
+dv.header(6, "==可选参数(size=30)==");
+dv.span(await dv.view("Item/Food/Attack/InLine", { link: dv.current().Tests.Item.Food.Attack.InLine, options: { raw: true, size: 30 } }));
 ```
 
 #### 食材
 ##### Admonition渲染
 ```dataviewjs
+dv.header(6, "==默认参数(db=\"游戏攻略/英雄传说 闪之轨迹/数据库/食材\")==");
+dv.span(await dv.view("Item/Food/Ingredient/Admonition", { ingredient: dv.current().Tests.Item.Food.Ingredient.Admonition, options: { raw: true } }));
 ```
 
 ##### 行内渲染
 ```dataviewjs
+dv.header(6, "==默认参数(size=15)==");
+dv.span(await dv.view("Item/Food/Ingredient/InLine", { link: dv.current().Tests.Item.Food.Ingredient.InLine, options: { raw: true } }));
+
+dv.header(6, "==可选参数(size=30)==");
+dv.span(await dv.view("Item/Food/Ingredient/InLine", { link: dv.current().Tests.Item.Food.Ingredient.InLine, options: { raw: true, size: 30 } }));
 ```
 
 ##### 带数量行内渲染
 ```dataviewjs
+dv.header(6, "==默认参数(size=15, count=0, limit=0)==");
+dv.span(await dv.view("Item/Food/Ingredient/Count", { link: dv.current().Tests.Item.Food.Ingredient.Count.Link, options: { raw: true } }));
+
+dv.header(6, "==可选参数(size=30, count=10, limit=0)==");
+dv.span(await dv.view("Item/Food/Ingredient/Count", { link: dv.current().Tests.Item.Food.Ingredient.Count.Link, options: { raw: true, size: 30, count: 10, limit: 0 } }));
+
+dv.header(6, "==可选参数(size=15, count=10, limit=11)==");
+dv.span(await dv.view("Item/Food/Ingredient/Count", { link: dv.current().Tests.Item.Food.Ingredient.Count.Link, options: { raw: true, size: 15, count: 10, limit: 11 } }));
 ```
 
 #### 古怪食物
 ##### Admonition渲染
 ```dataviewjs
+dv.header(6, "==默认参数(collapse=\"open\", db=\"游戏攻略/英雄传说 闪之轨迹/数据库/食物\")==");
+dv.span(await dv.view("Item/Food/Peculiar/Admonition", { food: dv.current().Tests.Item.Food.Peculiar.Admonition, options: { raw: true } }));
+
+dv.header(6, "==可选参数(collapse=\"open\")==");
+dv.span(await dv.view("Item/Food/Peculiar/Admonition", { food: dv.current().Tests.Item.Food.Peculiar.Admonition, options: { raw: true, collapse: "open" } }));
+
+dv.header(6, "==可选参数(collapse=\"close\")==");
+dv.span(await dv.view("Item/Food/Peculiar/Admonition", { food: dv.current().Tests.Item.Food.Peculiar.Admonition, options: { raw: true, collapse: "close" } }));
+
+dv.header(6, "==可选参数(collapse=\"none\")==");
+dv.span(await dv.view("Item/Food/Peculiar/Admonition", { food: dv.current().Tests.Item.Food.Peculiar.Admonition, options: { raw: true, collapse: "none" } }));
 ```
 
 ##### 行内渲染
 ```dataviewjs
+dv.header(6, "==默认参数(size=15)==");
+dv.span(await dv.view("Item/Food/Peculiar/InLine", { link: dv.current().Tests.Item.Food.Peculiar.InLine, options: { raw: true } }));
+
+dv.header(6, "==可选参数(size=30)==");
+dv.span(await dv.view("Item/Food/Peculiar/InLine", { link: dv.current().Tests.Item.Food.Peculiar.InLine, options: { raw: true, size: 30 } }));
 ```
 
 #### 普通食物
