@@ -33,10 +33,7 @@ const GetElementIcon = async (element) => {
 };
 const GetArtLink = (id, db) => {
   const [art = null] = dv.page(db).Arts.filter((a) => a.ID === id);
-  console.debug(
-    "\t[导力魔法Admonition渲染][Views/Art/Admonition/view.js][GetArtLink()][db]:\n\t",
-    dv.page(db).Arts
-  );
+  
   if (art === null) {
     DEBUG &&
       console.error(
