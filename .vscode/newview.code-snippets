@@ -1,0 +1,26 @@
+{
+	"Print to console": {
+		"scope": "javascript",
+		"prefix": "obsidian_view",
+		"body": [
+			"/**",
+			" * ",
+			" */",
+			"// ===== Constrains =====",
+			"const DEBUG = true;",
+			"const DEFAULT_OPTIONS = {",
+			"    raw: true,",
+			"};",
+			"",
+			"// ===== Functions =====",
+			"const MergeOptons = () => Object.assign(DEFAULT_OPTIONS, options);",
+			"",
+			"// ===== Begin =====",
+			"let { options } = input;",
+			"options = MergeOptons(options);",
+			"DEBUG && console.debug(\"[][Views/][Input]:\\n\", { options });",
+			""
+		],
+		"description": "新建ObsidianView"
+	}
+}
