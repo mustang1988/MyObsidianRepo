@@ -15,10 +15,11 @@ const GetSepith = (link, withName) => {
   }
   return {
     sepith: item,
-    link: dv.blockLink(path, subpath, false, withName ? item.Name : " "),
+    link: withName ? dv.blockLink(path, subpath, false, item.Name) : "",
   };
 };
-const GetIconSrc = (file) => `app://local/${this.app.vault.adapter.basePath}/${file.path}`;
+const GetIconSrc = (file) =>
+  `app://local/${this.app.vault.adapter.basePath}/${file.path}`;
 const GetIconWidth = (width, height, target) =>
   Math.round((width * target) / height);
 const GetSepithIcon = (size, element) => {

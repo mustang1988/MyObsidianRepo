@@ -16,7 +16,8 @@ const GetBook = (link) => {
     link: dv.blockLink(path, subpath, false, `《${book.Name}》`),
   };
 };
-const GetIconSrc = (file) => `app://local/${this.app.vault.adapter.basePath}/${file.path}`;
+const GetIconSrc = (file) =>
+  `app://local/${this.app.vault.adapter.basePath}/${file.path}`;
 const GetIconWidth = (width, height, target) =>
   Math.round((width * target) / height);
 const GetBookIcon = async (size) => {

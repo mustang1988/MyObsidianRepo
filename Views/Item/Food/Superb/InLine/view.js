@@ -13,11 +13,11 @@ const GetFood = (link) => {
   const { path, subpath } = link;
   const [food = null] = dv.page(path).Foods.filter((i) => i.ID === subpath);
   if (food === null) {
-    return {food:null, link:null};
+    return { food: null, link: null };
   }
   return {
     food,
-    link:dv.blockLink(path, subpath, false, food.Name)
+    link: dv.blockLink(path, subpath, false, food.Name),
   };
 };
 
@@ -49,9 +49,9 @@ DEBUG &&
 
 return GetFoodIcon(options).then((icon) => {
   const { source, size } = icon;
-  const {food: foodData, link: foodLink} = GetFood(link);
-  if(foodData===null){
-    return '';
+  const { food: foodData, link: foodLink } = GetFood(link);
+  if (foodData === null) {
+    return "";
   }
   const { raw } = options;
   const html = `<img src="${source}" width="${size}" /> ${foodLink}`;

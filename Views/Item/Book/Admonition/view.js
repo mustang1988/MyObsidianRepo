@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 // ===== Constraints =====
 const DEBUG = false;

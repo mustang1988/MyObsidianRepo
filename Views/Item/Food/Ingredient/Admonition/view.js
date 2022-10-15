@@ -37,15 +37,15 @@ DEBUG &&
 const { size, db, raw } = options;
 const { ID } = ingredient;
 const { ingredient: i, link } = GetIngredient(ID, db);
-  if (i === null) {
-    DEBUG &&
-      console.debug(
-        "[食材Admonition渲染][Views/Item/Food/Ingredient/view.js][未找到指定ID的食材]:\n",
-        { ID, db }
-      );
-    return "";
-  }
-  const adm =  `\`\`\`ad-Food-Ingredient
+if (i === null) {
+  DEBUG &&
+    console.debug(
+      "[食材Admonition渲染][Views/Item/Food/Ingredient/view.js][未找到指定ID的食材]:\n",
+      { ID, db }
+    );
+  return "";
+}
+const adm = `\`\`\`ad-Food-Ingredient
 title: ${link}
 \`\`\``;
 return raw ? adm : dv.span(adm);

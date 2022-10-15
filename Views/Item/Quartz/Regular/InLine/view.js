@@ -15,12 +15,13 @@ const GetQuartz = (link) => {
     link: dv.blockLink(path, subpath, false, quartz.Name),
   };
 };
-const GetIconSrc = (file) => `app://local/${this.app.vault.adapter.basePath}/${file.path}`;
+const GetIconSrc = (file) =>
+  `app://local/${this.app.vault.adapter.basePath}/${file.path}`;
 const GetIconWidth = (width, height, target) =>
   Math.round((width * target) / height);
 const GetQuartzIcon = async (element, rate, size) => {
   const key = `Quartz.${element}.${rate}`;
-  return dv.view("Icons/Icon", { key, options: { raw: true } }).then((icon) => {    
+  return dv.view("Icons/Icon", { key, options: { raw: true } }).then((icon) => {
     if (icon === null) {
       return "";
     }
