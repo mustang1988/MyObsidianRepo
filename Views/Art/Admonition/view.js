@@ -33,7 +33,7 @@ const GetElementIcon = async (element) => {
       );
       const { File: file, Width: width, Height: height } = icon;
       return dv
-        .view("Common/ImgSize", {
+        .view("Common/Image/Resize", {
           width,
           height,
           options: { raw: true, size: 15 },
@@ -44,7 +44,7 @@ const GetElementIcon = async (element) => {
             w
           );
           return dv
-            .view("Common/ImgPath", { file, options: { raw: true } })
+            .view("Common/Image/Path", { file, options: { raw: true } })
             .then((path) => {
               console.debug(
                 "\t[导力魔法Admonition渲染][Views/Art/Admonition/view.js][GetElementIcon()][path]:\n\t",
@@ -69,7 +69,7 @@ DEBUG &&
 const { raw, collapse, db } = options;
 
 const adm = dv
-  .view("Common/Data", { item: art, db, options })
+  .view("Common/Query/ID", { id: art.ID, db, options })
   .then(({ item: artData, link: artLink }) => {
     if (artData === null) {
       console.error(

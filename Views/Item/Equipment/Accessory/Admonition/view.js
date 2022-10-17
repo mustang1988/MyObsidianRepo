@@ -18,7 +18,7 @@ DEBUG &&
 const { ID } = accessory;
 const { db, raw, collapse } = options;
 const adm = dv
-  .view("Item/Common/Data", { item: accessory, db, options })
+  .view("Item/Common/Query/ID", { item: accessory, db, options })
   .then((data) => {
     const { item: accessoryData, link: accessoryLink } = data;
     if (accessoryData === null) {

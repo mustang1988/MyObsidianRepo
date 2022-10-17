@@ -15,7 +15,7 @@ const MergeOptons = (options) => Object.assign(DEFAULT_OPTIONS, options);
 let { width, height, options } = input;
 options = MergeOptons(options);
 DEBUG &&
-  console.debug("[获取图标尺寸][Views/Common/ImgSize/view.js][Input]:\n", {
+  console.debug("[获取图标尺寸][Views/Common/Image/Resize/view.js][Input]:\n", {
     width,
     height,
     options,
@@ -25,7 +25,7 @@ height = parseFloat(height);
 if (width === NaN || height === NaN) {
   DEBUG &&
     console.error(
-      "[获取图标尺寸][Views/Common/ImgSize/view.js][无效的width/height参数]:\n",
+      "[获取图标尺寸][Views/Common/Image/Resize/view.js][无效的width/height参数]:\n",
       { width, height }
     );
   return 0;

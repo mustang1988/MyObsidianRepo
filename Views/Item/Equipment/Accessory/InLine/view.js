@@ -36,7 +36,7 @@ const GetAccessoryIcon = async (size) => {
       }
       const { File: file, Width: w, Height: h } = icon;
       return dv
-        .view("Common/ImgSize", {
+        .view("Common/Image/Resize", {
           width: w,
           height: h,
           size,
@@ -44,7 +44,7 @@ const GetAccessoryIcon = async (size) => {
         })
         .then((witdh) => {
           return dv
-            .view("Common/ImgPath", { file, options: { raw: true } })
+            .view("Common/Image/Path", { file, options: { raw: true } })
             .then((path) => {
               return `<img src="${path}" width="${witdh}" />`;
             });

@@ -202,19 +202,20 @@ Tests:
 ## 导力魔法
 ### Admonition渲染
 ```dataviewjs
-dv.header(4, "==默认参数(collapse=\"open\")==");
+dv.header(4, "==默认参数(collapse=\"none\")==");
 dv.span(await dv.view("Art/Admonition", { art: dv.current().Tests.Art.Admonition, options: { raw: true } }));
 
-dv.header(4, "==设置可选参数(collapse=\"close\")==");
+dv.header(4, "==设置可选参数(collapse=\"open\")==");
+dv.span(await dv.view("Art/Admonition", { art: dv.current().Tests.Art.Admonition, options: { raw: true, collapse: "open" } }));
+
+dv.header(4, "==(可选参数collapse=\"close\")==");
 dv.span(await dv.view("Art/Admonition", { art: dv.current().Tests.Art.Admonition, options: { raw: true, collapse: "close" } }));
 
-dv.header(4, "==(可选参数collapse=\"none\")==");
-dv.span(await dv.view("Art/Admonition", { art: dv.current().Tests.Art.Admonition, options: { raw: true, collapse: "none" } }));
 ```
 
 ### 行内渲染
 ```dataviewjs
-dv.header(4, "==默认参数==(size=15)");
+dv.header(4, "==默认参数==(size=15, prefix=\"《\", suffix=\"》\")");
 dv.span(await dv.view('Art/InLine', { link: dv.current().Tests.Art.InLine, options: { raw: true } }));
 
 dv.header(4, "==设置可选参数==(size=30)");
@@ -225,14 +226,17 @@ dv.span(await dv.view('Art/InLine', { link: dv.current().Tests.Art.InLine, optio
 ### 书籍
 #### Admonition渲染
 ```dataviewjs
-dv.header(5, "==默认参数(collapse=\"open\")==");
+dv.header(5, "==默认参数(collapse=\"none\", prefix=\"《\", suffix=\"》\")==");
 dv.span(await dv.view('Item/Book/Admonition', { book: dv.current().Tests.Item.Book.Admonition, options: { raw: true } }));
 
-dv.header(5, "==设置可选参数collapse=\"close\"==");
+dv.header(5, "==设置可选参数(collapse=\"open\")==");
+dv.span(await dv.view('Item/Book/Admonition', { book: dv.current().Tests.Item.Book.Admonition, options: { raw: true, collapse: "open" } }));
+
+dv.header(5, "==设置可选参数(collapse=\"close\")==");
 dv.span(await dv.view('Item/Book/Admonition', { book: dv.current().Tests.Item.Book.Admonition, options: { raw: true, collapse: "close" } }));
 
-dv.header(5, "==设置可选参数collapse=\"none\"==");
-dv.span(await dv.view('Item/Book/Admonition', { book: dv.current().Tests.Item.Book.Admonition, options: { raw: true, collapse: "none" } }));
+dv.header(4, "==默认参数(prefix=\"〖\", suffix=\"〗\")==");
+dv.span(await dv.view('Item/Book/Admonition', { book: dv.current().Tests.Item.Book.Admonition, options: { raw: true, prefix: "『", suffix: "』" } }));
 ```
 
 #### 行内渲染

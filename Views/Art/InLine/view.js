@@ -16,22 +16,6 @@ const DEFAULT_OPTIONS = {
 };
 // ===== Functions =====
 const MergeOptions = (options) => Object.assign(DEFAULT_OPTIONS, options);
-const GetArt = (link) => {
-  const { path, subpath } = link;
-  const [art = null] = dv.page(path).Arts.filter((a) => a.ID === subpath);
-  if (art === null) {
-    DEBUG &&
-      console.error(
-        "\t[导力魔法Admonition渲染][Views/Art/Admonition/view.js][GetArtLink()][未找到指定ID的导力魔法]:\n\t",
-        { path, subpath, link }
-      );
-    return art;
-  }
-  return {
-    art,
-    link: dv.blockLink(path, subpath, false, art.Name),
-  };
-};
 const GetElementIcon = async (element, size) => {
   return dv
     .view("Icons/Icon", { key: `Element.${element}`, options: { raw: true } })
@@ -45,19 +29,21 @@ const GetElementIcon = async (element, size) => {
       }
       const { File: file, Width: width, Height: height } = icon;
       return dv
-        .view("Common/ImgSize", { width, height, size, options })
+        .view("Common/Image/Resize", { width, height, size, options })
         .then((w) => {
           console.debug(
             "\t[导力魔法InLine渲染][Views/Art/Admonition/view.js][GetElementIcon()][w]:\n\t",
             w
           );
-          return dv.view("Common/ImgPath", { file, options }).then((path) => {
-            console.debug(
-              "\t[导力魔法InLine渲染][Views/Art/Admonition/view.js][GetElementIcon()][path]:\n\t",
-              icon
-            );
-            return `<img src="${path}" width="${w}" />`;
-          });
+          return dv
+            .view("Common/Image/Path", { file, options })
+            .then((path) => {
+              console.debug(
+                "\t[导力魔法InLine渲染][Views/Art/Admonition/view.js][GetElementIcon()][path]:\n\t",
+                icon
+              );
+              return `<img src="${path}" width="${w}" />`;
+            });
         });
     });
 };
@@ -70,17 +56,26 @@ DEBUG &&
     options,
   });
 
+const { raw, size } = options;
 const inline = dv
-  .view("Common/Link", { link, options })
+  .view("Common/Query/Link", { link, options })
   .then(({ item: artData, link: artLink }) => {
     if (artData === null) {
       return "";
     }
-    return GetElementIcon(art.Element, size).then((icon) => {
+    const { Element } = artData;
+    return GetElementIcon(Element, size).then((icon) => {
       if (icon === null) {
         return "";
       }
-      // return `${icon} ${artLink}`;
+      return dv
+        .view("Common/Link", {
+          icon,
+          link: artLink,
+          options: { raw: true },
+        })
+        .then((res) => res);
     });
   });
+
 return raw ? inline : dv.span(inline);
