@@ -1,6 +1,7 @@
 const DEBUG = false;
 const DEFAULT_OPTIONS = {
   size: 15,
+  display_name: true,
   raw: true,
 };
 const ICON_KEY = "Item.Food.Attack";
@@ -30,15 +31,20 @@ const GetSource = (file) => {
 };
 
 const GetFoodIcon = async (options) => {
-  const { size } = options;
   return dv
     .view("Icons/Icon", { key: ICON_KEY, options: { raw: true } })
     .then((icon) => {
+      if (icon === undefined) {
+        return "";
+      }
       const { File: file, Width: width, Height: height } = icon;
-      return {
-        source: GetSource(file),
-        size: GetSize(width, height, size),
-      };
+      return dv
+        .view("Common/Image/Resize", { width, height, options })
+        .then((w) => {
+          return dv.view("Common/Image/Path", { file, options }).then((p) => {
+            return `<img src="${p}" width="${w}"/>`;
+          });
+        });
     });
 };
 // ===== Begin =====
@@ -47,13 +53,18 @@ options = MergeOptions(options);
 DEBUG &&
   console.log("[Food/InLine/Unique/view.js][Input]: ", { link, options });
 
-return GetFoodIcon(options).then((icon) => {
-  const { source, size } = icon;
-  const { food: foodData, link: foodLink } = GetFood(link);
-  if (foodData === null) {
-    return "";
-  }
-  const { raw } = options;
-  const html = `<img src="${source}" width="${size}" /> ${foodLink}`;
-  return raw ? html : dv.span(html);
-});
+const inline = dv
+  .view("Common/Query/Link", { link, options })
+  .then(({ item: foodData, link: foodLink }) => {
+    if (foodData === null) {
+      return "";
+    }
+    return GetFoodIcon(options).then((icon) => {
+      if (icon === "") {
+        return "";
+      }
+      return dv.view("Common/Link", { icon, link: foodLink, options });
+    });
+  });
+const { raw } = options;
+return raw ? inline : dv.span(inline);

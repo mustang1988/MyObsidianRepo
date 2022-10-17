@@ -7,6 +7,7 @@ const DEFAULT_OPTIONS = {
   size: 15,
   count: 0,
   limit: 0,
+  display_name: true,
   raw: true,
 };
 
