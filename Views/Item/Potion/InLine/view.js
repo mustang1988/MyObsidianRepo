@@ -1,6 +1,7 @@
 const DEBUG = false;
 const DEFAULT_OPTIONS = {
   size: 15,
+  html: false,
   raw: true,
 };
 const POTION_ICON_KEY = "Item.Potion";
@@ -41,22 +42,24 @@ const GetPotionIcon = async (size) => {
       )}"/>`;
     });
 };
-const GetLinkHTML = (icon, link) => {
+const GetLinkHTML = (icon, link, html) => {
   DEBUG &&
     console.debug("[耀晶片InLine渲染][GetLinkHTML()][{icon, link}]:\n", {
       icon,
       link,
     });
   const { path, subpath, display } = link;
-  return `<a aria-label-position="top" aria-label="${path} > ^${subpath}" data-href="${path.replace(
-    /\.md/g,
-    ""
-  )}#^${subpath}" href="${path.replace(
-    /\.md/g,
-    ""
-  )}#^${subpath}" class="internal-link data-link-icon data-link-icon-after data-link-text" target="_blank" rel="noopener" data-link-tags="" data-link-path="${path}" >${icon}${
-    display ? display : ""
-  }</a>`;
+  return html
+    ? `<a aria-label-position="top" aria-label="${path} > ^${subpath}" data-href="${path.replace(
+        /\.md/g,
+        ""
+      )}#^${subpath}" href="${path.replace(
+        /\.md/g,
+        ""
+      )}#^${subpath}" class="internal-link data-link-icon data-link-icon-after data-link-text" target="_blank" rel="noopener" data-link-tags="" data-link-path="${path}" >${icon}${
+        display ? display : ""
+      }</a>`
+    : `${icon} ${link}`;
 };
 // ===== Begin =====
 let { link, options } = input;
@@ -67,12 +70,12 @@ DEBUG &&
     { link, options }
   );
 
-const { size, raw } = options;
+const { size, raw, html } = options;
 const inline = GetPotionIcon(size).then((icon) => {
   if (icon === "") {
     return "";
   }
   const { link: potionLink } = GetPotion(link);
-  return GetLinkHTML(icon, quartzLink, html);
+  return GetLinkHTML(icon, potionLink, html);
 });
 return raw ? inline : dv.span(inline);

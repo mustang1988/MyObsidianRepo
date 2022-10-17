@@ -942,6 +942,18 @@
       "injectColor": true,
       "noTitle": true,
       "copy": true
+    },
+    "Accessory": {
+      "type": "Accessory",
+      "color": "#7d7d7d",
+      "icon": {
+        "name": "data:image/png;base64,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",
+        "type": "image"
+      },
+      "command": false,
+      "injectColor": true,
+      "noTitle": true,
+      "copy": true
     }
   },
   "syntaxHighlight": false,
