@@ -6,10 +6,6 @@ const DEFAULT_OPTIONS = {
 
 // ===== Functions =====
 const MergeOptons = (options) => Object.assign(DEFAULT_OPTIONS, options);
-const GetIconSrc = (file) =>
-  `app://local/${this.app.vault.adapter.basePath}/${file.path}`;
-const GetIconWidth = (width, height, target) =>
-  Math.round((width * target) / height);
 const BuildRows = async (fish) => {
   DEBUG &&
     console.debug(
@@ -28,12 +24,12 @@ const BuildRows = async (fish) => {
     const loots = [Small, Medium, Large];
     return Promise.all(
       loots.map((loot) =>
-        dv.view("Item/Count", {
+        dv.view("Common/Query/Count", {
           link: loot.Item,
           options: {
-            raw: true,
             count: loot.Num,
-            display_name: false,
+            raw: true,
+            display_name: true,
             limit: 0,
             type: loot.Type,
             html: true,
@@ -41,23 +37,31 @@ const BuildRows = async (fish) => {
         })
       )
     ).then((iconLoots) => {
-      let rows = "";
-      //const datas = [];
-      for (let i = 0; i < icons.length; i++) {
-        const icon = icons[i];
-        const { File: file, Width: width, Height: height } = icon;
-        const loot = loots[i];
-        const iconLoot = iconLoots[i] ? iconLoots[i] : "";
-        const iconHtml = `<img src="${GetIconSrc(file)}" width="${GetIconWidth(
-          width,
-          height,
-          25
-        )}" />`;
-        rows += `<tr><td style="border: none;">${iconHtml}</td><td style="border: none;">${iconLoot}</td></tr>`;
-        // datas.push([iconHtml, Point, iconLoot]);
-      }
-      // return datas;
-      return rows;
+      return Promise.all(
+        icons.map((i) => {
+          const { File: file, Width: width, Height: height } = i;
+          return dv
+            .view("Common/Image/Resize", { width, height, options })
+            .then((w) => {
+              return dv
+                .view("Common/Image/Path", { file, options })
+                .then((p) => {
+                  return `<img src="${p}" width="${w}"/>`;
+                });
+            });
+        })
+      ).then((iconHTMLs) => {
+        let rows = "";
+        //const datas = [];
+        for (let i = 0; i < iconHTMLs.length; i++) {
+          const iconLoot = iconLoots[i] ? iconLoots[i] : "";
+          const iconHtml = iconHTMLs[i];
+          rows += `<tr><td style="border: none;">${iconHtml}</td><td style="border: none;">${iconLoot}</td></tr>`;
+          // datas.push([iconHtml, Point, iconLoot]);
+        }
+        // return datas;
+        return rows;
+      });
     });
   });
 };

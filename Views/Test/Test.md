@@ -333,70 +333,88 @@ dv.span(await dv.view("Item/Food/Unique/InLine", { link: dv.current().Tests.Item
 ### 消耗品
 #### Admonition渲染
 ```dataviewjs
-dv.header(5, "==默认参数(collapse=\"open\", db=\"游戏攻略/英雄传说 闪之轨迹/数据库/消耗品\")==");
+dv.header(5, "==默认参数(collapse=\"none\", db=\"游戏攻略/英雄传说 闪之轨迹/数据库/消耗品\")==");
 dv.span(await dv.view("Item/Potion/Admonition", { potion: dv.current().Tests.Item.Potion.Admonition, options: { raw: true } }));
 
-dv.header(5, "==默认参数(collapse=\"close\")==");
-dv.span(await dv.view("Item/Potion/Admonition", { potion: dv.current().Tests.Item.Potion.Admonition, options: { raw: true, collapse: "cloes" } }));
+dv.header(5, "==默认参数(collapse=\"open\")==");
+dv.span(await dv.view("Item/Potion/Admonition", { potion: dv.current().Tests.Item.Potion.Admonition, options: { raw: true, collapse: "open" } }));
 
-dv.header(5, "==默认参数(collapse=\"none\")==");
-dv.span(await dv.view("Item/Potion/Admonition", { potion: dv.current().Tests.Item.Potion.Admonition, options: { raw: true, collapse: "none" } }));
+dv.header(5, "==默认参数(collapse=\"close\")==");
+dv.span(await dv.view("Item/Potion/Admonition", { potion: dv.current().Tests.Item.Potion.Admonition, options: { raw: true, collapse: "close" } }));
 ```
 
 #### 行内渲染
 ```dataviewjs
-dv.header(5, "==默认参数(size=15)==");
+dv.header(5, "==默认参数(size=15, display_name=true)==");
 dv.span(await dv.view("Item/Potion/InLine", { link: dv.current().Tests.Item.Potion.InLine, options: { raw: true } }));
 
 dv.header(5, "==设置可选参数(size=30)==");
 dv.span(await dv.view("Item/Potion/InLine", { link: dv.current().Tests.Item.Potion.InLine, options: { raw: true, size: 30 } }));
+
+dv.header(5, "==设置可选参数(display_name=false)==");
+dv.span(await dv.view("Item/Potion/InLine", { link: dv.current().Tests.Item.Potion.InLine, options: { raw: true, display_name: false } }));
 ```
 
 #### 带数量行内渲染
 ```dataviewjs
-dv.header(5, "==默认参数(size=15, count=0, limit=0)==");
+dv.header(5, "==默认参数(size=15, count=0, limit=0, display_name=true)==");
 dv.span(await dv.view("Item/Potion/Count", { link: dv.current().Tests.Item.Potion.InLine, options: { raw: true } }));
 
-dv.header(5, "==设置可选参数(size=30, count=10, limit=1)==");
-dv.span(await dv.view("Item/Potion/Count", { link: dv.current().Tests.Item.Potion.InLine, options: { raw: true, size: 30, count: 10, limit: 1 } }));
+dv.header(5, "==设置可选参数(size=30)==");
+dv.span(await dv.view("Item/Potion/Count", { link: dv.current().Tests.Item.Potion.InLine, options: { raw: true, size: 30 } }));
+
+dv.header(5, "==设置可选参数(size=15, count=10, limit=9)==");
+dv.span(await dv.view("Item/Potion/Count", { link: dv.current().Tests.Item.Potion.InLine, options: { raw: true, count: 10, limit: 9 } }));
 
 dv.header(5, "==设置可选参数(size=15, count=10, limit=11)==");
-dv.span(await dv.view("Item/Potion/Count", { link: dv.current().Tests.Item.Potion.InLine, options: { raw: true, size: 15, count: 10, limit: 11 } }));
+dv.span(await dv.view("Item/Potion/Count", { link: dv.current().Tests.Item.Potion.InLine, options: { raw: true, count: 10, limit: 11 } }));
+
+dv.header(5, "==设置可选参数(display_name=false)==");
+dv.span(await dv.view("Item/Potion/Count", { link: dv.current().Tests.Item.Potion.InLine, options: { raw: true, display_name: false } }));
 ```
 
 ### 结晶回路
 #### 普通回路
 ##### Admonition渲染
 ```dataviewjs
-dv.header(6, "==默认参数(collapse=\"open\", db=\"游戏攻略/英雄传说 闪之轨迹/数据库/结晶回路\")==");
+dv.header(6, "==默认参数(collapse=\"none\", db=\"游戏攻略/英雄传说 闪之轨迹/数据库/结晶回路\")==");
 dv.span(await dv.view("Item/Quartz/Regular/Admonition", { quartz: dv.current().Tests.Item.Quartz.Regular.Admonition, options: { raw: true } }));
 
-dv.header(6, "==设置可选参数(collapse=\"close\")==");
-dv.span(await dv.view("Item/Quartz/Regular/Admonition", { quartz: dv.current().Tests.Item.Quartz.Regular.Admonition, options: { raw: true, collapse: "close" } }));
+dv.header(6, "==设置可选参数(collapse=\"open\")==");
+dv.span(await dv.view("Item/Quartz/Regular/Admonition", { quartz: dv.current().Tests.Item.Quartz.Regular.Admonition, options: { raw: true, collapse: "open" } }));
 
-dv.header(6, "==设置可选参数(collapse=\"none\")==");
-dv.span(await dv.view("Item/Quartz/Regular/Admonition", { quartz: dv.current().Tests.Item.Quartz.Regular.Admonition, options: { raw: true, collapse: "none" } }));
+dv.header(6, "==设置可选参数(collapse=\"cloese\")==");
+dv.span(await dv.view("Item/Quartz/Regular/Admonition", { quartz: dv.current().Tests.Item.Quartz.Regular.Admonition, options: { raw: true, collapse: "cloese" } }));
 ```
 
 ##### 行内渲染
 ```dataviewjs
-dv.header(6, "==默认参数(size=15)==");
+dv.header(6, "==默认参数(size=15, display_name=true)==");
 dv.span(await dv.view("Item/Quartz/Regular/InLine", { link: dv.current().Tests.Item.Quartz.Regular.InLine, options: { raw: true } }));
 
 dv.header(6, "==设置可选参数(size=30)==");
 dv.span(await dv.view("Item/Quartz/Regular/InLine", { link: dv.current().Tests.Item.Quartz.Regular.InLine, options: { raw: true, size: 30 } }));
+
+dv.header(6, "==设置可选参数(display_name=false)==");
+dv.span(await dv.view("Item/Quartz/Regular/InLine", { link: dv.current().Tests.Item.Quartz.Regular.InLine, options: { raw: true, display_name: false } }));
 ```
 
 ##### 带数量行内渲染
 ```dataviewjs
-dv.header(6, "==默认参数(size=15,count=0,limit=0)==");
+dv.header(6, "==默认参数(size=15, count=0, limit=0, display_name=true)==");
 dv.span(await dv.view("Item/Quartz/Regular/Count", { link: dv.current().Tests.Item.Quartz.Regular.Count.Link, options: { raw: true } }));
 
-dv.header(6, "==设置可选参数(size=30, count=10, limit=1)==");
-dv.span(await dv.view("Item/Quartz/Regular/Count", { link: dv.current().Tests.Item.Quartz.Regular.Count.Link, options: { raw: true, size: 30, count: 10, limit: 1 } }));
+dv.header(6, "==设置可选参数(size=30)==");
+dv.span(await dv.view("Item/Quartz/Regular/Count", { link: dv.current().Tests.Item.Quartz.Regular.Count.Link, options: { raw: true, size: 30} }));
+
+dv.header(6, "==设置可选参数(count=10, limit=9)==");
+dv.span(await dv.view("Item/Quartz/Regular/Count", { link: dv.current().Tests.Item.Quartz.Regular.Count.Link, options: { raw: true, size: 15, count: 10, limit: 9 } }));
 
 dv.header(6, "==设置可选参数(size=15, count=10, limit=11)==");
 dv.span(await dv.view("Item/Quartz/Regular/Count", { link: dv.current().Tests.Item.Quartz.Regular.Count.Link, options: { raw: true, size: 15, count: 10, limit: 11 } }));
+
+dv.header(6, "==设置可选参数(display_name=false)==");
+dv.span(await dv.view("Item/Quartz/Regular/Count", { link: dv.current().Tests.Item.Quartz.Regular.Count.Link, options: { raw: true, display_name: false} }));
 ```
 
 ### 耀晶片
@@ -408,33 +426,30 @@ dv.span(await dv.view("Item/Sepith/Admonition",{ sepith: dv.current().Tests.Item
 
 #### 行内渲染
 ```dataviewjs
-dv.header(5, "==默认参数(size=15,display_name=false)==");
+dv.header(5, "==默认参数(size=15,display_name=true)==");
 dv.span(await dv.view("Item/Sepith/InLine", { link: dv.current().Tests.Item.Sepith.InLine, options: { raw: true } }))
 
-dv.header(5, "==设置可选参数(size=30,display_name=false)==");
+dv.header(5, "==设置可选参数(size=30)==");
 dv.span(await dv.view("Item/Sepith/InLine", { link: dv.current().Tests.Item.Sepith.InLine, options: { raw: true, size: 30 } }))
 
-dv.header(5, "==设置可选参数(size=15,display_name=true)==");
-dv.span(await dv.view("Item/Sepith/InLine", { link: dv.current().Tests.Item.Sepith.InLine, options: { raw: true, size: 15, display_name: true } }))
+dv.header(5, "==设置可选参数(size=15,display_name=false)==");
+dv.span(await dv.view("Item/Sepith/InLine", { link: dv.current().Tests.Item.Sepith.InLine, options: { raw: true, display_name: false } }))
 ```
 
 #### 带数量行内渲染
 ```dataviewjs
-dv.header(5, "==默认参数(size=15,display_name=false, count=0, limit=0)==");
+dv.header(5, "==默认参数(size=15, display_name=true, count=0, limit=0)==");
 dv.span(await dv.view("Item/Sepith/Count", { link: dv.current().Tests.Item.Sepith.Count.Link, options: { raw: true } }))
 
 dv.header(5, "==设置可选参数(size=30)==");
 dv.span(await dv.view("Item/Sepith/Count", { link: dv.current().Tests.Item.Sepith.Count.Link, options: { raw: true, size: 30 } }))
 
 
-dv.header(5, "==设置可选参数(display_name=true)==");
-dv.span(await dv.view("Item/Sepith/Count", { link: dv.current().Tests.Item.Sepith.Count.Link, options: { raw: true, display_name: true} }))
-
-dv.header(5, "==设置可选参数(count=100)==");
-dv.span(await dv.view("Item/Sepith/Count", { link: dv.current().Tests.Item.Sepith.Count.Link, options: { raw: true, count: 100 } }))
+dv.header(5, "==设置可选参数(display_name=false)==");
+dv.span(await dv.view("Item/Sepith/Count", { link: dv.current().Tests.Item.Sepith.Count.Link, options: { raw: true, display_name: false} }))
 
 dv.header(5, "==设置可选参数(count=100, limit=99)==");
-dv.span(await dv.view("Item/Sepith/Count", { link: dv.current().Tests.Item.Sepith.Count.Link, options: { raw: true, count: 100 , limit: 99 } }))
+dv.span(await dv.view("Item/Sepith/Count", { link: dv.current().Tests.Item.Sepith.Count.Link, options: { raw: true, count: 100, limit: 99 } }))
 
 dv.header(5, "==设置可选参数(count=100, limit=100)==");
 dv.span(await dv.view("Item/Sepith/Count", { link: dv.current().Tests.Item.Sepith.Count.Link, options: { raw: true, count: 100 , limit: 100 } }))
@@ -462,33 +477,21 @@ dv.span(await dv.view("Item/UMaterial/InLine", { link: dv.current().Tests.Item.U
 
 #### 带数量行内渲染
 ```dataviewjs
-dv.header(5, "==默认参数(size=15,display_name=false, count=0, limit=0)==");
+dv.header(5, "==默认参数(size=15, display_name=true, count=0, limit=0)==");
 dv.span(await dv.view("Item/UMaterial/Count", { link: dv.current().Tests.Item.UMaterial.Count.Link, options: { raw: true } }))
 
 dv.header(5, "==设置可选参数(size=30)==");
 dv.span(await dv.view("Item/UMaterial/Count", { link: dv.current().Tests.Item.UMaterial.Count.Link, options: { raw: true, size: 30 } }))
 
 
-dv.header(5, "==设置可选参数(display_name=true)==");
-dv.span(await dv.view("Item/UMaterial/Count", { link: dv.current().Tests.Item.UMaterial.Count.Link, options: { raw: true, display_name: true} }))
-
-dv.header(5, "==设置可选参数(count=100)==");
-dv.span(await dv.view("Item/UMaterial/Count", { link: dv.current().Tests.Item.UMaterial.Count.Link, options: { raw: true, count: 100 } }))
+dv.header(5, "==设置可选参数(display_name=false)==");
+dv.span(await dv.view("Item/UMaterial/Count", { link: dv.current().Tests.Item.UMaterial.Count.Link, options: { raw: true, display_name: false} }))
 
 dv.header(5, "==设置可选参数(count=100, limit=99)==");
-dv.span(await dv.view("Item/UMaterial/Count", { link: dv.current().Tests.Item.UMaterial.Count.Link, options: { raw: true, count: 100 , limit: 99 } }))
+dv.span(await dv.view("Item/UMaterial/Count", { link: dv.current().Tests.Item.UMaterial.Count.Link, options: { raw: true, count: 100, limit: 99 } }))
 
 dv.header(5, "==设置可选参数(count=100, limit=100)==");
 dv.span(await dv.view("Item/UMaterial/Count", { link: dv.current().Tests.Item.UMaterial.Count.Link, options: { raw: true, count: 100 , limit: 100 } }))
-```
-
-### 通用
-#### 行内渲染
-```dataviewjs
-```
-
-#### 带数量行内渲染
-```dataviewjs
 ```
 
 ## 页面

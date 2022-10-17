@@ -7,19 +7,6 @@ const DEFAULT_OPTIONS = {
 
 // ===== Functions =====
 const MergeOptons = (options) => Object.assign(DEFAULT_OPTIONS, options);
-const GetFish = (id, db) => {
-  const [fish = null] = dv.page(db).Fishes.filter((f) => f.ID === id);
-  if (fish === null) {
-    return { fish: null, link: null };
-  }
-  return { fish, link: dv.blockLink(db, id, false, fish.Name) };
-};
-const GetSize = (width, height, targetSize) => {
-  return Math.round((width * targetSize) / height);
-};
-const GetSource = (file) => {
-  return `app://local/${this.app.vault.adapter.basePath}/${file.path}`;
-};
 const GetFishIcon = (fish) => {
   const { Icon = null } = fish;
   if (Icon === null) {
@@ -43,33 +30,35 @@ DEBUG &&
   });
 const { ID } = fish;
 const { db, raw } = options;
-const { fish: fishData, link: fishLink } = GetFish(ID, db);
-DEBUG &&
-  console.debug(
-    "[钓鱼笔记页面渲染][Views/Page/Fish/view.js][{fishData, fishLink}]:\n",
-    { fishData, fishLink }
-  );
-if (fishData === null) {
-  return "";
-}
-
 const page = dv
-  .view("Page/Fish/DesciptionTable", { fish: fishData, options: { raw: true } })
-  .then((descTable) => {
-    DEBUG &&
-      console.debug(
-        "[钓鱼笔记页面渲染][Views/Page/Fish/view.js][descTable]:\n",
-        descTable
-      );
+  .view("Common/Query/ID", { id: ID, db, options })
+  .then(({ item: fishData, link: fishLink }) => {
+    if (fishData === null) {
+      return "";
+    }
     return dv
-      .view("Page/Fish/LootTable", { fish: fishData, options: { raw: true } })
-      .then((lootTable) => {
+      .view("Page/Fish/DesciptionTable", {
+        fish: fishData,
+        options: { raw: true },
+      })
+      .then((descTable) => {
         DEBUG &&
           console.debug(
-            "[钓鱼笔记页面渲染][Views/Page/Fish/view.js][lootTable]:\n",
-            lootTable
+            "[钓鱼笔记页面渲染][Views/Page/Fish/view.js][descTable]:\n",
+            descTable
           );
-        return `\`\`\`ad-Fish-Large
+        return dv
+          .view("Page/Fish/LootTable", {
+            fish: fishData,
+            options: { raw: true },
+          })
+          .then((lootTable) => {
+            DEBUG &&
+              console.debug(
+                "[钓鱼笔记页面渲染][Views/Page/Fish/view.js][lootTable]:\n",
+                lootTable
+              );
+            return `\`\`\`ad-Fish-Large
 title: ${fishLink}
 collapse: none
 
@@ -82,9 +71,9 @@ ${lootTable}
 ${dv.markdownList(fishData.Locations)}
 
 \`\`\``;
+          });
       });
   });
-
 DEBUG &&
   console.debug("[钓鱼笔记页面渲染][Views/Page/Fish/view.js][Return]:\n", page);
 return raw ? page : dv.span(raw);
