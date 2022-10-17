@@ -7,16 +7,6 @@ const DEFAULT_OPTIONS = {
 };
 // ===== Functions =====
 const MergeOptions = (options) => Object.assign(DEFAULT_OPTIONS, options);
-const GetAccessory = (id, db) => {
-  const [accessory = null] = dv.page(db).Accessories.filter((a) => a.ID === id);
-  if (accessory === null) {
-    return { accessory: null, link: nukk };
-  }
-  return {
-    accessory,
-    link: dv.blockLink(db, id, false, accessory.Name),
-  };
-};
 // ===== Begin =====
 let { accessory, options } = input;
 options = MergeOptions(options);
@@ -27,16 +17,20 @@ DEBUG &&
   );
 const { ID } = accessory;
 const { db, raw, collapse } = options;
-const { accessory: accessoryData, link: accessoryLink } = GetAccessory(ID, db);
-if (accessoryData === null) {
-  return "";
-}
-const { Effects, Description } = accessoryData;
-const adm = `\`\`\`ad-Accessory
+const adm = dv
+  .view("Item/Common/Data", { item: accessory, db, options })
+  .then((data) => {
+    const { item: accessoryData, link: accessoryLink } = data;
+    if (accessoryData === null) {
+      return "";
+    }
+    const { Effects, Description } = accessoryData;
+    return `\`\`\`ad-Accessory
 title: ${accessoryLink}
 collapse: ${collapse}
 【 ${Effects.join(" ")} 】
 
 ${Description}
 \`\`\``;
+  });
 return raw ? adm : dv.span(adm);

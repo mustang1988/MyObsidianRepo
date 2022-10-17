@@ -15,7 +15,7 @@ const MergeOptons = (options) => Object.assign(DEFAULT_OPTIONS, options);
 let { link, options } = input;
 options = MergeOptons(options);
 DEBUG &&
-  console.debug("[任意物品InLine渲染][Views/Item/InLine/view.js][Input]:\n", {
+  console.debug("[任意连接InLine渲染][Views/Item/InLine/view.js][Input]:\n", {
     link,
     options,
   });
@@ -23,7 +23,7 @@ const { type } = options;
 if (type === null) {
   DEBUG &&
     console.error(
-      "[任意物品InLine渲染][Views/Item/InLine/view.js][未指定渲染物品的类型]"
+      "[任意连接InLine渲染][Views/Item/InLine/view.js][未指定渲染物品的类型]"
     );
   return "";
 }
@@ -35,7 +35,7 @@ return dv
   .catch((e) => {
     DEBUG &&
       console.error(
-        "[任意物品InLine渲染][Views/Item/InLine/view.js][InLine渲染发生异常]",
+        "[任意连接InLine渲染][Views/Item/InLine/view.js][InLine渲染发生异常]",
         { error: e, link, options }
       );
     return "";

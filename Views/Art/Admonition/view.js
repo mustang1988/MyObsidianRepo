@@ -16,44 +16,44 @@ const DEFAULT_OPTIONS = {
 };
 // ===== Functions =====
 const MergeOptions = (options) => Object.assign(DEFAULT_OPTIONS, options);
-const GetIconSrc = (file) => `app://local/${this.app.vault.adapter.basePath}/${file.path}`;
-const GetIconWidth = (width, height, target) =>
-  Math.round((width * target) / height);
 const GetElementIcon = async (element) => {
   return dv
     .view("Icons/Icon", { key: `Element.${element}`, options: { raw: true } })
     .then((icon) => {
-      if (icon === null) {
+      if (icon === undefined) {
         console.error(
           "\t[导力魔法Admonition渲染][Views/Art/Admonition/view.js][GetElementIcon()][未找到指定元素的图标]:\n\t",
           element
         );
         return "";
       }
-      const { File: file, Width: width, Height: height } = icon;
       console.debug(
         "\t[导力魔法Admonition渲染][Views/Art/Admonition/view.js][GetElementIcon()][icon]:\n\t",
         icon
       );
-      return `<img src="${GetIconSrc(file)}" width="${GetIconWidth(
-        width,
-        height,
-        15
-      )}" />`;
+      const { File: file, Width: width, Height: height } = icon;
+      return dv
+        .view("Common/ImgSize", {
+          width,
+          height,
+          options: { raw: true, size: 15 },
+        })
+        .then((w) => {
+          console.debug(
+            "\t[导力魔法Admonition渲染][Views/Art/Admonition/view.js][GetElementIcon()][w]:\n\t",
+            w
+          );
+          return dv
+            .view("Common/ImgPath", { file, options: { raw: true } })
+            .then((path) => {
+              console.debug(
+                "\t[导力魔法Admonition渲染][Views/Art/Admonition/view.js][GetElementIcon()][path]:\n\t",
+                path
+              );
+              return `<img src="${path}" width="${w}" />`;
+            });
+        });
     });
-};
-const GetArtLink = (id, db) => {
-  const [art = null] = dv.page(db).Arts.filter((a) => a.ID === id);
-  
-  if (art === null) {
-    DEBUG &&
-      console.error(
-        "\t[导力魔法Admonition渲染][Views/Art/Admonition/view.js][GetArtLink()][未找到指定ID的导力魔法]:\n\t",
-        { id, db }
-      );
-    return art;
-  }
-  return dv.blockLink(db, id, false, art.Name);
 };
 // ===== Begin =====
 let { art, options } = input;
@@ -66,14 +66,24 @@ DEBUG &&
       options,
     }
   );
-const { Name, ID, Element, Type, Effects, Range, Comment } = art;
 const { raw, collapse, db } = options;
-const artLink = GetArtLink(ID, db);
-if (artLink === null) {
-  return "";
-}
-return GetElementIcon(Element).then((iconImg) => {
-  const adm = `\`\`\`ad-art
+
+const adm = dv
+  .view("Common/Data", { item: art, db, options })
+  .then(({ item: artData, link: artLink }) => {
+    if (artData === null) {
+      console.error(
+        "[导力魔法Admonition渲染][Views/Art/Admonition/view.js][artData][未找到指定魔法的数据]:\n",
+        {
+          art,
+          options,
+        }
+      );
+      return "";
+    }
+    const { Element, Type, Range, Effects, Comment } = artData;
+    return GetElementIcon(Element).then((iconImg) => {
+      return `\`\`\`ad-art
 title: ${artLink}
 collapse: ${collapse}
 
@@ -82,9 +92,10 @@ ${iconImg} ${Type} : ${Range} ${Effects ? Effects.join(" ") : ""}
 ${Comment}
 
 \`\`\``;
-  console.debug(
-    "[导力魔法Admonition渲染][Views/Art/Admonition/view.js][return]:\n",
-    adm
-  );
-  return raw ? adm : dv.span(adm);
-});
+    });
+  });
+console.debug(
+  "[导力魔法Admonition渲染][Views/Art/Admonition/view.js][Return]:\n",
+  adm
+);
+return raw ? adm : dv.span(adm);

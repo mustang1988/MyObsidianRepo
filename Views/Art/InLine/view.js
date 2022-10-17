@@ -11,6 +11,7 @@
 const DEBUG = false;
 const DEFAULT_OPTIONS = {
   size: 15,
+  html: false,
   raw: true,
 };
 // ===== Functions =====
@@ -31,8 +32,6 @@ const GetArt = (link) => {
     link: dv.blockLink(path, subpath, false, art.Name),
   };
 };
-const GetIconSrc = (file) => `app://local/${this.app.vault.adapter.basePath}/${file.path}`;
-const GetIconWidth = (width, height, target) => Math.round((width * target) / height);
 const GetElementIcon = async (element, size) => {
   return dv
     .view("Icons/Icon", { key: `Element.${element}`, options: { raw: true } })
@@ -45,15 +44,21 @@ const GetElementIcon = async (element, size) => {
         return "";
       }
       const { File: file, Width: width, Height: height } = icon;
-      console.debug(
-        "\t[导力魔法InLine渲染][Views/Art/Admonition/view.js][GetElementIcon()][icon]:\n\t",
-        icon
-      );
-      return `<img src="${GetIconSrc(file)}" width="${GetIconWidth(
-        width,
-        height,
-        size
-      )}" />`;
+      return dv
+        .view("Common/ImgSize", { width, height, size, options })
+        .then((w) => {
+          console.debug(
+            "\t[导力魔法InLine渲染][Views/Art/Admonition/view.js][GetElementIcon()][w]:\n\t",
+            w
+          );
+          return dv.view("Common/ImgPath", { file, options }).then((path) => {
+            console.debug(
+              "\t[导力魔法InLine渲染][Views/Art/Admonition/view.js][GetElementIcon()][path]:\n\t",
+              icon
+            );
+            return `<img src="${path}" width="${w}" />`;
+          });
+        });
     });
 };
 // ===== Begin =====
@@ -64,12 +69,18 @@ DEBUG &&
     link,
     options,
   });
-const { art, link: artLink } = GetArt(link);
-const { raw, size } = options;
-const inline = GetElementIcon(art.Element, size).then((icon) => {
-  if (icon === null) {
-    return "";
-  }
-  return `${icon} ${artLink}`;
-});
+
+const inline = dv
+  .view("Common/Link", { link, options })
+  .then(({ item: artData, link: artLink }) => {
+    if (artData === null) {
+      return "";
+    }
+    return GetElementIcon(art.Element, size).then((icon) => {
+      if (icon === null) {
+        return "";
+      }
+      // return `${icon} ${artLink}`;
+    });
+  });
 return raw ? inline : dv.span(inline);
