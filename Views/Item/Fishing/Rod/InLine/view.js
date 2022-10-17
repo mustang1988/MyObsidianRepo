@@ -2,6 +2,7 @@
 const DEBUG = false;
 const DEFAULT_OPTIONS = {
   size: 15,
+  display_name: true,
   raw: true,
 };
 const ROD_ICON_KEY = "Item.Fishing.Rod";
@@ -46,14 +47,20 @@ DEBUG &&
     { link, options }
   );
 const { raw, size } = options;
-const inline = GetRodIcon(size).then((icon) => {
-  if (icon === "") {
-    return "";
-  }
-  const { rod: rodData, link: rodLink } = GetRod(link);
-  if (rodData === null) {
-    return "";
-  }
-  return `${icon} ${rodLink}`;
-});
+
+const inline = dv
+  .view("Common/Query/Link", { link, options })
+  .then(({ item: rodData, link: rodLink }) => {
+    if (rodData === null) {
+      return "";
+    }
+    return GetRodIcon(size).then((icon) => {
+      if (icon === "") {
+        return "";
+      }
+      return dv
+        .view("Common/Link", { icon, link: rodLink, options })
+        .then((res) => res);
+    });
+  });
 return raw ? inline : dv.span(inline);
