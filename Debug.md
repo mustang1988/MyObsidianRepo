@@ -197,6 +197,7 @@ Tests:
           Item: "[[游戏攻略/英雄传说 闪之轨迹/数据库/物品#^sepithwater]]"
           Num: 30
           Point: 7
+Link: "[[游戏攻略/英雄传说 闪之轨迹/数据库/饰品#^yinerhuan]]"
 ---
 ```html
 <a aria-label-position="top" aria-label="游戏攻略/英雄传说 闪之轨迹/数据库/钓鱼 > ^huaxie" data-href="游戏攻略/英雄传说 闪之轨迹/数据库/钓鱼#^huaxie" href="游戏攻略/英雄传说 闪之轨迹/数据库/钓鱼#^huaxie" class="internal-link data-link-icon data-link-icon-after data-link-text" target="_blank" rel="noopener" data-link-tags="" data-link-path="游戏攻略/英雄传说 闪之轨迹/数据库/钓鱼.md">
@@ -205,7 +206,5 @@ Tests:
 ```
 
 ```dataviewjs
-dv.header(5, "==设置可选参数(html=true)==");
-const html = await dv.view("Item/Sepith/InLine", { link: dv.current().Tests.Item.Sepith.InLine, options: { raw: true, html: true, display_name: true } });
-dv.span(html);
+dv.span(await dv.view("Item/Equipment/Accessory/InLine", { link: dv.current().Link, options: { raw: true } }));
 ```
