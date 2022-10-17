@@ -35,7 +35,8 @@ const BuildRows = async (fish) => {
             count: loot.Num,
             display_name: false,
             limit: 0,
-            type: loot.Type
+            type: loot.Type,
+            html: true,
           },
         })
       )
@@ -52,7 +53,6 @@ const BuildRows = async (fish) => {
           height,
           25
         )}" />`;
-        const { Point } = loot;
         rows += `<tr><td style="border: none;">${iconHtml}</td><td style="border: none;">${iconLoot}</td></tr>`;
         // datas.push([iconHtml, Point, iconLoot]);
       }

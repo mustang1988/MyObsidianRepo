@@ -3,6 +3,7 @@ const DEBUG = true;
 const DEFAULT_OPTIONS = {
   size: 15,
   display_name: false,
+  html: false,
   type: null,
   raw: true,
 };

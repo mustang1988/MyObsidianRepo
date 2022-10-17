@@ -1,6 +1,7 @@
 const DEBUG = false;
 const DEFAULT_OPTIONS = {
   size: 15,
+  html: false,
   raw: true,
 };
 const MergeOptions = (options) => Object.assign(DEFAULT_OPTIONS, options);
@@ -33,6 +34,25 @@ const GetQuartzIcon = async (element, rate, size) => {
     )}" />`;
   });
 };
+const GetLinkHTML = (icon, link, html) => {
+  DEBUG &&
+    console.debug("[耀晶片InLine渲染][GetLinkHTML()][{icon, link}]:\n", {
+      icon,
+      link,
+    });
+  const { path, subpath, display } = link;
+  return html
+    ? `<a aria-label-position="top" aria-label="${path} > ^${subpath}" data-href="${path.replace(
+        /\.md/g,
+        ""
+      )}#^${subpath}" href="${path.replace(
+        /\.md/g,
+        ""
+      )}#^${subpath}" class="internal-link data-link-icon data-link-icon-after data-link-text" target="_blank" rel="noopener" data-link-tags="" data-link-path="${path}" >${icon}${
+        display ? display : ""
+      }</a>`
+    : `${icon} ${link}`;
+};
 // ===== Begin =====
 let { link, options } = input;
 options = MergeOptions(options);
@@ -46,8 +66,8 @@ if (quartz === null) {
   return "";
 }
 const { Element, Rate } = quartz;
-const { raw, size } = options;
+const { raw, size, html } = options;
 const inline = GetQuartzIcon(Element, Rate, size).then((icon) => {
-  return `${icon} ${quartzLink}`;
+  return GetLinkHTML(icon, quartzLink, html);
 });
 return raw ? inline : dv.span(inline);

@@ -1,9 +1,11 @@
 // ===== Constraint =====
-const DEBUG = false;
+const DEBUG = true;
 const DEFAULT_OPTIONS = {
   size: 15,
-  raw: true,
+  html: false,
   display_name: false,
+  //
+  raw: true,
 };
 // ===== Functions =====
 const MergeOptions = (options) => Object.assign(DEFAULT_OPTIONS, options);
@@ -15,7 +17,7 @@ const GetSepith = (link, withName) => {
   }
   return {
     sepith: item,
-    link: withName ? dv.blockLink(path, subpath, false, item.Name) : "",
+    link: dv.blockLink(path, subpath, false, withName ? item.Name : ""),
   };
 };
 const GetIconSrc = (file) =>
@@ -36,6 +38,23 @@ const GetSepithIcon = (size, element) => {
     )}" />`;
   });
 };
+const GetLinkHTML = (icon, link) => {
+  DEBUG &&
+    console.debug("[耀晶片InLine渲染][GetLinkHTML()][{icon, link}]:\n", {
+      icon,
+      link,
+    });
+  const { path, subpath, display } = link;
+  return `<a aria-label-position="top" aria-label="${path} > ^${subpath}" data-href="${path.replace(
+    /\.md/g,
+    ""
+  )}#^${subpath}" href="${path.replace(
+    /\.md/g,
+    ""
+  )}#^${subpath}" class="internal-link data-link-icon data-link-icon-after data-link-text" target="_blank" rel="noopener" data-link-tags="" data-link-path="${path}" >${icon}${
+    display ? display : ""
+  }</a>`;
+};
 // ===== Begin =====
 let { link, options } = input;
 options = MergeOptions(options);
@@ -44,7 +63,7 @@ DEBUG &&
     "[耀晶片InLine渲染][Views/Item/Sepith/InLine/view.js][Input]:\n",
     { link, options }
   );
-const { size, raw, display_name } = options;
+const { size, raw, display_name, html } = options;
 const { sepith: sepithData, link: sepithLink } = GetSepith(link, display_name);
 if (sepithData === null) {
   return "";
@@ -53,6 +72,6 @@ const inline = GetSepithIcon(size, sepithData.Element).then((icon) => {
   if (icon === "") {
     return "";
   }
-  return `${icon} ${sepithLink}`;
+  return GetLinkHTML(icon, sepithLink, html);
 });
 return raw ? inline : dv.span(inline);

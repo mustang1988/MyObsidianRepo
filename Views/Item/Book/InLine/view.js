@@ -1,6 +1,7 @@
 const DEBUG = false;
 const DEFAULT_OPTIONS = {
   size: 15,
+  html: false,
   raw: true,
 };
 const BOOK_ICON_KEY = "Item.Book";
@@ -35,6 +36,19 @@ const GetBookIcon = async (size) => {
       )}" />`;
     });
 };
+const GetLinkHTML = (icon, link) => {
+  const { path, subpath, display } = link;
+  return `<a aria-label-position="top"
+  aria-label="${path} > ^${subpath}"
+  data-href="${path.replace(/\.md/g, "")}#^huaxie"
+  href="${path.replace(/\.md/g, "")}#^${subpath}"
+  class="internal-link data-link-icon data-link-icon-after data-link-text"
+  target="_blank"
+  rel="noopener"
+  data-link-tags=""
+  data-link-path="${path}"
+  >${icon}${display}</a>`;
+};
 // ===== Begin =====
 let { link, options } = input;
 options = MergeOptions(options);
@@ -47,8 +61,11 @@ const { book, link: bookLink } = GetBook(link);
 if (book === null) {
   return "";
 }
-const { raw, size } = options;
+const { raw, size, html } = options;
 const inline = GetBookIcon(size).then((icon) => {
+  if (html) {
+    return GetLinkHTML(icon, bookLink);
+  }
   return `${icon}${bookLink}`;
 });
 DEBUG &&

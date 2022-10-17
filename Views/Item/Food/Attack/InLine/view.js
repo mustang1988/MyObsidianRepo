@@ -41,7 +41,7 @@ const GetFoodIcon = async (options) => {
       };
     });
 };
-
+// ===== Begin =====
 let { link, options } = input;
 options = MergeOptions(options);
 DEBUG &&

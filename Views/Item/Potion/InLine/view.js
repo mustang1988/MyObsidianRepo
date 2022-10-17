@@ -41,6 +41,23 @@ const GetPotionIcon = async (size) => {
       )}"/>`;
     });
 };
+const GetLinkHTML = (icon, link) => {
+  DEBUG &&
+    console.debug("[耀晶片InLine渲染][GetLinkHTML()][{icon, link}]:\n", {
+      icon,
+      link,
+    });
+  const { path, subpath, display } = link;
+  return `<a aria-label-position="top" aria-label="${path} > ^${subpath}" data-href="${path.replace(
+    /\.md/g,
+    ""
+  )}#^${subpath}" href="${path.replace(
+    /\.md/g,
+    ""
+  )}#^${subpath}" class="internal-link data-link-icon data-link-icon-after data-link-text" target="_blank" rel="noopener" data-link-tags="" data-link-path="${path}" >${icon}${
+    display ? display : ""
+  }</a>`;
+};
 // ===== Begin =====
 let { link, options } = input;
 options = MergeOptions(options);
@@ -56,6 +73,6 @@ const inline = GetPotionIcon(size).then((icon) => {
     return "";
   }
   const { link: potionLink } = GetPotion(link);
-  return `${icon} ${potionLink}`;
+  return GetLinkHTML(icon, quartzLink, html);
 });
 return raw ? inline : dv.span(inline);

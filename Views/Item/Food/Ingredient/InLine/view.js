@@ -1,6 +1,7 @@
 const DEBUG = false;
 const DEFAULT_OPTIONS = {
   size: 15,
+  html: false,
   raw: true,
 };
 const INGREDIENT_ICON_KEY = "Item.Food.Ingredient";
@@ -39,6 +40,23 @@ const GetIngredient = (link) => {
     link: dv.blockLink(path, subpath, false, ingredient.Name),
   };
 };
+const GetLinkHTML = (icon, link) => {
+  DEBUG &&
+    console.debug("[耀晶片InLine渲染][GetLinkHTML()][{icon, link}]:\n", {
+      icon,
+      link,
+    });
+  const { path, subpath, display } = link;
+  return `<a aria-label-position="top" aria-label="${path} > ^${subpath}" data-href="${path.replace(
+    /\.md/g,
+    ""
+  )}#^${subpath}" href="${path.replace(
+    /\.md/g,
+    ""
+  )}#^${subpath}" class="internal-link data-link-icon data-link-icon-after data-link-text" target="_blank" rel="noopener" data-link-tags="" data-link-path="${path}" >${icon}${
+    display ? display : ""
+  }</a>`;
+};
 // ===== Begin =====
 let { link, options } = input;
 options = MergeOptions(options);
@@ -50,7 +68,7 @@ DEBUG &&
       options,
     }
   );
-const { size, raw } = options;
+const { size, raw, html } = options;
 const adm = GetIngredientIcon(size).then((icon) => {
   if (icon === null) {
     DEBUG &&
@@ -68,6 +86,6 @@ const adm = GetIngredientIcon(size).then((icon) => {
       );
     return "";
   }
-  return `${icon} ${iLink}`;
+  return GetLinkHTML(icon, iLink, html);
 });
 return raw ? adm : dv.span(adm);
