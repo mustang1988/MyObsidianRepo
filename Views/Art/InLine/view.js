@@ -21,7 +21,7 @@ const GetElementIcon = async (element, size) => {
     .view("Icons/Icon", { key: `Element.${element}`, options: { raw: true } })
     .then((icon) => {
       if (icon === null) {
-        console.error(
+        DEBUG && console.error(
           "\t[导力魔法InLine渲染][Views/Art/Admonition/view.js][GetElementIcon()][未找到指定元素的图标]:\n\t",
           element
         );
@@ -31,14 +31,14 @@ const GetElementIcon = async (element, size) => {
       return dv
         .view("Common/Image/Resize", { width, height, size, options })
         .then((w) => {
-          console.debug(
+          DEBUG && console.debug(
             "\t[导力魔法InLine渲染][Views/Art/Admonition/view.js][GetElementIcon()][w]:\n\t",
             w
           );
           return dv
             .view("Common/Image/Path", { file, options })
             .then((path) => {
-              console.debug(
+              DEBUG && console.debug(
                 "\t[导力魔法InLine渲染][Views/Art/Admonition/view.js][GetElementIcon()][path]:\n\t",
                 icon
               );

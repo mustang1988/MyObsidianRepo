@@ -1,5 +1,5 @@
 // ===== Constraint =====
-const DEBUG = true;
+const DEBUG = false;
 const DEFAULT_OPTIONS = {
   size: 15,
   display_name: true,

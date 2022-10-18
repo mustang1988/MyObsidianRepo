@@ -2,7 +2,7 @@
  *
  */
 // ===== Constrains =====
-const DEBUG = true;
+const DEBUG = false;
 const DEFAULT_OPTIONS = {
   count: 0,
   display_name: true,

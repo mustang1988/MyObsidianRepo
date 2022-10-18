@@ -10,7 +10,7 @@
 // ===== Constraints =====
 const DEBUG = false;
 const DEFAULT_OPTIONS = {
-  collapse: "open",
+  collapse: "none",
   raw: true,
   db: "游戏攻略/英雄传说 闪之轨迹/数据库/导力魔法",
 };

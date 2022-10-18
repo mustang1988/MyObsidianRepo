@@ -1,5 +1,5 @@
 // ===== Constrains =====
-const DEBUG = true;
+const DEBUG = false;
 const DEFAULT_OPTIONS = {
   raw: true,
 };
@@ -22,9 +22,9 @@ const BuildRows = async (fish) => {
     }
     const { Small, Medium, Large } = fish.Bonus;
     const loots = [];
-    Small&& loots.push(Small);
-    Medium&& loots.push(Medium);
-    Large&& loots.push(Large);
+    Small && loots.push(Small);
+    Medium && loots.push(Medium);
+    Large && loots.push(Large);
     return Promise.all(
       loots.map((loot) =>
         dv.view("Common/Query/Count", {
@@ -59,14 +59,11 @@ const BuildRows = async (fish) => {
           rows += `<tr><td style="border: none;">${iconHTMLs[2]}</td><td style="border: none;">${iconLoots[0]}</td></tr>`;
           return rows;
         }
-        //const datas = [];
         for (let i = 0; i < iconHTMLs.length; i++) {
           const iconLoot = iconLoots[i] ? iconLoots[i] : "";
           const iconHtml = iconHTMLs[i];
           rows += `<tr><td style="border: none;">${iconHtml}</td><td style="border: none;">${iconLoot}</td></tr>`;
-          // datas.push([iconHtml, Point, iconLoot]);
         }
-        // return datas;
         return rows;
       });
     });
@@ -80,8 +77,8 @@ DEBUG &&
     "[钓鱼笔记-掉落奖励表格渲染][Views/Page/Fish/LootTable/view.js][Input]:\n",
     { fish, options }
   );
-const { Bonus } = fish;
-const table = BuildRows(fish).then((lootTable) => {
+const table = BuildRows(fish)
+.then((lootTable) => {
   return `<table style="width: 100%;">
   <theader>
   </theader>

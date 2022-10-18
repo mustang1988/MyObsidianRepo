@@ -1,5 +1,5 @@
 // ===== Constrains =====
-const DEBUG = true;
+const DEBUG = false;
 const DEFAULT_OPTIONS = {
   raw: true,
 };
