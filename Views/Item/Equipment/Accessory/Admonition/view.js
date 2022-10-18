@@ -1,7 +1,7 @@
 // ===== Constraints =====
 const DEBUG = true;
 const DEFAULT_OPTIONS = {
-  collapse: "open",
+  collapse: "none",
   db: "游戏攻略/英雄传说 闪之轨迹/数据库/饰品",
   raw: true,
 };

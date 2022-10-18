@@ -69,10 +69,13 @@ Tests:
       InLine: "[[游戏攻略/英雄传说 闪之轨迹/数据库/物品#^umaterial]]"
       Count:
         Link: "[[游戏攻略/英雄传说 闪之轨迹/数据库/物品#^umaterial]]"
-    Common:
-      InLine:
-      Count:
-        Link: ""
+    Equipment:
+      Accessory:
+        Admonition:
+          ID: "yinerhuan"
+        InLine: "[[游戏攻略/英雄传说 闪之轨迹/数据库/饰品#^chihuanghuizhang]]"
+        Count:
+          Link: "[[游戏攻略/英雄传说 闪之轨迹/数据库/饰品#^shanhujiezhi]]"
   Page:
     Fish:
       ID: "renyu"
@@ -492,6 +495,50 @@ dv.span(await dv.view("Item/UMaterial/Count", { link: dv.current().Tests.Item.UM
 
 dv.header(5, "==设置可选参数(count=100, limit=100)==");
 dv.span(await dv.view("Item/UMaterial/Count", { link: dv.current().Tests.Item.UMaterial.Count.Link, options: { raw: true, count: 100 , limit: 100 } }))
+```
+
+### 装备
+#### 饰品
+##### Admonition渲染
+```dataviewjs
+dv.header(6, "==默认参数(collapse=\"none\", db=\"游戏攻略/英雄传说 闪之轨迹/数据库/饰品\")==");
+dv.span(await dv.view("Item/Equipment/Accessory/Admonition", { accessory: dv.current().Tests.Item.Equipment.Accessory.Admonition, options: { raw: true } }));
+
+dv.header(6, "==设置可选参数(collapse=\"open\")==");
+dv.span(await dv.view("Item/Equipment/Accessory/Admonition", { accessory: dv.current().Tests.Item.Equipment.Accessory.Admonition, options: { raw: true, collapse: "open" } }));
+
+dv.header(6, "==设置可选参数(collapse=\"close\")==");
+dv.span(await dv.view("Item/Equipment/Accessory/Admonition", { accessory: dv.current().Tests.Item.Equipment.Accessory.Admonition, options: { raw: true, collapse: "close" } }));
+```
+
+##### 行内渲染
+```dataviewjs
+dv.header(6, "==默认参数(size=15, display_name=true)==");
+dv.span(await dv.view("Item/Equipment/Accessory/InLine", { link: dv.current().Tests.Item.Equipment.Accessory.InLine, options: { raw: true } }));
+
+dv.header(6, "==设置可选参数(size=30)==");
+dv.span(await dv.view("Item/Equipment/Accessory/InLine", { link: dv.current().Tests.Item.Equipment.Accessory.InLine, options: { raw: true, size: 30 } }));
+
+dv.header(6, "==设置可选参数(display_name=false)==");
+dv.span(await dv.view("Item/Equipment/Accessory/InLine", { link: dv.current().Tests.Item.Equipment.Accessory.InLine, options: { raw: true, display_name: false } }));
+```
+
+##### 带数量行内渲染
+```dataviewjs
+dv.header(6, "==默认参数(size=15, count=0, limit=0, display_name=true)==");
+dv.span(await dv.view("Item/Equipment/Accessory/Count", { link: dv.current().Tests.Item.Equipment.Accessory.Count.Link, options: { raw:true } }));
+
+dv.header(6, "==设置可选参数(size=30)==");
+dv.span(await dv.view("Item/Equipment/Accessory/Count", { link: dv.current().Tests.Item.Equipment.Accessory.Count.Link, options: { raw:true, size: 30 } }));
+
+dv.header(6, "==设置可选参数(count=1, limit=0)==");
+dv.span(await dv.view("Item/Equipment/Accessory/Count", { link: dv.current().Tests.Item.Equipment.Accessory.Count.Link, options: { raw:true, count: 1, limit: 0 } }));
+
+dv.header(6, "==设置可选参数(count=1, limit=1)==");
+dv.span(await dv.view("Item/Equipment/Accessory/Count", { link: dv.current().Tests.Item.Equipment.Accessory.Count.Link, options: { raw:true, count: 1, limit: 1 } }));
+
+dv.header(6, "==设置可选参数(display_name=false)==");
+dv.span(await dv.view("Item/Equipment/Accessory/Count", { link: dv.current().Tests.Item.Equipment.Accessory.Count.Link, options: { raw:true, display_name: false } }));
 ```
 
 ## 页面

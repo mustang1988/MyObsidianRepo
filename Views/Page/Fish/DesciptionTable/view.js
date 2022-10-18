@@ -34,9 +34,10 @@ DEBUG &&
   );
 const { Icon, Description, Bonus } = fish;
 const {
-  Small: { Point: SPoint },
-  Large: { Point: LPoint },
+  Small: { Point: SPoint=0 } = {},
+  Large: { Point: LPoint=0 } = {},
 } = Bonus;
+const pointDisplay = SPoint === 0 ? LPoint : `${SPoint}~${LPoint}`;
 const table = `<table style="width: 100%;">
 <tbody>
 <tr>
@@ -44,7 +45,7 @@ const table = `<table style="width: 100%;">
 <td style="border: none;">${fish.Description}</td>
 <td style="border: none;">稀有度:</br><span style="font-size: 40;">${
   fish.Rank
-}</span></br>钓果点数: ${SPoint} ~ ${LPoint}</td>
+}</span></br>钓果点数: ${pointDisplay}</td>
 </tr>
 </tbody>
 </table>`;

@@ -39,7 +39,7 @@ const page = dv
     return dv
       .view("Page/Fish/DesciptionTable", {
         fish: fishData,
-        options: { raw: true },
+        options,
       })
       .then((descTable) => {
         DEBUG &&
@@ -50,7 +50,7 @@ const page = dv
         return dv
           .view("Page/Fish/LootTable", {
             fish: fishData,
-            options: { raw: true },
+            options,
           })
           .then((lootTable) => {
             DEBUG &&

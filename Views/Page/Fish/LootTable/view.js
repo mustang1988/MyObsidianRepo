@@ -21,7 +21,10 @@ const BuildRows = async (fish) => {
       return "";
     }
     const { Small, Medium, Large } = fish.Bonus;
-    const loots = [Small, Medium, Large];
+    const loots = [];
+    Small&& loots.push(Small);
+    Medium&& loots.push(Medium);
+    Large&& loots.push(Large);
     return Promise.all(
       loots.map((loot) =>
         dv.view("Common/Query/Count", {
@@ -29,7 +32,7 @@ const BuildRows = async (fish) => {
           options: {
             count: loot.Num,
             raw: true,
-            display_name: true,
+            display_name: options.display_name,
             limit: 0,
             type: loot.Type,
             html: true,
@@ -52,6 +55,10 @@ const BuildRows = async (fish) => {
         })
       ).then((iconHTMLs) => {
         let rows = "";
+        if(iconLoots.length == 1){
+          rows += `<tr><td style="border: none;">${iconHTMLs[2]}</td><td style="border: none;">${iconLoots[0]}</td></tr>`;
+          return rows;
+        }
         //const datas = [];
         for (let i = 0; i < iconHTMLs.length; i++) {
           const iconLoot = iconLoots[i] ? iconLoots[i] : "";
