@@ -39,8 +39,10 @@ const adm = dv
     }
     const { Arts } = quartzData;
     return GetArts(Arts).then((arts) => {
-      const { Element, Rate, Effects } = quartzData;
-      return `\`\`\`ad-Quartz-${Element}-${Rate}
+      const { Element, Rate, Effects, Compositions=[] } = quartzData;
+      return Promise.all(Compositions.map(comp => dv.view("Common/Query/Count", { link: comp.Item, options: {display_name: false, count: comp.Count, type: comp.Type, raw: true}} ))).then(comps => {
+        const compHTML = comps.length === 0 ? '无' : dv.markdownList(comps);
+        return `\`\`\`ad-Quartz-${Element}-${Rate}
 title: ${quartzLink}
 collapse: ${collapse}
 装备效果: 
@@ -48,7 +50,13 @@ ${Effects ? dv.markdownList(Effects) : "无"}
 
 魔法:
 ${arts === null ? "无" : dv.markdownList(arts)}
+
+合成素材:
+
+${compHTML}
+
 \`\`\``;
+      });
     });
   });
 return raw ? adm : dv.span(adm);
