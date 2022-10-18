@@ -39,10 +39,13 @@ const adm = dv
     }
     const { Arts } = quartzData;
     return GetArts(Arts).then((arts) => {
-      const { Element, Rate, Effects, Compositions=[] } = quartzData;
-      return Promise.all(Compositions.map(comp => dv.view("Common/Query/Count", { link: comp.Item, options: {display_name: false, count: comp.Count, type: comp.Type, raw: true}} ))).then(comps => {
-        const compHTML = comps.length === 0 ? '无' : dv.markdownList(comps);
-        return `\`\`\`ad-Quartz-${Element}-${Rate}
+      const { Element, Rate, Effects, Compositions, Exchanges } = quartzData;
+      return Promise.all((Compositions||[]).map(comp => dv.view("Common/Query/Count", { link: comp.Item, options: {display_name: false, count: comp.Count, type: comp.Type, raw: true}} ))).then(comps => {
+        const compHTML = comps.length === 0 ? dv.markdownList(["无法通过合成获得"]) : dv.markdownList(comps);
+        return Promise.all((Exchanges||[]).map(exc => dv.view("Common/Query/Count", { link: exc.Item, options: {raw:true, count: exc.Count, type: exc.Type} }))).then(exchanges => {
+          const excHTML = exchanges.length === 0 ? dv.markdownList(["无法通过交换获得"]) : dv.markdownList(exchanges);
+          return `
+\`\`\`ad-Quartz-${Element}-${Rate}
 title: ${quartzLink}
 collapse: ${collapse}
 装备效果: 
@@ -55,7 +58,13 @@ ${arts === null ? "无" : dv.markdownList(arts)}
 
 ${compHTML}
 
-\`\`\``;
+交换素材:
+
+${excHTML}
+
+\`\`\`
+`;
+        })
       });
     });
   });

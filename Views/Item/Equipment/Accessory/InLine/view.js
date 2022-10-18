@@ -5,30 +5,17 @@
 const DEBUG = true;
 const DEFAULT_OPTIONS = {
   size: 15,
-  html: false,
+  display_name: true,
   raw: true,
 };
 const ACCESSORY_ICON_KEY = "Item.Equipment.Accessory";
 // ===== Functions =====
 const MergeOptons = (options) => Object.assign(DEFAULT_OPTIONS, options);
-const GetAccessory = (link) => {
-  const { path, subpath } = link;
-  const [accessory = null] = dv
-    .page(path)
-    .Accessories.filter((a) => a.ID === subpath);
-  if (accessory === null) {
-    return { accessory: null, link: null };
-  }
-  return {
-    accessory,
-    link: dv.blockLink(path, subpath, false, accessory.Name),
-  };
-};
-const GetAccessoryIcon = async (size) => {
+const GetAccessoryIcon = async (options) => {
   return dv
     .view("Icons/Icon", {
       key: ACCESSORY_ICON_KEY,
-      options: { raw: true },
+      options,
     })
     .then((icon) => {
       if (icon === null) {
@@ -39,31 +26,16 @@ const GetAccessoryIcon = async (size) => {
         .view("Common/Image/Resize", {
           width: w,
           height: h,
-          size,
-          options: { raw: true },
+          options,
         })
-        .then((witdh) => {
+        .then((w) => {
           return dv
-            .view("Common/Image/Path", { file, options: { raw: true } })
-            .then((path) => {
-              return `<img src="${path}" width="${witdh}" />`;
+            .view("Common/Image/Path", { file, options })
+            .then((p) => {
+              return `<img src="${p}" width="${w}" />`;
             });
         });
     });
-};
-const GetAccessoryInLine = async (icon, link, html) => {
-  const { path, subpath, display } = link;
-  return html
-    ? `<a aria-label-position="top" aria-label="${path} > ^${subpath}" data-href="${path.replace(
-        /\.md/g,
-        ""
-      )}#^${subpath}" href="${path.replace(
-        /\.md/g,
-        ""
-      )}#^${subpath}" class="internal-link data-link-icon data-link-icon-after data-link-text" target="_blank" rel="noopener" data-link-tags="" data-link-path="${path}" >${icon}${
-        display ? display : ""
-      }</a>`
-    : `${icon} ${accessoryLink}`;
 };
 // ===== Begin =====
 let { link, options } = input;
@@ -73,16 +45,16 @@ DEBUG &&
     "[饰品InLine渲染][Views/Equipment/Accessory/InLine/view.js][Input]:\n",
     { link, options }
   );
-const { accessory: accessoryData, link: accessoryLink } = GetAccessory(link);
-if (accessoryData === null) {
-  return "";
-}
-const inline = GetAccessoryIcon().then((icon) => {
-  if (icon === "") {
-    return "";
+const inline = dv.view("Common/Query/Link", {link, options}).then(({item: accessoryData, link: accessoryLink}) => {
+  if(accessoryData === null) {
+    return '';
   }
-  const { html } = options;
-  return GetAccessoryInLine(icon, accessoryLink, html);
+  return GetAccessoryIcon(options).then(icon => {
+    if(icon === ''){
+      return ''
+    }
+    return dv.view("Common/Link",{icon, link: accessoryLink, options});
+  })
 });
 const { raw } = options;
 return raw ? inline : dv.span(inline);
