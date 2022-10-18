@@ -29,11 +29,6 @@ const QueryByLink = (link, options) => {
   const name = `${prefix ? prefix : ""}${display_name ? item.Name : ""}${
     suffix ? suffix : ""
   }`;
-  DEBUG &&
-  console.error(
-    "[][Views/Common/Query/Link/view.js][QueryByLink()][name]:\n",
-    name
-  );
   return {
     item,
     link: dv.blockLink(path, subpath, false, name),
