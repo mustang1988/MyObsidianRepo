@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "cc1296bdd6cf399f",
+        "id": "616aa18d95d67f5c",
         "type": "tabs",
         "children": [
           {
-            "id": "2c4d54d850f75379",
+            "id": "70baf8a6ab56f288",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/数据库/消耗品.md",
+                "file": "游戏攻略/英雄传说 闪之轨迹/数据库/人物.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/数据库/消耗品.md",
+                "file": "游戏攻略/英雄传说 闪之轨迹/数据库/人物.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/数据库/消耗品.md",
+                "file": "游戏攻略/英雄传说 闪之轨迹/数据库/人物.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -123,17 +123,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "2c4d54d850f75379",
+  "active": "70baf8a6ab56f288",
   "lastOpenFiles": [
-    "游戏攻略/英雄传说 闪之轨迹/数据库/鱼竿.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/艾德尔.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/黎恩.md",
+    "游戏攻略/英雄传说 闪之轨迹/数据库/人物.md",
     "游戏攻略/英雄传说 闪之轨迹/数据库/消耗品.md",
+    "游戏攻略/英雄传说 闪之轨迹/数据库/鱼竿.md",
     "游戏攻略/英雄传说 闪之轨迹/数据库/物品.md",
     "游戏攻略/英雄传说 闪之轨迹/数据库/书籍.md",
     "游戏攻略/英雄传说 闪之轨迹/数据库/结晶回路.md",
     "游戏攻略/英雄传说 闪之轨迹/数据库/钓鱼.md",
-    "游戏攻略/英雄传说 闪之轨迹/数据库/导力魔法.md",
-    "游戏攻略/英雄传说 闪之轨迹/数据库/饰品.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/钓鱼/鳌虾.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/钓鱼/巨刃鱼.md"
+    "游戏攻略/英雄传说 闪之轨迹/数据库/导力魔法.md"
   ]
 }
