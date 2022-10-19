@@ -2,7 +2,7 @@
  * 
  */
 // ===== Constrains =====
-const DEBUG = true;
+const DEBUG = false;
 const DEFAULT_OPTIONS = {
     max: 5,
     raw: true,

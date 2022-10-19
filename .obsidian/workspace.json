@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "33e12fdcd1b6590f",
+        "id": "c3aa9df474121cb3",
         "type": "tabs",
         "children": [
           {
-            "id": "6b9ff90702d4e2f7",
+            "id": "4837ad16ebc8d88e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "游戏攻略/英雄传说 闪之轨迹/数据库/人物.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -57,8 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260,
-    "collapsed": true
+    "width": 260
   },
   "right": {
     "id": "50e9e28e7a37c5b8",
@@ -74,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "游戏攻略/英雄传说 闪之轨迹/数据库/人物.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "游戏攻略/英雄传说 闪之轨迹/数据库/人物.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -117,17 +123,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "6b9ff90702d4e2f7",
+  "active": "4837ad16ebc8d88e",
   "lastOpenFiles": [
-    "游戏攻略/英雄传说 闪之轨迹/数据库/人物.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/亚莉莎.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/黎恩.md",
-    "Debug.md",
+    "游戏攻略/英雄传说 闪之轨迹/数据库/结晶回路.md",
     "游戏攻略/英雄传说 闪之轨迹/数据库/怪物.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗/《C》.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗笔记.md",
+    "游戏攻略/英雄传说 闪之轨迹/数据库/钓鱼.md",
+    "游戏攻略/英雄传说 闪之轨迹/数据库/导力魔法.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/TreasureChests.md",
-    "示例.md",
-    "首页.md"
+    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗笔记.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/任务笔记.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/人物笔记.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/宝箱笔记.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/钓鱼笔记.md"
   ]
 }

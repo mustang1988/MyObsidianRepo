@@ -2,7 +2,7 @@
  * 
  */
 // ===== Constrains =====
-const DEBUG = true;
+const DEBUG = false;
 const DEFAULT_OPTIONS = {
     db: "游戏攻略/英雄传说 闪之轨迹/数据库/人物",
     raw: true,

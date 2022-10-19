@@ -2,7 +2,7 @@
  *
  */
 // ===== Constrains =====
-const DEBUG = true;
+const DEBUG = false;
 const DEFAULT_OPTIONS = {
   prefix: null,
   suffix: null,

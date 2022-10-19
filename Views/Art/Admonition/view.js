@@ -21,7 +21,7 @@ const GetElementIcon = async (element) => {
     .view("Icons/Icon", { key: `Element.${element}`, options: { raw: true } })
     .then((icon) => {
       if (icon === undefined) {
-        console.error(
+        DEBUG && console.error(
           "\t[导力魔法Admonition渲染][Views/Art/Admonition/view.js][GetElementIcon()][未找到指定元素的图标]:\n\t",
           element
         );
@@ -72,7 +72,7 @@ const adm = dv
   .view("Common/Query/ID", { id: art.ID, db, options })
   .then(({ item: artData, link: artLink }) => {
     if (artData === null) {
-      console.error(
+      DEBUG && console.error(
         "[导力魔法Admonition渲染][Views/Art/Admonition/view.js][artData][未找到指定魔法的数据]:\n",
         {
           art,

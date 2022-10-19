@@ -2,7 +2,7 @@
  * 
  */
 // ===== Constrains =====
-const DEBUG = true;
+const DEBUG = false;
 const DEFAULT_OPTIONS = {
     collapse: "none",
     raw: true,
