@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "5b0962892de0d525",
+        "id": "33e12fdcd1b6590f",
         "type": "tabs",
         "children": [
           {
-            "id": "330cfb9b62e3304e",
+            "id": "6b9ff90702d4e2f7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/数据库/人物.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -79,7 +74,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/数据库/人物.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +90,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/数据库/人物.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -124,10 +117,10 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "330cfb9b62e3304e",
+  "active": "6b9ff90702d4e2f7",
   "lastOpenFiles": [
-    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/亚莉莎.md",
     "游戏攻略/英雄传说 闪之轨迹/数据库/人物.md",
+    "游戏攻略/英雄传说 闪之轨迹/笔记/人物/亚莉莎.md",
     "游戏攻略/英雄传说 闪之轨迹/笔记/人物/黎恩.md",
     "Debug.md",
     "游戏攻略/英雄传说 闪之轨迹/数据库/怪物.md",
