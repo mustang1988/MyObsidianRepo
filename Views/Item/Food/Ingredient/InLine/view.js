@@ -1,5 +1,5 @@
 // ===== Constraints =====
-const DEBUG = false;
+const DEBUG = true;
 const DEFAULT_OPTIONS = {
   size: 15,
   display_name: true,
@@ -37,10 +37,17 @@ DEBUG &&
     }
   );
 const { raw } = options;
-
 const inline = dv
   .view("Common/Query/Link", { link, options })
   .then(({ item: ingredientData, link: ingredientLink }) => {
+    DEBUG &&
+    console.debug(
+      "[食材InLine渲染][Views/Item/Food/Ingredient/view.js][Common/Query/Link返回]:\n",
+      {
+        ingredientData,
+        ingredientLink,
+      }
+    );
     if (ingredientData === null) {
       return "";
     }

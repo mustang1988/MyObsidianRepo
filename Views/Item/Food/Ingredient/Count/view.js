@@ -2,7 +2,7 @@
  *
  */
 // ===== Constrains =====
-const DEBUG = false;
+const DEBUG = true;
 const DEFAULT_OPTIONS = {
   size: 15,
   count: 0,
@@ -26,6 +26,7 @@ DEBUG &&
 const inline = dv
   .view("Item/Food/Ingredient/InLine", { link, options })
   .then((inline) => {
+    DEBUG && console.debug("[带数量食材InLine渲染][Views/Item/Food/Ingredient/Count/view.js][Item/Food/Ingredient/InLine返回]:\n", inline);
     if (inline === "") {
       return "";
     }

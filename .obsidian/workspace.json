@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ef4aa0a40b67671d",
+        "id": "9c706f775cb92b3d",
         "type": "tabs",
         "children": [
           {
-            "id": "7bc4bef9e27528dd",
+            "id": "dfaead2bbf6cd353",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/数据库/结晶回路.md",
+                "file": "游戏攻略/英雄传说 闪之轨迹/数据库/食谱.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/数据库/结晶回路.md",
+                "file": "游戏攻略/英雄传说 闪之轨迹/数据库/食谱.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/数据库/结晶回路.md",
+                "file": "游戏攻略/英雄传说 闪之轨迹/数据库/食谱.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -123,17 +123,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "7bc4bef9e27528dd",
+  "active": "dfaead2bbf6cd353",
   "lastOpenFiles": [
-    "游戏攻略/英雄传说 闪之轨迹/数据库/人物.md",
-    "游戏攻略/英雄传说 闪之轨迹/数据库/结晶回路.md",
-    "游戏攻略/英雄传说 闪之轨迹/数据库/怪物.md",
+    "游戏攻略/英雄传说 闪之轨迹/数据库/食物.md",
+    "游戏攻略/英雄传说 闪之轨迹/数据库/食谱.md",
+    "游戏攻略/英雄传说 闪之轨迹/数据库/食材.md",
+    "游戏攻略/英雄传说 闪之轨迹/数据库/饰品.md",
+    "游戏攻略/英雄传说 闪之轨迹/数据库/书籍.md",
+    "游戏攻略/英雄传说 闪之轨迹/数据库/物品.md",
+    "游戏攻略/英雄传说 闪之轨迹/数据库/消耗品.md",
+    "游戏攻略/英雄传说 闪之轨迹/数据库/鱼竿.md",
     "游戏攻略/英雄传说 闪之轨迹/数据库/钓鱼.md",
-    "游戏攻略/英雄传说 闪之轨迹/数据库/导力魔法.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/TreasureChests.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/战斗笔记.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/任务笔记.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/人物笔记.md",
-    "游戏攻略/英雄传说 闪之轨迹/笔记/宝箱笔记.md"
+    "游戏攻略/英雄传说 闪之轨迹/数据库/结晶回路.md"
   ]
 }
