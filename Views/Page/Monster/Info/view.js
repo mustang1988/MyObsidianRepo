@@ -20,15 +20,15 @@ return dv.view("Common/Image/Resize", { width: 256, height: 256, options: { raw:
         return dv.view("Page/Monster/Info/Property", { properties: Properties, options }).then(pTable => {
             return `<table style="width: 100%">
             <thader></thader>
-                <tbody>
-                <tr>
-                    <td style="border: none;"><img width="${w}" src="${p}" /></td>
-                    <td style="border: none;">${pTable}</td>
-                </tr>
-                <tr>
-                    <td colspan="2" style="border: none;">${Description}</td>
-                </tr>
-                </tbody>
+            <tbody>
+            <tr>
+            <td style="border: none;"><img width="${w}" src="${p}" /></td>
+            <td style="border: none;">${pTable}</td>
+            </tr>
+            <tr>
+            <td colspan="2" style="border: none;">${Description}</td>
+            </tr>
+            </tbody>
             </table>`;
         }) 
     })

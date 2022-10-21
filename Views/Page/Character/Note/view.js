@@ -32,8 +32,9 @@ return dv.view("Common/Query/ID", {id, db, options})
     return dv.view("Common/Wiki", { link: noteLink, options })
     .then(linkHTMK => {
         return `<table style="width: 100%;"><tr>
-<td style="border: none; text-align: left; width: 30%;">${linkHTMK}</td>
-<td style="border: none; width: 70%;">${Content}</td>
-</tr></table>`;
+                <td style="border: none; text-align: left; width: 30%;">${linkHTMK}</td>
+                <td style="border: none; width: 70%;">${Content}</td>
+                </tr>
+                </table>`;
     })
 })

@@ -11,14 +11,19 @@
 const DEBUG = false;
 const DEFAULT_OPTIONS = {
   size: 15,
-  html: false,
   raw: true,
 };
 // ===== Functions =====
 const MergeOptions = (options) => Object.assign(DEFAULT_OPTIONS, options);
-const GetElementIcon = async (element, size) => {
+/**
+ * 获取指定属性的图标HTML
+ * @param {String} element 魔法属性, 可选值: Earth, Water, Fire, Wind, Time, Space, Mirage
+ * @param {Number} size 图标尺寸
+ * @returns 图标HTML
+ */
+const GetElementIcon = async (element, options) => {
   return dv
-    .view("Icons/Icon", { key: `Element.${element}`, options: { raw: true } })
+    .view("Icons/Icon", { key: `Element.${element}`, options })
     .then((icon) => {
       if (icon === null) {
         DEBUG && console.error(
@@ -29,7 +34,7 @@ const GetElementIcon = async (element, size) => {
       }
       const { File: file, Width: width, Height: height } = icon;
       return dv
-        .view("Common/Image/Resize", { width, height, size, options })
+        .view("Common/Image/Resize", { width, height, options })
         .then((w) => {
           DEBUG && console.debug(
             "\t[导力魔法InLine渲染][Views/Art/Admonition/view.js][GetElementIcon()][w]:\n\t",
@@ -40,7 +45,7 @@ const GetElementIcon = async (element, size) => {
             .then((path) => {
               DEBUG && console.debug(
                 "\t[导力魔法InLine渲染][Views/Art/Admonition/view.js][GetElementIcon()][path]:\n\t",
-                icon
+                path
               );
               return `<img src="${path}" width="${w}" />`;
             });
@@ -50,12 +55,10 @@ const GetElementIcon = async (element, size) => {
 // ===== Begin =====
 let { link, options } = input;
 options = MergeOptions(options);
-DEBUG &&
-  console.debug("[导力魔法InLine渲染][Views/Art/InLine/view.js][Input]:\n", {
+DEBUG && console.debug("[导力魔法InLine渲染][Views/Art/InLine/view.js][Input]:\n", {
     link,
     options,
   });
-
 const { raw, size } = options;
 const inline = dv
   .view("Common/Query/Link", { link, options })
@@ -64,17 +67,21 @@ const inline = dv
       return "";
     }
     const { Element } = artData;
-    return GetElementIcon(Element, size).then((icon) => {
+    return GetElementIcon(Element, options).then((icon) => {
       if (icon === null) {
+        // 图标未找到
         return "";
       }
       return dv
         .view("Common/Link", {
           icon,
           link: artLink,
-          options: { raw: true },
+          options,
         })
-        .then((res) => res);
+        .then((res) => {
+          DEBUG && console.debug("[导力魔法InLine渲染][Views/Art/InLine/view.js][Return]:\n", res);
+          return res;
+        });
     });
   });
 

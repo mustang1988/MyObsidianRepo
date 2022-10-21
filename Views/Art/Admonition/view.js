@@ -11,12 +11,12 @@
 const DEBUG = false;
 const DEFAULT_OPTIONS = {
   collapse: "none",
-  raw: true,
   db: "游戏攻略/英雄传说 闪之轨迹/数据库/导力魔法",
+  raw: true,
 };
 // ===== Functions =====
 const MergeOptions = (options) => Object.assign(DEFAULT_OPTIONS, options);
-const GetElementIcon = async (element) => {
+const GetElementIcon = async (element, options) => {
   return dv
     .view("Icons/Icon", { key: `Element.${element}`, options: { raw: true } })
     .then((icon) => {
@@ -32,11 +32,13 @@ const GetElementIcon = async (element) => {
         icon
       );
       const { File: file, Width: width, Height: height } = icon;
+      const opt = JSON.parse(JSON.stringify(options));
+      opt.size = 15;
       return dv
         .view("Common/Image/Resize", {
           width,
           height,
-          options: { raw: true, size: 15 },
+          options: opt,
         })
         .then((w) => {
           console.debug(
@@ -44,7 +46,7 @@ const GetElementIcon = async (element) => {
             w
           );
           return dv
-            .view("Common/Image/Path", { file, options: { raw: true } })
+            .view("Common/Image/Path", { file, options })
             .then((path) => {
               console.debug(
                 "\t[导力魔法Admonition渲染][Views/Art/Admonition/view.js][GetElementIcon()][path]:\n\t",
@@ -67,7 +69,6 @@ DEBUG &&
     }
   );
 const { raw, collapse, db } = options;
-
 const adm = dv
   .view("Common/Query/ID", { id: art.ID, db, options })
   .then(({ item: artData, link: artLink }) => {
@@ -82,7 +83,7 @@ const adm = dv
       return "";
     }
     const { Element, Type, Range, Effects, Comment } = artData;
-    return GetElementIcon(Element).then((iconImg) => {
+    return GetElementIcon(Element, options).then((iconImg) => {
       return `\`\`\`ad-art
 title: ${artLink}
 collapse: ${collapse}

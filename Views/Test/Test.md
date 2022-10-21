@@ -79,6 +79,14 @@ Tests:
   Page:
     Fish:
       ID: "renyu"
+    Character:
+      Description:
+        ID: "lien"
+      Note:
+        ID: "lien"
+        No: 2
+    Recipe:
+      ID: "jiandandanbaofan"
 ---
 # 自定义view测试
 ## 导力魔法
@@ -545,4 +553,20 @@ dv.span(await dv.view("Item/Equipment/Accessory/Count", { link: dv.current().Tes
 ### 钓鱼笔记
 ```dataviewjs
 dv.span(await dv.view("Page/Fish", { fish: dv.current().Tests.Page.Fish, options: { raw: true } }));
+```
+
+### 人物笔记
+### 人物信息
+```dataviewjs
+dv.span(await dv.view("Page/Character/Description", { character: dv.current().Tests.Page.Character.Description, options: { raw: true } }));
+```
+
+### 人物笔记
+```dataviewjs
+dv.span(await dv.view("Page/Character/Note", { id: dv.current().Tests.Page.Character.Note.ID, no: dv.current().Tests.Page.Character.Note.No, options: { raw: true } }));
+```
+
+### 烹饪笔记
+```dataviewjs
+dv.span(await dv.view("Page/Recipe", { recipe: dv.current().Tests.Page.Recipe, options: { raw: true } }));
 ```
