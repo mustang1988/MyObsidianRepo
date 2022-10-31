@@ -1,23 +1,18 @@
 {
   "main": {
-    "id": "132fa8a34b000365",
+    "id": "c27825acb1e5ddd3",
     "type": "split",
     "children": [
       {
-        "id": "d0eb431fdcab5ba9",
+        "id": "0ed02477c743f40c",
         "type": "tabs",
         "children": [
           {
-            "id": "61caee412efc6274",
+            "id": "a362b29fa2204959",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Views/Test/Test.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -26,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "f6e7f4b97be9884b",
+    "id": "aca50d6fb77db749",
     "type": "split",
     "children": [
       {
-        "id": "fb7b01d57f7bcba2",
+        "id": "18058ce01f37386e",
         "type": "tabs",
         "children": [
           {
-            "id": "d36f5b0392c4ea4e",
+            "id": "2b985d68589a88fb",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +39,7 @@
             }
           },
           {
-            "id": "6285faa14d2dfac7",
+            "id": "773ff75027c20648",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -52,9 +47,81 @@
                 "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
-                "extraContext": true,
+                "collapseAll": false,
+                "extraContext": false,
                 "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "748c3c507c9c9ec4",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3652f48a482b6917",
+    "type": "split",
+    "children": [
+      {
+        "id": "c9f98f7c00efa67a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c142d6108a76b105",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "游戏攻略/英雄传说 闪之轨迹/数据库/鱼竿.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "331394e5372dca3c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "游戏攻略/英雄传说 闪之轨迹/数据库/鱼竿.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a5cdac9b5092751b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8ef463bd0782b0ee",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "游戏攻略/英雄传说 闪之轨迹/数据库/鱼竿.md"
               }
             }
           }
@@ -62,78 +129,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260
-  },
-  "right": {
-    "id": "50e9e28e7a37c5b8",
-    "type": "split",
-    "children": [
-      {
-        "id": "95101bb9d59657cc",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "722eab5ba5f6df45",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Views/Test/Test.md",
-                "collapseAll": true,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
-            "id": "27ed31ec3f9ba9b9",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Views/Test/Test.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
-            "id": "7f675b909e073667",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "alphabetical",
-                "useHierarchy": true
-              }
-            }
-          }
-        ],
-        "currentTab": 2
-      }
-    ],
-    "direction": "horizontal",
-    "width": 282.5,
+    "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "61caee412efc6274",
+  "active": "2b985d68589a88fb",
   "lastOpenFiles": [
-    "游戏攻略/英雄传说 闪之轨迹/数据库/导力魔法.md",
-    "游戏攻略/英雄传说 闪之轨迹/数据库/食谱.md",
-    "游戏攻略/英雄传说 闪之轨迹/数据库/食物.md",
-    "游戏攻略/英雄传说 闪之轨迹/数据库/食材.md",
-    "游戏攻略/英雄传说 闪之轨迹/数据库/饰品.md",
-    "游戏攻略/英雄传说 闪之轨迹/数据库/书籍.md",
-    "游戏攻略/英雄传说 闪之轨迹/数据库/物品.md",
     "游戏攻略/英雄传说 闪之轨迹/数据库/消耗品.md",
-    "游戏攻略/英雄传说 闪之轨迹/数据库/鱼竿.md",
-    "游戏攻略/英雄传说 闪之轨迹/数据库/钓鱼.md"
+    "游戏攻略/英雄传说 闪之轨迹/数据库/物品.md",
+    "游戏攻略/英雄传说 闪之轨迹/数据库/书籍.md",
+    "游戏攻略/英雄传说 闪之轨迹/数据库/饰品.md",
+    "游戏攻略/英雄传说 闪之轨迹/数据库/食物.md",
+    "游戏攻略/英雄传说 闪之轨迹/数据库/食谱.md",
+    "游戏攻略/英雄传说 闪之轨迹/数据库/人物.md",
+    "游戏攻略/英雄传说 闪之轨迹/数据库/结晶回路.md",
+    "游戏攻略/英雄传说 闪之轨迹/数据库/钓鱼.md",
+    "游戏攻略/英雄传说 闪之轨迹/数据库/导力魔法.md"
   ]
 }

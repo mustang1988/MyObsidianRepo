@@ -1,12 +1,12 @@
 [
-  "dataview",
-  "tag-wrangler",
-  "templater-obsidian",
   "obsidian-admonition",
   "obsidian-banners",
-  "supercharged-links-obsidian",
-  "obsidian-style-settings",
+  "dataview",
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-leaflet-plugin",
-  "obsidian-pandoc"
+  "obsidian-pandoc",
+  "obsidian-style-settings",
+  "supercharged-links-obsidian",
+  "tag-wrangler",
+  "templater-obsidian"
 ]

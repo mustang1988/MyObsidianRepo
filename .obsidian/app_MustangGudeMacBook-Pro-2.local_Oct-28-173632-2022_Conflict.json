@@ -1,0 +1,27 @@
+{
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "readableLineLength": false,
+  "strictLineBreaks": true,
+  "showLineNumber": true,
+  "spellcheck": true,
+  "attachmentFolderPath": "图片",
+  "livePreview": false,
+  "lineWrap": true,
+  "newLinkFormat": "absolute",
+  "useTab": false,
+  "tabSize": 2,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "1",
+    "downscalePercent": 100
+  },
+  "showFrontmatter": false,
+  "useMarkdownLinks": false,
+  "autoConvertHtml": false,
+  "spellcheckLanguages": [
+    "en-US"
+  ]
+}
