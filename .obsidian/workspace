@@ -1,18 +1,17 @@
 {
   "main": {
-    "id": "132fa8a34b000365",
+    "id": "b07681c425dda5e8",
     "type": "split",
     "children": [
       {
-        "id": "2442b8fc480280f9",
+        "id": "6fb8b230dcd4890b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "游戏攻略/英雄传说 闪之轨迹/数据库/导力魔法.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": true
+            "file": "游戏攻略/英雄传说 闪之轨迹/攻略/第六章 黑与银 ~钢都动乱~.md",
+            "mode": "preview",
+            "source": false
           }
         }
       }
@@ -20,109 +19,104 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "f6e7f4b97be9884b",
-    "type": "split",
+    "id": "c800381930b0ef6f",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "fb7b01d57f7bcba2",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d36f5b0392c4ea4e",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "6285faa14d2dfac7",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "新鲜香草",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": true,
-                "extraContext": true,
-                "sortOrder": "alphabetical"
-              }
-            }
+        "id": "046f24fd27cc2972",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "cc9c746028d9892d",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
+      },
+      {
+        "id": "fa3e2b95e50fc082",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "2f8cc3dd53121aba",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 260
+    "currentTab": 0
   },
   "right": {
-    "id": "50e9e28e7a37c5b8",
-    "type": "split",
+    "id": "ab304d4132362034",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "95101bb9d59657cc",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "722eab5ba5f6df45",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/数据库/导力魔法.md",
-                "collapseAll": true,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
-            "id": "27ed31ec3f9ba9b9",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "游戏攻略/英雄传说 闪之轨迹/数据库/导力魔法.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
-            "id": "7f675b909e073667",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "alphabetical",
-                "useHierarchy": true
-              }
-            }
+        "id": "a8a436eae251dfd4",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "游戏攻略/英雄传说 闪之轨迹/攻略/第六章 黑与银 ~钢都动乱~.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
           }
-        ],
-        "currentTab": 2
+        }
+      },
+      {
+        "id": "16689e43c1ccd17d",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "游戏攻略/英雄传说 闪之轨迹/攻略/第六章 黑与银 ~钢都动乱~.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "4efc63f7c5d50c25",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "游戏攻略/英雄传说 闪之轨迹/攻略/第六章 黑与银 ~钢都动乱~.md"
+          }
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 282.5,
-    "collapsed": true
+    "currentTab": 0
   },
-  "active": "2442b8fc480280f9",
+  "active": "6fb8b230dcd4890b",
   "lastOpenFiles": [
-    "游戏攻略/英雄传说 闪之轨迹/数据库/物品.md",
-    "游戏攻略/英雄传说 闪之轨迹/数据库/鱼竿.md",
-    "游戏攻略/英雄传说 闪之轨迹/数据库/消耗品.md",
-    "游戏攻略/英雄传说 闪之轨迹/数据库/书籍.md",
-    "游戏攻略/英雄传说 闪之轨迹/数据库/食物.md",
-    "游戏攻略/英雄传说 闪之轨迹/数据库/食谱.md",
-    "游戏攻略/英雄传说 闪之轨迹/数据库/食材.md",
-    "游戏攻略/英雄传说 闪之轨迹/数据库/结晶回路.md",
-    "游戏攻略/英雄传说 闪之轨迹/数据库/钓鱼.md",
-    "游戏攻略/英雄传说 闪之轨迹/数据库/导力魔法.md"
+    "游戏攻略/英雄传说 闪之轨迹/英雄传说 闪之轨迹.md",
+    "游戏攻略/英雄传说 闪之轨迹 II/英雄传说 闪之轨迹II.md",
+    "首页.md"
   ]
 }
